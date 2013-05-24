@@ -12,7 +12,7 @@ PageLines DMS has been designed to work with any modern server environment, the 
 
 ## WordPress Requirements ##
 
-We strongly advise that you always use the latest stable version of WordPress for security reasons.
+We strongly advise that you always use the latest stable version of [Wordpress](http://wordpress.org/ "Wordpress") for security reasons.
 
 * The self hosted version of WordPress available from WordPress.org
 * WordPress version 3.0 or greater
