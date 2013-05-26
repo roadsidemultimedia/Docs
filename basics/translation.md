@@ -1,8 +1,3 @@
----
-title: Translate
-
----
-
 # Translate #
 
 All of the PageLines products are localization-ready, which means they can easily be translated into other languages. There are a number of methods to create a translation, most of which are outlined in the [WordPress codex](http://codex.wordpress.org/Translating_WordPress).
