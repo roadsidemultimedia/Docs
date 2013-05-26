@@ -2,7 +2,7 @@
 
 All of the PageLines products are localization-ready, which means they can easily be translated into other languages. There are a number of methods to create a translation, most of which are outlined in the [WordPress codex](http://codex.wordpress.org/Translating_WordPress).
 
-We offer a community-driven [Translation center](http://www.pagelines.com/translate/projects) for PageLines and welcome you to sign-up and help translate. If your language is not listed, please [let us know]<hello@pagelines.com> and we can add it for you.
+We offer a community-driven [Translation center](http://www.pagelines.com/translate/projects) for PageLines and welcome you to sign-up and help translate. If your language is not listed, please [let us know](hello@pagelines.com) and we can add it for you.
 
 Alternatively, if you wish to add translations manually, you can do so by using [PoEdit](http://www.poedit.net/).
 
