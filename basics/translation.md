@@ -22,6 +22,6 @@ If you add Arabic, Hebrew, Persian, or any other RTL language it should automati
 
 PageLines Framework is built to recognize RTL and changes the styles accordingly.
 
-* Open “wp-config.php” in your WordPress root directory.
+* Open **"wp-config.php"** in your WordPress root directory.
 * Find this line: `define ('WPLANG', '');`
 * Add your language as described on the [Installing WordPress in Your Language](http://codex.wordpress.org/Installing_WordPress_in_Your_Language) codex article
