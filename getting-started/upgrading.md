@@ -14,6 +14,9 @@ After your purchase of PageLines DMS has been completed, login to your websites 
 * Under the **Themes** tab, check the box next to **PageLines** and click **Update Themes**.
 * Once updated, you will have successfully upgraded to the professional/developer edition of PageLines DMS.
 
+`PageLines DMS Version 3.X is available. You should Update Now.
+Please check out the release thread before upgrading`
+
 ## Upgrading from PageLines Framework ##
 
 ### PageLines Lite ###
