@@ -16,7 +16,7 @@ PageLines DMS is available in two versions, the Professional/Developer editions 
 * Browse your computer and located the **pagelines.zip** file.
 * Click **Install Now** to begin installation.
 
-![](assets/installation.jpg)
+![](/assets/installation.jpg)
 
 <div class="alert">
 **Useful info!** You can also install PageLines DMS via FTP.
