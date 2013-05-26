@@ -6,7 +6,7 @@ Upgrading to PageLines DMS from PageLines Framework is straightfoward and headac
 
 After your purchase of PageLines DMS has been completed, login to your websites Wordpress admin dashboard.
 
-* Navigate **PageLines &rarr; “Account**.
+* Navigate **PageLines &rarr; Account**.
 * Enter your PageLines `username` and `password`.
 * Once successfully logged in, it will state **PageLines DMS enabled**.
 * Go back to your WordPress Dashboard. You should see a notice at the top of the screen (see graphic below).
@@ -27,4 +27,6 @@ Add instructions on how to upgrade to PageLines DMS from PageLines Framework
 ## Upgrading from Platform/Platform Pro
 
 Unfortunately, there is no upgrade path from Platform/Platform Pro due to PageLines DMS and Platform being separate themes. Instead you will need to migrate.
+
+Add migrate instructions here...
 
