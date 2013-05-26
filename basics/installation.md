@@ -1,8 +1,6 @@
 # Installation #
 
-<p class="lead">
 To start using PageLines DMS for your project, you will first need to make sure you have [Wordpress](http://wordpress.org) installed. Once setup, PageLines DMS can be installed like any other theme.
-</p>
 
 ## Downloading PageLines DMS ##
 
@@ -18,12 +16,14 @@ PageLines DMS is available in two versions, the Professional/Developer editions 
 * Browse your computer and located the **pagelines.zip** file.
 * Click **Install Now** to begin installation.
 
-http://placehold.it/640x420
+![](assets/installation.jpg)
 
->> You can also install PageLines DMS via FTP.
+<div class="alert">
+**Useful info!** You can also install PageLines DMS via FTP.
+</div>
 
 ## Activation ##
 
 After uploading PageLines DMS, simply go to the **Appearance &rarr; Themes** area in the WordPress admin dashboard and click **Activate**, underneath the PageLines DMS thumbnail image.
 
-http://placehold.it/640x420
+![](assets/activation.jpg)
