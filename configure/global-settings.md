@@ -79,19 +79,12 @@ If you would prefer to set the background to something other than a single color
 * Browse your computer and locate your background image.
 * Click **Upload Image**.
 
-###Fit image to page?###
+#### Fit image to page? ####
 
 If you use this option the image will be fit "responsively" to the background of your page. This means the settings below will have no effect.
 
-### Background Repeat ###
-Lets you choose to repeat the image in a vertical column and horizontal row or to tile it vertically and horizontally across the entire page
-
-### Vertical Position in Percent###
-Allows you to move the image down the page
-
-### Horizontal Position in Percent###
-Allows you to move the image to right of the page
-
-### Set Background Attachment###
-You can choose to have your image remain static or have it scroll down the page as the user scrolls the site
+* **Background Repeat** Lets you choose to repeat the image in a vertical column and horizontal row or to tile it vertically and horizontally across the entire page
+* **Vertical Position in Percent** allows you to move the image down the page
+* **Horizontal Position in Percent** allows you to move the image to right of the page
+* **Set Background Attachment** you can choose to have your image remain static or have it scroll down the page as the user scrolls the site
 
