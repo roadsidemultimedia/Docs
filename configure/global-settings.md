@@ -18,8 +18,6 @@ This image will be used on your Wordpress login page and is great for client web
 
 The mobile touch image is visible when your users add your site as a webclip in Apple Iphone and Touch Products. **It is an image approximately 57px by 57px in either .jpg, .gif or .png format.**
 
----
-
 ## Layout & Nav ##
 
 The Layouts & Nav panel in the interface provides several options for configuring the layout and navigation of your site.
@@ -41,7 +39,5 @@ This will be used in mobile menus and optionally other places throughout your si
 ### Secondary Navigation Menu ###
 
 This will be shown subtly in areas throughout the site and in your mobile menu.
-
----
 
 ## Typography ##
