@@ -4,7 +4,7 @@ PageLines DMS provides users with a number global settings, allowing users to ch
 
 ## Site Images ##
 
-Site Images allows you to upload custom images to be used on your site, such as favicon images, login page image and mobile touch image. You can either choose to upload an image from your computer or enter the full URL location of your custom.
+Site Images allows you to upload custom images to be used on your site, such as favicon, login page and mobile touch image. You can either choose to upload an image from your computer or enter the full URL location of your custom.
 
 ### Favicon Image ###
 
@@ -20,7 +20,7 @@ The mobile touch image is visible when your users add your site as a webclip in 
 
 ## Layout & Nav ##
 
-The Layouts & Nav panel in the interface provides several options for configuring the layout and navigation of your site.
+The Layouts & Nav panel provides options for configuring the layout and navigation of your site.
 
 ### Layout Mode ###
 
@@ -41,3 +41,17 @@ This will be used in mobile menus and optionally other places throughout your si
 This will be shown subtly in areas throughout the site and in your mobile menu.
 
 ## Typography ##
+
+The Typography setting provides the ability to change font size, weight as well as the default font family used on your website. Many popular web fonts are included through the **Select Font Face** dropdown menu. 
+
+**Primary Text** allows you to style the standard type of your site.
+
+**Text Header** allows you to style your site’s header tags (H1, H2, H3…) 
+
+
+
+
+
+
+
+
