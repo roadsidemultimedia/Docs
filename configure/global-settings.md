@@ -164,3 +164,16 @@ If you are not a PageLines Partner you can [sign up](http://www.impactradius.com
 Use this option to add a class to the `<body>` element of the website. This can be useful when using the same child theme on several installations or sub domains and can be used to control CSS customizations.
 
 ## Resets ##
+
+The **Resets** panel should be used with **caution**, there are two **Reset** options available which reset your global settings and the other resets your current page settings.
+
+### Reset Global Site Settings ###
+
+Use this button to reset **all global settings** to their default state. 
+
+### Reset Current Page Settings ###
+
+Use this button to reset all settings on the current page back to their default state.
+
+**Note:** Once you've completed these actions, you may want to publish these changes to your live site.
+
