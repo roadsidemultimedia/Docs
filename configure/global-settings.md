@@ -165,7 +165,7 @@ Use this option to add a class to the `<body>` element of the website. This can 
 
 ## Resets ##
 
-The **Resets** panel should be used with **caution**, there are two **Reset** options available which reset your global settings and the other resets your current page settings.
+The **Resets** panel should be used with **caution**, there are two **Reset** options available which reset your global settings with the other resetting your current page settings.
 
 ### Reset Global Site Settings ###
 
