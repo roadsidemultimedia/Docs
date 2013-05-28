@@ -18,9 +18,8 @@ Select **Pixel width** mode and your site maximum width will be controlled by pi
 
 ### Display Mode ###
 
-**Full display mode** allows areas to be the full width of the window, with content width sections.
-
-**Boxed mode** contains everything in a central content box. Boxed mode is ideal for use with backgtround images.
+* **Full display mode** allows areas to be the full width of the window, with content width sections.
+* **Boxed mode** contains everything in a central content box. Boxed mode is ideal for use with backgtround images.
 
 ### Primary Navigation Menu ###
 
@@ -62,8 +61,9 @@ The Site text colors setting allows you to configure the basic text colors for y
 
 If you would prefer to set the background to something other than a single color; you can upload your own image.
 
-* Browse your computer and locate your background image.
-* Click **Upload Image**.
+1. Browse your computer and locate your background image.
+2. Click **Upload Image**.
+3. Once uploaded, a preview of your image will be visible.
 
 **Fit image to page?**
 
@@ -82,7 +82,7 @@ The **Typography** panel provides the ability to change font size, weight as wel
 
 ### Select Font ###
 
-The Select font dropdown menu allows you to choose from many popular web fonts. More fonts can be added using our Google web fonts plugin available from the PageLines store.
+The Select font dropdown menu allows you to choose from many popular web fonts. The whole Google web fonts library can be included by installing our [Google Web fonts plugin](http://www.pagelines.com/store/plugins/pagelines-googlefonts/), available from the **Store** tab in the DMS toolbar.
 
 ### Base Font Size ###
 
@@ -112,6 +112,41 @@ This hashtag will be used in social media (e.g. Twitter) and elsewhere to create
 
 ## NavBar ##
 
+The **NavBar** panel provides the ability to enable a fixed navigation bar to the top of your website. This Fixed Navigation bar is a powerful way to maintain your brand and menu even as your visitor’s scroll through your content.
+
+### Enable Fixed Navigation Bar ###
+
+Check this option to enable the fixed navigation bar on your website.
+
+### Fixed NavBar Menu ###
+
+The NavBar uses the [WordPress menus system](http://codex.wordpress.org/WordPress_Menu_User_Guide), either select one which has already been created from the **Select Menu** dropdown or use the **Configure Menus** button, this will load up the Wordpress menu editor.
+
+### NavBar Image ###
+
+The Navbar image setting allows you to add a small image to fixed navigation bar, which will be positioned to the left hand side.
+
+1. Browse your computer and locate your image.
+2. Click **Upload Image**.
+3. Once uploaded, a preview of your image will be visible.
+
+* Not available on the NavBar section.
+* Image Height is constricted to a **maximum 29px**.
+
+### Fixed Navbar Theme ###
+
+The NavBar comes with several color options, these themes control the background color.
+
+### Fixed NavBar Configuration Options ###
+
+You're able to configure the NavBar further with the following options, check the options to enable them.
+
+* Activate dropdowns on hover.
+* Align Menu Right? (Defaults Left)
+* Hide Search?
+
 ## Advanced ##
+
+
 
 ## Resets ##
