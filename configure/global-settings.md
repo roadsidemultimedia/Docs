@@ -1,6 +1,6 @@
 # Global Settings #
 
-PageLines DMS provides users with a number global settings, allowing users to change their sites layouts, add social intergration, control colors & styles and more.
+PageLines DMS provides users with a number of global settings, allowing them to change their site's layout, add social intergration, control colors & styles and more.
 
 ## Admin Shortcuts ##
 
@@ -67,7 +67,7 @@ If you would prefer to set the background to something other than a single color
 
 **Fit image to page?**
 
-If you use this option the image will be fit "responsively" to the background of your page. This means the settings below will have no effect.
+If you use this option the image will be fit **responsively** to the background of your page. This means the settings below will have no effect.
 
 * **Background Repeat** Lets you choose to repeat the image in a vertical column and horizontal row or to tile it vertically and horizontally across the entire page
 * **Vertical Position in Percent** allows you to move the image down the page
