@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageLines Documentation</title>
+    <meta name="description" content="A powerful front-end drag and drop design management system for fast and easy web development.">
+
+    <base href="http://docs.pagelines.com/">
+
+    <!-- Le styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/docs.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<div id="wrap">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Docs</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Getting Started</a></li>
+              <li><a href="#about">Basics</a></li>
+              <li><a href="#contact">Configure</a></li>
+              <li><a href="#contact">Customize</a></li>
+              <li><a href="#contact">Advanced</a></li>
+              <li><a href="#contact">Tutorials</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container section">
+
+        <header class="jumbotron subhead" id="overview">
+            <h1>PageLines DMS Documentation</h1>
+            <p class="lead">A powerful front-end drag and drop design management system for fast and easy web development.</p>
+        </header>
+
+        <section>
+<h1>Hooks</h1>
+
+<p>Hooks in PageLines DMS essentially allow you to manipulate or insert code without editing core files. There are two types of hook, these are actions and filters.</p>
+
+<p><strong>Action Hooks</strong></p>
+
+<p>Action Hooks allow you to insert additional code and, there by, customise the code to do additional functions at designated points in PageLines Framework.</p>
+
+<p><strong>Filter Hooks</strong></p>
+
+<p>Filter Hooks are used to manipulate code output and return a variable. An example of this would be to add a text, a link or even an image to the end of the content on your blog posts or pages.</p>
+
+<p>To put it more elegantly, you can change things that are hard-coded with filters, and you can add things using actions.</p>
+
+<p>For more information on what hook actions and filters are, see WordPress documentation <a href="http://codex.wordpress.org/Plugin_API">Plugin API</a>. There is also an excellent article by WP Candy on hooks <a href="http://wpcandy.com/teaches/how-to-use-wordpress-hooks/">here</a>.</p>
+
+<h2>Using Hooks</h2>
+
+<p>In order to use a hook to add or manipulate code, you need add it to the functions.php file.
+This can be found in either the base child theme folder or the customize plugin, depending on the Customization Method of your choice.</p>
+
+<table><thead>
+<tr>
+<th align="left">Customization Method</th>
+<th align="left">Hook Support</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left">DMS Standalone</td>
+<td align="left"><i class="icon-remove text-error"></i></td>
+</tr>
+<tr>
+<td align="left">Child theme</td>
+<td align="left"><i class="icon-ok text-success"></i></td>
+</tr>
+<tr>
+<td align="left">Customize Plugin</td>
+<td align="left"><i class="icon-ok text-success"></i></td>
+</tr>
+</tbody></table>
+
+<h3>Using Hooks </h3>
+
+<p>The below code is a starting point for your hook.</p>
+
+<p>`add_action(&#39;action_name&#39;, &#39;your_function_name&#39;);</p>
+
+<p>function your_function_name() {
+// Add your code here...
+}`</p>
+
+<h3>Using filter hooks</h3>
+
+<p>The below code is a starting point for your filter.</p>
+
+<p>`add_filter(&#39;filter_name&#39;, &#39;your_function_name&#39;);</p>
+
+<p>function your_function_name( $variable ) {
+// Add your code here...
+return $variable;
+}`</p>
+
+		</section>
+
+    </div><!-- /container -->
+<div id="push"></div>
+</div> <!-- /wrap -->
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>
+				<span class="icon-stack">
+				  <i class="icon-check-empty icon-stack-base"></i>
+				  <i class="icon-github"></i>
+				</span>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/advanced-features/hooks.md" target="_blank">Edit this page</a>.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+	<script>
+		$(function() {
+            $("section h1").wrap('<div class="page-header" />');
+            $("section p:first-child").addClass('lead');
+            $("pre").addClass('prettyprint');
+            prettyPrint();
+		});
+	</script>
+
+</body>
+</html>
