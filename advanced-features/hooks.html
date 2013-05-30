@@ -9,10 +9,10 @@
 
     <base href="http://docs.pagelines.com/">
 
-    <!-- Le styles -->
+    <!-- styles -->
+    <link href="/css/docs.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/css/docs.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome-ie7.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -54,6 +54,17 @@
         </header>
 
         <section>
+          <div class="row-fluid">
+            <div class="span4">
+              <ul class="nav nav-list bs-docs-sidenav affix">
+                <li><a href="#"><i class="icon-chevron-right"></i> Item 1</a></li>
+                <li><a href="#"><i class="icon-chevron-right"></i> Item 2</a></li>
+                <li><a href="#"><i class="icon-chevron-right"></i> Item 3</a></li>
+                <li><a href="#"><i class="icon-chevron-right"></i> Item 4</a></li>
+                <li><a href="#"><i class="icon-chevron-right"></i> Item 5</a></li>
+              </ul>
+            </div>
+            <div class="span8">
 <h1>Hooks</h1>
 
 <p>Hooks in PageLines DMS essentially allow you to manipulate or insert code without editing core files. There are two types of hook, these are actions and filters.</p>
@@ -219,7 +230,7 @@ function add_my_signature( $content ){
 </code></pre>
 
 <p>Please remember that these examples are displayed for their theoretical value. Although they can be used, these have been added as a starting point for your own hooks creations.</p>
-
+            </div>
 		</section>
 
     </div><!-- /container -->
