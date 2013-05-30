@@ -7,8 +7,7 @@ body {
     padding-top:30px;
 }
 
-html,
- body {
+html, body {
    height: 100%;
    /* The html and body elements cannot have any padding or margin. */
  }
@@ -23,11 +22,10 @@ html,
  }
 
  /* Set the fixed height of the footer here */
- #push,
- #footer {
+ #push, .footer {
    height: 60px;
  }
- #footer {
+ .footer {
    background-color: #f5f5f5;
  }
 
@@ -40,3 +38,32 @@ html,
      padding-right: 20px;
    }
  }
+
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+margin: 1em 0 15px;
+padding: 0;
+font-weight: bold;
+-webkit-font-smoothing: antialiased;
+cursor: text;
+position: relative;
+}
+
+h1 {
+font-size: 2.5em;
+border-bottom: 1px solid #DDD;
+}
+
+h2 {
+font-size: 2em;
+border-bottom: 1px solid #EEE;
+}
+
+ul, ol {
+padding-left: 30px;
+}
+p, blockquote, ul, ol, dl, table, pre {
+margin: 15px 0;
+}
+
