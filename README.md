@@ -8,23 +8,18 @@ If you’re new to PageLines DMS, we recommend reading our [getting started](htt
 
 PageLines DMS is jam-packed full of awesome features and functionality allowing you to build professional websites faster, easier and better than ever before.
 
-* __Built for Wordpress 3.0 & greater__
-WordPress is a free and open source blogging tool and a content management system (CMS). WordPress is currently the most popular blogging system in use on the Web, powering over 60 million websites worldwide.
+* **Built for Wordpress 3.0+** WordPress is a free and open source blogging tool and a content management system (CMS). WordPress is currently the most popular blogging system in use on the Web, powering over 60 million websites worldwide.
 
-* __Front-end drag & drop framework__
+* **Front-end drag & drop framework**
 
-* __HTML5 & CSS3__
-Built using the latest web standards.
+* **HTML5 & CSS3** Built using the latest web standards.
 
-* __[LESS](http://lesscss.org/) is more__
-LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions.
+* **[LESS](http://lesscss.org/) is more** LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions.
 
-* __[Bootstrap](http://twitter.github.io/bootstrap/)__
-Implementation of the popular front-end framework, including the responsive grid system.
+* **[Bootstrap](http://twitter.github.io/bootstrap/)** Implementation of the popular front-end framework, including the responsive grid system.
 
-* __[Font Awesome](http://fortawesome.github.io/Font-Awesome/)__
-Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
+* **[Font Awesome](http://fortawesome.github.io/Font-Awesome/)** Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
 
-* __Sections__
+* **Sections**
 
-* __Custom Templates__
+* **Custom Templates**
