@@ -8,7 +8,7 @@ If you’re new to PageLines DMS, we recommend reading our [getting started](htt
 
 PageLines DMS is jam-packed full of awesome features and functionality allowing you to build professional websites faster, easier and better than ever before.
 
-* **Built for Wordpress 3.0+**
+* **Built for Wordpress 3.0 & greater**
 WordPress is a free and open source blogging tool and a content management system (CMS). WordPress is currently the most popular blogging system in use on the Web, powering over 60 million websites worldwide.
 
 * **Front-end drag & drop framework**
