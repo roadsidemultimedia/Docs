@@ -29,7 +29,8 @@ This can be found in either the base child theme folder or the customize plugin,
 
 The below code is a starting point for your hook.
 
-~~~ .phpadd_action('action_name', 'your_function_name');
+~~~ .php
+add_action('action_name', 'your_function_name');
 	function your_function_name() {
 	// Add your code here...
 }
@@ -39,7 +40,8 @@ The below code is a starting point for your hook.
 
 The below code is a starting point for your filter.
 
-~~~ .phpadd_filter('filter_name', 'your_function_name');
+~~~ .php
+add_filter('filter_name', 'your_function_name');
 	function your_function_name( $variable ) {
 	// Add your code here...
 	return $variable;
