@@ -10,4 +10,3 @@ To access the Store, you may purchase direct from our [website](http://www.pagel
 
 The Store has four basic departments: Sections; Plugins; Themes; and Integrations.
 
-This is test text from James 
