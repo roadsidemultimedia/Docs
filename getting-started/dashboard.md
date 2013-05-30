@@ -14,7 +14,7 @@ As well as the latest PageLines news, you can also keeping up-to-date with the l
 
 The **Plus Extensions** panel provides a list of all available extensions available when you have an active plus subscription. Remember that with PageLines Plus, you get all PageLines-built extensions and more every month!
 
->> In order to use these extensions, an active [PageLines Plus](http://www.pagelines.com/plus) subscription is required. However, you may purchase these extensions individually via the PageLines store.
+>> In order to use these extensions, an active [PageLines Plus](http://www.pagelines.com/plus) subscription is required. Without a Plus subscription however, you may purchase these extensions individually via the PageLines store. 
 
 ## Live Chat ##
 
