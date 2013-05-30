@@ -99,20 +99,22 @@ This can be found in either the base child theme folder or the customize plugin,
 
 <p>The below code is a starting point for your hook.</p>
 
-<p><code>add_action(&#39;action_name&#39;, &#39;your_function_name&#39;);
+<p>~~~ .phpadd_action(&#39;action_name&#39;, &#39;your_function_name&#39;);
     function your_function_name() {
     // Add your code here...
-}</code></p>
+}</p>
 
-<h3>Using filter hooks</h3>
+<pre><code>
+### Using filter hooks ###
 
-<p>The below code is a starting point for your filter.</p>
+The below code is a starting point for your filter.
 
-<p><code>add_filter(&#39;filter_name&#39;, &#39;your_function_name&#39;);
+~~~ .phpadd_filter(&#39;filter_name&#39;, &#39;your_function_name&#39;);
     function your_function_name( $variable ) {
     // Add your code here...
     return $variable;
-}</code></p>
+}
+</code></pre>
 
 		</section>
 
