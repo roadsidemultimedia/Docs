@@ -29,17 +29,19 @@ This can be found in either the base child theme folder or the customize plugin,
 
 The below code is a starting point for your hook.
 
-`add_action('action_name', 'your_function_name');
+~~~ .phpadd_action('action_name', 'your_function_name');
 	function your_function_name() {
 	// Add your code here...
-}`
+}
+~~~
 
 ### Using filter hooks ###
 
 The below code is a starting point for your filter.
 
-`add_filter('filter_name', 'your_function_name');
+~~~ .phpadd_filter('filter_name', 'your_function_name');
 	function your_function_name( $variable ) {
 	// Add your code here...
 	return $variable;
-}`
+}
+~~~
