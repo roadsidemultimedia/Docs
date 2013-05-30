@@ -82,7 +82,7 @@ This can be found in either the base child theme folder or the customize plugin,
 </tr>
 </thead><tbody>
 <tr>
-<td align="left">DMS Standalone</td>
+<td align="left">In DMS</td>
 <td align="left"><i class="icon-remove text-error"></i></td>
 </tr>
 <tr>
@@ -115,6 +115,110 @@ This can be found in either the base child theme folder or the customize plugin,
     return $variable;
 }
 </code></pre>
+
+<h2>Hook Examples</h2>
+
+<p>Below are a few simple examples of actions and filters. These examples are displayed for their theoretical value, and can either be used on their own or as a starting point for your own hooks.</p>
+
+<h3>Action Hook Examples</h3>
+
+<p><strong>HTML via Hook</strong></p>
+
+<p>The example below is a basic hook to add HTML code.</p>
+
+<pre><code class="php">add_action(&#39;action_name&#39;, &#39;your_function_name&#39;);
+
+function your_function_name() {
+
+    echo &#39;&lt;p&gt;Hello World!&lt;/p&gt;&#39;;
+}
+</code></pre>
+
+<p>You can also use the following instead, this example displays how to break in and out of PHP.</p>
+
+<pre><code class="php">add_action(&#39;action_name&#39;, &#39;your_function_name&#39;);
+
+function your_function_name() { ?&gt;
+
+    &lt;p&gt;Hello World!&lt;/p&gt;
+
+    &lt;?php
+}
+</code></pre>
+
+<p><strong>Remove Fixed Navigation Logo</strong></p>
+
+<p>This example removes the logo image and url from the Fixed Navigation.</p>
+
+<pre><code class="php">add_action( &#39;navbar_brand&#39;, &#39;remove_fixed_navbar_logo&#39; );
+function remove_fixed_navbar_logo(){
+
+    return &#39;&#39;;
+}
+</code></pre>
+
+<p><strong>Shortcode inside a hook</strong></p>
+
+<p>This demonstrates how to use a shortcode inside a hook, simply replace <code>[your_shortcode]</code> with the shortcode you wish to use.</p>
+
+<pre><code class="php">add_action( &#39;action_name&#39;, &#39;your_function_name&#39; );
+function your_function_name(){
+
+    echo do_shortcode( &#39;[your_shortcode]&#39; );
+}
+</code></pre>
+
+<h3>Filter Hook Examples</h3>
+
+<p><strong>Insert Content into the Continue Reading Link</strong></p>
+
+<p>This filter allows you to insert content to the Continue Reading link. For this example, we have used Font Awesome to add the icon beer.</p>
+
+<pre><code class="php">add_filter( &#39;continue_reading_link_text&#39;, &#39;add_my_continue&#39; );
+function add_my_continue() {
+
+    return &#39;Continue Reading &lt;i class=&quot;icon-beer&quot;&gt;&lt;/i&gt;&#39;;
+}
+</code></pre>
+
+<p><img src="assets/cont-hook-icon-example.jpg" alt=""></p>
+
+<p><strong>Note:</strong> In the example code above, you can see that we have used the <code>&#39;Continue Reading &lt;i class=&quot;icon-beer&quot;&gt;&lt;/i&gt;&#39;;</code> you’re free to change this to whatever you like such as, <code>&#39;Read Full Article &lt;i class=&quot;icon-arrow-right&quot;&gt;&lt;/i&gt;&#39;;</code>.</p>
+
+<p><strong>Insert a Class Into Continue Reading Link</strong></p>
+
+<p>In this filter, we demonstrates how we can insert a class, for the following example we have used the <code>btn btn-success</code> classes to give us a green styled button.</p>
+
+<pre><code class="php">add_filter( &#39;continue_reading_link&#39;, &#39;btn_reading_link&#39; );
+
+function btn_reading_link( $link ) {
+
+    $link = str_replace( &#39;class=&quot;&#39;, &#39;class=&quot;btn btn-success &#39;, $link );
+
+    return $link;
+}
+</code></pre>
+
+<p><img src="assets/cont-hook-btn-example.jpg" alt=""></p>
+
+<p><strong>Note:</strong> In the example code above, you can see that we have used the <code>&#39;class=&quot;btn btn-success &#39;</code>, you’re free to change this to whatever you like, even adding your own custom classes for unique styling.</p>
+
+<p><strong>Add signature to posts</strong></p>
+
+<p>This example which uses <code>the_content</code> filter allows you to insert a simple signature at the base of your posts.</p>
+
+<pre><code class="php">add_filter( &#39;the_content&#39;, &#39;add_my_signature&#39; );
+function add_my_signature( $content ){
+
+    if( ! is_single() ) // if were not on a post/page just return the content.
+        return $content;
+
+    $sig = &#39;&lt;br /&gt;Thanks for reading!&#39;; // Add a sig to the post/page content and return.
+    return $content . $sig;
+}
+</code></pre>
+
+<p>Please remember that these examples are displayed for their theoretical value. Although they can be used, these have been added as a starting point for your own hooks creations.</p>
 
 		</section>
 
