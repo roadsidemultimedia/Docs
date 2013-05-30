@@ -43,14 +43,13 @@ All customization related questions including HTML, CSS, PHP and so on, need to 
 
 ## Your Account ##
 
-The **Your Account** panel allows you to add your PageLines credentials so that you can receive automatic updates and easily install store purchases, from your WordPress Administration Panel:
+The **Your Account** panel allows you to add your PageLines credentials so that you can receive automatic updates and easily install store purchases. You can access **Your Account** from your WordPress Administration Panel:
 
 * Select the **PageLines &rarr; Dashboard**
 * Select the **Your Account**
 
 Enter your PageLines account username/password and then click the **Submit Credentials** button. If you have entered your username and password correctly, you should receive the following message depending on your PageLines product.
 
-`Successfully logged in as Username, to PageLines with a secure connection.
-Professional/Developer edition enabled`
+`Successfully logged in as Username, to PageLines with a secure connection. Professional/Developer edition enabled`
 
 If you have an active Plus subscription, this information will also be visible in the notification message.
