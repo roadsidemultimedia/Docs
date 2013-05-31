@@ -5,6 +5,13 @@ body {
 	font-weight: 300;
 }
 
+.navbar .brand{
+	padding: 5px 20px 5px;
+}
+.brand img{
+	max-height: 30px;
+}
+
 @media (max-width: 979px) {
 body {
 padding-top: 0;
