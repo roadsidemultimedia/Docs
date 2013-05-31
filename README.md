@@ -34,26 +34,24 @@ Font Awesome gives you scalable vector icons that can instantly be customized â€
 
 PageLines is on a mission to create awesome experiences for everyone in the PageLines community.
 
-### Documentation ###
+**Documentation**
 
 The [PageLines documentation](https://github.com/pagelines/Docs) is material that provides official information and instructions on how to use PageLines DMS. Our docs are constantly evolving and cover a variety of topics from installation to child theming.
 
 Our documentation has been written in the Markdown syntax and is now hosted on [GitHub](https://github.com/pagelines/Docs) so please feel free to contribute to errors or submit new documentation.
 
-### Support Forums ###
+**Support Forums**
 
 The [PageLines support forum](http://www.pagelines.com/forum) is the place to discuss all your technical questions such as installation issues to customization support. It is also a place for you to share your ideas and tips to other PageLines users.
 
-### HelpDesk ###
+**HelpDesk**
 
 Submit any pre-sales questions and account & billing related issues to our helpdesk and recieve support from real PageLines support staff members.
 
-### Live Chat Support ###
+**Live Chat Support**
 
 PageLines Plus members gain access to our Live Chat service, a technical community chat for discussing your website development with community members and moderated by PageLines support staff.
 
-### PageLines Pros ###
+**PageLines Pros**
 
 PageLines Pros are specialists, developers and designers that can help setup your website and provide customization support that goes beyond the PageLines support scope.
-
-
