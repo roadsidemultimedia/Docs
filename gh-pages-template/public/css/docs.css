@@ -35,7 +35,7 @@ a:hover i{
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover{
-	border-bottom: 3px solid #225E9B;
+	box-shadow: 0 -3px 0 #225E9B;
 }
 
 .docs-nav{
