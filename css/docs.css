@@ -12,6 +12,37 @@ body {
 	max-height: 30px;
 }
 
+a{
+	color:#225E9B;
+}
+
+a, 
+a i{
+	-webkit-transition: width .3s; /* Safari */
+	transition: all .3s;
+	
+}
+
+a:hover i{
+	margin-left: 5px;
+}
+
+.navbar .nav > li > a{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box; 
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover{
+	border-bottom: 3px solid #225E9B;
+}
+
+.docs-nav{
+	background: #f7f7f7;
+	text-shadow: 0 1px 0 #fff;
+}
+
 @media (max-width: 979px) {
 body {
 padding-top: 0;
