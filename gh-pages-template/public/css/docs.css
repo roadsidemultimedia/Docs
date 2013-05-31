@@ -8,7 +8,7 @@ body {
 .navbar .brand{
 	padding: 5px 20px 5px;
 }
-.brand img{
+.navbar .brand img{
 	max-height: 30px;
 }
 
