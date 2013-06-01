@@ -68,6 +68,9 @@ a:hover i{
 	background:#eee;
 	color:#000;
 }
+.nav-list .lead a.active-page{
+	background: transparent;
+}
 
 .lead{
 	font-weight: 400;

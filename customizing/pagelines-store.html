@@ -49,7 +49,7 @@
           <div class="row-fluid">
             <div class="span3 docs-nav nav-detect">
               <ul class="nav nav-list">
-                <li><p class="lead"><a href="/getting-started/basics">Get Started <i class="icon-caret-down"></i></a></p></li>
+                <li><p class="lead"><a href="/getting-started/basics">Get Started</a></p></li>
                 <li><a href="/getting-started/basics">Getting Started <i class="icon-angle-right"></i></a></li>
                 <li><a href="/getting-started/system-requirements">Requirements <i class="icon-angle-right"></i></a></li>
                 <li><a href="/getting-started/installation">Installation <i class="icon-angle-right"></i></a></li>
@@ -59,7 +59,7 @@
                 <li><a href="/getting-started/pagelines-toolbar">PageLines Toolbar <i class="icon-angle-right"></i></a></li>
               </ul>
               <ul class="nav nav-list">
-                <li><p class="lead"><a href="#">Configure <i class="icon-caret-down"></i></a></p></li>
+                <li><p class="lead"><a href="#">Configure</a></p></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Item 1</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Item 2</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Item 3</a></li>
@@ -126,7 +126,7 @@
             $("section p:first-child").addClass('lead');
             $("pre").addClass('prettyprint');
             
-			$.isFunction( prettyPrint() )
+			if( $.isFunction( prettyPrint() ) )
 				prettyPrint()
 				
 		});
