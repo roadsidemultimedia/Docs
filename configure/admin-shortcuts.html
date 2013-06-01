@@ -35,7 +35,7 @@
           </button>
           <a class="brand" href="http://docs.pagelines.com/"><img src="http://docs.pagelines.com/img/logo.png" /></a>	
           <div class="nav-collapse collapse">
-            <ul class="nav pull-right">
+            <ul class="nav pull-right nav-detect">
               <li><a href="/developer"><i class="icon-code"></i> Developer Docs</a></li>
 				<li><a href="http://www.pagelines.com"><i class="icon-home"></i> Home</a></li>
             </ul>
@@ -47,7 +47,7 @@
     <div class="container section">
         <section>
           <div class="row-fluid">
-            <div class="span3 docs-nav">
+            <div class="span3 docs-nav nav-detect">
               <ul class="nav nav-list">
                 <li><p><a href="/getting-started">Get Started</a></p></li>
                 <li><a href="/getting-started/basics">Basics <i class="icon-angle-right"></i></a></li>
@@ -107,10 +107,13 @@
         </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-
+	<script src="http://docs.pagelines.com/js/common.js"></script>
+	
 	<script>
 		$(function() {
             $("section h1").wrap('<div class="page-header" />');
