@@ -26,7 +26,7 @@
 			
 			console.log(url)
 			
-			if(url == 'http://docs.pagelines.com'){
+			if(url == 'http://docs.pagelines.com' || url == 'http://docs.pagelines.com/'){
 				
 				$('.nav-list').addClass('active-menu')
 				
