@@ -17,7 +17,7 @@ a{
 }
 
 a, 
-a i{
+.docs-nav a i{
 	-webkit-transition: width .3s; /* Safari */
 	transition: all .3s;
 	
