@@ -26,6 +26,12 @@
 			
 			console.log(url)
 			
+			if(url == 'http://docs.pagelines.com'){
+				
+				$('.nav-list').addClass('active-menu')
+				
+			}
+			
 			// Will also work for relative and absolute hrefs
 			$('.nav-detect a').filter(function() {
 				
