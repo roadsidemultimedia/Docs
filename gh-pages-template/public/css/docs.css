@@ -53,6 +53,11 @@ a:hover i{
 	padding-left: 25px;
 }
 
+.nav-list a.active-page{
+	background:#eee;
+	color:#000;
+}
+
 .lead{
 	font-weight: 400;
 	margin-bottom: 10px;

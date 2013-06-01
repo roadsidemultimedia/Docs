@@ -29,7 +29,7 @@
 				
 			    return this.href == url
 			
-			}).addClass('page-active')
+			}).addClass('active-page').closest('.nav-list').addClass('active-menu')
 			
 			$('.nav-detect .lead a').filter(function() {
 				
