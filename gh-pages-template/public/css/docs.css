@@ -23,10 +23,6 @@ a,
 	
 }
 
-.lead a{
-	-webkit-transition: none; /* Safari */
-	transition:none;
-}
 
 a:hover i{
 	margin-left: 5px;
@@ -79,6 +75,9 @@ a:hover i{
 	font-weight: 400;
 	margin: 0;
 }
+.nav-list.active-menu .lead{
+	margin-bottom: 10px;
+}
 .nav-list .lead a{
 	display: block;
 	padding: 15px;
@@ -86,6 +85,7 @@ a:hover i{
 }
 .nav-list .lead a:hover{
 	background:#eee;
+	text-decoration: none;
 }
 .nav-list .lead a.active-page{
 	background: transparent;
