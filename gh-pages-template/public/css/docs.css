@@ -18,11 +18,16 @@ a{
 
 a, 
 .docs-nav a i{
-	-webkit-transition: width .3s; /* Safari */
+	-webkit-transition: all .3s; /* Safari */
 	transition: all .3s;
 	
 }
 
+.nav-list .lead a{
+	-webkit-transition: background .3s; /* Safari */
+	transition: background .3s;
+	
+}
 
 a:hover i{
 	margin-left: 5px;
