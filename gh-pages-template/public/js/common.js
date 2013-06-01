@@ -16,11 +16,11 @@
 		
 		init: function(){
 			
-			$(this).detectCurrentPageAndNav()
+			$(this).navDetection()
 			
 		}
 		
-		, detectCurrentPageAndNav: function(){
+		, navDetection: function(){
 			
 			var url = window.location;
 			
