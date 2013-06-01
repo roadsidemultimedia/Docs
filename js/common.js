@@ -16,7 +16,7 @@
 		
 		init: function(){
 			
-			$(this).navDetection()
+			this.navDetection()
 			
 		}
 		
