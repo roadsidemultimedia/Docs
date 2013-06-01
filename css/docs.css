@@ -75,8 +75,8 @@ a:hover i{
 	font-weight: 400;
 	margin: 0;
 }
-.nav-list.active-menu .lead{
-	margin-bottom: 10px;
+.nav-list.active-menu .lead {
+	margin-bottom: 20px;
 
 }
 .nav-list.active-menu .lead a{

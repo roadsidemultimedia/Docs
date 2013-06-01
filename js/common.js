@@ -24,7 +24,7 @@
 			
 			var url = window.location;
 			
-			
+			console.log(url)
 			
 			// Will also work for relative and absolute hrefs
 			$('.nav-detect a').filter(function() {
