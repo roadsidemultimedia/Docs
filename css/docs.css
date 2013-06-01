@@ -49,6 +49,17 @@ a:hover i{
 	padding-bottom: 15px;
 }
 
+/* NAV LIST */
+.nav-list li{
+	display: none;
+}
+.nav-list li:first-child{
+	display: block;
+}
+.nav-list.active-menu li{
+	display: block;
+}
+
 .nav-list>li>a{
 	padding-left: 25px;
 }
