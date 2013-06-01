@@ -170,7 +170,10 @@ Font Awesome gives you scalable vector icons that can instantly be customized â€
             $("section h1").wrap('<div class="page-header" />');
             $("section p:first-child").addClass('lead');
             $("pre").addClass('prettyprint');
-            prettyPrint();
+            
+			$.isFunction('prettyPrint')
+				prettyPrint()
+				
 		});
 	</script>
 

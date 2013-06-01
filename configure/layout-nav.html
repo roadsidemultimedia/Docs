@@ -136,7 +136,10 @@
             $("section h1").wrap('<div class="page-header" />');
             $("section p:first-child").addClass('lead');
             $("pre").addClass('prettyprint');
-            prettyPrint();
+            
+			$.isFunction('prettyPrint')
+				prettyPrint()
+				
 		});
 	</script>
 
