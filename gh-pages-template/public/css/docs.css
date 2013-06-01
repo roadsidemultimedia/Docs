@@ -23,6 +23,11 @@ a i{
 	
 }
 
+.lead a{
+	-webkit-transition: none; /* Safari */
+	transition:none;
+}
+
 a:hover i{
 	margin-left: 5px;
 }
@@ -42,6 +47,10 @@ a:hover i{
 	background: #f7f7f7;
 	text-shadow: 0 1px 0 #fff;
 	padding-bottom: 15px;
+}
+
+.nav-list>li>a{
+	padding-left: 25px;
 }
 
 @media (max-width: 979px) {
