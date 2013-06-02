@@ -16,7 +16,7 @@ The Wordpress settings included are **Set Site Homepage**, **Manage Menus**, **M
 
 ## Site Images ##
 
-The **Site Images** panel allows you to upload custom images to be used on your site, such as favicon, login page and mobile touch image. You can either choose to upload an image from your computer or enter the full URL location of your custom.
+The **Site Images** panel allows you to upload custom images to be used on your site, such as favicon, login page and mobile touch image. You can either choose to upload an image from your computer or enter the full URL location of your custom image.
 
 ![Site Images](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/site-images.jpg "Site Images")
 
