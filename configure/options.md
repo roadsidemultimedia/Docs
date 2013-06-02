@@ -18,7 +18,7 @@ The Wordpress settings included are **Set Site Homepage**, **Manage Menus**, **M
 
 The **Site Images** panel allows you to upload custom images to be used on your site, such as favicon, login page and mobile touch image. You can either choose to upload an image from your computer or enter the full URL location of your custom.
 
-![Site Images](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/site0images.jpg "Site Images")
+![Site Images](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/site-images.jpg "Site Images")
 
 #### Favicon Image ####
 
@@ -81,7 +81,7 @@ The Font weight setting allows you to select the weight of your text from `Light
 
 The **Color & style** panel provides the ability to easily change the color of your Content base, main text and links. As well as being able to configure your background using an image with settings allowing control over repeat, position, attachment and fit to screen.
 
-![Color & Style](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/typography.jpg "Color & Style")
+![Color & Style](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/color-style.jpg "Color & Style")
 
 #### Content Base & Site Text Colors ####
 
@@ -118,7 +118,7 @@ This places your Twitter feed on the site. Leave blank if you want to hide or no
 
 #### Facebook ####
 
-Enter the name component of your Facebook page URL. (For example, what comes after the facebook url: www.facebook.com/[name])
+Enter the name component of your Facebook page URL. (For example, what comes after the facebook url: `www.facebook.com/[name]`)
 
 #### Your Website Hashtag ####
 
@@ -200,5 +200,9 @@ Use this button to reset **all global settings** to their default state.
 #### Reset Current Page Settings ####
 
 Use this button to reset all settings on the current page back to their default state.
+
+#### Dump Settings to file ####
+
+Use this button to dump settings to a dat file in current theme root.
 
 **Note:** Once you've completed these actions, you may want to publish these changes to your live site.
