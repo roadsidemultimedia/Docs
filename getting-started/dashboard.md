@@ -2,8 +2,6 @@
 
 The PageLines Dashboard is accessible by logging into your Wordpress dashboard. The main idea of the PageLines Dashboard is to give you a place where you can get at-a-galnce overview of all PageLines related news and account information.
 
-You can catchup on the latest news from both the PageLines community and store, view all PageLines Plus extensions, access to Live Chat, resources & support and your account.
-
 ## Updates ##
 
 The **Updates** panel allows you to keep up-to-date with all the latest news from the PageLines blog and the PageLines community.
