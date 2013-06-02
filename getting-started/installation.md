@@ -18,7 +18,7 @@ PageLines DMS is available in two versions, the Professional/Developer editions 
 
 ![Installation](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/installation.jpg "Installation")
 
->> You can also install PageLines DMS via FTP.
+**Note:** PageLines DMS can also be installed via [FTP](http://codex.wordpress.org/Using_Themes#Adding_New_Themes_Manually_.28FTP.29).
 
 ## Activation ##
 
