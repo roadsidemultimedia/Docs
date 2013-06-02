@@ -30,7 +30,7 @@ When you have an active [PageLines Plus](http://www.pagelines.com/plus) subscrip
 
 Once your PageLines credentials have been correctly entered and your Plus subscription has been confirmed, you should now be able to access **Live Chat**, from your WordPress Administration Panel:
 
-* Select the **PageLines &rarr; Dashboard**
+* Navigate to **PageLines &rarr; Dashboard**
 * Select the **Live Chat**
 
 ![Live Chat](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/livechat-logged-in.jpg "Live Chat")
