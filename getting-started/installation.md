@@ -12,16 +12,16 @@ PageLines DMS is available in two versions, the Professional/Developer editions 
 ## Installing PageLines DMS ##
 
 * Navigate to **Appearance &rarr; Themes**.
-* Select **Install Themes** and click Upload.
+* Select **Install Themes** and click **Upload**.
 * Browse your computer and locate the **pagelines.zip** file.
 * Click **Install Now** to begin installation.
 
-![Installation](/assets/installation.jpg)
+![Installation](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/installation.jpg "Installation")
 
->> You can also install PageLines DMS via FTP.
+**Note:** PageLines DMS can also be installed via [FTP](http://codex.wordpress.org/Using_Themes#Adding_New_Themes_Manually_.28FTP.29).
 
 ## Activation ##
 
 After uploading PageLines DMS, simply go to the **Appearance &rarr; Themes** area in the WordPress admin dashboard and click **Activate**.
 
-![Activation](/assets/activation.jpg)
+![Activation](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/activation.jpg "Activation")
