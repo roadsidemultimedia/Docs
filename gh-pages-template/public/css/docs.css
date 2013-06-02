@@ -172,6 +172,12 @@ strong{
 	font-weight: 600;
 }
 
+/* @ DOCS CONTENT */
+.docs-content img{
+	box-shadow: 0 1px 4px rgba(0,0,0,.3);
+	padding: 10px;
+}
+
  /* Lastly, apply responsive CSS fixes as necessary */
  @media (max-width: 767px) {
 	
