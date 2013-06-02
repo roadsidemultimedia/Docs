@@ -1,6 +1,6 @@
 # Dashboard #
 
-The PageLines Dashboard is accessible by logging into your Wordpress dashboard. The main idea of the PageLines Dashboard is to give you a place where you can get at-a-galnce overview of all PageLines related information and account.
+The PageLines Dashboard is accessible by logging into your Wordpress dashboard. The main idea of the PageLines Dashboard is to give you a place where you can get at-a-galnce overview of all PageLines related news and account information.
 
 You can catchup on the latest news from both the PageLines community and store, view all PageLines Plus extensions, access to Live Chat, resources & support and your account.
 
@@ -15,6 +15,8 @@ As well as the latest PageLines news, you can also keeping up-to-date with the l
 ## Plus Extensions ##
 
 The **Plus Extensions** panel provides a list of all available extensions available when you have an active plus subscription. Remember that with PageLines Plus, you get all PageLines-built extensions and more every month!
+
+![Plus Extensions](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/plus-extensions.jpg "Plus Extensions")
 
 **Note:** In order to use these extensions, an active [PageLines Plus](http://www.pagelines.com/plus) subscription is required. Without a Plus subscription however, you may purchase these extensions individually via the PageLines store. 
 
@@ -51,14 +53,12 @@ All customization related questions including HTML, CSS, PHP and so on, need to 
 
 The **Your Account** panel allows you to add your PageLines credentials so that you can receive automatic updates and easily install store purchases. You can access **Your Account** from your WordPress Administration Panel:
 
-* Select the **PageLines &rarr; Dashboard**
-* Select the **Your Account**
+* Navigate to **PageLines &rarr; Dashboard**
+* Select the **Your Account** tab
 
 ![Your Account Login](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/account-login.jpg "Your Account Login")
 
 Enter your PageLines account username/password and then click the **Submit Credentials** button. If you have entered your username and password correctly, you should receive the following message depending on your PageLines product.
-
-`Successfully logged in as Username, to PageLines with a secure connection. Professional/Developer edition enabled`
 
 ![Login Successful](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/logged-in.jpg "Login Successful")
 
