@@ -24,7 +24,7 @@ The **Live Chat** panel provides access to PageLines Live Chat, which is a moder
 
 ### Sign in to Live Chat ###
 
-When you have an active [PageLines Plus](http://www.pagelines.com/plus) subscription, make sure your PageLines username and password have been added to the **Your Account** settings tab. This can be found in PageLines &rarr; Dashboard &rarr; Your Account.
+When you have an active [PageLines Plus](http://www.pagelines.com/plus) subscription, make sure your PageLines username and password have been added to the **Your Account** settings tab. This can be found in **PageLines &rarr; Dashboard &rarr; Your Account**.
 
 ![Live Chat Login Required](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/livechat-login-required.jpg "Live Chat Login Required")
 
