@@ -95,44 +95,48 @@
 
 <p>Developers can also publish their child themes to the PageLines Store.</p>
 
-<h2>File Structure</h2>
+<h2>Theming</h2>
 
 <p>PageLines Framework provides a free base child theme which you can use to create your own child themes which is available from the PageLines Store.</p>
 
+<h3>Child Theme Structure</h3>
+
 <p>A typical PageLines child theme will have the following structure.</p>
 
-<p><strong>/sections</strong><br>
-Your custom and modified sections live inside this directory.</p>
+<p><strong>sections/</strong>           - Bundle sections with your theme in this folder, each section in a seperate folder.
+<strong>functions.php</strong>       - All custom hooks and actions live here
+<strong>info.txt</strong>            - Provides long description for store, and changelog
+<strong>page.example.php</strong>    - Custom page template, check the file for syntax. This is autoloaded.
+<strong>screenshot.png</strong>      - Primary screenshot, logo or graphic for your extension item (300px by 225px).
+<strong>screenshot-1.png</strong>    - Additional screenshots -1 -2 -3 etc (optional).
+<strong>setup.php</strong>           - Loads the parent theme. Don&#39;t tamper with this.
+<strong>splash.png</strong>          - Artwork sized 750 x 350 - only needed for selling on the PageLines Store
+<strong>style.css</strong>           - Main theme style file.
+<strong>style.less</strong>          - All custom LESS and CSS should be added here.
+<strong>thumb.png</strong>           - Thumbnail image used in the store and on pagelines.com for your product.</p>
 
-<p><strong>setup.php</strong><br>
-Loads the parent theme. Don&#39;t tamper with this. Gnomes are watching you.</p>
+<h3>Edit Child Theme Info</h3>
 
-<p><strong>info.txt</strong><br>
-Provides long description for store, and changelog</p>
+<ul>
+<li>In your favourite text editor, open the <strong>style.css</strong> file</li>
+</ul>
 
-<p><strong>style.css</strong><br>
-Used to identify as child theme to the parent theme</p>
+<p>`/*<br>
+Theme Name: Base Theme
+Theme URI: <a href="http://www.pagelines.com/">http://www.pagelines.com/</a>
+Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
+Version: 1.0.2
+Author: PageLines
+Author URI: <a href="http://www.pagelines.com">http://www.pagelines.com</a>
+Tags: developer</p>
 
-<p><strong>style.less</strong><br>
-All custom LESS and CSS live here</p>
+<p>Template: pagelines</p>
 
-<p><strong>functions.php</strong><br>
-All custom hooks and actions live here</p>
+<p>*/`</p>
 
-<p><strong>welcome.php</strong><br>
-It&#39;s highly recommended (but optional) to have a welcome panel with appropriate info.</p>
-
-<p><strong>16x16 welcome.png</strong><br>
-Welcome panel will autoload a 16x16 icon named welcome.png</p>
-
-<p><strong>thumb.png</strong><br>
-Artwork sized 300x225 used throughout the theme and store to identify theme</p>
-
-<p><strong>splash.png</strong><br>
-Artwork sized 750 x 350 - only needed for selling on the PageLines Store</p>
-
-<p><strong>screenshot.png</strong><br>
-Theme screenshots used on the PageLines Store. If multiple screenshots are desired, number appropriately. Ex: screenshot-1.png,screenshot2.png, etc.</p>
+<ul>
+<li>Edit any of these items, except for <strong>Template: pagelines</strong>, which tells Wordpress that this is a child theme of PageLines DMS.</li>
+</ul>
             </div>
 		</section>
 
