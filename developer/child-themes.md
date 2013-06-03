@@ -28,7 +28,7 @@ A typical PageLines child theme will have the following structure.
 
 * In your favourite text editor, open the **style.css** file
 
-<pre class="prettyprint linenums">
+~~~ .php
 /*  
 Theme Name: Base Theme
 Theme URI: http://www.pagelines.com/
@@ -41,6 +41,6 @@ Tags: developer
 Template: pagelines
 
 */
-</pre>
+~~~
 
 * Edit any of these items, except for **Template: pagelines**, which tells Wordpress that this is a child theme of PageLines DMS.
