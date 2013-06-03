@@ -4,7 +4,7 @@ A child theme is a theme that inherits the functionality of PageLines DMS and al
 
 Developers can also publish their child themes to the PageLines Store.
 
-## Child Theme Structure ##
+## File Structure ##
 
 PageLines Framework provides a free base child theme which you can use to create your own child themes which is available from the PageLines Store.
 
@@ -19,7 +19,7 @@ Loads the parent theme. Don't tamper with this. Gnomes are watching you.
 **info.txt**  
 Provides long description for store, and changelog
 
-** style.css **  
+**style.css**  
 Used to identify as child theme to the parent theme
 
 **style.less**  
