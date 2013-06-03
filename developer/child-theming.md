@@ -4,41 +4,41 @@ A child theme is a theme that inherits the functionality of PageLines DMS and al
 
 Developers can also publish their child themes to the PageLines Store.
 
-## File Structure ##
+## Theming ##
 
 PageLines Framework provides a free base child theme which you can use to create your own child themes which is available from the PageLines Store.
 
+### Child Theme Structure ###
+
 A typical PageLines child theme will have the following structure.
 
-**/sections**  
-Your custom and modified sections live inside this directory.
+**sections/**			- Bundle sections with your theme in this folder, each section in a seperate folder.
+**functions.php**		- All custom hooks and actions live here
+**info.txt**			- Provides long description for store, and changelog
+**page.example.php**	- Custom page template, check the file for syntax. This is autoloaded.
+**screenshot.png**		- Primary screenshot, logo or graphic for your extension item (300px by 225px).
+**screenshot-1.png**	- Additional screenshots -1 -2 -3 etc (optional).
+**setup.php**			- Loads the parent theme. Don't tamper with this.
+**splash.png**			- Artwork sized 750 x 350 - only needed for selling on the PageLines Store
+**style.css**			- Main theme style file.
+**style.less**			- All custom LESS and CSS should be added here.
+**thumb.png**			- Thumbnail image used in the store and on pagelines.com for your product.
 
-**setup.php**  
-Loads the parent theme. Don't tamper with this. Gnomes are watching you.
+### Edit Child Theme Info ###
 
-**info.txt**  
-Provides long description for store, and changelog
+* In your favourite text editor, open the **style.css** file
 
-**style.css**  
-Used to identify as child theme to the parent theme
+`/*  
+Theme Name: Base Theme
+Theme URI: http://www.pagelines.com/
+Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
+Version: 1.0.2
+Author: PageLines
+Author URI: http://www.pagelines.com
+Tags: developer
 
-**style.less**  
-All custom LESS and CSS live here
+Template: pagelines
 
-**functions.php**  
-All custom hooks and actions live here
+*/`
 
-**welcome.php**  
-It's highly recommended (but optional) to have a welcome panel with appropriate info.
-
-**16x16 welcome.png**  
-Welcome panel will autoload a 16x16 icon named welcome.png
-
-**thumb.png**  
-Artwork sized 300x225 used throughout the theme and store to identify theme
-
-**splash.png**  
-Artwork sized 750 x 350 - only needed for selling on the PageLines Store
-
-**screenshot.png**  
-Theme screenshots used on the PageLines Store. If multiple screenshots are desired, number appropriately. Ex: screenshot-1.png,screenshot2.png, etc.
+* Edit any of these items, except for **Template: pagelines**, which tells Wordpress that this is a child theme of PageLines DMS.
