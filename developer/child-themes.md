@@ -28,7 +28,7 @@ A typical PageLines child theme will have the following structure.
 
 * In your favourite text editor, open the **style.css** file
 
-<pre class="prettyprint">
+<pre class="prettyprint linenums">
 /*  
 Theme Name: Base Theme
 Theme URI: http://www.pagelines.com/
