@@ -16,25 +16,25 @@ We want to make it as easy as possible for you to develop Sections, Themes, and 
 	<a class="btn btn-primary btn-large" href="http://developer.pagelines.com/apply/">Apply Now!</a>
 </div>
 
-## [Hook Reference](http://docs.pagelines.com/developers/hook-reference) ##
+## [Hook Reference](http://docs.pagelines.com/developer/hook-reference) ##
 Hooks in PageLines DMS essentially allow you to manipulate or insert code without editing core files. There are two types of hook, these are actions and filters.
 
-## [Child Theming](http://docs.pagelines.com/developers/child-theming) ##
+## [Child Themes](http://docs.pagelines.com/developer/child-themes) ##
 PageLines DMS has one the worlds most advanced theming engines, this means that building themes with PageLines easy, fast and more importantly fun.
 
 ## [Section API](http://docs.pagelines.com/section-api) ##
 PageLines DMS API allows developers to create their own unique sections and add them to the PageLines store.
 
-## [Option API](developers/options-api) ##
+## [Option API](developer/options-api) ##
 
-## [LESS API](/developers/less-api) ##
+## [LESS API](/developer/less-api) ##
 
-## [Classes](/developers/classes) ##
+## [Classes](/developer/classes) ##
 
-## [Constants](developers/constants) ##
+## [Constants](developer/constants) ##
 
-## [Functions](/developers/functions) ##
+## [Functions](/developer/functions) ##
 
-## [Variables](/developers/variables) ##
+## [Variables](/developer/variables) ##
 
 
