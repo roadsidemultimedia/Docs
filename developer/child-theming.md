@@ -1,4 +1,4 @@
-# Child Theming #
+# Child Themes #
 
 A child theme is a theme that inherits the functionality of PageLines DMS and allows you to modify, or add to it' s functionality without the need to modify core files.
 
