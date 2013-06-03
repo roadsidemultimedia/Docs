@@ -25,16 +25,16 @@ PageLines DMS has one the worlds most advanced theming engines, this means that 
 ## [Section API](http://docs.pagelines.com/section-api) ##
 PageLines DMS API allows developers to create their own unique sections and add them to the PageLines store.
 
-## [Option API](http://docs.pagelines.com/options-api) ##
+## [Option API](developers/options-api) ##
 
-## [LESS API](http://docs.pagelines.com/developers/less-api) ##
+## [LESS API](/developers/less-api) ##
 
-## [Classes](http://docs.pagelines.com/developers/classes) ##
+## [Classes](/developers/classes) ##
 
-## [Constants](http://docs.pagelines.com/constants) ##
+## [Constants](developers/constants) ##
 
-## [Functions](http://docs.pagelines.com/developers/functions) ##
+## [Functions](/developers/functions) ##
 
-## [Variables](http://docs.pagelines.com/developers/variables) ##
+## [Variables](/developers/variables) ##
 
 
