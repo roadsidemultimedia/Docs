@@ -145,7 +145,6 @@ Local development refers to the process of building a website from the comfort o
     <tr>
       <th>MAC OS X</th>
       <th>Windows</th>
-      <th>Linux</th>
     </tr>
   </thead>
   <tbody>
