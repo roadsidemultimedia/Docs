@@ -137,7 +137,7 @@ Below are a number of recommended tools.
 Local development refers to the process of building a website from the comfort of a own computer, and not needing to be connected to the internet in order to run PHP and MySQL. By using applications such as the ones listed below you can essentially turn your computer into a web server.
 
 * [MAMP](http://www.mamp.info/en/index.html) - Both a free version and Pro version are available. (MAC OSX)
-* [XAMPP](http://www.apachefriends.org/en/xampp.html)
+* [XAMPP](http://www.apachefriends.org/en/xampp.html) - Available for free for both MAC OS X and Windows.
 
 
 <table class="table table-striped table-bordered">
