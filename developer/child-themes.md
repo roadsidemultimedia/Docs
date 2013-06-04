@@ -14,7 +14,7 @@ Included is a base child theme which you can use to kickstart your own creations
 
 A typical PageLines child theme will have the following structure.
 
-<table class="table table-striped">>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>File/Folder name</th>
