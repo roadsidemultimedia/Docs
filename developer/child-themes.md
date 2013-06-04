@@ -4,7 +4,7 @@ A child theme is a theme that inherits the functionality of PageLines DMS and al
 
 You may wish to develop PageLines DMS child Themes for personal use, for a client project or to submit to the PageLines store for other PageLines users. Developers who have signed up for the [PageLines Junto](http://developer.pagelines.com/apply/) community can also publish their child themes to the PageLines Store.
 
-For more information regarding [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development) visit the Wordpress codex.
+For more information we recommend reading the following Wordpress codex articles [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development).
 
 ## Theming ##
 
@@ -130,4 +130,71 @@ If you're new to hooks and need an guidance, see the following articles:
 
 ## Developer Tools ##
 
+Below are a number of recommended tools.
 
+### Local Development ###
+
+Local development refers to the process of building a website from the comfort of a own computer, and not needing to be connected to the internet in order to run PHP and MySQL. By using applications such as the ones listed below you can essentially turn your computer into a web server.
+
+* [MAMP](http://www.mamp.info/en/index.html) - Both a free version and Pro version are available. (MAC OSX)
+* [XAMPP](http://www.apachefriends.org/en/xampp.html)
+
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>MAC OS X</th>
+      <th>Windows</th>
+      <th>Linux</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[MAMP](http://www.mamp.info/en/index.html)</td>
+      <td>[XAMPP](http://www.apachefriends.org/en/xampp-macosx.html)</td>
+      <td>[Zend Server Community Edition](http://www.zend.com/en/products/server-ce/)</td>
+    </tr>
+    <tr>
+      <td>[XAMPP](http://www.apachefriends.org/en/xampp-windows.html)</td>
+      <td>[Zend Server Community Edition](http://www.zend.com/en/products/server-ce/)</td>
+      <td>[WAMP](http://www.wampserver.com/en/)</td>
+      <td>[EasyPHP](http://www.easyphp.org/)</td>
+    </tr>
+  </tbody>
+</table>
+
+For installation support, please view the documentation for each application.
+
+### Version Control ###
+
+Very briefly, version control is a way to keep a backup of changing files, to store a history of those changes, and most importantly to allow other people in a collaboration to make changes to the same files concurrently.
+
+### Code Editor ###
+
+All code starts with some type of code editor. The best editors strike a balance between usability, package syntax, and "get out of my way" editing. These are a couple that we use.
+
+* [SubLime Text 2](http://www.sublimetext.com/2) - What we use! (MAC OS X/Windows)
+* [Coda 2](http://panic.com/coda/) - (MAC OS X)
+* [TextMate](http://macromates.com/) - (MAC OS X)
+* [Notepad++](http://notepad-plus.sourceforge.net/) - (Windows)
+
+### Git Clients ###
+
+Git Clients are like the vehicle to transport the code to it's destination. We use Tower for Mac, although there are many out there available. Mostly Mac based.
+
+* [Tower](http://www.git-tower.com/) - What we use! (MAC OS X)
+* [GitBox](http://gitboxapp.com/) - (MAC OS X)
+* [SourceTree](http://www.sourcetreeapp.com/) - (MAC OS X/Windows)
+* [Tortoise Git](http://code.google.com/p/tortoisegit/) - (Windows)
+
+### Beanstalk ###
+
+[Beanstalk](http://beanstalkapp.com/) is a premium service, that serves as a Git repo, with the added bonus of auto-deployment to your server. This service takes FTP out of the equation completely, not to mention that your code is now tracked with the option to rollback. Using [Tower](http://www.git-tower.com/), together with Beanstalk, means one-click deployment.
+
+![Version Control with Beanstalk](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/version-control-beanstalk.png "Version Control with Beanstalk")
+
+## Theme Kit ##
+
+We want you to build beautiful themes (then sell them on the PageLines Store), so we've built a full custom child theme built with all kinds of great stuff so you can get a full hands-on experience with what it feels like to develop using LESS and PageLines.
+
+Add link here for Theme Kit, when created!
