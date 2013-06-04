@@ -1,20 +1,22 @@
 # Child Themes #
 
-A child theme is a theme that inherits the functionality of PageLines DMS and allows you to modify, or add to it' s functionality without the need to modify core files. For more information see the Wordpress codex article on [child themes](http://codex.wordpress.org/Child_Themes) or visit the [theme development](http://codex.wordpress.org/Theme_Development) codex.
+A child theme is a theme that inherits the functionality of PageLines DMS and allows you to modify, or add to it' s functionality without the need to modify core files.
 
-Developers who have signed up for the [PageLines Junto](http://developer.pagelines.com/apply/) community can also publish their child themes to the PageLines Store.
+You may wish to develop PageLines DMS child Themes for personal use, for a client project or to submit to the PageLines store for other PageLines users. Developers who have signed up for the [PageLines Junto](http://developer.pagelines.com/apply/) community can also publish their child themes to the PageLines Store.
+
+For more information regarding [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development) visit the Wordpress codex.
 
 ## Theming ##
 
-With PageLines DMS, we feel very confident we have provided the very best theming engine around which include both [Bootstrap](http://twitter.github.io/bootstrap/) and [LESS](http://lesscss.org/) libraries. Allowing for a fast and enjoyable designing experiencing.
+With PageLines DMS, we feel very confident we have provided the best theming engine around which includes both [Bootstrap](http://twitter.github.io/bootstrap/) and [LESS](http://lesscss.org/) libraries. Allowing for a fast and enjoyable designing experiencing.
 
-Included is a base child theme which you can use to kickstart your own creations, the base theme is free and available from the [PageLines Store](http://www.pagelines.com/store).
+Included is a base child theme which you can use to kickstart your own creations, the base child theme is freely available from the [PageLines Store](http://www.pagelines.com/store).
 
 ### Child Theme Structure ###
 
 A typical PageLines child theme will have the following structure.
 
-<table class="table table-striped">
+<table class="table table-striped table-bordered">
   <thead>
     <tr>
       <th>File/Folder name</th>
@@ -69,7 +71,7 @@ A typical PageLines child theme will have the following structure.
   </tbody>
 </table>
 
-### Edit Child Theme Info ###
+### Editing Child Theme Info ###
 
 * In your favourite text editor, open the **style.css** file
 
@@ -115,7 +117,17 @@ We have a wide collection of variables ready for you to use, as well as a librar
 
 ### Hooks ###
 
+There may come a time during your development process where you require functionality that isn't possible "out of the box" with PageLines DMS, this is where hooks can be especially useful. Modifiying both Wordpress and PageLines DMS core files is a big no-no, so whenever you want to change existing functionality or create new functionality, you will have to turn to hooks.
+
+PageLines DMS has hooks at stategic points through the framework, such as before the header and at the start of the footer, for more information see our [Hooks Reference](/hooks-reference) and [Hook Examples](/hook-examples) documentation.
+
+If you're new to hooks and need an guidance, see the following articles:
+
+* [Action & Filter Hooks](http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters)
+* [Introduction to Hooks - By WPCandy](http://wpcandy.com/teaches/how-to-use-wordpress-hooks/)
+* [PHP Functions](http://www.w3schools.com/php/php_functions.asp)
 
 
 ## Developer Tools ##
+
 
