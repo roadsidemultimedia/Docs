@@ -139,32 +139,35 @@ Local development refers to the process of building a website from the comfort o
 * [MAMP](http://www.mamp.info/en/index.html) - Both a free version and Pro version are available. (MAC OSX)
 * [XAMPP](http://www.apachefriends.org/en/xampp.html) - Available for free for both MAC OS X and Windows.
 
-
-<table class="table table-striped table-bordered">
-  <thead>
-    <tr>
-      <th>MAC OS X</th>
-      <th>Windows</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="http://www.mamp.info/en/index.html">MAMP</a></td>
-      <td><a href="http://www.wampserver.com/en/">WAMP</a></td>
-  	</tr>
-  	<tr>
-      <td><a href="http://www.apachefriends.org/en/xampp-macosx.html">XAMPP</a></td>
-      <td><a href="http://www.apachefriends.org/en/xampp-windows.html">XAMPP</a></td>
-    </tr>
-    <tr>
-      <td><a href="http://www.zend.com/en/products/server-ce/">Zend Server Community Edition</a></td>
-      <td><a href="http://www.zend.com/en/products/server-ce/">Zend Server Community Edition</a></td>
-	</tr>
-      <td></td>
-      <td><a href="http://www.easyphp.org/">EasyPHP</a></td>
-    </tr>
-  </tbody>
-</table>
+<div class="row-fluid">
+	<div class="span12">
+		<table class="table table-striped table-bordered">
+  			<thead>
+    			<tr>
+      				<th>MAC OS X</th>
+      				<th>Windows</th>
+    			</tr>
+  			</thead>
+  			<tbody>
+    			<tr>
+      				<td><a href="http://www.mamp.info/en/index.html">MAMP</a></td>
+      				<td><a href="http://www.wampserver.com/en/">WAMP</a></td>
+  				</tr>
+  				<tr>
+      				<td><a href="http://www.apachefriends.org/en/xampp-macosx.html">XAMPP</a></td>
+      				<td><a href="http://www.apachefriends.org/en/xampp-windows.html">XAMPP</a></td>
+    			</tr>
+    			<tr>
+      				<td><a href="http://www.zend.com/en/products/server-ce/">Zend Server Community Edition</a></td>
+      				<td><a href="http://www.zend.com/en/products/server-ce/">Zend Server Community Edition</a></td>
+				</tr>
+      				<td></td>
+      				<td><a href="http://www.easyphp.org/">EasyPHP</a></td>
+    			</tr>
+  			</tbody>
+		</table>
+	</div>
+</div>
 
 For installation support, please view the documentation for each application.
 
