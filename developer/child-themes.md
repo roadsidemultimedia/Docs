@@ -14,19 +14,60 @@ Included is a base child theme which you can use to kickstart your own creations
 
 A typical PageLines child theme will have the following structure.
 
-| File/Folder name		| Description																		|
-|------------------------------------------------------------------------------------------------------------
-| **sections/**			| Bundle sections with your theme in this folder, each section in a seperate folder.| 
-| **functions.php**		| All custom hooks and actions live here  											|
-| **info.txt**			| Provides long description for store, and changelog  								|
-| **page.example.php**	| Custom page template, check the file for syntax. This is autoloaded.  			|
-| **screenshot.png**	| Primary screenshot, logo or graphic for your extension item (300px by 225px).  	|
-| **screenshot-1.png**	| Additional screenshots -1 -2 -3 etc (optional).  									|
-| **setup.php**			| Loads the parent theme. Don't tamper with this.  									|
-| **splash.png**		| Artwork sized 750 x 350 - only needed for selling on the PageLines Store  		|
-| **style.css**			| Main theme style file.  															|
-| **style.less**		| All custom LESS and CSS should be added here.  									|
-| **thumb.png**			| Thumbnail image used in the store and on pagelines.com for your product.  		|
+<table>
+  <thead>
+    <tr>
+      <th>File/Folder name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>sections/</strong></td>
+      <td>Bundle sections with your theme in this folder, each section in a seperate folder.</td>
+    </tr>
+    <tr>
+      <td><strong>functions.php</strong></td>
+      <td>All custom hooks and actions live here.</td>
+    </tr>
+    <tr>
+      <td><strong>info.txt</strong></td>
+      <td>Provides long description for store, and changelog.</td>
+    </tr>
+    <tr>
+      <td><strong>page.example.php</strong></td>
+      <td>Custom page template, check the file for syntax. This is autoloaded.</td>
+    </tr>
+    <tr>
+      <td><strong>screenshot.png</strong></td>
+      <td>Primary screenshot, logo or graphic for your extension item (300px by 225px).</td>
+    </tr>
+    <tr>
+      <td><strong>screenshot-1.png</strong></td>
+      <td>Additional screenshots -1 -2 -3 etc (optional).</td>
+    </tr>
+    <tr>
+      <td><strong>setup.php</strong></td>
+      <td>Loads the parent theme. Don't tamper with this.</td>
+    </tr>
+    <tr>
+      <td><strong>splash.png</strong></td>
+      <td>Artwork sized 750 x 350 - only needed for selling on the PageLines Store.</td>
+    </tr>
+    <tr>
+      <td><strong>style.css</strong></td>
+      <td>Main theme style file.</td>
+    </tr>
+    <tr>
+      <td><strong>style.less</strong></td>
+      <td>All custom LESS and CSS should be added here.</td>
+    </tr>
+    <tr>
+      <td><strong>thumb.png</strong></td>
+      <td>Thumbnail image used in the store and on pagelines.com for your product.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Edit Child Theme Info ###
 
@@ -60,7 +101,7 @@ Add more infor about the Theming API
 
 PageLines has integrated the entire Bootstrap library. Bootstrap is a powerful front-end framework for faster and easier web development. It contains HTML and CSS-based design templates for typography, forms, buttons, charts, navigation and other interface components, as well as optional JavaScript extensions. Bootstrap was also programmed to support both HTML5 and CSS3.
 
-We've made a some modifications to fit inside DMS, so the markup of the grid is slightly different. All of your classes are still available, as are the colored variables. We haven't inclided the progress bar, or any other "app" type of CSS. If you want to see which libraries have been included visit the `/less` directory.
+We've made some modifications to fit inside DMS, so the markup of the grid is slightly different. All of your classes are still available, as are the colored variables. We haven't inclided the progress bar, or any other "app" type of CSS. If you want to see which libraries have been included visit the `/less` directory.
 
 ### LESS ###
 
