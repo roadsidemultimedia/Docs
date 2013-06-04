@@ -158,7 +158,7 @@ Local development refers to the process of building a website from the comfort o
       <td><a href="http://www.apachefriends.org/en/xampp-windows.html">XAMPP</a></td>
       <td><a href="http://www.zend.com/en/products/server-ce/">Zend Server Community Edition</a></td>
       <td><a href="http://www.wampserver.com/en/")WAMP</a></td>
-      <td><a href="http://www.easyphp.org/">EasyPHP]</a></td>
+      <td><a href="http://www.easyphp.org/">EasyPHP</a></td>
     </tr>
   </tbody>
 </table>
