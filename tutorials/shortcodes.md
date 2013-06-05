@@ -29,12 +29,10 @@
 	</div>
 </div>
 <p></p>
-<div class="row-fluid">
-<div class="span4">
-<p>There are 7 different color schemes to choose from, as well 3 sizes; mini, default and large.</p>
-</div>
+There are 7 different color schemes to choose from, as well 3 sizes; mini, default and large.
 <p></p>
-<div class="span8">
+<div class="row-fluid">
+<div class="span12">
 <table class="table mid table-bordered table-striped table-condensed">
 <tbody>
 <tr>
