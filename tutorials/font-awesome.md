@@ -436,3 +436,6 @@ Below are currently all available icons.
 
 ## Examples ##
 
+Add some examples here when google prettify is working
+
+For more examples, please visit [Font Awesome](http://fortawesome.github.io/Font-Awesome/examples/)
