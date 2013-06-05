@@ -130,7 +130,11 @@ a:hover i{
 	background: transparent;
 }
 
-
+.the-icons {
+	list-style-type: none;
+	margin: 0;
+	/* removes bullets from icon listings*/
+}
 
 @media (max-width: 979px) {
 body {
