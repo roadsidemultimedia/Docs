@@ -123,3 +123,28 @@ The responsive grid system uses percents instead of pixels for column widths, en
 	</div>
 </div>
 </div>
+
+<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">Note:</span> <code>.zmb</code> is a special PageLines utility class that you can use to specify a zero margin on top<code>.zmt</code> , or on bottom <code>.zmb</code> of any element giving you full control. Read more about these utility classes below.</small></p>
+
+### Fluid Offset ###
+
+<div class="row">
+	<div class="span6 zmb">
+		<pre class="prettyprint linenums">
+			<div class="row">
+    			<div class="span6"></div>
+    			<div class="span6 offset6"></div>
+			</div>
+		</pre>
+	</div>
+	<div class="span6">
+		<div class="row show-grid">
+			<div class="span6">
+			Span 6
+		</div>
+			<div class="span6 offset6">
+			Span 6 Offset 6
+			</div>
+		</div>
+	</div>
+</div>
