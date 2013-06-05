@@ -50,6 +50,31 @@ a:hover i{
 
 }
 
+.show-grid {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.show-grid [class*="span"] {
+	background-color: #EEE;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	min-height: 40px;
+	line-height: 40px;
+}
+
+.show-grid:hover [class*="span"] {
+	background: #0088DD;
+	-webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+	color: #FFFFFF;
+}
+
 /* NAV LIST */
 .nav-list{
 	border-bottom: 1px solid #DDD;
