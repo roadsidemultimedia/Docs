@@ -1,4 +1,4 @@
-# How to use the Responsive Grid #
+# Responsive Grid #
 
 PageLines DMS encompasses a completely responsive grid system based on [Bootstrap](http://twitter.github.io/bootstrap/) that contains 12 columns, or "spans". The grid can be used virtually anywhere. Mark it up in a post, in a page, or wherever you need structured, responsive content.
 
@@ -70,4 +70,25 @@ The responsive grid system uses percents instead of pixels for column widths, en
     <div class="row-fluid show-grid">
         <div class="span12">12</div>
     </div>
+</div>
+
+## How to use ##
+
+### Basic Example ###
+
+<div class="row">
+<div class="span6">
+<pre class="prettyprint linenums">
+	<div class="row">
+    <div class="span4">Span 4</div>
+    <div class="span8">Span 8</div>
+</div>
+</pre>
+</div>
+<div class="span6">
+	<div class="row show-grid">
+		<div class="span4">Span 4</div>
+		<div class="span8">Span 8</div>
+	</div>
+</div>
 </div>
