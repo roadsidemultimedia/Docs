@@ -128,7 +128,7 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 ### Fluid Offset ###
 
-<div class="row">
+<div class="row-fluid">
 	<div class="span6 zmb">
 		<pre class="prettyprint linenums">
 			<div class="row">
@@ -138,7 +138,7 @@ The responsive grid system uses percents instead of pixels for column widths, en
 		</pre>
 	</div>
 	<div class="span6">
-		<div class="row show-grid">
+		<div class="row-fluid show-grid">
 			<div class="span6">
 			Span 6
 		</div>
