@@ -13,7 +13,7 @@
 		<a href="#fakelink" class="btn btn-large btn-success">Success Button</a>
 	</div>
 	<div class="span3">
-		<a href="#fakelink" class="btn btn-large btn-error">Important Button</a>
+		<a href="#fakelink" class="btn btn-large btn-danger">Important Button</a>
 	</div>
 </div>
 <p></p>
@@ -28,7 +28,7 @@
 		<a href="#fakelink" class="btn btn-large btn-inverse">Inverse Button</a>
 	</div>
 </div>
-
+<p></p>
 <div class="row-fluid">
 <div class="span4">
 There are 7 different color schemes to choose from, as well 3 sizes; mini, default and large.
