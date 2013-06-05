@@ -227,12 +227,13 @@ Below are currently all available icons.
       <li><i class="icon-zoom-out"></i> icon-zoom-out</li>
   	</ul>
   </div>
+</div>
 
 ### Text Icons ###
 
 <div class="row-fluid">
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-file"></i> icon-file</li>
 			<li><i class="icon-cut"></i> icon-cut</li>
 			<li><i class="icon-copy"></i> icon-copy</li>
@@ -244,7 +245,7 @@ Below are currently all available icons.
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-text-height"></i> icon-text-height</li>
 			<li><i class="icon-text-width"></i> icon-text-width</li>
 			<li><i class="icon-align-left"></i> icon-align-left</li>
@@ -256,7 +257,7 @@ Below are currently all available icons.
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-font"></i> icon-font</li>
 			<li><i class="icon-bold"></i> icon-bold</li>
 			<li><i class="icon-italic"></i> icon-italic</li>
@@ -268,7 +269,7 @@ Below are currently all available icons.
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-th-large"></i> icon-th-large</li>
 			<li><i class="icon-th"></i> icon-th</li>
 			<li><i class="icon-th-list"></i> icon-th-list</li>
@@ -284,7 +285,7 @@ Below are currently all available icons.
 
 <div class="row-fluid">
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-angle-left"></i> icon-arrow-left</li>
 			<li><i class="icon-angle-right"></i> icon-arrow-right</li>
 			<li><i class="icon-angle-up"></i> icon-arrow-up</li>
@@ -296,7 +297,7 @@ Below are currently all available icons.
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-caret-left"></i> icon-caret-left</li>
 			<li><i class="icon-caret-right"></i> icon-caret-right</li>
 			<li><i class="icon-caret-up"></i> icon-caret-up</li>
@@ -308,7 +309,7 @@ Below are currently all available icons.
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-chevron-sign-left"></i> icon-chevron-sign-left</li>
 			<li><i class="icon-chevron-sign-right"></i> icon-chevron-sign-right</li>
 			<li><i class="icon-chevron-sign-up"></i> icon-chevron-sign-up</li>
@@ -320,7 +321,7 @@ Below are currently all available icons.
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-double-angle-left"></i> icon-double-angle-left</li>
 			<li><i class="icon-double-angle-right"></i> icon-double-angle-right</li>
 			<li><i class="icon-double-angle-up"></i> icon-double-angle-up</li>
@@ -337,7 +338,7 @@ Below are currently all available icons.
 
 <div class="row-fluid">
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-play-circle"></i> icon-play-circle</li>
 			<li><i class="icon-play"></i> icon-play</li>
 			<li><i class="icon-pause"></i> icon-pause</li>
@@ -345,7 +346,7 @@ Below are currently all available icons.
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-step-backward"></i> icon-step-backward</li>
 			<li><i class="icon-fast-backward"></i> icon-fast-backward</li>
 			<li><i class="icon-backward"></i> icon-backward</li>
@@ -353,14 +354,14 @@ Below are currently all available icons.
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-fast-forward"></i> icon-fast-forward</li>
 			<li><i class="icon-step-forward"></i> icon-step-forward</li>
 			<li><i class="icon-eject"></i> icon-eject</li>
 		</ul>
 	</div>
 	<div class="span3">
-		<ul class="icons">
+		<ul class="the-icons">
 			<li><i class="icon-fullscreen"></i> icon-fullscreen</li>
 			<li><i class="icon-resize-full"></i> icon-resize-full</li>
 			<li><i class="icon-resize-small"></i> icon-resize-small</li>
