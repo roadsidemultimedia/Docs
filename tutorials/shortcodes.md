@@ -443,3 +443,66 @@ Some content here for the cool modal pop up. Labels, badges, and buttons can ope
 [/pl_modal]
 ~~~
 
+## Tooltips & Popovers ##
+
+### Tooltips ###
+
+<a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tooltip on top">Tooltips</a> are super useful for aiding a confused user and pointing them in the right direction.
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="span2 center"><code>tip=""</code></td>
+			<td>This is what's displayed inside the tip.</td>
+		</tr>
+		<tr>
+			<td class="span2 center"><code>position=""</code></td>
+			<td>Specifies the location of the tooltip. top,left,bottom,and right</td>
+		</tr>
+	</tbody>
+</table>
+
+~~~ .html
+This is a [pl_tooltip tip="Cool" position="right"]tooltip [/pl_tooltip] example.
+~~~
+
+### Popovers ###
+
+Use Popover to provide subtextual information to a page without affecting layout.
+
+<a href="#" class="btn" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="" data-original-title="Popover on top">Popover on top</a>
+<div class="popover fade top in" style="top: -58px; left: 58px; display: block;"><div class="arrow"></div><h3 class="popover-title">Popover on top</h3><div class="popover-content">Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</div></div>
+
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="span2 center"><code>position=""</code></td>
+			<td>Specifies the location of the popover. top,left,bottom,and right</td>
+		</tr>
+		<tr>
+			<td class="span2 center"><code>title=""</code></td>
+			<td>Specifies the title of the popover.</td>
+		</tr>
+		<tr>
+			<td class="center"><code>content=""</code></td>
+			<td>Specifies the content inside of the popover.</td>
+		</tr>
+	</tbody>
+</table>
+
+## Alerts ##
+
+
