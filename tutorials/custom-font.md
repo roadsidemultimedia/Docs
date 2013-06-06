@@ -21,7 +21,7 @@ Using your favourite FTP client, create a folder in `/wp-content/themes/[CHILD T
 
 Open the **stylesheet.css** file that comes included with the @font-face kit to see the custom fonts CSS.
 
-<pre>
+<pre class="prettyprint linenums">
 /* Add GoodDog Font */
 
 @font-face {
