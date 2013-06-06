@@ -59,3 +59,49 @@ There are 7 different color schemes to choose from, as well 3 sizes; mini, defau
 		</table>
 	</div>
 </div>
+
+<table class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th>Button</th><th>Description</th>
+			<th>Shortcode</th>
+		</tr>
+    </thead>
+	<tbody>
+		<tr>
+			<td><button type="button" class="btn">Default</button></td>
+			<td>Standard gray button with gradient</td>
+			<td><code>[pl_button type="btn" link="" target="blank"]Default[/pl_button]</code></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="btn btn-primary">Primary</button></td>
+			<td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
+			<td><code>[pl_button type="primary" link="" target="blank"]Primary[/pl_button]</code></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="btn btn-info">Info</button></td>
+			<td>Used as an alternative to the default styles</td>
+			<td><code>[pl_button type="info" link="" target="blank"]Info[/pl_button]</code></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="btn btn-success">Success</button></td>
+			<td>Indicates a successful or positive action</td>
+			<td><code>[pl_button type="success" link="" target="blank"]Success[/pl_button]</code></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="btn btn-warning">Warning</button></td>
+			<td>Indicates caution should be taken with this action</td>
+			<td><code>[pl_button type="warning" link="" target="blank"]Warning[/pl_button]</code></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="btn btn-important">Important</button></td>
+			<td>Indicates a dangerous or potentially negative action</td>
+			<td><code>[pl_button type="important" link="" target="blank"]Important[/pl_button]</code></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="btn btn-inverse">Inverse</button></td>
+			<td>Alternate dark gray button, not tied to a semantic action or use</td>
+			<td><code>[pl_button type="inverse" link="" target="blank"]Inverse[/pl_button]</code></td>
+		</tr>
+	</tbody>
+</table>
