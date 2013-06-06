@@ -66,8 +66,10 @@ Copy and paste the CSS into the **Custom &rarr; Custom LESS/CSS** in the PageLin
 To start using your custom font, you first need to tell your stylesheets to use them. Look at the original @font-face declaration above and find the property called **font-family.** The name linked there will be what you use to reference the custom font. Prepend that webfont name to the font stack in the "font-family" property, inside the selector you want to change. For example:
 
 ~~~ .css
-h1 { font-family: 'gooddogregular', Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'gooddogregular', Arial, sans-serif; }
 ~~~
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-font-code2.jpg)
 
 ## Troubleshooting ##
 
