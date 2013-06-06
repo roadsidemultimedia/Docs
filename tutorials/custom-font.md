@@ -87,5 +87,5 @@ The primary reason for this failure? You are still using a version Firefox older
 Are you looking at Internet Explorer on an actual Windows machine or are you cheating by using a service like Adobe BrowserLab? Many of these screenshot services do not render @font-face for IE. Best to test it on a real machine.
 
 ### Fonts not loading in IE9 ###
-IE9, like Firefox, requires that fonts be served from the same domain as the website. Make sure that is the case.
+IE9, like Firefox, requires that fonts be served from the same domain as the website. Make sure that is the case, you can do this by following the instructions in **Step 1.**
 
