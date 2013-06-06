@@ -115,20 +115,21 @@
 
 <p>Open the <strong>stylesheet.css</strong> file that comes included with the @font-face kit to see the custom fonts CSS.</p>
 
-<pre><code class="css">/* Add GoodDog Font */
+<pre class="prettprint">
+/* Add GoodDog Font */
 
 @font-face {
-    font-family: &#39;gooddogregular&#39;;
-    src: url(&#39;gooddog-webfont.eot&#39;);
-    src: url(&#39;gooddog-webfont.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;),
-         url(&#39;gooddog-webfont.woff&#39;) format(&#39;woff&#39;),
-         url(&#39;gooddog-webfont.ttf&#39;) format(&#39;truetype&#39;),
-         url(&#39;gooddog-webfont.svg#gooddogregular&#39;) format(&#39;svg&#39;);
+    font-family: 'gooddogregular';
+    src: url('gooddog-webfont.eot');
+    src: url('gooddog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gooddog-webfont.woff') format('woff'),
+         url('gooddog-webfont.ttf') format('truetype'),
+         url('gooddog-webfont.svg#gooddogregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-</code></pre>
+</pre>
 
 <p>In the Custom Fonts CSS, you will now need to tell the CSS where the font files are. In <strong>Step.1</strong>, we uploaded these files to <code>/wp-content/themes/[CHILD THEME]/fonts/</code>. We now need to include this path for the font to work, to make things easier we can use one the PageLines LESS CSS path variables <code>@{plChildRoot}</code> and add <code>/fonts/</code> at the end.</p>
 
