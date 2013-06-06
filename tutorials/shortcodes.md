@@ -112,7 +112,7 @@ There are 7 different color schemes to choose from, as well 3 sizes; mini, defau
 
 The Dropdown button shortcode supports both `size=""` for button size and `type=""` for color control like the Standard Button shortcode.
 
-<div class="row">
+<div class="row-fluid">
 	<div class="span3">
 		<div class="btn-group"><button class="btn btn-large btn-important dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
 			<ul class="dropdown-menu">
@@ -177,8 +177,7 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 </table>
 
 ~~~ .html
-[pl_buttondropdown size="large"
-type="info" label="button"]
+[pl_buttondropdown size="large" type="info" label="button"]
 <ul>
   <li><a href="#">This</a></li>
   <li><a href="#">This</a></li>
@@ -189,48 +188,40 @@ type="info" label="button"]
 
 ### Split Button Dropdown ###
 
-<div class="row">
+<div class="row-fluid">
 	<div class="span3">
 		<div class="btn-group"><a class="btn btn-large btn-important">button</a><a class="btn btn-large btn-important dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<ul>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-				</ul>
+				<li><a href="#">This</a></li>
+				<li><a href="#">This</a></li>
+				<li><a href="#">This</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="span3">
 		<div class="btn-group"><a class="btn btn-large btn-primary">button</a><a class="btn btn-large btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<ul>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-				</ul>
+  				<li><a href="#">This</a></li>
+  				<li><a href="#">This</a></li>
+  				<li><a href="#">This</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="span3">
 		<div class="btn-group"><a class="btn btn-large btn-success">button</a><a class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<ul>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-				</ul>
+				<li><a href="#">This</a></li>
+				<li><a href="#">This</a></li>
+				<li><a href="#">This</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="span3">
 		<div class="btn-group"><a class="btn btn-large btn-warning">button</a><a class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<ul>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-				</ul>
+				<li><a href="#">This</a></li>
+				<li><a href="#">This</a></li>
+  				<li><a href="#">This</a></li>
 			</ul>
 		</div>
 	</div>
@@ -254,8 +245,7 @@ type="info" label="button"]
 </table>
 
 ~~~ .html
-[pl_splitbuttondropdown size="large"
-type="success" label="button"]
+[pl_splitbuttondropdown size="large" type="success" label="button"]
 <ul>
 	<li><a href="#">This</a></li>
 	<li><a href="#">This</a></li>
@@ -266,7 +256,7 @@ type="success" label="button"]
 
 ### Button Groups ###
 
-<div class="row">
+<div class="row-fluid">
 	<div class="span3">
 		<div class="btn-group">
 			<a class="btn btn-important" href="#">Link</a>
@@ -305,7 +295,7 @@ type="success" label="button"]
 [/pl_buttongroup]
 ~~~
 
-**Note:** You can specify the same attrbutes as the button above, but placed into the markup instead of the shortcode.
+**Note:** You can specify the same attrbutes as the buttons above, but placed into the markup instead of the shortcode.
 
 ## Labels & Badges ##
 
@@ -322,32 +312,32 @@ type="success" label="button"]
 	<tbody>
 		<tr>
 			<td class="center span3"><span class="label label-default">Default</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_label type="default"]</span></span></span><span class="pln"><span class="pln">Default</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_label]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_label type="default"]Default[/pl_label]`</td>
 			<td class="span3">Available attributes include default, success, warning, important, info, and inverse</td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-success">Success</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_label type="success"]</span></span></span><span class="pln"><span class="pln">Success</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_label]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_label type="success"]Success[/pl_label]`</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-warning">Warning</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_label type="warning"]</span></span></span><span class="pln"><span class="pln">Warning</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_label]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_label type="warning"]Warning[/pl_label]`</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-important">Important</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_label type="important"]</span></span></span><span class="pln"><span class="pln">Important</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_label]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_label type="important"]Important[/pl_label]`</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-info">Info</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_label type="info"]</span></span></span><span class="pln"><span class="pln">Info</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_label]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_label type="info"]Info[/pl_label]`</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-inverse">Inverse</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_label type="inverse"]</span></span></span><span class="pln"><span class="pln">Inverse</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_label]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_label type="inverse"]Inverse[/pl_label]`</td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -366,33 +356,106 @@ type="success" label="button"]
 	<tbody>
 		<tr>
 			<td class="center span3"><span class="badge badge-default">Default</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_badge type="default"]</span></span></span><span class="pln"><span class="pln">Default</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_badge]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_badge type="default"]Default[/pl_badge]`</td>
 			<td class="span3">Available attributes include default, success, warning, important, info, and inverse</td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-success">Success</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_badge type="success"]</span></span></span><span class="pln"><span class="pln">Success</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_badge]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_badge type="success"]Success[/pl_badge]`</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-warning">Warning</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_badge type="warning"]</span></span></span><span class="pln"><span class="pln">Warning</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_badge]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_badge type="warning"]Warning[/pl_badge]`</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-important">Important</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_badge type="important"]</span></span></span><span class="pln"><span class="pln">Important</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_badge]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_badge type="important"]Important[/pl_badge]`</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-info">Info</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_badge type="info"]</span></span></span><span class="pln"><span class="pln">Info</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_badge]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_badge type="info"]Info[/pl_badge]`</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-inverse">Inverse</span></td>
-			<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pl_badge type="inverse"]</span></span></span><span class="pln"><span class="pln">Inverse</span></span><span class="sc_code"><span class="pln"><span class="pln">[/pl_badge]</span></span></span></li></ol></li></ol></pre></td>
+			<td>`[pl_badge type="inverse"]Inverse[/pl_badge]`</td>
 			<td></td>
 		</tr>
 	</tbody>
 </table>
+
+## Modals ##
+
+Modals are great for situations where it’s important that the background context be maintained.
+The Modal contains a title, content, along with a set of actions in the footer and can be used with Buttons, Labels and Badges.
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h3 id="myModalLabel">Modal Heading</h3>
+            </div>
+            <div class="modal-body">
+              <h4>Text in a modal</h4>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem.</p>
+
+              <h4>Popover in a modal</h4>
+              <p>This <a href="#" role="button" class="btn popover-test" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">button</a> should trigger a popover on click.</p>
+
+              <h4>Tooltips in a modal</h4>
+              <p><a href="#" class="tooltip-test" title="" data-original-title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="" data-original-title="Tooltip">that link</a> should have tooltips on hover.</p>
+
+              <hr>
+
+              <h4>Overflowing text to show optional scrollbar</h4>
+              <p>We set a fixed <code>max-height</code> on the <code>.modal-body</code>. Watch it overflow with all this extra lorem ipsum text we've included.</p>
+              <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+              <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+              <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+              <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal">Close</button>
+              <button class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+
+    <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-large">Launch demo modal</a>
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="span3 center"><code>title=""</code></td>
+			<td>Serves as the title of the modal window</td>
+		</tr>
+		<tr>
+			<td class="center"><code>type=""</code></td>
+			<td>The type of element that triggers the modal. Available types include: btn, label, badge.</td>
+		</tr>
+		<tr>
+			<td class="center"><code>colortype=""</code></td>
+			<td>Available color types include: info, success, warning, important, and inverse.</td>
+		</tr>
+		<tr>
+			<td class="center"><code>label=""</code></td>
+			<td>Serves as the label for the element that opens the modal popup</td>
+		</tr>
+	</tbody>
+</table>
+
+~~~ .html
+[pl_modal title="Title" type="btn" colortype="info" label="Click Me!"]
+Some content here for the cool modal pop up. Labels, badges, and buttons can open them!
+[/pl_modal]
+~~~
+
