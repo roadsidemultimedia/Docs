@@ -66,7 +66,8 @@ For emphasizing a snippet of text with stress
 <div class="docs-example">
 <p>
 The following snippet of text is <em>rendered as italicized text.</em>
-</p></div>
+</p>
+</div>
 ~~~ .html
 <em>rendered as italicized text</em>
 ~~~
@@ -78,7 +79,7 @@ Display meaning through color with a handful of emphasis utility classes.
 <div class="docs-example">
 <p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
 <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
-<p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+<p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
 <p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
 <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
 </div>
