@@ -6,21 +6,21 @@ PageLines DMS typography is based on the powerful Bootstrap providing styling fo
 
 All HTML headings, `<h1>` through `<h6>` are available.
 
-# h1. PageLines Framework #
+# h1. PageLines DMS #
 
-## h2. PageLines Framework ##
+## h2. PageLines DMS ##
 
-### h3. PageLines Framework ###
+### h3. PageLines DMS ###
 
-#### h4. PageLines Framework ####
+#### h4. PageLines DMS ####
 
-##### h5. PageLines Framework #####
+##### h5. PageLines DMS #####
 
-###### H6. PAGELINES FRAMEWORK ######
+###### H6. PAGELINES DMS ######
 
 ## Body ##
 
-PageLines Framework’s global default `font-size` is 14px, with a `line-height` of 1.55em. This is applied to the <body> and all paragraphs. In addition, `<p>` (paragraphs) receive a top/bottom margin of 1.55em.
+PageLines DMS’s global default `font-size` is 14px, with a `line-height` of 1.55em. This is applied to the <body> and all paragraphs. In addition, `<p>` (paragraphs) receive a top/bottom margin of 1.55em.
 
 <div class="docs-example">
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies dolor nec ante scelerisque consequat. Ut aliquet semper ipsum, a vehicula leo varius facilisis. Praesent lobortis consectetur venenatis.</p>
