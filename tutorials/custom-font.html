@@ -115,7 +115,7 @@
 
 <p>Open the <strong>stylesheet.css</strong> file that comes included with the @font-face kit to see the custom fonts CSS.</p>
 
-<pre class="prettyprint linenums">
+<pre class="lang-css">
 /* Add GoodDog Font */
 
 @font-face {
@@ -210,10 +210,10 @@
 		$(function() {
             $("section h1").wrap('<div class="page-header" />');
             $("section p:first-child").addClass('lead');
-            $("pre").addClass('prettyprint');
+            $("pre").addClass('prettyprint linenums');
             
-	//	if( $.isFunction( prettyPrint() ) )
-				//prettyPrint()
+		if( $.isFunction( prettyPrint() ) )
+			prettyPrint()
 				
 		});
 	</script>
