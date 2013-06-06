@@ -508,4 +508,159 @@ Use Popover to provide subtextual information to a page without affecting layout
 
 ## Alerts ##
 
+Wrap any text and an optional dismiss button for a basic alert message, which supports multiple color schemes.
 
+<div class="docs-example">
+	<div class="row-fluid">
+		<div class="span6">
+			<div class="alert alert-warning alert-block">This is a Warning.</div>
+		</div>
+		<div class="span6">
+			<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#">×</a>This is a Success, using the <code>.closable="yes"</code> attribute.</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span6 zmb">
+			<div class="alert alert-info alert-block">This is useful Info.</div>
+		</div>
+		<div class="span6 zmb">
+			<div class="alert alert-important"><a class="close" data-dismiss="alert" href="#">×</a>This is Important using the <code>.closable="yes"</code> attribute.</div>
+		</div>
+	</div>
+</div>
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="span2"><code>type=""</code></td>
+			<td>Specifies the color. Available types include: info,</td>
+		</tr>
+		<tr>
+			<td><code>closable="yes"</code></td>
+			<td>Displays an "X" which makes alert disappear when clicked.</td>
+		</tr>
+	</tbody>
+</table>
+
+~~~ .html
+[pl_alertbox type="info"]
+This is an error.
+[/pl_alertbox]
+~~~
+
+### Alert Headings ###
+
+<div class="docs-example zmt">
+	<div class="alert alert-important alert-block">
+		<h2 class="alert-heading">Alert Heading</h2>
+		<p>This is Important.</p>
+	</div>
+</div>
+
+~~~ .html
+[pl_alertbox type="info"]
+	<h2 class="alert-heading">Alert Heading</h2>
+	This is an error.
+[/pl_alertbox]
+~~~
+
+## Quotes ##
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+</blockquote>
+
+~~~ .html
+[pl_blockquote cite="Someone Famous"]
+	This is a quote with a source
+[/pl_blockquote]
+~~~
+
+### Pull Right ###
+
+~~~ .html
+[pl_blockquote pull="right" cite="Someone Famous"]
+	This is a quote with a source
+[/pl_blockquote]
+~~~
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="span3 center"><code>pull=""</code></td>
+			<td>Specifies blockquote position. Default is left, and the only other available attribute includes: right</td>
+		</tr>
+		<tr>
+			<td class="center"><code>cite=""</code></td>
+			<td>Serves as the source of the quote</td>
+		</tr>
+	</tbody>
+</table>
+
+## Tabs ##
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="span3 center"><code>type=""</code></td>
+			<td>Specifies...</td>
+		</tr>
+		<tr>
+			<td class="center"><code>pl_tabtitle active=""</code></td>
+			<td>Specifies the active title tab</td>
+		</tr>
+		<tr>
+			<td class="center"><code>pl_tabtitle number=""</code></td>
+			<td>Specifies the position of the title tab</td>
+		</tr>
+		<tr>
+			<td class="center"><code>pl_tabcontent active=""</code></td>
+			<td>Specifies the active content tab</td>
+		</tr>
+		<tr>
+			<td class="center"><code>pl_tabcontent number=""</code></td>
+			<td>Specifies the position of the content tab</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="docs-example zmt">
+<div class="tabs">		    		<script>
+			    		jQuery(function(){
+							 jQuery('a[data-toggle="tab"]').on('shown', function (e) {
+							  e.target // activated tab
+							  e.relatedTarget // previous tab
+							})
+						});
+		    		</script><ul class="nav nav-tabs">
+<li class="active"><a href="#1" data-toggle="tab">Title 1</a></li>
+<li class=""><a href="#2" data-toggle="tab">Title 2</a></li>
+</ul>
+
+<div class="tab-content">
+<div class="tab-pane active" id="1"><p></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+<p></p></div>
+<div class="tab-pane" id="2"><p></p><p><img class="pl-imageframe tac colorbox-1607" alt="" src="http://netdna.pagelines.me/wp-content/themes/pagelines/sections/features/images/feature3.jpg" data-lazy-loaded="true" style="display: inline;"></p>
+<p></p></div>
+</div>
+ 
+</div>
+</div>
