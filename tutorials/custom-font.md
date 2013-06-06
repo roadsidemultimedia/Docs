@@ -10,14 +10,12 @@ In this example, we will explain how you can add the custom free font [GoodDog](
 
 GoodDog is a free font that you can download at [Font Squirrel](http://www.fontsquirrel.com/). Make sure you've downloaded the @font-face Kit using their [webfont generator](http://www.fontsquirrel.com/tools/webfont-generator).
 
-Unzip the package, and move the following files to `/wp-content/themes/[CHILD THEME]/fonts/`:
+Using your favourite FTP client, create a folder in `/wp-content/themes/[CHILD THEME]/` and name it **fonts**. Then unzip the webfont package, and upload the following files to **fonts** folder:
 
 * gooddog-webfont.eot
 * gooddog-webfont.svg
 * gooddog-webfont.ttf
 * gooddog-webfont.woff
-
-**Note:** The **Fonts** folder will need to be created, as no such folder is included with the base child theme.
 
 ### Step 2: Adding the Necessary CSS ###
 
@@ -59,7 +57,7 @@ Once completed your final code should look like this:
 }
 ~~~
 
-Copy and paste the CSS into the **Custom &rarrl Custom LESS/CSS** in the PageLines Toolbar.
+Copy and paste the CSS into the **Custom &rarr; Custom LESS/CSS** in the PageLines Toolbar.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-font-code.jpg)
 
