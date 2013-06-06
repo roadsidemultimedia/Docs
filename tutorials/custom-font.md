@@ -39,7 +39,7 @@ Open the **stylesheet.css** file that comes included with the @font-face kit to 
 }
 ~~~
 
-In the Custom Fonts CSS, you will now need to tell the CSS where the font files are. In **Step.1**, we uploaded these files to `/wp-content/themes/[CHILD THEME]/fonts/`. We now need to include the this path, to make things easier, we can use one the PageLines LESS CSS path variables `@{plChildRoot}` and add `/fonts/` to the end.
+In the Custom Fonts CSS, you will now need to tell the CSS where the font files are. In **Step.1**, we uploaded these files to `/wp-content/themes/[CHILD THEME]/fonts/`. We now need to include this path for the font to work, to make things easier we can use one the PageLines LESS CSS path variables `@{plChildRoot}` and add `/fonts/` at the end.
 
 Once completed your final code should look like this:
 
@@ -59,7 +59,7 @@ Once completed your final code should look like this:
 }
 ~~~
 
-Copy and paste the CSS into the **Custom** tab in the PageLines Toolbar.
+Copy and paste the CSS into the **Custom &rarrl Custom LESS/CSS** in the PageLines Toolbar.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-font-code.jpg)
 
