@@ -21,8 +21,7 @@ Using your favourite FTP client, create a folder in `/wp-content/themes/[CHILD T
 
 Open the **stylesheet.css** file that comes included with the @font-face kit to see the custom fonts CSS.
 
-<pre><code>
-/* Add GoodDog Font */
+<pre><code>/* Add GoodDog Font */
 
 @font-face {
     font-family: 'gooddogregular';
@@ -41,8 +40,7 @@ In the Custom Fonts CSS, you will now need to tell the CSS where the font files 
 
 Once completed your final code should look like this:
 
-<pre><code>
-/* Add GoodDog Font */
+<pre><code>/* Add GoodDog Font */
 
 @font-face {
     font-family: 'gooddogregular';
@@ -65,8 +63,7 @@ Copy and paste the CSS into the **Custom &rarr; Custom LESS/CSS** in the PageLin
 
 To start using your custom font, you first need to tell your stylesheets to use them. Look at the original @font-face declaration above and find the property called **font-family.** The name linked there will be what you use to reference the custom font. Prepend that webfont name to the font stack in the "font-family" property, inside the selector you want to change. For example:
 
-<pre><code>
-h1, h2, h3, h4, h5, h6 { 
+<pre><code>h1, h2, h3, h4, h5, h6 { 
     font-family: 'gooddogregular', Arial, sans-serif;
 }
 </code></pre>
