@@ -62,7 +62,7 @@
 
 		    var a = false;
 
-		    $("pre").parent().each(function() 
+		    $("pre code").parent().each(function() 
 		    {
 		        if (!$(this).hasClass("prettyprint")) 
 		        {
