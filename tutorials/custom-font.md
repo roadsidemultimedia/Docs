@@ -21,7 +21,7 @@ Using your favourite FTP client, create a folder in `/wp-content/themes/[CHILD T
 
 Open the **stylesheet.css** file that comes included with the @font-face kit to see the custom fonts CSS.
 
-<pre>
+<pre><code>
 /* Add GoodDog Font */
 
 @font-face {
@@ -35,13 +35,13 @@ Open the **stylesheet.css** file that comes included with the @font-face kit to 
     font-style: normal;
 
 }
-</pre>
+</code></pre>
 
 In the Custom Fonts CSS, you will now need to tell the CSS where the font files are. In **Step.1**, we uploaded these files to `/wp-content/themes/[CHILD THEME]/fonts/`. We now need to include this path for the font to work, to make things easier we can use one the PageLines LESS CSS path variables `@{plChildRoot}` and add `/fonts/` at the end.
 
 Once completed your final code should look like this:
 
-<pre class="lang-css">
+<pre><code>
 /* Add GoodDog Font */
 
 @font-face {
@@ -55,7 +55,7 @@ Once completed your final code should look like this:
     font-style: normal;
 
 }
-</pre>
+</code></pre>
 
 Copy and paste the CSS into the **Custom &rarr; Custom LESS/CSS** in the PageLines Toolbar.
 
@@ -65,11 +65,11 @@ Copy and paste the CSS into the **Custom &rarr; Custom LESS/CSS** in the PageLin
 
 To start using your custom font, you first need to tell your stylesheets to use them. Look at the original @font-face declaration above and find the property called **font-family.** The name linked there will be what you use to reference the custom font. Prepend that webfont name to the font stack in the "font-family" property, inside the selector you want to change. For example:
 
-<pre class="lang-css">
+<pre><code>
 h1, h2, h3, h4, h5, h6 { 
     font-family: 'gooddogregular', Arial, sans-serif;
 }
-</pre>
+</code></pre>
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-font-code2.jpg)
 
