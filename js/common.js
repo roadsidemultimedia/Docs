@@ -4,6 +4,7 @@
 	$(document).ready(function() {
 	
 		$.plNavigation.init()
+		$.plCodeStyle.init()
 		
 	})
 	
@@ -47,6 +48,27 @@
 			
 		}
 		
+	}
+	$.plCodeStyle = {
+		
+		init: function(){
+			this:StyleCode()
+		}
+		, StyleCode: function() {
+
+		    var a = false;
+
+		    $("pre code").parent().each(function() 
+		    {
+		        if (!$(this).hasClass("prettyprint")) 
+		        {
+		            $(this).addClass("prettyprint");
+		            a = true
+		        }
+		    });
+
+		    if (a) { prettyPrint() }
+		}
 	}
 	
 }(window.jQuery);
