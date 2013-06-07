@@ -18,9 +18,13 @@
 		init: function(){
 			
 			this.navDetection()
+			this.header()
 			
 		}
-		
+		, header: fuction(){
+			$("section h1").wrap('<div class="page-header" />')
+			$("section p:first-child").addClass('lead')
+		}
 		, navDetection: function(){
 			
 			var url = window.location;
