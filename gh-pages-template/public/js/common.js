@@ -62,11 +62,11 @@
 
 		    var a = false;
 
-		    $("pre code").parent().each(function() 
+		    $("pre").parent().each(function() 
 		    {
 		        if (!$(this).hasClass("prettyprint")) 
 		        {
-		            $(this).addClass("prettyprint");
+		            $(this).addClass("prettyprint linenums");
 		            a = true
 		        }
 		    });

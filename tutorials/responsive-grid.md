@@ -76,21 +76,21 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 ### Basic Example ###
 
-<pre><code>
+<pre>
 	&lt;div class=&quot;row&quot;&gt;
 		&lt;div class=&quot;span4&quot;&gt;4&lt;/div&gt;
 		&lt;div class=&quot;span8&quot;&gt;8&lt;/div&gt;
 	&lt;/div&gt;
-</code></pre>
+</pre>
 
 <div class="row-fluid">
 	<div class="span6">
-		<pre><code>
+		<pre>
 			<div class="row">
     			<div class="span4">4</div>
     			<div class="span8">8</div>
 			</div>
-		</code></pre>
+		</pre>
 	</div>
 <div class="span6">
 	<div class="row-fluid show-grid">
@@ -104,7 +104,7 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 <div class="row-fluid">
 	<div class="span6 zmb">
-		<pre><code>
+		<pre>
 			<div class="row">
   				<div class="span4"></div>
   				<div class="span8">
@@ -114,7 +114,7 @@ The responsive grid system uses percents instead of pixels for column widths, en
 					</div>
   				</div>
 			</div>
-		</code></pre>
+		</pre>
 	</div>
 	<div class="span6">
 		<div class="row-fluid show-grid">
@@ -136,12 +136,12 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 <div class="row-fluid">
 	<div class="span6 zmb">
-		<pre><code>
+		<pre>
 			<div class="row">
     			<div class="span6"></div>
     			<div class="span6 offset6"></div>
 			</div>
-		</code></pre>
+		</pre>
 	</div>
 	<div class="span6">
 		<div class="row-fluid show-grid">
