@@ -21,7 +21,7 @@
 			this.header()
 			
 		}
-		, header: fuction(){
+		, header: function(){
 			$("section h1").wrap('<div class="page-header" />')
 			$("section p:first-child").addClass('lead')
 		}
