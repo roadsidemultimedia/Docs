@@ -52,7 +52,7 @@
 	$.plCodeStyle = {
 		
 		init: function(){
-			this:StyleCode()
+			this.StyleCode()
 		}
 		, StyleCode: function() {
 
