@@ -219,13 +219,6 @@ font-size: 2em;
 border-bottom: 1px solid #EEE;
 }
 
-ul, ol {
-padding-left: 30px;
-}
-p, blockquote, ul, ol, dl, table, pre {
-margin: 15px 0;
-}
-
 strong{
 	font-weight: 600;
 }
