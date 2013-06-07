@@ -135,20 +135,21 @@
 
 <p>Once completed your final code should look like this:</p>
 
-<pre><code class="css">/* Add GoodDog Font */
+<pre class="lang-css">
+/* Add GoodDog Font */
 
 @font-face {
-    font-family: &#39;gooddogregular&#39;;
-    src: url(&#39;@{plChildRoot}/fonts/gooddog-webfont.eot&#39;);
-    src: url(&#39;@{plChildRoot}/fonts/gooddog-webfont.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;),
-         url(&#39;@{plChildRoot}/fonts/gooddog-webfont.woff&#39;) format(&#39;woff&#39;),
-         url(&#39;@{plChildRoot}/fonts/gooddog-webfont.ttf&#39;) format(&#39;truetype&#39;),
-         url(&#39;@{plChildRoot}/fonts/gooddog-webfont.svg#gooddogregular&#39;) format(&#39;svg&#39;);
+    font-family: 'gooddogregular';
+    src: url('@{plChildRoot}/fonts/gooddog-webfont.eot');
+    src: url('@{plChildRoot}/fonts/gooddog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{plChildRoot}/fonts/gooddog-webfont.woff') format('woff'),
+         url('@{plChildRoot}/fonts/gooddog-webfont.ttf') format('truetype'),
+         url('@{plChildRoot}/fonts/gooddog-webfont.svg#gooddogregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-</code></pre>
+</pre>
 
 <p>Copy and paste the CSS into the <strong>Custom &rarr; Custom LESS/CSS</strong> in the PageLines Toolbar.</p>
 
@@ -158,8 +159,11 @@
 
 <p>To start using your custom font, you first need to tell your stylesheets to use them. Look at the original @font-face declaration above and find the property called <strong>font-family.</strong> The name linked there will be what you use to reference the custom font. Prepend that webfont name to the font stack in the &quot;font-family&quot; property, inside the selector you want to change. For example:</p>
 
-<pre><code class="css">h1, h2, h3, h4, h5, h6 { font-family: &#39;gooddogregular&#39;, Arial, sans-serif; }
-</code></pre>
+<pre class="lang-css">
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'gooddogregular', Arial, sans-serif;
+}
+</pre>
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-font-code2.jpg" alt=""></p>
 
