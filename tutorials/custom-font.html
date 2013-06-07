@@ -115,7 +115,7 @@
 
 <p>Open the <strong>stylesheet.css</strong> file that comes included with the @font-face kit to see the custom fonts CSS.</p>
 
-<pre class="lang-css">
+<pre><code>
 /* Add GoodDog Font */
 
 @font-face {
@@ -129,11 +129,11 @@
     font-style: normal;
 
 }
-</pre>
+</code></pre>
 
-<p>In the Custom Fonts CSS, you will now need to tell the CSS where the font files are. In <strong>Step.1</strong>, we uploaded these files to <code>/wp-content/themes/[CHILD THEME]/fonts/</code>. We now need to include this path for the font to work, to make things easier we can use one the PageLines LESS CSS path variables <code>@{plChildRoot}</code> and add <code>/fonts/</code> at the end.</p>
+In the Custom Fonts CSS, you will now need to tell the CSS where the font files are. In **Step.1**, we uploaded these files to `/wp-content/themes/[CHILD THEME]/fonts/`. We now need to include this path for the font to work, to make things easier we can use one the PageLines LESS CSS path variables `@{plChildRoot}` and add `/fonts/` at the end.
 
-<p>Once completed your final code should look like this:</p>
+Once completed your final code should look like this:
 
 <pre class="lang-css">
 /* Add GoodDog Font */
