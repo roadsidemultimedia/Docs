@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row-fluid">
 	<div class="span12">
 		<div class="alert alert-block alert-info">
 			<h1>Welcome!</h1>
