@@ -60,8 +60,6 @@ One of the many benefits of working with a child theme is that the child themes 
 			<td class="center"><i class="icon-remove text-error"></i></td>
 			<td class="center"><i class="icon-ok text-success"></i></td>
 		</tr>
-		<tr>
-        </tr>
 	</tbody>
 </table>
 
