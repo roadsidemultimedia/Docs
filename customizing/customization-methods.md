@@ -6,17 +6,17 @@ That is why we give you the ability to add customization. If you have even limit
 
 ## Methods ##
 
-There are three methods for customising your website, these are using the DMS toolbar, a child theme or the customization plugin. Each methods has pros and cons, which we'll go through below.
+There are three methods for customising your website, these are using the **DMS toolbar &rarr; Customize options** , the **base child theme** or the **customize plugin**. Each method has pros and cons, which we'll go through below.
 
 ### DMS ###
 
-PageLines DMS has two customization options built-in allowing you to add custom LESS/CSS and scripts. If you wish to add a few custom scripts or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
+PageLines DMS has two customization options built-in allowing you to add custom LESS/CSS and scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
 
-<p><small><span class="label label-info" style="margin-right: 5px;">Note:</span> You’re unable to customize DMS further with hooks, as this would require editing the core `function.php` file (something we do not recommend or support), any edits made to this file will most certainly break PageLines DMS.</small></p>
+<p><small><span class="label label-info" style="margin-right: 5px;">Note:</span> You’re unable to customize DMS further with hooks, as this would require editing the core `function.php` file (something we do not recommend or support), any edits made to this file will most certainly break PageLines DMS. If you wish to use hooks, we recommend using either the customize plugin or the base child theme.</small></p>
 
 ### Customization Plugin ###
 
-The Customization plugin contains both a `style.css` and a `functions.php` file like the child theme, it also supports `style.less`. However, the plugin doesn’t support the creation of child sections.
+The Customization plugin contains both `style.css` and `functions.php` files like a child theme, it also supports `style.less`. However, the plugin doesn’t support the creation of child sections.
 
 The advantage of the Customize Plugin is that you can update the core files and a 3rd party child theme and still keep your customizations.
 
@@ -65,4 +65,4 @@ One of the many benefits of working with a child theme is that the child themes 
 	</tbody>
 </table>
 
-<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">Note:</span> In order to use LESS CSS on both the Customization plugin and Child theme, you will need to create a `style.less` file. We have provided you with a sample style.less file below which you can download.</small></p>
+<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">Note:</span> In order to use LESS CSS on both the Customization plugin and Child theme, you will need to create a `style.less` file. We have provided you with a sample `style.less` file which you can download from our [LESS doc](/less).</small></p>
