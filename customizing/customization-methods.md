@@ -89,5 +89,5 @@ We have provided an example `style.less` file, which can be added to your prefer
 
 * Once the **Base Child theme** has been installed/activated, open your favourite FTP client
 * Connect to your server and navigate to the following directory:
-	+ **wp-content &rarr; themes &rarr; child theme folder (by default is named **pagelines-template-theme** )
+	+ **wp-content &rarr; themes &rarr; child theme folder** (by default is named **pagelines-template-theme** )
 * Upload the `style.less` file here
