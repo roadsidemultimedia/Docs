@@ -12,6 +12,8 @@ There are three methods for adding customization to your website, these are usin
 
 PageLines DMS has two customization options built-in allowing you to add custom LESS/CSS and scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dms-customize-editor.jpg)
+
 However, you’re unable to customize further with hooks, as this would require editing the core `function.php` file (something we do not recommend or support), any edits made to this file will most certainly break PageLines DMS. If you wish to use hooks, either the **customize plugin** or the **base child theme** method is required.
 
 ### Customize Plugin ###
@@ -83,11 +85,11 @@ We have provided an example `style.less` file, which can be added to your prefer
 * Once the **Customize Plugin** has been installed/activated, open your favourite FTP client
 * Connect to your server and navigate to the following directory:
 	+ **wp-content &rarr; plugins &rarr; pagelines-customize**
-* Upload the `style.less` file here
+* Upload the `style.less` file to this directory
 
 #### Child Theme ####
 
 * Once the **Base Child theme** has been installed/activated, open your favourite FTP client
 * Connect to your server and navigate to the following directory:
 	+ **wp-content &rarr; themes &rarr; child theme folder** (by default is named **pagelines-template-theme** )
-* Upload the `style.less` file here
+* Upload the `style.less` file to this directory
