@@ -1,16 +1,16 @@
 # Customization Methods #
 
-PageLines has made available some of the easiest theme options for creating your site. It would be easy to add options for every little detail, but when trying to customize colors, layouts, text and size -- options aren’t always the best solution. Literally, you could have twenty options just to control one small block of text; so adding options for everything leads to an overly-complicated product.
-
-That is why we give you the ability to add customization. If you have even limited knowledge of CSS, you can easily customize your site well beyond what’s available in the PageLines options. This allows you to create complex customizations with minimal work.
+In order to customize colors, layouts, text and size -- settings options aren't always the best solution.  Customization on an individual basis for your site may work best.  Here are some of your options to achieve the site you want most.
 
 ## Methods ##
 
-There are three methods for adding customization to your website, these are using the **DMS toolbar &rarr; Customize options** , the **Base Child theme** and the **PageLines Customize plugin**. Each method has pros and cons, which we'll go through below.
+There are three principle methods for adding customization to your website, these are: the DMS **toolbar → Customize options**; the **Base Child theme**, and, the **PageLines Customize plugin**. Each method has pros and cons, which we'll go through below.
 
 ### DMS ###
 
-PageLines DMS has two customization options built-in allowing you to add custom LESS/CSS and scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
+PageLines DMS has two built-in options for customization, allowing you to add custom LESS/CSS, and some scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
+
+However, you’re unable to customize by this method with **hooks**, as this would require editing the core `function.php` file (something we strongly discourage and do not support), any edits made to this file will most certainly break PageLines DMS and your site. If you wish to use hooks, either the PageLines Customize Plugin or the Base Theme (a child theme) method is required.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dms-customize-editor.jpg)
 
@@ -27,7 +27,7 @@ PageLines DMS has two customization options built-in allowing you to add custom 
 
 ### PageLines Customize Plugin ###
 
-The PageLines Customize plugin emulates a child theme and includes both `style.css` and `functions.php` files. With the addition of the `functions.php` file, you're able to use hooks and therefore, is a slightly more advanced than the DMS customization method.
+The Customize Plugin contains both `style.css` and `functions.php` files like a child theme, it also supports `style.less` and the use of hooks. However, the plugin doesn’t support the use of child sections.  Localizations and language file options are added to this plugin.
 
 **Pros**
 
@@ -37,7 +37,7 @@ The PageLines Customize plugin emulates a child theme and includes both `style.c
 * Can be used with both **DMS Customize Options** and **Base Child theme**
 * Supports the creation of a **language** folder for translations.
 
-Cons
+**Cons**
 
 * Doesn't support the creation of Custom/Child sections
 
@@ -47,13 +47,15 @@ A child theme is a theme that inherits the functionality of another theme, calle
 
 #### Base Child theme ####
 
-The PageLines Base Child theme, is a free child theme available from the PageLines store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
+The PageLines Base Theme, is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
-The Base child theme is considered the most professional method for customizating, as it supports custom CSS/LESS, scripts, hooks and custom/child sections.
+The Base child theme is considered the most professional method for customizing, as it supports custom CSS/LESS, scripts, hooks and custom/child sections.
 
 #### PageLines Store Child themes ####
 
-In order to customize a child theme purchased from the Store, such as iBlogPro 5 or any third party theme, it is best to use the PageLines Customize plugin for any CSS/LESS changes or additional hooks you may add. Editing any purchased child theme's core files, the edits are subject to being overwritten upon update. While child themes are not commonly updated, they may be, from time to time, and any customizations may be subject to loss. PageLines Customize plugin eliminates that risk.
+When customizing a child theme purchased via our Store, such as iBlogPro5 or any third-party theme, it is best to use the **PageLines Customize plugin** (free in the Store) for any CSS/LESS changes, or additional hooks you may wish to add.
+
+Third-party child themes may be subject to updates by their developers, placing customizations within the theme at risk of being overwritten.  Using the Customize plugin eliminates any risk of loss due to updates.
 
 **NOTE:** Always remember to back up your site; particularly modifications you've made.
 
@@ -76,16 +78,10 @@ In order to customize a child theme purchased from the Store, such as iBlogPro 5
 			<th></th>
 			<th>DMS</th>
 			<th>Customize Plugin</th>
-			<th class="pref">Child Theme</th>
+			<th>Child Theme</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Supports LESS</td>
-			<td class="center"><i class="icon-ok text-success"></i></td>
-			<td class="center"><i class="icon-ok text-success"></i></td>
-			<td class="center"><i class="icon-ok text-success"></i></td>
-		</tr>
 		<tr>
 			<td>Safe from updates</td>
 			<td class="center"><i class="icon-ok text-success"></i></td>
@@ -93,13 +89,19 @@ In order to customize a child theme purchased from the Store, such as iBlogPro 5
 			<td class="center"><i class="icon-ok text-success"></i></td>
 		</tr>
 		<tr>
-			<td>Supports Hooks</td>
+			<td>CSS/LESS</td>
+			<td class="center"><i class="icon-ok text-success"></i></td>
+			<td class="center"><i class="icon-ok text-success"></i></td>
+			<td class="center"><i class="icon-ok text-success"></i></td>
+		</tr>
+		<tr>
+			<td>Hooks</td>
 			<td class="center"><i class="icon-remove text-error"></i></td>
 			<td class="center"><i class="icon-ok text-success"></i></td>
 			<td class="center"><i class="icon-ok text-success"></i></td>
 		</tr>
 		<tr>
-			<td>Custom Sections</td>
+			<td>Custom/Child Sections</td>
 			<td class="center"><i class="icon-remove text-error"></i></td>
 			<td class="center"><i class="icon-remove text-error"></i></td>
 			<td class="center"><i class="icon-ok text-success"></i></td>
