@@ -14,21 +14,61 @@ PageLines DMS has two customization options built-in allowing you to add custom 
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dms-customize-editor.jpg)
 
-However, you’re unable to customize further with hooks, as this would require editing the core `function.php` file (something we do not recommend or support), any edits made to this file will most certainly break PageLines DMS. If you wish to use hooks, either the **customize plugin** or the **base child theme** method is required.
+**Pros**
+
+* Quickest method for adding CSS/LESS & scripts
+* Custom CSS/LESS & scripts are safe from updates
+* Is the method of choice if you wish to only add minor CSS/LESS changes
+
+**Cons**
+
+* Unable to customize further with hooks
+* Doesn't support custom/child sections
 
 ### Customize Plugin ###
 
-The Customize Plugin contains both `style.css` and `functions.php` files like a child theme, it also supports `style.less` and the use of hooks. However, the plugin doesn’t support the use of child sections.
+The Customize plugin emulates a child theme and includes a `style.css` and `functions.php` files. With the addition of the `functions.php` file, you're able to use hooks and therefore, is a slightly more advanced than the DMS customization method.
 
-The advantage of the Customize Plugin is that you can update the core files and a 3rd party child theme and still keep your customizations.
+**Pros**
+
+* Supports CSS via the **style.css** file
+* Supports hooks via the **functions.php** file
+* Supports LESS with the creation of a **style.less** file (see Creating a style.less file below)
+* Can be used with both **DMS Customize Options** and **Base Child theme**
+* Supports the creation of a **language** folder for translations.
+
+Cons
+
+* Doesn't support the creation of Custom/Child sections
 
 ### Child Theme ###
 
-A child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme. The PageLines Base Child theme, supports custom CSS/LESS, scripts, hooks and child sections.
+A child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme.
 
-The benefit of working with a child theme is that the child theme files are separate to the parent theme (in this case PageLines DMS). This means, when an update becomes available to the partent theme, your custom CSS/LESS, child sections and hooks, will not be overwritten upon update.
+#### Base Child theme ####
 
-The disadvantage of using a Child theme, is that you can’t then install a 3rd party child theme through the store and update it, as you will lose your edits.
+The PageLines Base Child theme, is a free child theme available from the PageLines store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
+
+The Base child theme is considered the most professional method for customizating, as it supports custom CSS/LESS, scripts, hooks and custom/child sections.
+
+#### PageLines Store Child themes ####
+
+In order to customize a child theme purchased from the Store, such as iBlogPro 5 or any third party theme, it is best to use the PageLines Customize plugin for any CSS/LESS changes or additional hooks you may add. Editing any purchased child theme's core files, the edits are subject to being overwritten upon update. While child themes are not commonly updated, they may be, from time to time, and any customizations may be subject to loss. PageLines Customize plugin eliminates that risk.
+
+**NOTE:** Always remember to back up your site; particularly modifications you've made.
+
+**Pros**
+
+* Supports CSS via the **style.css** file
+* Supports hooks via the **functions.php** file
+* Supports LESS with the creation of a **style.less** file (see Creating a style.less file below)
+* Can be used with both **DMS Customize Options** and **Base Child theme**
+* Supports the creation of a **language** folder for translations.
+* Supports Custom/Child sections
+
+**Cons**
+
+* Child themes purchased from the PageLines store, should not be customized without the use of the PageLines Customize plugin, as these edits will be overwritten upon update.
 
 <table class="table table-striped table-bordered table-condensed">
 	<thead>
