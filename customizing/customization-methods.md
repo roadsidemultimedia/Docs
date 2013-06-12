@@ -4,103 +4,73 @@ In order to customize colors, layouts, text and size -- settings options aren't 
 
 ## Methods ##
 
-There are three principle methods for adding customization to your website, these are: the DMS <strong>toolbar → Customize options</strong>; the <strong>Base Child theme</strong>, and, the <strong>PageLines Customize plugin</strong>. Each method has pros and cons, which we'll go through below.
+There are three principle methods for adding customization to your website, these are: the DMS **toolbar → Customize options**; the **Base Child theme**, and, the **PageLines Customize plugin**. Each method has pros and cons, which we'll go through below.
 
 ### DMS ###
 
-<div class="row-fluid">
-	<div class="span7">
 PageLines DMS has two built-in options for customization, allowing you to add custom LESS/CSS, and some scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
 
-However, you’re unable to customize by this method with <strong>hooks</strong>, as this would require editing the core `function.php` file (something we strongly discourage and do not support), any edits made to this file will most certainly break PageLines DMS and your site. If you wish to use hooks, either the PageLines Customize Plugin or the Base Theme (a child theme) method is required.
+However, you’re unable to customize by this method with **hooks**, as this would require editing the core `function.php` file (something we strongly discourage and do not support), any edits made to this file will most certainly break PageLines DMS and your site. If you wish to use hooks, either the PageLines Customize Plugin or the Base Theme (a child theme) method is required.
 
-<img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dms-customize-editor.jpg">
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dms-customize-editor.jpg)
 
-<strong>Pros</strong>
-<ul>
-	<li>Quickest method for adding CSS/LESS & scripts</li>
-	<li>Custom CSS/LESS & scripts are safe from updates</li>
-	<li>Is the method of choice if you wish to only add minor CSS/LESS changes</li>
-</ul>
+**Pros**
 
-<strong>Cons</strong>
-<ul>
-	<li>Unable to customize further with hooks</li>
-	<li>Doesn't support custom/child sections</li>
-</ul>
-	</div>
-	<div class="span5">
-		<img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-dms-thumb.png">
-	</div>
-</div>
+* Quickest method for adding CSS/LESS & scripts
+* Custom CSS/LESS & scripts are safe from updates
+* Is the method of choice if you wish to only add minor CSS/LESS changes
 
+**Cons**
+
+* Unable to customize further with hooks
+* Doesn't support custom/child sections
 
 ### PageLines Customize Plugin ###
 
-<div class="row-fluid">
-	<div class="span7">
 The Customize Plugin contains both `style.css` and `functions.php` files like a child theme, it also supports `style.less` and the use of hooks. However, the plugin doesn’t support the use of child sections.  Localizations and language file options are added to this plugin.
 
-<strong>Pros</strong>
-<ul>
-	<li>Supports CSS via the <strong>style.css</strong> file</ul>
-	<li>Supports hooks via the <strong>functions.php</strong> file</ul>
-	<li>Supports LESS with the creation of a <strong>style.less</strong> file (see Creating a style.less file below)</ul>
-	<li>Can be used with both <strong>DMS Customize Options</strong> and <strong>Base Child theme</strong></ul>
-	<li>Supports the creation of a <strong>language</strong> folder for translations.</ul>
-</ul>
-<strong>Cons</strong>
+**Pros**
 
-<li>Doesn't support the creation of Custom/Child sections
-	</div>
-	<div class="span5">
-		<img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-customize-thumb.png">
-	</div>
-</div>
+* Supports CSS via the **style.css** file
+* Supports hooks via the **functions.php** file
+* Supports LESS with the creation of a **style.less** file (see Creating a style.less file below)
+* Can be used with both **DMS Customize Options** and **Base Child theme**
+* Supports the creation of a **language** folder for translations.
+
+**Cons**
+
+* Doesn't support the creation of Custom/Child sections
 
 ### Child Theme ###
 
-<div class="row-fluid">
-	<div class="span7">
 A child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme.
 
-<h4>Base Child theme</h4>
+#### Base Child theme ####
 
 The PageLines Base Theme, is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
 The Base child theme is considered the most professional method for customizing, as it supports custom CSS/LESS, scripts, hooks and custom/child sections.
-	</div>
-	<div class="span5">
-		<img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-template-theme-thumb.png">
-	</div>
-</div>
 
-<div class="row-fluid">
-	<div class="span12">
-<h4>PageLines Store Child themes</h4>
+#### PageLines Store Child themes ####
 
-When customizing a child theme purchased via our Store, such as iBlogPro5 or any third-party theme, it is best to use the <strong>PageLines Customize plugin</strong> (free in the Store) for any CSS/LESS changes, or additional hooks you may wish to add.
+When customizing a child theme purchased via our Store, such as iBlogPro5 or any third-party theme, it is best to use the **PageLines Customize plugin** (free in the Store) for any CSS/LESS changes, or additional hooks you may wish to add.
 
 Third-party child themes may be subject to updates by their developers, placing customizations within the theme at risk of being overwritten.  Using the Customize plugin eliminates any risk of loss due to updates.
 
-<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">NOTE:</span> Always remember to back up your site; particularly modifications you've made.</small></p>
+<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">Note:</span> Always remember to back up your site; particularly modifications you've made.</small></p>
 
-<strong>Pros<strong>
-<ul>
-	<li>Supports CSS via the <strong>style.css</strong> file</li>
-	<li>Supports hooks via the <strong>functions.php</strong> file</li>
-	<li>Supports LESS with the creation of a <strong>style.less</strong> file (see Creating a style.less file below)</li>
-	<li>Can be used with both <strong>DMS Customize Options<strong> and <strong>Base Child theme</strong></li>
-	<li>Supports the creation of a <strong>language</strong> folder for translations.</li>
-	<li>Supports Custom/Child sections</li>
-</ul>
+**Pros**
 
-<strong>Cons</strong>
-<ul>
-	<li>Child themes purchased from the PageLines store, should not be customized without the use of the PageLines Customize plugin, as these edits will be overwritten upon update.</li>
-</ul>
-	</div>
-</div>
+* Supports CSS via the **style.css** file
+* Supports hooks via the **functions.php** file
+* Supports LESS with the creation of a **style.less** file (see Creating a style.less file below)
+* Can be used with both **DMS Customize Options** and **Base Child theme**
+* Supports the creation of a **language** folder for translations.
+* Supports Custom/Child sections
+
+**Cons**
+
+* Child themes purchased from the PageLines store, should not be customized without the use of the PageLines Customize plugin, as these edits will be overwritten upon update.
 
 <table class="table table-striped table-bordered table-condensed">
 	<thead>
@@ -158,10 +128,9 @@ We have provided an example `style.less` file, which can be added to your prefer
 	+ **wp-content &rarr; plugins &rarr; pagelines-customize**
 * Upload the `style.less` file to this directory
 
-
 #### Child Theme ####
 
-* Once the <strong>Base Child theme</strong> has been installed/activated, open your favourite FTP client
+* Once the **Base Child theme** has been installed/activated, open your favourite FTP client
 * Connect to your server and navigate to the following directory:
-	+ **wp-content &rarr; themes &rarr; child theme folder** (by default is named <strong>pagelines-template-theme</strong> )
+	+ **wp-content &rarr; themes &rarr; child theme folder** (by default is named **pagelines-template-theme** )
 * Upload the `style.less` file to this directory
