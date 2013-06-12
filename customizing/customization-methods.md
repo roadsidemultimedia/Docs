@@ -64,7 +64,7 @@ The Customize Plugin contains both `style.css` and `functions.php` files like a 
 	<div class="span7">
 A child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme.
 
-#### Base Child theme ####
+<h4>Base Child theme</h4>
 
 The PageLines Base Theme, is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
@@ -77,7 +77,7 @@ The Base child theme is considered the most professional method for customizing,
 
 <div class="row-fluid">
 	<div class="span12">
-#### PageLines Store Child themes ####
+<h4>PageLines Store Child themes</h4>
 
 When customizing a child theme purchased via our Store, such as iBlogPro5 or any third-party theme, it is best to use the <strong>PageLines Customize plugin</strong> (free in the Store) for any CSS/LESS changes, or additional hooks you may wish to add.
 
@@ -96,8 +96,9 @@ Third-party child themes may be subject to updates by their developers, placing 
 </ul>
 
 <strong>Cons</strong>
-
-<li>Child themes purchased from the PageLines store, should not be customized without the use of the PageLines Customize plugin, as these edits will be overwritten upon update.
+<ul>
+	<li>Child themes purchased from the PageLines store, should not be customized without the use of the PageLines Customize plugin, as these edits will be overwritten upon update.</li>
+</ul>
 	</div>
 </div>
 
@@ -140,7 +141,7 @@ Third-party child themes may be subject to updates by their developers, placing 
 
 ## Creating a style.less file ##
 
-In order to The `style.less` file is required in both the <strong>PageLines Customize Plugin</strong> and the <strong>Base Child theme</strong>, in order to add LESS CSS. You can create the file using your favourite text editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)). The file can remain blank for the time being, all that is required is that the file is named <strong>style.less</strong>. Once create you're free to start adding your custom CSS/LESS.
+In order to The `style.less` file is required in both the **PageLines Customize Plugin** and the **Base Child theme**, in order to add LESS CSS. You can create the file using your favourite text editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)). The file can remain blank for the time being, all that is required is that the file is named **style.less**. Once create you're free to start adding your custom CSS/LESS.
 
 We have provided an example `style.less` file, which can be added to your preferred customization method which you can download, extract and then upload using your favourite FTP client, to the following locations, depending on your customization method.
 
@@ -151,22 +152,16 @@ We have provided an example `style.less` file, which can be added to your prefer
 ### Installing the style.less file ###
 
 #### PageLines Customize Plugin ####
-<ul>
-	<li>Once the <strong>PageLines Customize Plugin</strong> has been installed/activated, open your favourite FTP client</li>
-	<li>Connect to your server and navigate to the following directory:</li>
-		<ul>
-			<li><strong>wp-content &rarr; plugins &rarr; pagelines-customize</strong></li>
-		</ul>
-	<li>Upload the `style.less` file to this directory</li>
-</ul>
+
+* Once the **PageLines Customize Plugin** has been installed/activated, open your favourite FTP client
+* Connect to your server and navigate to the following directory:
+	+ **wp-content &rarr; plugins &rarr; pagelines-customize**
+* Upload the `style.less` file to this directory
+
 
 #### Child Theme ####
 
-<ul>
-	<li>Once the <strong>Base Child theme</strong> has been installed/activated, open your favourite FTP client
-	<li>Connect to your server and navigate to the following directory:
-		<ul>
-			<li><strong>wp-content &rarr; themes &rarr; child theme folder</strong> (by default is named <strong>pagelines-template-theme</strong> )</li>
-		</ul>
-	<li>Upload the `style.less` file to this directory</li>
-</ul>
+* Once the <strong>Base Child theme</strong> has been installed/activated, open your favourite FTP client
+* Connect to your server and navigate to the following directory:
+	+ **wp-content &rarr; themes &rarr; child theme folder** (by default is named <strong>pagelines-template-theme</strong> )
+* Upload the `style.less` file to this directory
