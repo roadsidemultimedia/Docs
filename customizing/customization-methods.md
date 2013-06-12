@@ -10,6 +10,8 @@ There are three principle methods for adding customization to your website, thes
 
 PageLines DMS has two built-in options for customization, allowing you to add custom LESS/CSS, and some scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-dms-thumb.png)
+
 However, you’re unable to customize by this method with **hooks**, as this would require editing the core `function.php` file (something we strongly discourage and do not support), any edits made to this file will most certainly break PageLines DMS and your site. If you wish to use hooks, either the PageLines Customize Plugin or the Base Theme (a child theme) method is required.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dms-customize-editor.jpg)
@@ -28,6 +30,8 @@ However, you’re unable to customize by this method with **hooks**, as this wou
 ### PageLines Customize Plugin ###
 
 The Customize Plugin contains both `style.css` and `functions.php` files like a child theme, it also supports `style.less` and the use of hooks. However, the plugin doesn’t support the use of child sections.  Localizations and language file options are added to this plugin.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pageline-customize-thumb.png)
 
 **Pros**
 
@@ -50,6 +54,8 @@ A child theme is a theme that inherits the functionality of another theme, calle
 The PageLines Base Theme, is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
 The Base child theme is considered the most professional method for customizing, as it supports custom CSS/LESS, scripts, hooks and custom/child sections.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-template-theme-thumb.png)
 
 #### PageLines Store Child themes ####
 
