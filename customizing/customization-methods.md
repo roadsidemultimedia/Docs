@@ -6,7 +6,7 @@ That is why we give you the ability to add customization. If you have even limit
 
 ## Methods ##
 
-There are three methods for adding customization to your website, these are using the **DMS toolbar &rarr; Customize options** , the **Base Child theme** and the **Customize plugin**. Each method has pros and cons, which we'll go through below.
+There are three methods for adding customization to your website, these are using the **DMS toolbar &rarr; Customize options** , the **Base Child theme** and the **PageLines Customize plugin**. Each method has pros and cons, which we'll go through below.
 
 ### DMS ###
 
@@ -25,9 +25,9 @@ PageLines DMS has two customization options built-in allowing you to add custom 
 * Unable to customize further with hooks
 * Doesn't support custom/child sections
 
-### Customize Plugin ###
+### PageLines Customize Plugin ###
 
-The Customize plugin emulates a child theme and includes a `style.css` and `functions.php` files. With the addition of the `functions.php` file, you're able to use hooks and therefore, is a slightly more advanced than the DMS customization method.
+The PageLines Customize plugin emulates a child theme and includes both `style.css` and `functions.php` files. With the addition of the `functions.php` file, you're able to use hooks and therefore, is a slightly more advanced than the DMS customization method.
 
 **Pros**
 
@@ -110,7 +110,7 @@ In order to customize a child theme purchased from the Store, such as iBlogPro 5
 
 ## Creating a style.less file ##
 
-The `style.less` file is required in both the **Customize Plugin** and the **Base Child theme**, in order to add LESS CSS. The `style.less` file can be created using your favourite text editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)), the style.less file can be a blank file, all that is required is that the file is named **style.less**.
+The `style.less` file is required in both the **PageLines Customize Plugin** and the **Base Child theme**, in order to add LESS CSS. The `style.less` file can be created using your favourite text editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)), the style.less file can be a blank file, all that is required is that the file is named **style.less**.
 
 We have provided an example `style.less` file, which can be added to your preferred customization method which you can download, extract and then upload using your favourite FTP client, to the following locations, depending on your customization method.
 
@@ -120,9 +120,9 @@ We have provided an example `style.less` file, which can be added to your prefer
 
 ### Installing the style.less file ###
 
-#### Customize Plugin ####
+#### PageLines Customize Plugin ####
 
-* Once the **Customize Plugin** has been installed/activated, open your favourite FTP client
+* Once the **PageLines Customize Plugin** has been installed/activated, open your favourite FTP client
 * Connect to your server and navigate to the following directory:
 	+ **wp-content &rarr; plugins &rarr; pagelines-customize**
 * Upload the `style.less` file to this directory
