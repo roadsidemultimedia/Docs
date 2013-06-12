@@ -31,7 +31,7 @@ However, you’re unable to customize by this method with **hooks**, as this wou
 
 The Customize Plugin contains both `style.css` and `functions.php` files like a child theme, it also supports `style.less` and the use of hooks. However, the plugin doesn’t support the use of child sections.  Localizations and language file options are added to this plugin.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pageline-customize-thumb.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-customize-thumb.png)
 
 **Pros**
 
