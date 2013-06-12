@@ -8,6 +8,8 @@ There are three principle methods for adding customization to your website, thes
 
 ### DMS ###
 
+<div class="row-fluid">
+	<div class="span7">
 PageLines DMS has two built-in options for customization, allowing you to add custom LESS/CSS, and some scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
 
 However, you’re unable to customize by this method with **hooks**, as this would require editing the core `function.php` file (something we strongly discourage and do not support), any edits made to this file will most certainly break PageLines DMS and your site. If you wish to use hooks, either the PageLines Customize Plugin or the Base Theme (a child theme) method is required.
@@ -24,9 +26,17 @@ However, you’re unable to customize by this method with **hooks**, as this wou
 
 * Unable to customize further with hooks
 * Doesn't support custom/child sections
+	</div>
+	<div class="span5">
+		![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-dms-thumb.png)
+	</div>
+</div>
+
 
 ### PageLines Customize Plugin ###
 
+<div class="row-fluid">
+	<div class="span7">
 The Customize Plugin contains both `style.css` and `functions.php` files like a child theme, it also supports `style.less` and the use of hooks. However, the plugin doesn’t support the use of child sections.  Localizations and language file options are added to this plugin.
 
 **Pros**
@@ -40,9 +50,16 @@ The Customize Plugin contains both `style.css` and `functions.php` files like a 
 **Cons**
 
 * Doesn't support the creation of Custom/Child sections
+	</div>
+	<div class="span5">
+		![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-customize-thumb.png)
+	</div>
+</div>
 
 ### Child Theme ###
 
+<div class="row-fluid">
+	<div class="span7">
 A child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme.
 
 #### Base Child theme ####
@@ -50,14 +67,21 @@ A child theme is a theme that inherits the functionality of another theme, calle
 The PageLines Base Theme, is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
 The Base child theme is considered the most professional method for customizing, as it supports custom CSS/LESS, scripts, hooks and custom/child sections.
+	</div>
+	<div class="span5">
+		![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagelines-template-theme-thumb.png)
+	</div>
+</div>
 
+<div class="row-fluid">
+	<div class="span12">
 #### PageLines Store Child themes ####
 
 When customizing a child theme purchased via our Store, such as iBlogPro5 or any third-party theme, it is best to use the **PageLines Customize plugin** (free in the Store) for any CSS/LESS changes, or additional hooks you may wish to add.
 
 Third-party child themes may be subject to updates by their developers, placing customizations within the theme at risk of being overwritten.  Using the Customize plugin eliminates any risk of loss due to updates.
 
-**NOTE:** Always remember to back up your site; particularly modifications you've made.
+<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">NOTE:</span> Always remember to back up your site; particularly modifications you've made.</small></p>
 
 **Pros**
 
@@ -71,6 +95,8 @@ Third-party child themes may be subject to updates by their developers, placing 
 **Cons**
 
 * Child themes purchased from the PageLines store, should not be customized without the use of the PageLines Customize plugin, as these edits will be overwritten upon update.
+	</div>
+</div>
 
 <table class="table table-striped table-bordered table-condensed">
 	<thead>
@@ -109,10 +135,9 @@ Third-party child themes may be subject to updates by their developers, placing 
 	</tbody>
 </table>
 
-
 ## Creating a style.less file ##
 
-The `style.less` file is required in both the **PageLines Customize Plugin** and the **Base Child theme**, in order to add LESS CSS. The `style.less` file can be created using your favourite text editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)), the style.less file can be a blank file, all that is required is that the file is named **style.less**.
+In order to The `style.less` file is required in both the **PageLines Customize Plugin** and the **Base Child theme**, in order to add LESS CSS. You can create the file using your favourite text editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)). The file can remain blank for the time being, all that is required is that the file is named **style.less**. Once create you're free to start adding your custom CSS/LESS.
 
 We have provided an example `style.less` file, which can be added to your preferred customization method which you can download, extract and then upload using your favourite FTP client, to the following locations, depending on your customization method.
 
