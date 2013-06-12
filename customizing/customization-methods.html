@@ -106,9 +106,9 @@
 
 <p>However, you’re unable to customize further with hooks, as this would require editing the core <code>function.php</code> file (something we do not recommend or support), any edits made to this file will most certainly break PageLines DMS. If you wish to use hooks, either the <strong>customize plugin</strong> or the <strong>base child theme</strong> method is required.</p>
 
-<h3>Customization Plugin</h3>
+<h3>Customize Plugin</h3>
 
-<p>The Customization plugin contains both <code>style.css</code> and <code>functions.php</code> files like a child theme, it also supports <code>style.less</code> and the use of hooks. However, the plugin doesn’t support the use of child sections.</p>
+<p>The Customize Plugin contains both <code>style.css</code> and <code>functions.php</code> files like a child theme, it also supports <code>style.less</code> and the use of hooks. However, the plugin doesn’t support the use of child sections.</p>
 
 <p>The advantage of the Customize Plugin is that you can update the core files and a 3rd party child theme and still keep your customizations.</p>
 
@@ -159,13 +159,39 @@
 
 <h2>Creating a style.less file</h2>
 
-<p>The <code>style.less</code> file is required in both the <strong>Customization Plugin</strong> and the <strong>Base Child theme</strong>, in order to add LESS CSS. The <code>style.less</code> file can be created using your favourite text editor (we recommend <a href="http://www.sublimetext.com/2">Sublime Text 2</a>), the style.less file can be a blank file, all that is required is that the file is named <strong>style.less</strong>.</p>
+<p>The <code>style.less</code> file is required in both the <strong>Customize Plugin</strong> and the <strong>Base Child theme</strong>, in order to add LESS CSS. The <code>style.less</code> file can be created using your favourite text editor (we recommend <a href="http://www.sublimetext.com/2">Sublime Text 2</a>), the style.less file can be a blank file, all that is required is that the file is named <strong>style.less</strong>.</p>
 
 <p>We have provided an example <code>style.less</code> file, which can be added to your preferred customization method which you can download, extract and then upload using your favourite FTP client, to the following locations, depending on your customization method.</p>
 
 <div class="center">
     <a href="https://dl.dropbox.com/s/zlu6s081lljcrr7/style.less.zip?dl=1" class="btn btn-large btn-primary"><i class="icon-download-alt"></i> Sample style.less</a>
 </div>
+
+<h3>Installing the style.less file</h3>
+
+<h4>Customize Plugin</h4>
+
+<ul>
+<li>Once the <strong>Customize Plugin</strong> has been installed/activated, open your favourite FTP client</li>
+<li>Connect to your server and navigate to the following directory:
+
+<ul>
+<li><strong>wp-content &rarr; plugins &rarr; pagelines-customize</strong></li>
+</ul></li>
+<li>Upload the <code>style.less</code> file here</li>
+</ul>
+
+<h4>Child Theme</h4>
+
+<ul>
+<li>Once the <strong>Base Child theme</strong> has been installed/activated, open your favourite FTP client</li>
+<li>Connect to your server and navigate to the following directory:
+
+<ul>
+<li><strong>wp-content &rarr; themes &rarr; child theme folder (by default is named **pagelines-template-theme</strong> )</li>
+</ul></li>
+<li>Upload the <code>style.less</code> file here</li>
+</ul>
             </div>
 		</section>
 
