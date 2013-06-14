@@ -8,7 +8,8 @@
 	<p>This is another test...</p>
 </div>
 
-~~~ .html .dantest
+<span style="margin-top: -20px; padding-top: 15px;">
+~~~ .html
 <div class="row">
 	<div class="span6">
 		<h3>Hello World!</h3>
@@ -19,6 +20,7 @@
 	</div>
 </div>
 ~~~
+</span>
 
 ## CSS ##
 
