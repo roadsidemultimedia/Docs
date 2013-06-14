@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageLines Documentation</title>
+    <meta name="description" content="A powerful front-end drag and drop design management system for fast and easy web development.">
+
+    <base href="http://docs.pagelines.com/">
+
+    <!-- styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="/css/docs.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <link href="/js/google-code-prettify/prettify.css" rel="stylesheet">
+	<link rel='stylesheet' id='master_font_import' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800|Source+Sans+Pro:400,600' media='screen'>
+	<link rel="shortcut icon" href="http://docs.pagelines.com/img/favicon.png" type="image/x-icon" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<div id="wrap">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="http://docs.pagelines.com/"><img src="http://docs.pagelines.com/img/logo.png" /></a>	
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right nav-detect">
+              <li><a href="/developer"><i class="icon-code"></i> Developer Docs</a></li>
+				<li><a href="http://www.pagelines.com"><i class="icon-home"></i> Home</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container section">
+        <section>
+          <div class="row-fluid">
+            <div class="span3 docs-nav nav-detect">
+              <ul class="nav nav-list active-menu">
+                <li><p class="lead"><a href="/getting-started/basics">Get Started</a></p></li>
+                <li><a href="/getting-started/basics">Getting Started <i class="icon-angle-right"></i></a></li>
+                <li><a href="/getting-started/system-requirements">Requirements <i class="icon-angle-right"></i></a></li>
+                <li><a href="/getting-started/installation">Installation <i class="icon-angle-right"></i></a></li>
+                <li><a href="/getting-started/upgrading">Upgrading <i class="icon-angle-right"></i></a></li>
+                <li><a href="/getting-started/translation">Translation <i class="icon-angle-right"></i></a></li>
+                <li><a href="/getting-started/dashboard">Dashboard <i class="icon-angle-right"></i></a></li>
+                <li><a href="/getting-started/toolbar">Toolbar <i class="icon-angle-right"></i></a></li>
+                <li><a href="/getting-started/store">Store <i class="icon-angle-right"></i></a></li>
+              </ul>
+              <ul class="nav nav-list">
+                <li><p class="lead"><a href="/configure/options">Configure</a></p></li>
+                <li><a href="/configure/options">Options <i class="icon-angle-right"></i></a></li>
+                <li><a href="/configure/">Item <i class="icon-angle-right"></i></a></li>
+                <li><a href="/configure/">Item <i class="icon-angle-right"></i></a></li>
+                <li><a href="/configure/">Item <i class="icon-angle-right"></i></a></li>
+                <li><a href="/configure/">Item <i class="icon-angle-right"></i></a></li>
+                <li><a href="/configure/">Item <i class="icon-angle-right"></i></a></li>
+                <li><a href="/configure/">Item <i class="icon-angle-right"></i></a></li>
+              </ul>
+              <ul class="nav nav-list">
+                <li><p class="lead"><a href="#">Customize</a></p></li>
+                <li><a href="#">Item 1 <i class="icon-angle-right"></i></a></li>
+				        <li><a href="#">Item 2 <i class="icon-angle-right"></i></a></li>
+				        <li><a href="#">Item 3 <i class="icon-angle-right"></i></a></li>
+              </ul>
+			        <ul class="nav nav-list">
+                <li><p class="lead"><a href="#">Tutorials</a></p></li>
+                <li><a href="#">Item 1 <i class="icon-angle-right"></i></a></li>
+				        <li><a href="#">Item 2 <i class="icon-angle-right"></i></a></li>
+				        <li><a href="#">Item 3 <i class="icon-angle-right"></i></a></li>
+              </ul>
+              <ul class="nav nav-list">
+                <li><p class="lead"><a href="#">Advanced</a></p></li>
+                <li><a href="#">Item 1 <i class="icon-angle-right"></i></a></li>
+				        <li><a href="#">Item 2 <i class="icon-angle-right"></i></a></li>
+				        <li><a href="#">Item 3 <i class="icon-angle-right"></i></a></li>
+              </ul>
+            </div>
+            <div class="span9 docs-content">
+<h1>Adding a Custom Font</h1>
+
+<p>There may come a time during development where you feel the need to add a custom font to your website, one that isn&#39;t available from the Google web fonts library. This tutorial will take you through the steps needed to add a custom font to your PageLines DMS powered website.</p>
+
+<p>In this example, we will explain how you can add the custom free font <a href="http://www.fontsquirrel.com/fonts/GoodDog">GoodDog</a> from <a href="http://www.fontsquirrel.com/">Font Squirrel</a>.</p>
+
+<h2>Installing a Custom Font</h2>
+
+<h3>Step 1: Uploading the Custom Font Files</h3>
+
+<p>GoodDog is a free font that you can download at <a href="http://www.fontsquirrel.com/">Font Squirrel</a>. Make sure you&#39;ve downloaded the @font-face Kit using their <a href="http://www.fontsquirrel.com/tools/webfont-generator">webfont generator</a>.</p>
+
+<p>Using your favourite FTP client, create a folder in <code>/wp-content/themes/[CHILD THEME]/</code> and name it <strong>fonts</strong>. Then unzip the webfont package, and upload the following files to <strong>fonts</strong> folder:</p>
+
+<ul>
+<li>gooddog-webfont.eot</li>
+<li>gooddog-webfont.svg</li>
+<li>gooddog-webfont.ttf</li>
+<li>gooddog-webfont.woff</li>
+</ul>
+
+<h3>Step 2: Adding the Necessary CSS</h3>
+
+<p>Open the <strong>stylesheet.css</strong> file that comes included with the @font-face kit to see the custom fonts CSS.</p>
+
+<pre><code>/* Add GoodDog Font */
+
+@font-face {
+    font-family: 'gooddogregular';
+    src: url('gooddog-webfont.eot');
+    src: url('gooddog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gooddog-webfont.woff') format('woff'),
+         url('gooddog-webfont.ttf') format('truetype'),
+         url('gooddog-webfont.svg#gooddogregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+</code></pre>
+
+<p>In the Custom Fonts CSS, you will now need to tell the CSS where the font files are. In <strong>Step.1</strong>, we uploaded these files to <code>/wp-content/themes/[CHILD THEME]/fonts/</code>. We now need to include this path for the font to work, to make things easier we can use one the PageLines LESS CSS path variables <code>@{plChildRoot}</code> and add <code>/fonts/</code> at the end.</p>
+
+<p>Once completed your final code should look like this:</p>
+
+<pre><code>/* Add GoodDog Font */
+
+@font-face {
+    font-family: 'gooddogregular';
+    src: url('@{plChildRoot}/fonts/gooddog-webfont.eot');
+    src: url('@{plChildRoot}/fonts/gooddog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{plChildRoot}/fonts/gooddog-webfont.woff') format('woff'),
+         url('@{plChildRoot}/fonts/gooddog-webfont.ttf') format('truetype'),
+         url('@{plChildRoot}/fonts/gooddog-webfont.svg#gooddogregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+</code></pre>
+
+<p>Copy and paste the CSS into the <strong>Custom &rarr; Custom LESS/CSS</strong> in the PageLines Toolbar.</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-font-code.jpg" alt=""></p>
+
+<h3>Step 3: Modifying your Code.</h3>
+
+<p>To start using your custom font, you first need to tell your stylesheets to use them. Look at the original @font-face declaration above and find the property called <strong>font-family.</strong> The name linked there will be what you use to reference the custom font. Prepend that webfont name to the font stack in the &quot;font-family&quot; property, inside the selector you want to change. For example:</p>
+
+<pre><code>h1, h2, h3, h4, h5, h6 { 
+    font-family: 'gooddogregular', Arial, sans-serif;
+}
+</code></pre>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-font-code2.jpg" alt=""></p>
+
+<h2>Troubleshooting</h2>
+
+<h3>Fonts not showing in any browser</h3>
+
+<p>You either did not upload the fonts to the correct directory, or you did not link the fonts properly in the CSS. If you&#39;ve confirmed that all this is correct and you still have a problem, take a look at your .htaccess file and see if requests are getting intercepted.</p>
+
+<h3>Fonts not loading in iPhone or iPad</h3>
+
+<p>The most common problem here is that you are serving the fonts from an IIS server. IIS refuses to serve files that have unknown MIME types. If that is the case, you must set the MIME type for SVG to &quot;image/svg+xml&quot; in the server settings.</p>
+
+<h3>Fonts not loading in Firefox</h3>
+
+<p>The primary reason for this failure? You are still using a version Firefox older than 3.5. So upgrade already! If that isn&#39;t it, then you are very likely serving fonts from a different domain. Firefox requires that all font assets be served from the same domain. Lastly it is possible that you need to add WOFF to your list of MIME types (if you are serving via IIS.)</p>
+
+<h3>Fonts not loading in IE</h3>
+
+<p>Are you looking at Internet Explorer on an actual Windows machine or are you cheating by using a service like Adobe BrowserLab? Many of these screenshot services do not render @font-face for IE. Best to test it on a real machine.</p>
+
+<h3>Fonts not loading in IE9</h3>
+
+<p>IE9, like Firefox, requires that fonts be served from the same domain as the website. Make sure that is the case, you can do this by following the instructions in <strong>Step 1.</strong></p>
+            </div>
+		</section>
+
+    </div><!-- /container -->
+<div id="push"></div>
+</div> <!-- /wrap -->
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>
+				<i class="icon-github icon-2x"></i>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/tutorials/adding-custom-fonts.md" target="_blank">Edit this page</a>.</p>
+        </div>
+    </footer>
+
+    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/google-code-prettify/prettify.js"></script>
+	<script src="http://docs.pagelines.com/js/common.js"></script>
+</body>
+</html>
