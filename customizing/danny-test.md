@@ -8,7 +8,6 @@
 	<p>This is another test...</p>
 </div>
 
-<span style="margin-top: -20px; padding-top: 15px;">
 ~~~ .html
 <div class="row">
 	<div class="span6">
@@ -20,7 +19,7 @@
 	</div>
 </div>
 ~~~
-</span>
+
 
 ## CSS ##
 
