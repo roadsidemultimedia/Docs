@@ -6,8 +6,6 @@
 <div class="docs-example">
 	<h3>This is a test</h3>
 	<p>This is another test...</p>
-</div>
-
 ~~~ .html
 <div class="row">
 	<div class="span6">
@@ -19,6 +17,7 @@
 	</div>
 </div>
 ~~~
+</div>
 
 
 ## CSS ##
