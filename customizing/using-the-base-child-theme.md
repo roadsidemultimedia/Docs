@@ -4,12 +4,14 @@ The PageLines Base theme, is a free child theme available from the PageLines Sto
 
 The Base child theme is considered the most professional method for customizations and here are a few reasons why:
 
-* Supports custom CSS via the `style.css` file
-* Supports hooks via the `functions.php` file
-* Supports LESS with the creation of a `style.less` file (see Creating a style.less file below)
+* Supports custom CSS via the `style.css` file.
+* Supports hooks via the `functions.php` file.
+* Supports LESS with the creation of a `style.less` file.
 * Supports the creation of a `language` folder for translations.
-* Supports a custom `rtl.css` file.
-* Supports custom/child sections
+* Supports a custom `rtl.css` file, for customizing the default rtl styling.
+* Supports custom/child sections.
+
+For more information we recommend reading the following Wordpress codex articles [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development).
 
 ## Structure ##
 
@@ -59,17 +61,45 @@ The PageLines Base child theme folder when in [installed](/configure/installing-
   </tbody>
 </table>
 
-As you may have noticed in the above table, there isn't any `style.less` file. In order to use custom LESS in your child theme, you will first need to create a `style.less` file.
+## Renaming the Base child theme ##
 
-## Creating a style.less file ##
+By default, the PageLines Base child theme is called Base Theme and all the themes files and folders are stored in **pagelines-template-theme** folder. However, you may need to change the Base themes name to something different such as your clients brand name. To do this, simply follow the instructions below.
 
-You can create the `style.less` file using your favourite text editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)). The file can remain blank for the time being, all that is required is that the file is named **style.less**. Once created you're free to start adding your custom CSS/LESS.
+Before you do anything, make sure that the Base child theme is not the active theme. Once you have double checked this, open your favourite FTP client and connect to your server and navigate to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
 
-We have provided an example `style.less` file, all you need to do is download using the link below, extract the file and upload using your favourite FTP client, to your base child theme folder **wp-content &rarr; themes &rarr; child theme folder** (by default is named **pagelines-template-theme** ).
+In your favourite code editor, open the **style.css** file and you will see the following information.
 
-<div class="center">
-  <a href="https://dl.dropbox.com/s/zlu6s081lljcrr7/style.less.zip?dl=1" class="btn btn-default btn-primary"><i class="icon-download-alt"></i> Sample style.less</a>
-</div>
+~~~ .php
+/*  
+Theme Name: Base Theme
+Theme URL: http://www.pagelines.com/
+Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
+Version: 1.0.2
+Author: PageLines
+Author URI: http://www.pagelines.com
+Tags: developer
+
+Template: pagelines
+
+*/
+~~~
+
+Edit any of these items, except for **Template: pagelines**, which tells Wordpress that this is a child theme of PageLines DMS. 
+
+~~~ .php
+/*  
+Theme Name: YOUR_NEW_THEME_HERE
+Theme URL: YOUR_WEBSITE_URL
+Description: DESCRIPTION_OF_YOUR_THEME
+Version: 1.0.
+Author: YOUR_NAME
+Author URI: YOUR_WEBSITE_URL
+Tags: developer
+
+Template: pagelines
+
+*/
+~~~
 
 
 
