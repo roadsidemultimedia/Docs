@@ -94,13 +94,20 @@
 
 <p>The PageLines Base theme, is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.</p>
 
-<p>A child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme, without the need to modify core files. Because of this, the Base child theme is considered the most professional method for customizing, as it supports custom CSS/LESS, scripts, hooks, translations and custom/child sections.</p>
+<p>A child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme, without the need to modify core files. Because of this, the Base child theme is considered the most professional method for customizations and here are a few reasons why:</p>
+
+<ul>
+<li>Supports custom CSS via the <code>style.css</code> file</li>
+<li>Supports hooks via the <code>functions.php</code> file</li>
+<li>Supports LESS with the creation of a <code>style.less</code> file (see Creating a style.less file below)</li>
+<li>Supports the creation of a <code>language</code> folder for translations.</li>
+<li>Supports a custom <code>rtl.css</code> file.</li>
+<li>Supports custom/child sections</li>
+</ul>
 
 <h2>Structure</h2>
 
-<p>The PageLines Base child theme folder when in <a href="/configure/installing-store-products">installed</a>, can be located in the following directory <strong>wp-content &rarr; themes</strong> and is named <code>pagelines-template-theme</code>.</p>
-
-<p>When vieing the Base child theme via FTP, it will contain the following file structure.</p>
+<p>The PageLines Base child theme folder when in <a href="/configure/installing-store-products">installed</a>, can be located in the following directory <strong>wp-content &rarr; themes</strong> and is named <code>pagelines-template-theme</code> and comprise of the following structure.</p>
 
 <table class="table table-striped table-bordered">
   <thead>
@@ -112,7 +119,7 @@
   <tbody>
     <tr>
       <td><strong>sections/</strong></td>
-      <td>Bundle sections with your theme in this folder, each section in a seperate folder.</td>
+      <td>Add custom/child sections here, contains an example child section of Simple Nav</td>
     </tr>
     <tr>
       <td><strong>functions.php</strong></td>
@@ -133,7 +140,7 @@
     <tr>
     <tr>
       <td><strong>setup.php</strong></td>
-      <td>Loads the parent theme. Don't tamper with this.</td>
+      <td>Loads the parent theme. <strong>Don't tamper with this</strong>.</td>
     </tr>
     <tr>
       <td><strong>style.css</strong></td>
@@ -145,6 +152,18 @@
     </tr>
   </tbody>
 </table>
+
+<p>As you may have noticed in the above table, there isn&#39;t any <code>style.less</code> file. In order to use custom LESS in your child theme, you will first need to create a <code>style.less</code> file.</p>
+
+<h2>Creating a style.less file</h2>
+
+<p>You can create the <code>style.less</code> file using your favourite text editor (we recommend <a href="http://www.sublimetext.com/2">Sublime Text 2</a>). The file can remain blank for the time being, all that is required is that the file is named <strong>style.less</strong>. Once created you&#39;re free to start adding your custom CSS/LESS.</p>
+
+<p>We have provided an example <code>style.less</code> file, all you need to do is download using the link below, extract the file and upload using your favourite FTP client, to your base child theme folder <strong>wp-content &rarr; themes &rarr; child theme folder</strong> (by default is named <strong>pagelines-template-theme</strong> ).</p>
+
+<div class="center">
+  <a href="https://dl.dropbox.com/s/zlu6s081lljcrr7/style.less.zip?dl=1" class="btn btn-large btn-primary"><i class="icon-download-alt"></i> Sample style.less</a>
+</div>
             </div>
 		</section>
 
