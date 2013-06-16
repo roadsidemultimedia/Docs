@@ -2,7 +2,7 @@
 
 The PageLines Base theme, is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
-A child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme, without the need to modify core files. Because of this, the Base child theme is considered the most professional method for customizations and here are a few reasons why:
+The Base child theme is considered the most professional method for customizations and here are a few reasons why:
 
 * Supports custom CSS via the `style.css` file
 * Supports hooks via the `functions.php` file
@@ -13,7 +13,7 @@ A child theme is a theme that inherits the functionality of another theme, calle
 
 ## Structure ##
 
-The PageLines Base child theme folder when in [installed](/configure/installing-store-products), can be located in the following directory **wp-content &rarr; themes** and is called `pagelines-template-theme`, containing the following folder and files.
+The PageLines Base child theme folder when in [installed](/configure/installing-store-products), can be located here **wp-content &rarr; themes &rarr; pagelines-template-theme**, containing following folder and files.
 
 <table class="table table-striped table-bordered">
   <thead>
@@ -68,7 +68,7 @@ You can create the `style.less` file using your favourite text editor (we recomm
 We have provided an example `style.less` file, all you need to do is download using the link below, extract the file and upload using your favourite FTP client, to your base child theme folder **wp-content &rarr; themes &rarr; child theme folder** (by default is named **pagelines-template-theme** ).
 
 <div class="center">
-  <a href="https://dl.dropbox.com/s/zlu6s081lljcrr7/style.less.zip?dl=1" class="btn btn-large btn-primary"><i class="icon-download-alt"></i> Sample style.less</a>
+  <a href="https://dl.dropbox.com/s/zlu6s081lljcrr7/style.less.zip?dl=1" class="btn btn-default btn-primary"><i class="icon-download-alt"></i> Sample style.less</a>
 </div>
 
 
