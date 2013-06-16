@@ -1,6 +1,6 @@
 # Using the Base Child theme #
 
-The PageLines Base theme, is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
+The PageLines Base theme, is a free child theme available from the [PageLines Store](/getting-started/pagelines-store) which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
 The Base child theme is considered the most professional method for customizations and here are a few reasons why:
 
@@ -63,14 +63,14 @@ The PageLines Base child theme folder when in [installed](/configure/installing-
 
 ## Renaming the Base child theme ##
 
-By default, the PageLines Base child theme is called Base Theme and all the themes files and folders are stored in **pagelines-template-theme** folder. However, you may need to change the Base themes name to something different such as your clients brand name. To do this, simply follow the instructions below.
+By default, the PageLines Base child theme is named Base Theme with all the files stored in the **pagelines-template-theme** diretory. However, at some point you may wish to change the name of the Base child theme.
 
-Before you do anything, make sure that the Base child theme is not the active theme. Once you have double checked this, open your favourite FTP client and connect to your server and navigate to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
+Before proceeding with the following instructions, make sure the Base child theme is not the active theme (it can cause some issues). Once the base child theme has been de-actived, open your FTP client and connect to your server, now navigate to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
 
-In your favourite code editor, open the **style.css** file and you will see the following information.
+Open the **style.css** file and you will see the following information.
 
 ~~~ .php
-/*  
+/*
 Theme Name: Base Theme
 Theme URL: http://www.pagelines.com/
 Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
@@ -84,16 +84,16 @@ Template: pagelines
 */
 ~~~
 
-Edit any of these items, except for **Template: pagelines**, which tells Wordpress that this is a child theme of PageLines DMS. 
+Edit any of these items, except for **Template: pagelines**, which tells Wordpress that this is a child theme of PageLines DMS.
 
 ~~~ .php
-/*  
-Theme Name: YOUR_NEW_THEME_HERE
-Theme URL: YOUR_WEBSITE_URL
-Description: DESCRIPTION_OF_YOUR_THEME
+/*
+Theme Name: ADD_YOUR_THEME_NAME_HERE
+Theme URL: ADD_YOUR_WEBSITE_URL_HERE
+Description: ADD_THE_DESCRIPTION_OF_YOUR_THEME_THERE
 Version: 1.0.
-Author: YOUR_NAME
-Author URI: YOUR_WEBSITE_URL
+Author: ADD_YOUR_NAME_HERE
+Author URI: ADD_YOUR_WEBSITE_URL_HERE
 Tags: developer
 
 Template: pagelines
@@ -101,7 +101,8 @@ Template: pagelines
 */
 ~~~
 
+Once you have replaced the default information with your own, save the **style.css** file. You have now successfully changed the name of Base child theme to your own!
 
-
+You may also want to want to rename the **pagelines-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client.
 
 
