@@ -13,7 +13,7 @@ A child theme is a theme that inherits the functionality of another theme, calle
 
 ## Structure ##
 
-The PageLines Base child theme folder when in [installed](/configure/installing-store-products), can be located in the following directory **wp-content &rarr; themes** and is named `pagelines-template-theme` and comprise of the following structure.
+The PageLines Base child theme folder when in [installed](/configure/installing-store-products), can be located in the following directory **wp-content &rarr; themes** and is called `pagelines-template-theme`, containing the following folder and files.
 
 <table class="table table-striped table-bordered">
   <thead>
