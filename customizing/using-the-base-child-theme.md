@@ -15,7 +15,7 @@ For more information we recommend reading the following Wordpress codex articles
 
 ## Structure ##
 
-The PageLines Base child theme folder when in [installed](/configure/installing-store-products), can be located here **wp-content &rarr; themes &rarr; pagelines-template-theme**, containing following folder and files.
+The PageLines Base child theme folder when in [installed](/configure/installing-store-products), can be located here **wp-content &rarr; themes &rarr; pagelines-template-theme**, containing the following folder and files.
 
 <table class="table table-striped table-bordered">
   <thead>
