@@ -65,7 +65,7 @@ The PageLines Base child theme folder when in [installed](/configure/installing-
 
 By default, the PageLines Base child theme is named Base Theme with all the files stored in the **pagelines-template-theme** diretory. However, at some point you may wish to change the name of the Base child theme.
 
-Before proceeding with the following instructions, make sure the Base child theme is not the active theme (it can cause some issues). Once the base child theme has been de-actived, open your FTP client and connect to your server, now navigate to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
+Before proceeding with the following instructions, make sure the Base child theme is not the active theme (it can cause errors). Once the base child theme has been de-actived, using your FTP client, connect to your server and navigate to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
 
 Open the **style.css** file and you will see the following information.
 
@@ -90,7 +90,7 @@ Edit any of these items, except for **Template: pagelines**, which tells Wordpre
 /*
 Theme Name: ADD_YOUR_THEME_NAME_HERE
 Theme URL: ADD_YOUR_WEBSITE_URL_HERE
-Description: ADD_THE_DESCRIPTION_OF_YOUR_THEME_THERE
+Description: ADD_THE_DESCRIPTION_OF_YOUR_THEME_HERE
 Version: 1.0.
 Author: ADD_YOUR_NAME_HERE
 Author URI: ADD_YOUR_WEBSITE_URL_HERE
