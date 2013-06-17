@@ -131,16 +131,16 @@ You may also want to want to rename the **pagelines-template-theme** folder to m
 If you have followed the instructions above correctly, your base theme folder should now have a similar structure to this:
 
 `
-pagelines-template-theme/  
-|____language/  
-|____sections/  
-|____functions.php  
-|____info.txt  
-|____page.example.php  
-|____rtl.css  
-|____screenshot.png  
-|____setup.php  
-|____style.css  
-|____style.less  
-|____thumb.png  
+pagelines-template-theme/    
+|____language/    
+|____sections/    
+|____functions.php    
+|____info.txt    
+|____page.example.php    
+|____rtl.css    
+|____screenshot.png    
+|____setup.php    
+|____style.css    
+|____style.less    
+|____thumb.png    
 `
