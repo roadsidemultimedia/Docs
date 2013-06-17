@@ -2,16 +2,7 @@
 
 The PageLines Base theme, is a free child theme available from the [PageLines Store](/getting-started/pagelines-store) which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
-The Base child theme is considered the most professional method for customizations and here are a few reasons why:
-
-* Supports custom CSS via the `style.css` file.
-* Supports hooks via the `functions.php` file.
-* Supports LESS with the creation of a `style.less` file.
-* Supports the creation of a `language` folder for translations.
-* Supports a custom `rtl.css` file, for customizing the default rtl styling.
-* Supports custom/child sections.
-
-For more information we recommend reading the following Wordpress codex articles [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development).
+For more information regarding child themes, we recommend reading the following Wordpress codex articles [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development).
 
 ## Structure ##
 
@@ -61,7 +52,24 @@ The PageLines Base child theme folder when in [installed](/configure/installing-
   </tbody>
 </table>
 
-## Renaming the Base child theme ##
+## Adding Customization ##
+
+The Base child theme is considered the most professional and advanced method for customizations and here are a few reasons why:
+
+* Supports custom CSS via the `style.css` file.
+* Supports hooks via the `functions.php` file.
+* Supports LESS with the creation of a `style.less` file.
+* Supports the creation of a `language` folder for translations.
+* Supports a custom `rtl.css` file, for customizing the default rtl styling.
+* Supports custom/child sections.
+
+By default the Base child theme doesn't include a **language** folder or **rtl.css**, **style.less** files. Not all users will need or use them, we believe this will prevent confusion. For the users who do require the language folder , rtl.css and style.less, follow the instructions below.
+
+### Adding LESS support ###
+
+In order to add LESS CSS to your child theme, 
+
+### Renaming the Base child theme ###
 
 By default, the PageLines Base child theme is named Base Theme with all the files stored in the **pagelines-template-theme** diretory. However, at some point you may wish to change the name of the Base child theme.
 
@@ -104,5 +112,7 @@ Template: pagelines
 Once you have replaced the default information with your own, save the **style.css** file. You have now successfully changed the name of Base child theme to your own!
 
 You may also want to want to rename the **pagelines-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client.
+
+
 
 
