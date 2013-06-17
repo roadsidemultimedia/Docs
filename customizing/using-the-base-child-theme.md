@@ -65,18 +65,29 @@ The Base Theme is considered the most professional and advanced method for custo
 
 By default the Base child theme doesn't include a **language** folder or **rtl.css**, **style.less** files. Not all users will need or use them, we believe this will prevent confusion. For the users who do require the language folder , rtl.css and style.less, follow the instructions below.
 
+By default the Base Theme doesn't include a language folder or rtl.css (for right to left languages), style.less files. Not all users will need or use them, we believe this will prevent confusion. For the users who do require the language folder , rtl.css and style.less, follow the instructions below.
+
 ### Adding LESS support ###
 
-In order to add LESS CSS to your child theme, 
+The Base theme already provides LESS CSS support via the **DMS Toolbar &rarr; Customize &rarr; LESS/CSS Editor**. However, if you prefer to add your custom LESS CSS to a stylesheet, you will need to create a **style.less** file.
+
+Open your code editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)) and create a new file. For the timebeing leave the file blank and click save, naming the file **style.less**. Now open your FTP client and upload the file to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
+
+You have successfully created the **style.less** file and are ready to start adding your custom LESS CSS .
+
+### Adding custom RTL (right-to-left) support ###
+
+
+
+### Adding the language folder ###
+
+
 
 ### Renaming the Base child theme ###
 
 By default, the PageLines Base theme is named Base Theme with all the files stored in the **pagelines-template-theme** directory. However, at some point you may wish to change the name of the Base child theme.
 
-Before proceeding with the following instructions, make sure the Base Theme is not the currently active theme (it can cause errors) by going to **Wordpress Admin Dashboard → Appearance → Themes** and clicking the **Activate** link for PageLines DMS.  Once the Base Theme has been deactived, open your FTP client, connect to your server and navigate to the following directory **wp-content → themes → pagelines-template-theme**.
-
-
-Before proceeding with the following instructions, make sure the Base child theme is not the active theme (it can cause errors). Once the base child theme has been de-actived, using your FTP client, connect to your server and navigate to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
+Before proceeding with the following instructions, make sure the Base Theme is not the currently active theme (it can cause errors) by going to **Wordpress Admin Dashboard → Appearance → Themes** and clicking the **Activate** link for PageLines DMS.  Once the Base Theme has been deactived, open your FTP client, connect to your server and navigate to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
 
 Open the **style.css** file and you will see the following information.
 
