@@ -126,25 +126,21 @@ Once you have replaced the default information with your own, save the style.css
 You may also want to want to rename the **pagelines-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client's Rename utility.
 
 
-## FIle structure after changes ##
+### FIle structure after changes ###
 
 If you have followed the instructions above correctly, your base theme folder should now have a similar structure to this:
 
-~~~ .php
-pagelines-template-theme/
-|____functions.php
-|____info.txt
-|____language/
-|____page.example.php
-|____rtl.css
-|____screenshot.png
-|____sections/
-| |____simple_nav/
-| | |____icon.png
-| | |____section.php
-| | |____style.css
-|____setup.php
-|____style.css
-|____style.less
-|____thumb.png
-~~~
+`
+pagelines-template-theme/  
+|____language/  
+|____sections/  
+|____functions.php  
+|____info.txt  
+|____page.example.php  
+|____rtl.css  
+|____screenshot.png  
+|____setup.php  
+|____style.css  
+|____style.less  
+|____thumb.png  
+`
