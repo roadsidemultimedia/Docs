@@ -1,6 +1,6 @@
 # Using the Base Child theme #
 
-The PageLines Base Theme, is a un-styled child theme available free from the [PageLines Store](/getting-started/pagelines-store) which will never receive an update or add any styling of its own, having being designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
+The PageLines Base Theme, is a un-styled child theme available free from the [PageLines Store](/getting-started/pagelines-store) which will never receive an update or add any styling of its own, designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
 
 For more information regarding child themes, we recommend reading the following Wordpress codex articles [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development).
 
@@ -63,15 +63,13 @@ The Base Theme is considered the most professional and advanced method for custo
 * Supports a custom `rtl.css` file, for customizing the default rtl styling.
 * Supports custom/child sections.
 
-By default the Base child theme doesn't include a **language** folder or **rtl.css**, **style.less** files. Not all users will need or use them, we believe this will prevent confusion. For the users who do require the language folder , rtl.css and style.less, follow the instructions below.
-
-By default the Base Theme doesn't include a language folder or rtl.css (for right to left languages), style.less files. Not all users will need or use them, we believe this will prevent confusion. For the users who do require the language folder , rtl.css and style.less, follow the instructions below.
+The Base Theme doesn't include a **language folder** or **rtl.css** (for right-to-left languages), **style.less** files. Not all users will need or use them, we believe this will prevent confusion. For the users who do require the language folder , rtl.css and style.less, follow the instructions below.
 
 ### Adding LESS support ###
 
-The Base theme already provides LESS CSS support via the **DMS Toolbar &rarr; Customize &rarr; LESS/CSS Editor**. However, if you prefer to add your custom LESS CSS to a stylesheet, you will need to create a **style.less** file.
+Base theme already provides LESS CSS support via the **DMS Toolbar &rarr; Customize &rarr; LESS/CSS Editor**. However, if you prefer to add your custom LESS CSS to a stylesheet, you will need to create a **style.less** file.
 
-Open your code editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)) and create a new file. For the timebeing leave the file blank and click save, naming the file **style.less**. Now open your FTP client and upload the file to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
+Open your code editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)), and create a new file. For the time being leave the file blank, and click save, naming the file **style.less**. Now open your FTP client and upload the file to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
 
 You have successfully created the **style.less** file and are ready to start adding your custom LESS CSS .
 
@@ -128,5 +126,25 @@ Once you have replaced the default information with your own, save the style.css
 You may also want to want to rename the **pagelines-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client's Rename utility.
 
 
+## FIle structure after changes ##
 
+If you have followed the instructions above correctly, your base theme folder should now have a similar structure to this:
 
+~~~ .php
+pagelines-template-theme/
+|____functions.php
+|____info.txt
+|____language/
+|____page.example.php
+|____rtl.css
+|____screenshot.png
+|____sections/
+| |____simple_nav/
+| | |____icon.png
+| | |____section.php
+| | |____style.css
+|____setup.php
+|____style.css
+|____style.less
+|____thumb.png
+~~~
