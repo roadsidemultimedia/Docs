@@ -6,12 +6,6 @@ In this tutorial we'll show you how to start customizing PageLines DMS, using on
 
 There are three methods for adding customization to your website, these are: the **DMS toolbar → Customize options**; the **Base Child theme**, and, the **PageLines Customize plugin**.  Each method applies to individual levels of skill -- based on your comfort level and proficiency, which we'll go through below.
 
-For example, if you're **new** to using DMS, you may with to stick to DMS Customization Options, where selecting things to change or customize is by settings only.
-
-Someone with **moderate** skills with customization may wish to use our **Customize Plugin** and some tools to achieve more unique results.
-
-**Advanced users** -- those with stronger technical abilities -- may wish to customize the **Base Theme** to create their very own child themes, as well customizing PageLines DMS.
-
 ### DMS ###
 
 The PageLines DMS method is recommended to **new** users or users with limited HTML/CSS knowledge. PageLines DMS has two built-in options for customization, allowing you to add custom LESS/CSS, and scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
