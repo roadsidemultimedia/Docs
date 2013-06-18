@@ -99,8 +99,10 @@ When customizing PageLines DMS we highly recommend using Google Chrome's Web dev
 
 Bring up Google Chrome's deveolper tools by right-clicking on any element and choosing **"Inspect Element"**. On the left side you see the html-structure of your website (make sure you have the Elements tab active). Here you have the ability to add and edit attributes and their values. Just double-click parts of the code to edit them.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/customize-chrome-tools.jpg)
 
-![]()
+On the right side you see all the CSS styles for the selected element, if you want to edit something, double click the property and enter your new value, press **enter** when you're done. You will notice that a new empty line appears, you can edit existing styles but also add new ones.
+
 
 
 
