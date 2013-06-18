@@ -92,16 +92,29 @@ For more information about the Base theme, please click here.
 
 ## Web Developer Tools ##
 
-When customizing PageLines DMS we highly recommend using Google Chrome's Web developer tools. Other browsers like FireFox, Opera or Safari include similar built-in functionalities. Using these tools allows you to easily inspect the styles used in PageLines DMS and locate them in the CSS files. As well as testing your own CSS styles right in your browser and seeing these changes live.
+When customizing PageLines DMS we highly recommend using Google Chrome's Web developer tools. Other browsers like FireFox, Opera or Safari include similar built-in functionalities. Using these tools allows you to easily inspect the styles used in PageLines DMS and locate them in the CSS files. As well as testing your own CSS styles within the browser and seeing these changes live (reloading the page will remove all changes you have made).
 
 
 ### Editing CSS styles ###
 
-Bring up Google Chrome's deveolper tools by right-clicking on any element and choosing **"Inspect Element"**. On the left side you see the html-structure of your website (make sure you have the Elements tab active). Here you have the ability to add and edit attributes and their values. Just double-click parts of the code to edit them.
+Bring up Google Chrome's deveolper tools by right-clicking on any element and choosing **"Inspect Element"**. On the left side you see the html-structure of your website (make sure you have the Elements tab active). Here you have the ability to add and edit attributes and their values. double click the code you wish to edit.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/customize-chrome-tools.jpg)
 
 On the right side you see all the CSS styles for the selected element, if you want to edit something, double click the property and enter your new value, press **enter** when you're done. You will notice that a new empty line appears, you can edit existing styles but also add new ones.
+
+### Resources ###
+
+Below are some useful resources to get you started with the web developer tools:
+
+* [Chrome Developer Tools](http://code.google.com/chrome/devtools/)
+* [FireFox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
+	+ * [Firebug for FireFox](http://getfirebug.com/faq/)
+* [Safari Developer Tools](http://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/1Introduction/Introduction.html#//apple_ref/doc/uid/TP40007874-CH1-SW1)
+* [Opera Developer Tools](http://www.opera.com/dragonfly/documentation/)
+
+We also highly recommend you check out the discover dev tools free course provided by [Code School](http://discover-devtools.codeschool.com/).
+
 
 
 
