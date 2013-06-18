@@ -4,8 +4,6 @@ In this tutorial we'll show you how to start customizing PageLines DMS, using on
 
 ## Choosing the right Customization Method ##
 
-PageLines DMS provides three Customization Methods, these are 
-
 There are three methods for adding customization to your website, these are: the **DMS toolbar → Customize options**; the **Base Child theme**, and, the **PageLines Customize plugin**. Each method has pros and cons, which we'll go through below.
 
 ### DMS ###
