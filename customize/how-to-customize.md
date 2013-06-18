@@ -8,7 +8,7 @@ There are three methods for adding customization to your website, these are: the
 
 For example, if you're **new** to using DMS, you may with to stick to DMS Customization Options, where selecting things to change or customize is by settings only.
 
-Someone with **moderate **skills with customization may wish to use our **Customize Plugin** and some tools to achieve more unique results.
+Someone with **moderate** skills with customization may wish to use our **Customize Plugin** and some tools to achieve more unique results.
 
 **Advanced users** -- those with stronger technical abilities -- may wish to customize the **Base Theme** to create your very own child themes, as well customizing PageLines DMS.
 
