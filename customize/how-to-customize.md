@@ -38,12 +38,54 @@ For more information about Customize Options in DMS, please click here.
 
 The Customize Plugin contains both style.css and functions.php files like a child theme, it also supports style.less and the use of hooks. However, the plugin doesn’t support the use of child sections. Localizations and language file options are added to this plugin.
 
+<table class="table table-striped table-bordered table-condensed">
+	<thead>
+		<tr>
+			<th></th>
+			<th>Safe from updates</th>
+			<th>CSS/LESS</th>
+			<th>Hooks</th>
+			<th>Override Sections</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>PageLines Customize Plugin</td>
+			<td><i class="icon-ok text-success"></td>
+			<td><i class="icon-ok text-success"></td>
+			<td><i class="icon-ok text-success"></td>
+			<td><i class="icon-remove text-error"></td>
+		</tr>
+	</tbody>
+</table>
+
 For more information about PageLines Customize plugin please click here.
 
 ### The Base Theme Child ###
 
 The Base theme is a free child theme available from the PageLines Store which will never receive an update, as its been designed as a base for you to create your very own child themes, as well customizing PageLines DMS.
 
-The Base child theme is considered the most professional method for customizing, as it supports custom CSS/LESS, scripts, hooks and custom/child sections.
+The Base child theme is considered the most advanced and professional method for customizing, as it supports custom CSS/LESS, scripts, hooks and the ability to override sections.
+
+<table class="table table-striped table-bordered table-condensed">
+	<thead>
+		<tr>
+			<th></th>
+			<th>Safe from updates</th>
+			<th>CSS/LESS</th>
+			<th>Hooks</th>
+			<th>Override Sections</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Base Theme</td>
+			<td><i class="icon-ok text-success"></td>
+			<td><i class="icon-ok text-success"></td>
+			<td><i class="icon-ok text-success"></td>
+			<td><i class="icon-ok text-success"></td>
+		</tr>
+	</tbody>
+</table>
 
 For more information about the Base theme, please click here.
