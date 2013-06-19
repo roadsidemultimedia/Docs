@@ -105,17 +105,17 @@ Depending on your choice of customization method, adding custom CSS/LESS and scr
 
 For example, the **DMS Customize Options** doesn't require any edits to files to add custom code. Instead, custom code is added to the options. 
 
-![]()
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-cssless-editor.jpg)
 
-Adding code to both the **PageLines Customize Plugin** and Base Theme requires editing the style.css, style.less and functions.php files.
+Adding code to both the **PageLines Customize Plugin** and Base Theme requires editing the style.css, style.less and functions.php files with a code editor.
 
-![]()
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/code-editor-app.jpg)
 
 For a more detailed explanation, click the link below which represents your selected customization method.
 
-* [DMS Customize Options](/customize/dms-customize-options)
-* [PageLines Customize Plugin](/customize/pagelines-customize-plugin)
-* [The Base Theme](/customize/base-child-theme)
+* [Using DMS Customize Options](/customize/dms-customize-options)
+* [Using PageLines Customize Plugin](/customize/pagelines-customize-plugin)
+* [Using The Base Theme](/customize/base-child-theme)
 
 ## Tools & Resources ##
 
@@ -156,8 +156,6 @@ For installation support and further explanation, please view the documentation 
 ### Code Editor
 
 All code starts with some type of code editor. The best editors strike a balance between usability, package syntax, and "get out of my way" editing.
-
-![]()
 
 These are a couple we recommend.
 
