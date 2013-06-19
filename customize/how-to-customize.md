@@ -34,7 +34,7 @@ For more information about Customize Options in DMS, please click here.
 
 ### PageLines Customize Plugin ###
 
-The PageLines Customize Plugin is recommended for users who have moderate knowledge with customizing sites using HTML/CSS and PHP. The plugin contains both style.css and functions.php files like a child theme, it also supports style.less, hooks and localizations with the creation of a **language** folder.
+The PageLines Customize Plugin is recommended for users who have moderate knowledge customizing sites using HTML/CSS and PHP. The plugin contains both style.css and functions.php files like a child theme, it also supports style.less, hooks and localizations with the creation of a **language** folder.
 
 However, you're unable to override sections with the Customize Plugin, if you wish to do so, see The Base Theme method below.
 
@@ -99,6 +99,24 @@ We have compiled a list of websites to get you started:
 * [W3C CSS](http://www.w3.org/Style/CSS/)
 * [HTML DOG - CSS Beginners Tutorial](http://www.htmldog.com/guides/css/)
 
+## Adding Code ##
+
+Depending on your choice of customization method, adding custom CSS/LESS and scripts will vary. 
+
+For example, the **DMS Customize Options** doesn't require any edits to files to add custom code. Instead, custom code is added to the options. 
+
+![]()
+
+Adding code to both the **PageLines Customize Plugin** and Base Theme requires editing the style.css, style.less and functions.php files.
+
+![]()
+
+For a more detailed explanation, click the link below which represents your selected customization method.
+
+* [DMS Customize Options](/customize/dms-customize-options)
+* [PageLines Customize Plugin](/customize/pagelines-customize-plugin)
+* [The Base Theme](/customize/base-child-theme)
+
 ## Tools & Resources ##
 
 Here are some useful tools and resources which will assist you in customizing PageLines DMS:
@@ -133,11 +151,15 @@ Local development refers to the process of building a website from the comfort o
   	</tbody>
 </table>
 
-For installation support, please view the documentation for each application.
+For installation support and further explanation, please view the documentation for each application.
 
 ### Code Editor
 
-All code starts with some type of code editor. The best editors strike a balance between usability, package syntax, and "get out of my way" editing. These are a couple that we recommend.
+All code starts with some type of code editor. The best editors strike a balance between usability, package syntax, and "get out of my way" editing.
+
+![]()
+
+These are a couple we recommend.
 
 * [SubLime Text 2](http://www.sublimetext.com/2) - What we use! (MAC OS X/Windows)
 * [Coda 2](http://panic.com/coda/) - (MAC OS X)
@@ -152,7 +174,7 @@ Below are some useful resources to get you started with the web developer tools:
 
 * [Chrome Developer Tools](http://code.google.com/chrome/devtools/)
 * [FireFox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
-	+ [Firebug for FireFox](http://getfirebug.com/faq/)
+* [Firebug for FireFox](http://getfirebug.com/faq/)
 * [Safari Developer Tools](http://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/1Introduction/Introduction.html#//apple_ref/doc/uid/TP40007874-CH1-SW1)
 * [Opera Developer Tools](http://www.opera.com/dragonfly/documentation/)
 
@@ -160,7 +182,7 @@ We also highly recommend you check out the discover dev tools free course provid
 
 ### Online Training ###
 
-There are also a growing number of online courses teaching web programming in the comfort of your browser. We highly recommend signing up and take advantage of these services which offer training, video lessons, coding challenges, and screencasts.
+There are a growing number of online courses teaching web programming in the comfort of your browser. We highly recommend signing up and take advantage of these services which offer training, video lessons, coding challenges, and screencasts.
 
 * [Code School](http://www.codeschool.com/)
 * [Codecademy](http://www.codecademy.com/)
