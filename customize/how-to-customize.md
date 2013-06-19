@@ -2,13 +2,13 @@
 
 In this tutorial we'll show you how to start customizing PageLines DMS, using one of three methods, and recommend which tools you'll need to learn to make minor or advanced modifications.
 
-## Choosing the right Customization Method ##
+## Customization Method ##
 
 There are three methods for adding customization to your website, these are: the **DMS toolbar → Customize options**; the **Base Child theme**, and, the **PageLines Customize plugin**.  Each method applies to individual levels of skill -- based on your comfort level and proficiency, which we'll go through below.
 
-### DMS ###
+### DMS Customize Options ###
 
-The PageLines DMS method is recommended to **new** users or users with limited HTML/CSS knowledge. PageLines DMS has two built-in options for customization, allowing you to add custom LESS/CSS, and scripts. If you wish to add a few custom scripts and/or basic CSS/LESS to your website and nothing more, then using DMS independently is the method for you.
+The PageLines DMS method is recommended to **new** users or users with limited HTML/CSS knowledge. PageLines DMS has two built-in options for customization, allowing you to add custom LESS/CSS, and scripts. If you wish to add nothing more than a few custom scripts and/or basic CSS/LESS to your website, then using DMS independently is the method for you.
 
 <table class="table table-striped table-bordered table-condensed">
 	<thead>
@@ -86,20 +86,67 @@ The Base Theme is a free child theme available from the PageLines Store which wi
 
 For more information about the Base theme, please click here.
 
-## Web Developer Tools ##
+## Learn the Basics ##
 
-When customizing PageLines DMS we highly recommend using Google Chrome's Web developer tools. Other browsers like FireFox, Opera or Safari include similar built-in functionalities. Using these tools allows you to easily inspect the styles used in PageLines DMS and locate them in the CSS files. As well as testing your own CSS styles within the browser and seeing these changes live (reloading the page will remove all changes you have made).
+Theme customization is no easy task, especially if you're new to web programming. However, if you invest some time, you'll soon pick up the basics and things will start to do what you expect them to. You don't necessarily need a profound knowledge of web programming, but you will need to know the fundamentals of HTML and CSS to begin with.
 
+We have compiled a list of websites to get you started:
 
-### Editing CSS styles ###
+* [W3Schools HTML Introduction](http://www.w3schools.com/html/html5_intro.asp)
+* [Mozilla's HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/html)
+* [HTML Dog - HTML Beginners Tutorial](http://www.htmldog.com/guides/html/)
+* [W3Schools CSS Introduction](http://www.w3schools.com/css/default.asp)
+* [W3C CSS](http://www.w3.org/Style/CSS/)
+* [HTML DOG - CSS Beginners Tutorial](http://www.htmldog.com/guides/css/)
 
-Bring up Google Chrome's deveolper tools by right-clicking on any element and choosing **"Inspect Element"**. On the left side you see the html-structure of your website (make sure you have the Elements tab active). Here you have the ability to add and edit attributes and their values. double click the code you wish to edit.
+## Tools & Resources ##
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/customize-chrome-tools.jpg)
+Here are some useful tools and resources which will assist you in customizing PageLines DMS:
 
-On the right side you see all the CSS styles for the selected element, if you want to edit something, double click the property and enter your new value, press **enter** when you're done. You will notice that a new empty line appears, you can edit existing styles but also add new ones.
+### Local Development ###
 
-### Resources ###
+Local development refers to the process of building a website from the comfort of a own computer, and not needing to be connected to the internet in order to run PHP and MySQL. By using applications such as the ones listed below you can essentially turn your computer into a web server.
+
+<table class="table table-striped table-bordered">
+  	<thead>
+    		<tr>
+      		<th>MAC OS X</th>
+      		<th>Windows</th>
+    		</tr>
+  	</thead>
+  	<tbody>
+    		<tr>
+      		<td><a href="http://www.mamp.info/en/index.html">MAMP</a></td>
+      		<td><a href="http://www.wampserver.com/en/">WAMP</a></td>
+  		</tr>
+  		<tr>
+      		<td><a href="http://www.apachefriends.org/en/xampp-macosx.html">XAMPP</a></td>
+      		<td><a href="http://www.apachefriends.org/en/xampp-windows.html">XAMPP</a></td>
+    		</tr>
+    		<tr>
+      		<td><a href="http://www.zend.com/en/products/server-ce/">Zend Server Community Edition</a></td>
+      		<td><a href="http://www.zend.com/en/products/server-ce/">Zend Server Community Edition</a></td>
+		</tr>
+      		<td></td>
+      		<td><a href="http://www.easyphp.org/">EasyPHP</a></td>
+    		</tr>
+  	</tbody>
+</table>
+
+For installation support, please view the documentation for each application.
+
+### Code Editor
+
+All code starts with some type of code editor. The best editors strike a balance between usability, package syntax, and "get out of my way" editing. These are a couple that we recommend.
+
+* [SubLime Text 2](http://www.sublimetext.com/2) - What we use! (MAC OS X/Windows)
+* [Coda 2](http://panic.com/coda/) - (MAC OS X)
+* [TextMate](http://macromates.com/) - (MAC OS X)
+* [Notepad++](http://notepad-plus.sourceforge.net/) - (Windows)
+
+### Web Developer Tools ###
+
+When customizing PageLines DMS using web developer tools are essential and come bundled with most modern web browsers. One of the included tools, allows you to inspect the HTML structure accompanied by the CSS rules used. The Web developer tools also give you the ability to add/edit the CSS rules on the fly.
 
 Below are some useful resources to get you started with the web developer tools:
 
@@ -110,6 +157,16 @@ Below are some useful resources to get you started with the web developer tools:
 * [Opera Developer Tools](http://www.opera.com/dragonfly/documentation/)
 
 We also highly recommend you check out the discover dev tools free course provided by [Code School](http://discover-devtools.codeschool.com/).
+
+### Online Training ###
+
+There are also a growing number of online courses teaching web programming in the comfort of your browser. We highly recommend signing up and take advantage of these services which offer training, video lessons, coding challenges, and screencasts.
+
+* [Code School](http://www.codeschool.com/)
+* [Codecademy](http://www.codecademy.com/)
+* [Treehouse](http://teamtreehouse.com/)
+* [Lynda](http://www.lynda.com/)
+
 
 
 
