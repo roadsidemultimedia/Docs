@@ -54,34 +54,116 @@ The PageLines Base Theme (child) folder when [installed](/configure/installing-s
 
 ## Adding Customization ##
 
-The Base Theme is considered the most professional and advanced method for customizations and here are a few reasons why:
+### CSS ###
 
-* Supports custom CSS via the `style.css` file.
-* Supports hooks via the `functions.php` file.
-* Supports LESS with the creation of a `style.less` file.
-* Supports the creation of a `language` folder for translations.
-* Supports a custom `rtl.css` file, for customizing the default rtl styling.
-* Supports custom/child sections.
+There are two principal methods for adding custom CSS to the Base Theme, these are: the **style.css** file and the **style.less** file.  Each method applies to individual levels of skill -- based on your comfort level and proficiency, which we'll go through below.
 
-The Base Theme doesn't include a **language folder** or **rtl.css** (for right-to-left languages), **style.less** files. Not all users will need or use them, we believe this will prevent confusion. For the users who do require the language folder , rtl.css and style.less, follow the instructions below.
+#### style.css ####
 
-### Adding LESS support ###
+The style.css file allows you to modify the visual style of the website using custom CSS. Custom CSS gives you the power to override the Base themes default styling such as changing the font size, color etc. A basic understanding of CSS & HTML is recommended before using this feature, as adding incorrect code could break your theme until removed.
 
-Base theme already provides LESS CSS support via the **DMS Toolbar &rarr; Customize &rarr; LESS/CSS Editor**. However, if you prefer to add your custom LESS CSS to a stylesheet, you will need to create a **style.less** file.
+To add your custom CSS to the style.css file, we recommend not using the WordPress Editor when adding/editing your code but instead, use your FTP client which should be configured to work with your text editor.
 
-Open your code editor (we recommend [Sublime Text 2](http://www.sublimetext.com/2)), and create a new file. For the time being leave the file blank, and click save, naming the file **style.less**. Now open your FTP client and upload the file to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
+When you open the style.css file, you see the following:
 
-You have successfully created the **style.less** file and are ready to start adding your custom LESS CSS .
+~~~ .css
+/*
+Theme Name: Base Theme
+Theme URI: http://www.pagelines.com/
+Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
+Version: 1.0.2
+Author: PageLines
+Author URI: http://www.pagelines.com
+Tags: developer
 
-### Adding custom RTL (right-to-left) support ###
+Template: pagelines
+
+*/
+
+/*
+Themes follow the basic WordPress themes header scheme with the following additions:
+
+  Template: pagelines
+  Tells wordpress this is a childtheme and where the parent files are stored.
+
+  Demo: http://a.link.com
+  Use this to point to a demo for this product.
+
+  External: http://a.link.com
+  Use this to point to an external site, authors home page for example.
+*/
+
+/*
+ * File Naming Conventions
+ * -------------------------------------
+ *  style.css                     - Main theme style file.
+ *  thumb.png                 - Thumbnail image used in the store and on pagelines.com for your product.
+ *  screenshot.png          - Primary screenshot, logo or graphic for your extension item (300px by 225px).
+ *  screenshot-1.png      - Additional screenshots -1 -2 -3 etc (optional).
+ *  page.example.php      - Custom page template, check the file for syntax. This is autoloaded.
+ *  sections/                   - Bundle sections with your theme in this folder, each section in a seperate folder.
+ */
+ ~~~
+
+From here you can begin to add your custom CSS, see our example below:
+
+~~~ .css
+/*
+Theme Name: Base Theme
+Theme URI: http://www.pagelines.com/
+Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
+Version: 1.0.2
+Author: PageLines
+Author URI: http://www.pagelines.com
+Tags: developer
+
+Template: pagelines
+
+*/
+
+/*
+Themes follow the basic WordPress themes header scheme with the following additions:
+
+  Template: pagelines
+  Tells wordpress this is a childtheme and where the parent files are stored.
+
+  Demo: http://a.link.com
+  Use this to point to a demo for this product.
+
+  External: http://a.link.com
+  Use this to point to an external site, authors home page for example.
+*/
+
+/*
+ * File Naming Conventions
+ * -------------------------------------
+ *  style.css                     - Main theme style file.
+ *  thumb.png                 - Thumbnail image used in the store and on pagelines.com for your product.
+ *  screenshot.png          - Primary screenshot, logo or graphic for your extension item (300px by 225px).
+ *  screenshot-1.png      - Additional screenshots -1 -2 -3 etc (optional).
+ *  page.example.php      - Custom page template, check the file for syntax. This is autoloaded.
+ *  sections/                   - Bundle sections with your theme in this folder, each section in a seperate folder.
+ */
+
+body {
+  background-color:#0088DD;
+  color: #555;
+  font-size: 22px;
+}
+
+.example {
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 40px;
+}
+ ~~~
+
+Once you have added your custom CSS, save the file and if your FTP client is configured correctly, it should upload the file, replacing the old style.css. 
 
 
 
-### Adding the language folder ###
 
-
-
-### Renaming the Base child theme ###
+## Renaming the Base child theme ##
 
 By default, the PageLines Base theme is named Base Theme with all the files stored in the **pagelines-template-theme** directory. However, at some point you may wish to change the name of the Base child theme.
 
@@ -126,19 +208,3 @@ Once you have replaced the default information with your own, save the style.css
 You may also want to want to rename the **pagelines-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client's Rename utility.
 
 
-### FIle structure after changes ###
-
-If you have followed the instructions above correctly, your base theme folder should now have a similar structure to this:
-
-    pagelines-template-theme/
-    |____language/
-    |____sections/
-    |____functions.php
-    |____info.txt
-    |____page.example.php
-    |____rtl.css
-    |____screenshot.png
-    |____setup.php
-    |____style.css
-    |____style.less
-    |____thumb.png
