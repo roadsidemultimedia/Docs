@@ -75,7 +75,7 @@ There are two principal methods for adding custom CSS to the Base Theme, these a
       <td><i class="icon-remove text-error"></i></td>
     </tr>
     <tr>
-      <td><strong>style.css</strong></td>
+      <td><strong>style.less</strong></td>
       <td><i class="icon-ok text-success"></i></td>
       <td><i class="icon-ok text-success"></i></td>
     </tr>
