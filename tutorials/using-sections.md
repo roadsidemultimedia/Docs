@@ -2,109 +2,107 @@
 
 PageLines DMS Sections are modular extensions based on the PageLines Drag & Drop architecture, and are included in the core DMS. If you are looking for information on configuring or activating sections, please review <a href="/configure/configuring-sections">this guide</a>.
 
-## Body ##
-
-## h2. Columnizer ##
+## Columnizer ##
 
 <p> Text goes here </p>
 
-## h2. Comments ##
+## Comments ##
 
 <p> Text goes here </p>
 
-## h2. Flipper ##
+## Flipper ##
 
 <p> Text goes here </p>
 
-## h2. Hero ##
+## Hero ##
 
 <p> Text goes here </p>
 
-## h2. Highlight ##
+## Highlight ##
 
 <p> Text goes here </p>
 
-## h2. iBox ##
+## iBox ##
 
 <p> Text goes here </p>
 
-## h2. Masthead ##
+## Masthead ##
 
 <p> Text goes here </p>
 
-## h2. Mediabox ##
+## Mediabox ##
 
 <p> Text goes here </p>
 
-## h2. NavBar ##
+## NavBar ##
 
 <p> Text goes here </p>
 
-## h2. Noposts ##
+## Noposts ##
 
 <p> Text goes here </p>
 
-## h2. Pagination ##
+## Pagination ##
 
 <p> Text goes here </p>
 
-## h2. pl_area ##
+## pl_area ##
 
 <p> Text goes here </p>
 
-## h2. plcolumn ##
+## plcolumn ##
 
 <p> Text goes here </p>
 
-## h2. Postauthor ##
+## Postauthor ##
 
 <p> Text goes here </p>
 
-## h2. Postloop ##
+## Postloop ##
 
 <p> Text goes here </p>
 
-## h2. Postnav ##
+## Postnav ##
 
 <p> Text goes here </p>
 
-## h2. Postsinfo ##
+## Postsinfo ##
 
 <p> Text goes here </p>
 
-## h2. Quickslider ##
+## Quickslider ##
 
 <p> Text goes here </p>
 
-## h2. sb_primary ##
+## sb_primary ##
 
 <p> Text goes here </p>
 
-## h2. ScrollSpy ##
+## ScrollSpy ##
 
 <p> Text goes here </p>
 
-## h2. Secondnav ##
+## Secondnav ##
 
 <p> Text goes here </p>
 
-## h2. Sharebar ##
+## Sharebar ##
 
 <p> Text goes here </p>
 
-## h2. Simple_nav ##
+## Simple_nav ##
 
 <p> Text goes here </p>
 
-## h2. Textbox ##
+## Textbox ##
 
 <p> Text goes here </p>
 
-## h2. Watermark ##
+## Watermark ##
 
 <p> Text goes here </p>
 
-## h2. Widgetizer ##
+## Widgetizer ##
 
 <p> Text goes here </p>
 
