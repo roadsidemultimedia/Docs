@@ -60,7 +60,7 @@ There are two principal methods for adding custom CSS to the Base Theme, these a
 
 #### style.css ####
 
-To add your custom CSS to the style.css file, we recommend not using the WordPress Editor when adding/editing your code but instead, use your FTP client which should be configured to work with your text editor.
+To add custom CSS to the style.css file, we recommend **not** using the WordPress Editor, but instead use your FTP client which should be configured to work with your code editor when opening `.css`, `.html`, `.php files`.
 
 When you open the style.css file, you see the following:
 
@@ -103,7 +103,7 @@ Themes follow the basic WordPress themes header scheme with the following additi
  */
  ~~~
 
-The first thing we will do is remove all the information that is not required and then add some custom CSS, see our example below:
+The first thing we will do is remove all the information that is not required and then add some example code below:
 
 ~~~ .css
 /*
@@ -120,7 +120,7 @@ Template: pagelines
 */
 
 body {
-  background-color:#0088DD;
+  background-color: #0088DD;
   color: #555;
   font-size: 22px;
 }
@@ -132,7 +132,15 @@ body {
 }
  ~~~
 
-Once you have added your custom CSS, save the file and if your FTP client is configured correctly, it should upload the file, replacing the old style.css. Refresh your website and the changes should have taken effect.
+Once your custom CSS has been added, save the file and if your FTP client is configured correctly, it should upload the file to your server, replacing the old style.css. Refresh your website and your changes should have taken effect.
+
+#### style.less ####
+
+The style.css file does not support LESS CSS, only standard CSS. However, the style.less file supports both standard CSS and LESS CSS, so if you plan on utilising LESS CSS in your site design, all your custom CSS should be added to the style.less file as well.
+
+In order to use the style.less method, you will first need to create a **style.less** file, see our **Adding LESS Support** page on how to do this.
+
+Once the style.less file has been created you're now able to add both CSS and LESS CSS to the Base Theme.
 
 
 
