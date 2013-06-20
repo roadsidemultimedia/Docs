@@ -2,7 +2,9 @@
 
 The PageLines Base Theme, is a un-styled child theme available free from the [PageLines Store](/getting-started/pagelines-store) which will never receive an update or add any styling of its own, designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
 
-For more information regarding child themes, we recommend reading the following Wordpress codex articles [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development).
+The PageLines Base Theme, is a un-styled child theme -- available free from the [PageLines Store](/getting-started/pagelines-store)  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
+
+For more information regarding child themes, we recommend reading these linked Wordpress codex articles -- [child themes](http://codex.wordpress.org/Child_Themes),  and [theme development](http://codex.wordpress.org/Theme_Development).
 
 ## Structure ##
 
@@ -56,13 +58,37 @@ The PageLines Base Theme (child) folder when [installed](/configure/installing-s
 
 ### CSS ###
 
-There are two principal methods for adding custom CSS to the Base Theme, these are: the **style.css** file and the **style.less** file.  Each method applies to individual levels of skill -- based on your comfort level and proficiency, which we'll go through below.
+There are two principal methods for adding custom CSS to the Base Theme, these are: the `style.css` file and the `style.less` file. Each method applies to individual levels of skill -- based on your comfort level and proficiency, which we'll go through below.
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Stylesheet</th>
+      <th>Supports CSS</th>
+      <th>Supports LESS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>style.css</strong></td>
+      <td><i class="icon-ok text-success"></i></td>
+      <td><i class="icon-remove text-error"></i></td>
+    </tr>
+    <tr>
+      <td><strong>style.css</strong></td>
+      <td><i class="icon-ok text-success"></i></td>
+      <td><i class="icon-ok text-success"></i></td>
+    </tr>
+  </tbody>
+</table>
+
+As you can see from the table above, the `style.css` file only supports standard CSS and not less. However, the `style.less` file supports both, if you do plan to utilize LESS into your design, we highly recommend consolidating all your CSS into the `style.less` file, for easier management of your code.
 
 #### style.css ####
 
-To add custom CSS to the style.css file, we recommend **not** using the WordPress Editor, but instead use your FTP client which should be configured to work with your code editor when opening `.css`, `.html`, `.php files`.
+To add custom CSS to the style.css file, we recommend **not** using the WordPress Editor, but instead use your FTP client which should be configured to work with your code editor when opening `.css`, `.html`, .`php files`.
 
-When you open the style.css file, you see the following:
+When you open the style.css file in your code editor, you see the following:
 
 ~~~ .css
 /*
@@ -132,26 +158,23 @@ body {
 }
  ~~~
 
-Once your custom CSS has been added, save the file and if your FTP client is configured correctly, it should upload the file to your server, replacing the old style.css. Refresh your website and your changes should have taken effect.
+Once your custom CSS has been added, save the file and if your FTP client is configured correctly, it should upload the file to your server, replacing the older style.css. Refresh your website and your changes should have taken effect.
 
 #### style.less ####
 
-The style.css file does not support LESS CSS, only standard CSS. However, the style.less file supports both standard CSS and LESS CSS, so if you plan on utilising LESS CSS in your site design, all your custom CSS should be added to the style.less file as well.
+In order to use the style.less method, you will first need to create a **style.less** file, see our **Adding LESS Support** page on how to do this. Once the style.less file has been created you're now able to add both CSS and LESS CSS to the Base Theme.
 
-In order to use the style.less method, you will first need to create a **style.less** file, see our **Adding LESS Support** page on how to do this.
-
-Once the style.less file has been created you're now able to add both CSS and LESS CSS to the Base Theme.
-
-
-
+For more information about LESS CSS , see our [LESS CSS](/advanced/less-css) documentation which also includes some examples.
 
 ## Renaming the Base child theme ##
 
-By default, the PageLines Base theme is named Base Theme with all the files stored in the **pagelines-template-theme** directory. However, at some point you may wish to change the name of the Base child theme.
+By default, the PageLines child is named Base Theme with all the files stored in the **pagelines-template-theme** directory. However, at some point you may wish to change the name of the Base child theme.
 
-Before proceeding with the following instructions, make sure the Base Theme is not the currently active theme (it can cause errors) by going to **Wordpress Admin Dashboard → Appearance → Themes** and clicking the **Activate** link for PageLines DMS.  Once the Base Theme has been deactived, open your FTP client, connect to your server and navigate to the following directory **wp-content &rarr; themes &rarr; pagelines-template-theme**.
+Before proceeding with the following instructions, make sure the Base Theme is not the currently active theme (it can cause errors) by going to **Wordpress Admin Dashboard → Appearance → Themes** and clicking the **Activate link** for PageLines DMS.
 
-Open the **style.css** file and you will see the following information.
+Once the Base Theme has been deactived, open your FTP client, connect to your server and navigate to the following directory **wp-content → themes → pagelines-template-theme**.
+
+Open the `style.css` file and you will see the following information.
 
 ~~~ .php
 /*
@@ -185,7 +208,7 @@ Template: pagelines
 */
 ~~~
 
-Once you have replaced the default information with your own, save the style.css file. You have now successfully changed the name of Base Theme and made it into your own child theme!
+Once you have replaced the default information with your own, save the `style.css` file. You have now successfully changed the name of Base Theme and made it into your own child theme!
 
 You may also want to want to rename the **pagelines-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client's Rename utility.
 
