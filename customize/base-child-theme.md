@@ -60,8 +60,6 @@ There are two principal methods for adding custom CSS to the Base Theme, these a
 
 #### style.css ####
 
-The style.css file allows you to modify the visual style of the website using custom CSS. Custom CSS gives you the power to override the Base themes default styling such as changing the font size, color etc. A basic understanding of CSS & HTML is recommended before using this feature, as adding incorrect code could break your theme until removed.
-
 To add your custom CSS to the style.css file, we recommend not using the WordPress Editor when adding/editing your code but instead, use your FTP client which should be configured to work with your text editor.
 
 When you open the style.css file, you see the following:
@@ -105,7 +103,7 @@ Themes follow the basic WordPress themes header scheme with the following additi
  */
  ~~~
 
-From here you can begin to add your custom CSS, see our example below:
+The first thing we will do is remove all the information that is not required and then add some custom CSS, see our example below:
 
 ~~~ .css
 /*
@@ -121,30 +119,6 @@ Template: pagelines
 
 */
 
-/*
-Themes follow the basic WordPress themes header scheme with the following additions:
-
-  Template: pagelines
-  Tells wordpress this is a childtheme and where the parent files are stored.
-
-  Demo: http://a.link.com
-  Use this to point to a demo for this product.
-
-  External: http://a.link.com
-  Use this to point to an external site, authors home page for example.
-*/
-
-/*
- * File Naming Conventions
- * -------------------------------------
- *  style.css                     - Main theme style file.
- *  thumb.png                 - Thumbnail image used in the store and on pagelines.com for your product.
- *  screenshot.png          - Primary screenshot, logo or graphic for your extension item (300px by 225px).
- *  screenshot-1.png      - Additional screenshots -1 -2 -3 etc (optional).
- *  page.example.php      - Custom page template, check the file for syntax. This is autoloaded.
- *  sections/                   - Bundle sections with your theme in this folder, each section in a seperate folder.
- */
-
 body {
   background-color:#0088DD;
   color: #555;
@@ -158,7 +132,7 @@ body {
 }
  ~~~
 
-Once you have added your custom CSS, save the file and if your FTP client is configured correctly, it should upload the file, replacing the old style.css. 
+Once you have added your custom CSS, save the file and if your FTP client is configured correctly, it should upload the file, replacing the old style.css. Refresh your website and the changes should have taken effect.
 
 
 
