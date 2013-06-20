@@ -86,7 +86,7 @@ As you can see from the table above, the `style.css` file only supports standard
 
 #### style.css ####
 
-To add custom CSS to the style.css file, we recommend **not** using the WordPress Editor, but instead use your FTP client which should be configured to work with your code editor when opening `.css`, `.html`, .`php files`.
+To add custom CSS to the style.css file, we recommend **not** using the WordPress Editor, but instead use your FTP client which should be configured to work with your code editor when opening `.css`, `.html`, .`php` files.
 
 When you open the style.css file in your code editor, you see the following:
 
@@ -162,9 +162,17 @@ Once your custom CSS has been added, save the file and if your FTP client is con
 
 #### style.less ####
 
-In order to use the style.less method, you will first need to create a **style.less** file, see our **Adding LESS Support** page on how to do this. Once the style.less file has been created you're now able to add both CSS and LESS CSS to the Base Theme.
+In order to use the style.less method, you will first need to create a **style.less** file, see our [Adding LESS Support](/customize/adding-less-css-support)  page on how to do this. Once the style.less file has been created you're now able to add both CSS and LESS CSS to the Base Theme.
 
 For more information about LESS CSS , see our [LESS CSS](/advanced/less-css) documentation which also includes some examples.
+
+### PHP ###
+
+#### functions.php ####
+
+The functions.php file allows you to add/manipulate functionality to PageLines DMS. You can use it to call functions and to define your own customized actions. The code is only executed when the theme is activated, if the theme is changed, the functionality will not carry over. The functions.php file supports numerous blocks of code to be used for many different purposes.
+
+For more information about hooks, see our [Hooks](/advanced/hooks) documentation which also includes some examples.
 
 ## Renaming the Base child theme ##
 
