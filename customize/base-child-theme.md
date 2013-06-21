@@ -8,49 +8,17 @@ For more information regarding child themes, we recommend reading these linked W
 
 The PageLines Base Theme (child) folder when [installed](/configure/installing-store-products), will be located here **wp-content → themes → pagelines-template-theme**, containing the subfolder and files found in the table below.
 
-<table class="table table-striped table-bordered">
-  <thead>
-    <tr>
-      <th>File/Folder name</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>sections/</strong></td>
-      <td>Add custom/child sections here, contains an example child section of Simple Nav</td>
-    </tr>
-    <tr>
-      <td><strong>functions.php</strong></td>
-      <td>All custom hooks and actions live here.</td>
-    </tr>
-    <tr>
-      <td><strong>info.txt</strong></td>
-      <td>Provides long description for store, and changelog.</td>
-    </tr>
-    <tr>
-      <td><strong>page.example.php</strong></td>
-      <td>Custom page template, check the file for syntax. This is autoloaded.</td>
-    </tr>
-    <tr>
-      <td><strong>screenshot.png</strong></td>
-      <td>Primary screenshot, logo or graphic for your extension item (300px by 225px).</td>
-    </tr>
-    <tr>
-    <tr>
-      <td><strong>setup.php</strong></td>
-      <td>Loads the parent theme. <strong>Don't tamper with this</strong>.</td>
-    </tr>
-    <tr>
-      <td><strong>style.css</strong></td>
-      <td>Main theme style file.</td>
-    </tr>
-    <tr>
-      <td><strong>thumb.png</strong></td>
-      <td>Thumbnail image used in the store and on pagelines.com for your product.</td>
-    </tr>
-  </tbody>
-</table>
+<pre>
+<i class="icon-folder-open"></i> pagelines-template-theme/
+  <i class="icon-folder-open"></i> sections/ /* Add custom/child sections here, contains an example child section of Simple Nav */
+  <i class="icon-file"></i> functions.php /* All custom hooks and actions live here. */
+  <i class="icon-file"></i> info.txt /* Provides long description for store, and changelog. */
+  <i class="icon-file"></i> page.example.php /* Custom page template, check the file for syntax. This is autoloaded. */
+  <i class="icon-file"></i> screenshot.png /* Primary screenshot, logo or graphic for your extension item (300px by 225px). */
+  <i class="icon-file"></i> setup.php /* Loads the parent theme. <strong>Don't tamper with this</strong>. */
+  <i class="icon-file"></i> style.css /* Main theme style file. */
+  <i class="icon-file"></i> thumb.png /* Thumbnail image used in the store and on pagelines.com for your product */
+</pre>
 
 ## Adding Customization ##
 
