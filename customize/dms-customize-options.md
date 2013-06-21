@@ -2,7 +2,7 @@
   <div class="span12">
     <ul class="pager">
       <li class="pull-left"><a href="http://docs.pagelines.com/customize/how-to-customize"><i class="icon-arrow-left"></i> How to Customize</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/dms-customize-options">DMS Customize Options <i class="icon-arrow-right"></i></a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/pagelines-customize-plugin">PageLines Customize Plugin <i class="icon-arrow-right"></i></a></li>
     </ul>
   </div>
 </div>
