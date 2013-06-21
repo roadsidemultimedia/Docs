@@ -42,7 +42,7 @@ From here, simply add either custom CSS or LESS CSS and click publish, alternati
 
 ### Scripts ###
 
-NEED MORE INFORMATION, APPEARS TO BE ADDING SCRIPTS AT THE TOP OF <body>
+NEED MORE INFORMATION, APPEARS TO BE ADDING SCRIPTS AT THE TOP OF `<body>`
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-script-editor.jpg)
 
