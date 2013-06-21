@@ -23,12 +23,36 @@ However, you're unable to override sections with the Customize Plugin, if you wi
 	</tbody>
 </table>
 
+## Installation ##
+
+To install the PageLines Customize Plugin, you'll need to navigate to PageLines DMS Toolbar &rarr; Store &rarr; Plugins &rarr; Free and click on PageLines CustomIze. You will now be presented with the products overview, from here click the **Install** button.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/install-customize-plugin.jpg)
+
+Once the plugin has been installed successfully we need to activate it, click back on the PageLines Customize Plugin icon, then click the **Activate** button.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/activate-customize-plugin.jpg)
+
+
 ## File Structure ##
 
 <pre>
-<i class="icon-folder-open"></i> pagelines-customize/
+<i class="icon-folder-open-alt"></i> pagelines-customize/
 	<i class="icon-file"></i> functions.php
 	<i class="icon-file"></i> pagelines-customize.php
 	<i class="icon-file"></i> style.css
 	<i class="icon-file"></i> thumb.png
 </pre>
+
+
+
+
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li><a href="http://docs.pagelines.com/customize/dms-customize-options">DMS Customize Options <i class="icon-arrow-left"></i></a></li>
+  			<li><a href="http://docs.pagelines.com/customize/base-child-theme">The Base Child Theme <i class="icon-arrow-right"></i></a></li>
+		</ul>
+	</div>
+</div>
