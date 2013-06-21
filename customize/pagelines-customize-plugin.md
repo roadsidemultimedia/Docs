@@ -1,3 +1,12 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options"><i class="icon-arrow-left"></i> DMS Customize Options</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">The Base Child Theme <i class="icon-arrow-right"></i></a></li>
+		</ul>
+	</div>
+</div>
+
 # PageLines Customize Plugin #
 
 The PageLines Customize Plugin is recommended for users who have moderate knowledge customizing sites using HTML/CSS, and PHP.
@@ -37,7 +46,7 @@ Once the plugin has been installed we need to activate it, click back on the Pag
 
 ## File Structure ##
 
-The PageLines Customize Plugin folder when installed, will be located here **wp-content &rarr; plugins &rarr; pagelines-customize**, containing the following files.
+When installed, the PageLines Customize Plugin folder will be located here:  **wp-content → plugins → pagelines-customize**, and contains the following files:
 
 <pre>
 <i class="icon-folder-open"></i> pagelines-customize/
