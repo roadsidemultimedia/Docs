@@ -107,7 +107,7 @@ For example, the **DMS Customize Options** doesn't require any edits to files to
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-cssless-editor.jpg)
 
-Adding code to both the **PageLines Customize Plugin** and Base Theme requires editing the style.css, style.less and functions.php files with a code editor.
+Adding code to both the **PageLines Customize Plugin** and **Base Theme** requires editing the `style.css`, `style.less` and `functions.php` files with a code editor.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/code-editor-app.jpg)
 
@@ -123,7 +123,7 @@ Here are some useful tools and resources which will assist you in customizing Pa
 
 ### Local Development ###
 
-Local development refers to the process of building a website from the comfort of a own computer, and not needing to be connected to the internet in order to run PHP and MySQL. By using applications such as the ones listed below you can essentially turn your computer into a web server.
+Local development refers to the process of building a website from the comfort of your own computer, and not needing to be connected to the internet in order to run PHP and/or MySQL. By using applications such as the ones listed below you can essentially turn your computer into a temporary web server.
 
 <table class="table table-striped table-bordered">
   	<thead>
