@@ -1,3 +1,11 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/dms-customize-options">DMS Customize Options <i class="icon-arrow-right"></i></a></li>
+		</ul>
+	</div>
+</div>
+
 # How to Customize #
 
 In this tutorial we'll show you how to start customizing PageLines DMS, using one of three methods, and recommend which tools you'll need to learn to make minor or advanced modifications.
@@ -194,11 +202,3 @@ There are a growing number of online courses teaching web programming in the com
 		</ul>
 	</div>
 </div>
-
-
-
-
-
-
-
-

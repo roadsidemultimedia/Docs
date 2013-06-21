@@ -1,3 +1,12 @@
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options"><i class="icon-arrow-left"></i> PageLines Customize Plugin</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">Store Child Themes <i class="icon-arrow-right"></i></a></li>
+    </ul>
+  </div>
+</div>
+
 # Using the Base Child theme #
 
 The PageLines Base Theme, is a un-styled child theme -- available free from the [PageLines Store](/getting-started/pagelines-store)  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
@@ -6,7 +15,7 @@ For more information regarding child themes, we recommend reading these linked W
 
 ## Structure ##
 
-The PageLines Base Theme (child) folder when [installed](/configure/installing-store-products), will be located here **wp-content → themes → pagelines-template-theme**, containing the subfolder and files found in the table below.
+The PageLines Base Theme (child) folder when [installed](/configure/installing-store-products), will be located here **wp-content → themes → pagelines-template-theme**, containing the subfolder and files, as seen below.
 
 <pre>
 <i class="icon-folder-open"></i> pagelines-template-theme/
@@ -194,4 +203,3 @@ You may also want to want to rename the **pagelines-template-theme** folder to m
     </ul>
   </div>
 </div>
-
