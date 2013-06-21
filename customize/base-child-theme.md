@@ -1,7 +1,5 @@
 # Using the Base Child theme #
 
-The PageLines Base Theme, is a un-styled child theme available free from the [PageLines Store](/getting-started/pagelines-store) which will never receive an update or add any styling of its own, designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
-
 The PageLines Base Theme, is a un-styled child theme -- available free from the [PageLines Store](/getting-started/pagelines-store)  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
 
 For more information regarding child themes, we recommend reading these linked Wordpress codex articles -- [child themes](http://codex.wordpress.org/Child_Themes),  and [theme development](http://codex.wordpress.org/Theme_Development).
@@ -82,7 +80,7 @@ There are two principal methods for adding custom CSS to the Base Theme, these a
   </tbody>
 </table>
 
-As you can see from the table above, the `style.css` file only supports standard CSS and not less. However, the `style.less` file supports both, if you do plan to utilize LESS into your design, we highly recommend consolidating all your CSS into the `style.less` file, for easier management of your code.
+As you can see from the table above, the `style.css` file only supports standard CSS and not less. However, the `style.less` file supports both, if you do plan to utilize LESS into your design, we recommend consolidating all your CSS into the `style.less` file, for easier management of your code.
 
 #### style.css ####
 
