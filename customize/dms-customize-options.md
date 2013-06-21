@@ -38,13 +38,13 @@ Adding CSS/LESS to PageLines DMS via the Custom Code Options, is fast and simple
 
 From here, simply add either custom CSS or LESS CSS and click publish, alternatively you can use the keyboard shortcuts **[Cmd⌘+Return]** or **[Ctrl+Return]** to Preview Live.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/customize-cssless-editor.jpg)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-cssless-editor.jpg)
 
 ### Scripts ###
 
 NEED MORE INFORMATION, APPEARS TO BE ADDING SCRIPTS AT THE TOP OF <body>
 
-
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-script-editor.jpg)
 
 <div class="row-fluid">
   <div class="span12">
