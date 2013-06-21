@@ -186,4 +186,12 @@ Once you have replaced the default information with your own, save the `style.cs
 
 You may also want to want to rename the **pagelines-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client's Rename utility.
 
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options"><i class="icon-arrow-left"></i> PageLines Customize Plugin</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">Store Child Themes <i class="icon-arrow-right"></i></a></li>
+    </ul>
+  </div>
+</div>
 
