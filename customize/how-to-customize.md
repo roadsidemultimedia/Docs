@@ -187,8 +187,13 @@ There are a growing number of online courses teaching web programming in the com
 * [Treehouse](http://teamtreehouse.com/)
 * [Lynda](http://www.lynda.com/)
 
-
-
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+  			<li class="pull-right"><a href="#">DMS Customize Options</a></li>
+		</ul>
+	</div>
+</div>
 
 
 
