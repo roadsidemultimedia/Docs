@@ -114,7 +114,31 @@
                         </ul>
                     </div>
                     <div class="span9 docs-content">
-<p>Placeholder</p>
+<h1>Overriding Default CSS</h1>
+
+<p>When adding custom CSS to your website, depending on your customization method your custom CSS/LESS may require using an ID to preface your rules.</p>
+
+<p>There are two main ID’s that you can use to guarantee your custom rules will work correctly. These overrides are <code>#site</code> &amp; <code>#page</code></p>
+
+<p>The reason that you’re required to do this, is because of the way heirarchy works in CSS and especially in LESS. We are using a new convention, specifically that inside the core and extensions we do not use ID based selectors… e.g. <code>#page</code></p>
+
+<p>These are reserved for <strong>user</strong> customizations, because a single ID in a CSS selector can over power a long chain of class based selectors.</p>
+
+<h2>Examples</h2>
+
+<p>The examples below demonstrate that the code which is using the ID #page, has higher precedence than the code which is using a chain of classes:</p>
+
+<p>** ID **</p>
+
+<pre><code class="css">#page .postpins {
+    background-color: #FFF;
+}
+</code></pre>
+
+<pre><code class="css">.selector .another-selector .postpins {
+    background-color: #FFF;
+}
+</code></pre>
             </div>
 		</section>
 
