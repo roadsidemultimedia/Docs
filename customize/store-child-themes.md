@@ -9,7 +9,7 @@
 
 # Store Child theme #
 
-Store Child themes are child themes designed by third-party developers which may be subject to updates by their developers, placing customizations within the theme files are at risk of being overwritten.
+Store Child themes are designed by third-party developers which may be subject to updates by their developers. Placing customizations within these child theme files are at risk of being overwritten.
 
 Therefore, when customizing a child theme purchased from the [PageLines Store](/getting-started/pagelines-store), such as iBlogPro5 or any third-party theme, it is best to use the PageLines Customize plugin (free in the Store) for any CSS/LESS changes, or additional hooks you may wish to add.
 
@@ -17,9 +17,9 @@ Using the Customize plugin eliminates any risk of loss due to updates.
 
 ## Structure ##
 
-Although Store child themes contain all files and folders included in the Base Theme. They may contain additional files and folders which provide features or functionality specific to that theme.
+Although Store child themes contain all files and sub-folders included in the Base Theme. They may contain additional files and folders which provide features or functionality specific to that theme, such as plugins, sections and special functions.
 
-Like the Base Theme, all store child themes when [installed](/configure/installing-store-products), can be located in the following directory **wp-content &rarr; themes** .
+Like the Base Theme, all store child themes when [installed](/configure/installing-store-products), can be located in the following directory **wp-content &rarr; themes**.
 
 ## Adding Customization ##
 
