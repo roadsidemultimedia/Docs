@@ -49,7 +49,7 @@ There are two principal methods for adding custom CSS to the PageLines Customize
   </tbody>
 </table>
 
-As you can see from the table above, the `style.css` file only supports standard CSS and not less. However, the `style.less` file supports both, if you do plan to utilize LESS into your design, we recommend consolidating all your CSS into the `style.less` file, for easier management of your code.
+As you can see from the table above, the `style.css` file only supports standard CSS and not Less. However, the `style.less` file supports both, if you do plan to utilize LESS into your design, we recommend consolidating all your CSS into the `style.less` file, for easier management of your code.
 
 #### style.css ####
 
