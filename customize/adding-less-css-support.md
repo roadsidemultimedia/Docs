@@ -1,3 +1,12 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/override-default-css">&larr; Override Default CSS</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-custom-rtl-support">Adding Custom RTL Support &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
+
 # Adding LESS Support #
 
 In order to take advantage of LESS CSS in the Base Theme or PageLines Customize Plugin, a `style.less` file is required. By default, neither the Base Theme or PageLines Customize Plugin, includes the `style.less` file, we prefer to have users create the file, as not all PageLines users will wish to use LESS CSS in their designs.
@@ -48,5 +57,11 @@ Once the upload, has been completed, you will have successfully created the **st
 
 For a basic introduction to LESS, see our [LESS CSS](http://docs.pagelines.com/advanced/less-css) tutorial, for full documentation visit the [LESS CSS](http://lesscss.org/) homepage.
 
-
-
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/override-default-css">&larr; Override Default CSS</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-custom-rtl-support">Adding Custom RTL Support &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
