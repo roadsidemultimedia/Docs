@@ -116,29 +116,74 @@
                     <div class="span9 docs-content">
 <h1>Overriding Default CSS</h1>
 
-<p>When adding custom CSS to your website, depending on your customization method your custom CSS/LESS may require using an ID to preface your rules.</p>
-
-<p>There are two main ID’s that you can use to guarantee your custom rules will work correctly. These overrides are <code>#site</code> &amp; <code>#page</code></p>
+<p>When adding custom CSS to your website, depending on your customization method your custom CSS/LESS may require using an ID to preface your rules. There are two main ID’s that you can use to guarantee your custom rules will work correctly, these overrides are <code>#site</code> &amp; <code>#page</code>.</p>
 
 <p>The reason that you’re required to do this, is because of the way heirarchy works in CSS and especially in LESS. We are using a new convention, specifically that inside the core and extensions we do not use ID based selectors… e.g. <code>#page</code></p>
 
 <p>These are reserved for <strong>user</strong> customizations, because a single ID in a CSS selector can over power a long chain of class based selectors.</p>
 
-<h2>Examples</h2>
+<p><strong>ID</strong></p>
 
-<p>The examples below demonstrate that the code which is using the ID #page, has higher precedence than the code which is using a chain of classes:</p>
-
-<p>** ID **</p>
-
-<pre><code class="css">#page .postpins {
+<pre><code class="css">#page .section {
     background-color: #FFF;
 }
 </code></pre>
 
-<pre><code class="css">.selector .another-selector .postpins {
+<p>**Class(es)</p>
+
+<pre><code class="css">.selector .another-selector .section {
     background-color: #FFF;
 }
 </code></pre>
+
+<h2>Example</h2>
+
+<p>In the example below, we will override the default font size and color for the Masthead section header and tagline text.</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-default-masthead.jpg" alt=""></p>
+
+<p>Using Google Chrome&#39;s web dev tools to inspect the Masthead section, we can indentify the correct class(es), needed to override the sections default CSS.</p>
+
+<pre><code class="css">/* Masthead Title */
+.masthead .masthead-title {
+    margin-bottom: 9px;
+    font-size: 81px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+/* Masthead tagline */
+.masthead .masthead-tag {
+    margin: 0;
+    margin-bottom: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    line-height: 1.3em;
+    opacity: .7;
+    font-weight: 300;
+}
+</code></pre>
+
+<p>Using the <code>#page</code> override ID, we can easily change the font size and color for both the header and tagline. </p>
+
+<pre><code class="css">/* Masthead Title */
+.masthead .masthead-title {
+    font-size: 62px;
+    color: #08D;
+}
+
+/* Masthead tagline */
+.masthead .masthead-tag {
+    font-size: 18px;
+    color: #08D;
+}
+</code></pre>
+
+<p>We can now add these changes to your preferred customization menthod, the style changes can be seen below.</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-custom-masthead.jpg" alt=""></p>
             </div>
 		</section>
 
