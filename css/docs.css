@@ -225,6 +225,10 @@ strong{
 	font-weight: 600;
 }
 
+pre strong {
+	color: #07A;
+}
+
 /* @ DOCS CONTENT */
 .docs-content img{
 	box-shadow: 0 1px 4px rgba(0,0,0,.3);
@@ -233,12 +237,10 @@ strong{
 
  /* Lastly, apply responsive CSS fixes as necessary */
  @media (max-width: 767px) {
-	
 	.section {
 	    padding: 0;
 	}
-	
-   #footer {
+	#footer {
      margin-left: -20px;
      margin-right: -20px;
      padding-left: 20px;
