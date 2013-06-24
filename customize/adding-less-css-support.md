@@ -37,7 +37,7 @@ Once uploaded, your file structure for the Base Theme will look like this:
 	<i class="icon-file"></i> functions.php
 	<i class="icon-file"></i> info.txt
 	<i class="icon-file"></i> page.example.php
-	<i class="icon-file"></i>  screenshot.png
+	<i class="icon-file"></i> screenshot.png
 	<i class="icon-file"></i> setup.php
 	<i class="icon-file"></i> style.css
 	<i class="icon-file"></i> <strong>style.less</strong>
