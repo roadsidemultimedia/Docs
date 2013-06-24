@@ -4,7 +4,7 @@ When adding custom CSS to your website, depending on your customization method y
 
 The reason that you’re required to do this, is because of the way heirarchy works in CSS and especially in LESS. We are using a new convention, specifically that inside the core and extensions we do not use ID based selectors… e.g. `#page`
 
-These are reserved for **user** customizations, because a single ID in a CSS selector can over power a long chain of class based selectors.
+These are reserved for **"user"** customizations, because a single ID in a CSS selector can over power a long chain of class based selectors.
 
 **ID**
 ~~~ .css
@@ -13,7 +13,7 @@ These are reserved for **user** customizations, because a single ID in a CSS sel
 }
 ~~~
 
-**Class(es)
+**Class(es)**
 ~~~ .css
 .selector .another-selector .section {
 	background-color: #FFF;
