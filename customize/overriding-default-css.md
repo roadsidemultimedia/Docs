@@ -64,13 +64,13 @@ Using the `#page` override ID, we can easily change the font size and color for 
 
 ~~~ .css
 /* Masthead Title */
-.masthead .masthead-title {
+#page .masthead .masthead-title {
 	font-size: 62px;
 	color: #08D;
 }
 
 /* Masthead tagline */
-.masthead .masthead-tag {
+#page .masthead .masthead-tag {
 	font-size: 18px;
 	color: #08D;
 }
