@@ -19,7 +19,7 @@ Once uploaded, your file structure for the PageLines Customize Plugin will look 
 	<i class="icon-file"></i> functions.php
 	<i class="icon-file"></i> pagelines-customize.php
 	<i class="icon-file"></i> style.css
-	<i class="icon-file"></i>  <strong>style.less</strong>
+	<i class="icon-file"></i> <strong>style.less</strong>
 	<i class="icon-file"></i> thumb.png
 </pre>
 
