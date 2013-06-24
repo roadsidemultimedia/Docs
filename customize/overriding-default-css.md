@@ -1,3 +1,12 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-less-css-support">Adding LESS CSS Support &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
+
 # Overriding Default CSS #
 
 When adding custom CSS to your website, depending on your customization method your custom CSS/LESS may require using an ID to preface your rules. There are two main ID’s that you can use to guarantee your custom rules will work correctly, these overrides are `#site` & `#page`.
@@ -71,5 +80,12 @@ We can now add these changes to your preferred customization menthod, the style 
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-custom-masthead.jpg)
 
-
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-less-css-support">Adding LESS CSS Support &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
 

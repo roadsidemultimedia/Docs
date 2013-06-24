@@ -1,7 +1,7 @@
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/dms-customize-options">DMS Customize Options <i class="icon-arrow-right"></i></a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/dms-customize-options">DMS Customize Options &rarr;</a></li>
 		</ul>
 	</div>
 </div>
@@ -198,7 +198,7 @@ There are a growing number of online courses teaching web programming in the com
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/dms-customize-options">DMS Customize Options <i class="icon-arrow-right"></i></a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/dms-customize-options">DMS Customize Options &rarr;</a></li>
 		</ul>
 	</div>
 </div>

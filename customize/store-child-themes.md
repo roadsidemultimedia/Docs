@@ -1,8 +1,8 @@
 <div class="row-fluid">
   <div class="span12">
     <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme"><i class="icon-arrow-left"></i> The Base Child Theme</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/overriding-default-css">Overriding Default CSS <i class="icon-arrow-right"></i></a></li>
+      <li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/overriding-default-css">Overriding Default CSS &rarr;</a></li>
     </ul>
   </div>
 </div>

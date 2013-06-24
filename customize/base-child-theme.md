@@ -1,8 +1,8 @@
 <div class="row-fluid">
   <div class="span12">
     <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/customize/pagelines-customize-plugin"><i class="icon-arrow-left"></i> PageLines Customize Plugin</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">Store Child Themes <i class="icon-arrow-right"></i></a></li>
+      <li class="pull-left"><a href="http://docs.pagelines.com/customize/pagelines-customize-plugin">&larr; PageLines Customize Plugin</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">Store Child Themes &rarr;</a></li>
     </ul>
   </div>
 </div>
@@ -198,8 +198,8 @@ You may also want to want to rename the **pagelines-template-theme** folder to m
 <div class="row-fluid">
   <div class="span12">
     <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options"><i class="icon-arrow-left"></i> PageLines Customize Plugin</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">Store Child Themes <i class="icon-arrow-right"></i></a></li>
+      <li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options">&larr; PageLines Customize Plugin</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">Store Child Themes &rarr;</a></li>
     </ul>
   </div>
 </div>

@@ -1,8 +1,8 @@
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options"><i class="icon-arrow-left"></i> DMS Customize Options</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">The Base Child Theme <i class="icon-arrow-right"></i></a></li>
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options">&larr; DMS Customize Options</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">The Base Child Theme &rarr;</a></li>
 		</ul>
 	</div>
 </div>
@@ -148,7 +148,7 @@ For more information about hooks, see our [Hooks](/advanced/hooks) documentation
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options"><i class="icon-arrow-left"></i> DMS Customize Options</a></li>
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options">&larr; DMS Customize Options</a></li>
   			<li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">The Base Child Theme <i class="icon-arrow-right"></i></a></li>
 		</ul>
 	</div>
