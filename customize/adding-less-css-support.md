@@ -15,11 +15,11 @@ Now open your FTP client and upload the file to the following directory:
 Once uploaded, your file structure for the PageLines Customize Plugin will look like this:
 
 <pre>
-	<i class="icon-folder-open"></i> wp-content/
+	<i class="icon-folder-open"></i> pagelines-customize/
 		<i class="icon-file"></i> functions.php
 		<i class="icon-file"></i> pagelines-customize.php
 		<i class="icon-file"></i> style.css
-		<i class="icon-file"></i>  **style.less**
+		<i class="icon-file"></i>  <strong>style.less</strong>
 		<i class="icon-file"></i> thumb.png
 </pre>
 
@@ -40,7 +40,7 @@ Once uploaded, your file structure for the Base Theme will look like this:
 		<i class="icon-file"></i>  screenshot.png
 		<i class="icon-file"></i> setup.php
 		<i class="icon-file"></i> style.css
-		<i class="icon-file"></i> **style.less**
+		<i class="icon-file"></i> <strong>style.less</strong>
 		<i class="icon-file"></i> thumb.png
 </pre>
 
