@@ -15,12 +15,12 @@ Now open your FTP client and upload the file to the following directory:
 Once uploaded, your file structure for the PageLines Customize Plugin will look like this:
 
 <pre>
-	<i class="icon-folder-open"></i> pagelines-customize/
-		<i class="icon-file"></i> functions.php
-		<i class="icon-file"></i> pagelines-customize.php
-		<i class="icon-file"></i> style.css
-		<i class="icon-file"></i>  <strong>style.less</strong>
-		<i class="icon-file"></i> thumb.png
+<i class="icon-folder-open"></i> pagelines-customize/
+	<i class="icon-file"></i> functions.php
+	<i class="icon-file"></i> pagelines-customize.php
+	<i class="icon-file"></i> style.css
+	<i class="icon-file"></i>  <strong>style.less</strong>
+	<i class="icon-file"></i> thumb.png
 </pre>
 
 
@@ -32,16 +32,16 @@ Once uploaded, your file structure for the PageLines Customize Plugin will look 
 Once uploaded, your file structure for the Base Theme will look like this:
 
 <pre>
-	<i class="icon-folder-open"></i> pagelines-template-theme/
-		<i class="icon-folder-open"></i> sections/
-		<i class="icon-file"></i> functions.php
-		<i class="icon-file"></i> info.txt
-		<i class="icon-file"></i> page.example.php
-		<i class="icon-file"></i>  screenshot.png
-		<i class="icon-file"></i> setup.php
-		<i class="icon-file"></i> style.css
-		<i class="icon-file"></i> <strong>style.less</strong>
-		<i class="icon-file"></i> thumb.png
+<i class="icon-folder-open"></i> pagelines-template-theme/
+	<i class="icon-folder-open"></i> sections/
+	<i class="icon-file"></i> functions.php
+	<i class="icon-file"></i> info.txt
+	<i class="icon-file"></i> page.example.php
+	<i class="icon-file"></i>  screenshot.png
+	<i class="icon-file"></i> setup.php
+	<i class="icon-file"></i> style.css
+	<i class="icon-file"></i> <strong>style.less</strong>
+	<i class="icon-file"></i> thumb.png
 </pre>
 
 Once the upload, has been completed, you will have successfully created the **style.less** file and are ready to start adding your custom LESS CSS .
