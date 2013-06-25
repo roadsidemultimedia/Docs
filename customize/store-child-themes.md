@@ -2,7 +2,7 @@
   <div class="span12">
     <ul class="pager">
       <li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/overriding-default-css">Overriding Default CSS &rarr;</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/override-default-css">Override Default CSS &rarr;</a></li>
     </ul>
   </div>
 </div>
@@ -113,7 +113,7 @@ For more information about hooks, see our [Hooks](/advanced/hooks) documentation
   <div class="span12">
     <ul class="pager">
       <li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/overriding-default-css">Overriding Default CSS &rarr;</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/override-default-css">Override Default CSS &rarr;</a></li>
     </ul>
   </div>
 </div>
