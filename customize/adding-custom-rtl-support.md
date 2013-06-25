@@ -1,3 +1,12 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/adding-less-css-support">&larr; Adding LESS CSS Support</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-custom-scripts">Custom Scripts &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
+
 # Adding Custom RTL Support #
 
 PageLines is built to recognize RTL and changes the styles accordingly. However, there may come a time where you wish to customize PageLines RTL styling, this can be achieved by using either the **Base Theme** or **PageLines Customize Plugin** and creating a `rtl.css` file.
@@ -46,3 +55,11 @@ Once uploaded, your file structure for the Base Theme will look like this:
 
 Once uploaded, you will have successfully created the custom **rtl.css** file and ready to start customizing your RTL style.
 
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/customize/adding-less-css-support">&larr; Adding LESS CSS Support</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-custom-scripts">Custom Scripts &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
