@@ -76,7 +76,7 @@ Using the `#page` override ID, we can easily change the font size and color for 
 }
 ~~~
 
-We can now add these changes to your preferred customization menthod, the style changes can be seen below.
+We can now add these changes to your preferred customization method, the style changes can be seen below.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-custom-masthead.jpg)
 
