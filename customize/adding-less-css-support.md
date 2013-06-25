@@ -32,8 +32,6 @@ Once uploaded, your file structure for the PageLines Customize Plugin will look 
 	<i class="icon-file"></i> thumb.png
 </pre>
 
-
-
 ### Using the Base Theme:
 
 **wp-content &rarr; themes &rarr; pagelines-template-theme**.
@@ -53,7 +51,7 @@ Once uploaded, your file structure for the Base Theme will look like this:
 	<i class="icon-file"></i> thumb.png
 </pre>
 
-Once the upload, has been completed, you will have successfully created the **style.less** file and are ready to start adding your custom LESS CSS .
+Once uploaded, you will have successfully created the **style.less** file and ready to start adding your custom LESS CSS .
 
 For a basic introduction to LESS, see our [LESS CSS](http://docs.pagelines.com/advanced/less-css) tutorial, for full documentation visit the [LESS CSS](http://lesscss.org/) homepage.
 
