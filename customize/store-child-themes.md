@@ -7,7 +7,7 @@
   </div>
 </div>
 
-# Store Child theme #
+# Store Child themes #
 
 Store Child themes are designed by third-party developers which may be subject to updates by their developers. Placing customizations within these child theme files are at risk of being overwritten.
 

@@ -174,7 +174,7 @@ These are a couple we recommend.
 
 ### Web Developer Tools ###
 
-When customizing PageLines DMS using web developer tools are essential and come bundled with most modern web browsers. One of the included tools, allows you to inspect the HTML structure accompanied by the CSS rules used. The Web developer tools also give you the ability to add/edit the CSS rules on the fly.
+When customizing PageLines DMS, using web developer tools is essential. Some are bundled with most modern web browsers. One of the included tools allows you to inspect the HTML structure, accompanied by the CSS rules used in the inspected element. These web developer tools also give you the ability to test and edit the CSS rules on the fly.
 
 Below are some useful resources to get you started with the web developer tools:
 
