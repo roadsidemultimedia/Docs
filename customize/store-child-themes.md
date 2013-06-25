@@ -108,3 +108,12 @@ For more information about LESS CSS , see our [LESS CSS](/advanced/less-css) doc
 The functions.php file allows you to add/manipulate functionality to PageLines DMS. You can use it to call functions and to define your own customized actions. The code is only executed when the PageLines Customized Plugin is activated, if the plugin is deactivated, the functionality will not carry over. The `functions.php` file supports numerous blocks of code to be used for many different purposes.
 
 For more information about hooks, see our [Hooks](/advanced/hooks) documentation which also includes some examples.
+
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/overriding-default-css">Overriding Default CSS &rarr;</a></li>
+    </ul>
+  </div>
+</div>
