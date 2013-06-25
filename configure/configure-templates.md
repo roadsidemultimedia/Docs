@@ -8,7 +8,7 @@
 
 # Configuring Templates #
 
-## How to load an existing template ## 
+## How to load an existing template
 
 To load an existing template to your page go to the DMS control panel and click on the ‘page templates’ tab. Select ‘your templates’ from the left hand menu, your available templates will appear on the right hand side of the admin panel. Find your required template in the list and click the ‘load template’ button. 
 
