@@ -115,205 +115,92 @@
                     </div>
                     <div class="span9 docs-content">
 <div class="row-fluid">
-  <div class="span12">
-    <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/customize/pagelines-customize-plugin">&larr; PageLines Customize Plugin</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/store-child-themes">Store Child Themes &rarr;</a></li>
-    </ul>
-  </div>
+    <div class="span12">
+        <ul class="pager">
+            <li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-less-css-support">Adding LESS CSS Support &rarr;</i></a></li>
+        </ul>
+    </div>
 </div>
 
-<h1>Using the Base Child theme</h1>
+<h1>Override Default CSS</h1>
 
-<p>The PageLines Base Theme, is a un-styled child theme -- available free from the <a href="/getting-started/pagelines-store">PageLines Store</a>  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.</p>
+<p>When adding custom CSS to your website, depending on your customization method your custom CSS/LESS may require using an ID to preface your rules. There are two main ID’s that you can use to guarantee your custom rules will work correctly, these overrides are <code>#site</code> &amp; <code>#page</code>.</p>
 
-<p>For more information regarding child themes, we recommend reading these linked Wordpress codex articles -- <a href="http://codex.wordpress.org/Child_Themes">child themes</a>,  and <a href="http://codex.wordpress.org/Theme_Development">theme development</a>.</p>
+<p>The reason that you’re required to do this, is because of the way heirarchy works in CSS and especially in LESS. We are using a new convention, specifically that inside the core and extensions we do not use ID based selectors… e.g. <code>#page</code></p>
 
-<h2>Structure</h2>
+<p>These are reserved for <strong>&quot;user&quot;</strong> customizations, because a single ID in a CSS selector can over power a long chain of class based selectors.</p>
 
-<p>The PageLines Base Theme (child) folder when <a href="/configure/installing-store-products">installed</a>, will be located here <strong>wp-content → themes → pagelines-template-theme</strong>, containing the subfolder and files, as seen below.</p>
+<p><strong>ID</strong></p>
 
-<pre>
-<i class="icon-folder-open"></i> pagelines-template-theme/
-  <i class="icon-folder-open"></i> sections/
-  <i class="icon-file"></i> functions.php
-  <i class="icon-file"></i> info.txt
-  <i class="icon-file"></i> page.example.php
-  <i class="icon-file"></i> screenshot.png
-  <i class="icon-file"></i> setup.php
-  <i class="icon-file"></i> style.css
-  <i class="icon-file"></i> thumb.png
-</pre>
-
-<h2>Adding Customization</h2>
-
-<h3>CSS</h3>
-
-<p>There are two principal methods for adding custom CSS to the Base Theme, these are: the <code>style.css</code> file and the <code>style.less</code> file. Each method applies to individual levels of skill -- based on your comfort level and proficiency, which we&#39;ll go through below.</p>
-
-<table class="table table-striped table-bordered">
-  <thead>
-    <tr>
-      <th>Stylesheet</th>
-      <th>Supports CSS</th>
-      <th>Supports LESS</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>style.css</strong></td>
-      <td><i class="icon-ok text-success"></i></td>
-      <td><i class="icon-remove text-error"></i></td>
-    </tr>
-    <tr>
-      <td><strong>style.less</strong></td>
-      <td><i class="icon-ok text-success"></i></td>
-      <td><i class="icon-ok text-success"></i></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>As you can see from the table above, the <code>style.css</code> file only supports standard CSS and not less. However, the <code>style.less</code> file supports both, if you do plan to utilize LESS into your design, we recommend consolidating all your CSS into the <code>style.less</code> file, for easier management of your code.</p>
-
-<h4>style.css</h4>
-
-<p>To add custom CSS to the style.css file, we recommend <strong>not</strong> using the WordPress Editor, but instead use your FTP client which should be configured to work with your code editor when opening <code>.css</code>, <code>.html</code>, .<code>php</code> files.</p>
-
-<p>When you open the style.css file in your code editor, you see the following:</p>
-
-<pre><code class="css">/*
-Theme Name: Base Theme
-Theme URI: http://www.pagelines.com/
-Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
-Version: 1.0.2
-Author: PageLines
-Author URI: http://www.pagelines.com
-Tags: developer
-
-Template: pagelines
-
-*/
-
-/*
-Themes follow the basic WordPress themes header scheme with the following additions:
-
-  Template: pagelines
-  Tells wordpress this is a childtheme and where the parent files are stored.
-
-  Demo: http://a.link.com
-  Use this to point to a demo for this product.
-
-  External: http://a.link.com
-  Use this to point to an external site, authors home page for example.
-*/
-
-/*
- * File Naming Conventions
- * -------------------------------------
- *  style.css         - Main theme style file.
- *  thumb.png         - Thumbnail image used in the store and on pagelines.com for your product.
- *  screenshot.png          - Primary screenshot, logo or graphic for your extension item (300px by 225px).
- *  screenshot-1.png          - Additional screenshots -1 -2 -3 etc (optional).
- *  page.example.php          - Custom page template, check the file for syntax. This is autoloaded.
- *  sections/         - Bundle sections with your theme in this folder, each section in a seperate folder.
- */
-</code></pre>
-
-<p>The first thing we will do is remove all the information that is not required and then add some example code below:</p>
-
-<pre><code class="css">/*
-Theme Name: Base Theme
-Theme URI: http://www.pagelines.com/
-Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
-Version: 1.0.2
-Author: PageLines
-Author URI: http://www.pagelines.com
-Tags: developer
-
-Template: pagelines
-
-*/
-
-body {
-  background-color: #0088DD;
-  color: #555;
-  font-size: 22px;
-}
-
-.example {
-  color: #FFFFFF;
-  font-size: 16px;
-  padding: 40px;
+<pre><code class="css">#page .section {
+    background-color: #FFF;
 }
 </code></pre>
 
-<p>Once your custom CSS has been added, save the file and if your FTP client is configured correctly, it should upload the file to your server, replacing the older style.css. Refresh your website and your changes should have taken effect.</p>
+<p><strong>Class(es)</strong></p>
 
-<h4>style.less</h4>
-
-<p>In order to use the style.less method, you will first need to create a <strong>style.less</strong> file, see our <a href="/customize/adding-less-css-support">Adding LESS Support</a>  page on how to do this. Once the style.less file has been created you&#39;re now able to add both CSS and LESS CSS to the Base Theme.</p>
-
-<p>For more information about LESS CSS , see our <a href="/advanced/less-css">LESS CSS</a> documentation which also includes some examples.</p>
-
-<h3>PHP</h3>
-
-<h4>functions.php</h4>
-
-<p>The functions.php file allows you to add/manipulate functionality to PageLines DMS. You can use it to call functions and to define your own customized actions. The code is only executed when the theme is activated, if the theme is changed, the functionality will not carry over. The functions.php file supports numerous blocks of code to be used for many different purposes.</p>
-
-<p>For more information about hooks, see our <a href="/advanced/hooks">Hooks</a> documentation which also includes some examples.</p>
-
-<h2>Renaming the Base child theme</h2>
-
-<p>By default, the PageLines child is named Base Theme with all the files stored in the <strong>pagelines-template-theme</strong> directory. However, at some point you may wish to change the name of the Base child theme.</p>
-
-<p>Before proceeding with the following instructions, make sure the Base Theme is not the currently active theme (it can cause errors) by going to <strong>Wordpress Admin Dashboard → Appearance → Themes</strong> and clicking the <strong>Activate link</strong> for PageLines DMS.</p>
-
-<p>Once the Base Theme has been deactived, open your FTP client, connect to your server and navigate to the following directory <strong>wp-content → themes → pagelines-template-theme</strong>.</p>
-
-<p>Open the <code>style.css</code> file and you will see the following information.</p>
-
-<pre><code class="php">/*
-Theme Name: Base Theme
-Theme URL: http://www.pagelines.com/
-Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
-Version: 1.0.2
-Author: PageLines
-Author URI: http://www.pagelines.com
-Tags: developer
-
-Template: pagelines
-
-*/
+<pre><code class="css">.selector .another-selector .section {
+    background-color: #FFF;
+}
 </code></pre>
 
-<p>Edit any of these items, except for <strong>Template: pagelines</strong>, which tells Wordpress that this is a child theme of PageLines DMS.</p>
+<h2>Example</h2>
 
-<pre><code class="php">/*
-Theme Name: ADD_YOUR_THEME_NAME_HERE
-Theme URL: ADD_YOUR_WEBSITE_URL_HERE
-Description: ADD_THE_DESCRIPTION_OF_YOUR_THEME_HERE
-Version: 1.0.
-Author: ADD_YOUR_NAME_HERE
-Author URI: ADD_YOUR_WEBSITE_URL_HERE
-Tags: developer
+<p>In the example below, we will override the default font size and color for the Masthead section header and tagline text.</p>
 
-Template: pagelines
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-default-masthead.jpg" alt=""></p>
 
-*/
+<p>Using Google Chrome&#39;s web dev tools to inspect the Masthead section, we can indentify the correct class(es), needed to override the sections default CSS.</p>
+
+<pre><code class="css">/* Masthead Title */
+.masthead .masthead-title {
+    margin-bottom: 9px;
+    font-size: 81px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+/* Masthead tagline */
+.masthead .masthead-tag {
+    margin: 0;
+    margin-bottom: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    line-height: 1.3em;
+    opacity: .7;
+    font-weight: 300;
+}
 </code></pre>
 
-<p>Once you have replaced the default information with your own, save the <code>style.css</code> file. You have now successfully changed the name of Base Theme and made it into your own child theme!</p>
+<p>Using the <code>#page</code> override ID, we can easily change the font size and color for both the header and tagline. </p>
 
-<p>You may also want to want to rename the <strong>pagelines-template-theme</strong> folder to match your child theme name. To do this, simply rename the folder inside your FTP client&#39;s Rename utility.</p>
+<pre><code class="css">/* Masthead Title */
+#page .masthead .masthead-title {
+    font-size: 62px;
+    color: #08D;
+}
+
+/* Masthead tagline */
+#page .masthead .masthead-tag {
+    font-size: 18px;
+    color: #08D;
+}
+</code></pre>
+
+<p>We can now add these changes to your preferred customization menthod, the style changes can be seen below.</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-custom-masthead.jpg" alt=""></p>
 
 <div class="row-fluid">
-  <div class="span12">
-    <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options">&larr; PageLines Customize Plugin</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/store-child-theme">Store Child Themes &rarr;</a></li>
-    </ul>
-  </div>
+    <div class="span12">
+        <ul class="pager">
+            <li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-less-css-support">Adding LESS CSS Support &rarr;</i></a></li>
+        </ul>
+    </div>
 </div>
             </div>
 		</section>
@@ -326,7 +213,7 @@ Template: pagelines
             <p class="pull-right"><a href="#">Back to top</a></p>
             <p>
 				<i class="icon-github icon-2x"></i>
-				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/customize/base-child-theme.md" target="_blank">Edit this page</a>.</p>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/customize/override-default-css.md" target="_blank">Edit this page</a>.</p>
         </div>
     </footer>
 
