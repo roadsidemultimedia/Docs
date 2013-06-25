@@ -14,7 +14,7 @@ For more information on what hook actions and filters are, see WordPress documen
 
 In order to use a hook to add or manipulate code, you need add it to the functions.php file. This can be found in either the Base Theme folder or the PageLines Customize Plugin, depending on the Customization Method of your choice.
 
-<table>
+<table class="table table-striped table-bordered table-condensed">
 	<thead>
 		<tr>
 			<th>Customization Method</th>
