@@ -7,7 +7,7 @@
 	</div>
 </div>
 
-# Overriding Default CSS #
+# Override Default CSS #
 
 When adding custom CSS to your website, depending on your customization method your custom CSS/LESS may require using an ID to preface your rules. There are two main ID’s that you can use to guarantee your custom rules will work correctly, these overrides are `#site` & `#page`.
 

@@ -2,7 +2,7 @@
   <div class="span12">
     <ul class="pager">
       <li class="pull-left"><a href="http://docs.pagelines.com/customize/pagelines-customize-plugin">&larr; PageLines Customize Plugin</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/store-child-theme">Store Child Themes &rarr;</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/customize/store-child-themes">Store Child Themes &rarr;</a></li>
     </ul>
   </div>
 </div>
