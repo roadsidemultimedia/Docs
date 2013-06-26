@@ -60,7 +60,8 @@ $opts[] = array(
 	
 ```
 
-*NOTE:*
+
+## NOTE: ##
 For all option types below, basic option attributes are supported but not shown.
 
 ## Basic Select Option Format ##
