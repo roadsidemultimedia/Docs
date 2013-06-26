@@ -9,7 +9,7 @@
 
 # LESS #
 
-LESS is a dynamic stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS reduces the overtime to create and maintain your code base, while also keeping your code clean and optimized.
+LESS is a dynamic stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS reduces the overall time to create and maintain your code base, while also keeping your code clean and optimized.
 
 For more information, pleae visit the [http://lesscss.org/](http://lesscss.org/)
 
@@ -47,9 +47,9 @@ Mixins allow you to embed all the properties of a class into another class by si
 // LESS
 .rounded-corners (@radius: 5px) {
 	-webkit-border-radius: @radius;
-		-moz-border-radius: @radius;
-			-ms-border-radius: @radius;
-				-o-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
 	border-radius: @radius;
 }
 
@@ -64,18 +64,18 @@ Mixins allow you to embed all the properties of a class into another class by si
 ~~~ .css
 /* Compiled CSS */
 #header {
-	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
+	border-radius: 5px;
 }
 #footer {
-	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
+	border-radius: 10px;
 }
 ~~~
 
@@ -88,7 +88,7 @@ Rather than constructing long selector names to specify inheritance, in Less you
 #header {
 	h1 {
 		font-size: 26px;
-    		font-weight: bold;
+		font-weight: bold;
     	}
     	p {
 		font-size: 12px;
