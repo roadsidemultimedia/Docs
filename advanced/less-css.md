@@ -38,6 +38,7 @@ a:hover {
 }
 ~~~
 
+As you can see in the above example, anywhere `@bodytitle` is used in the LESS files, the value is changed to `#333` in the compiler.
 
 
 <div class="row-fluid">
