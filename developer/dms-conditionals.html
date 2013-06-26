@@ -119,7 +119,31 @@
                         </ul>
                     </div>
                     <div class="span9 docs-content">
-<p>Placeholder</p>
+<h1>To test if DMS is present and active</h1>
+
+<p>To test if DMS is present and active in the framework (e.g. not version 2) just use the following code: 
+    if( pl_has_editor() ){
+        // your code
+    }</p>
+
+<h2>To test if in draft mode</h2>
+
+<p>If you want to test whether the editor is present and in &#39;draft&#39; or editing mode. Just use this conditional: 
+    if( pl_draft_mode() ){
+        // your code
+    }</p>
+
+<h2>To get draft mode</h2>
+
+<p>If you want to test whether the editor is present and in &#39;draft&#39; or editing mode. Just use this conditional: 
+    if( pl_get_mode() == &#39;draft&#39; ){
+        // your code
+    }</p>
+
+<p>or 
+    if( pl_get_mode() == &#39;live&#39; ){
+        // your code
+    }</p>
             </div>
 		</section>
 
@@ -131,7 +155,7 @@
             <p class="pull-right"><a href="#">Back to top</a></p>
             <p>
 				<i class="icon-github icon-2x"></i>
-				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/getting-started/pagelines-toolbar.md" target="_blank">Edit this page</a>.</p>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/developer/dms-conditionals.md" target="_blank">Edit this page</a>.</p>
         </div>
     </footer>
 
