@@ -120,7 +120,109 @@
                         </ul>
                     </div>
                     <div class="span9 docs-content">
-<p>Placeholder</p>
+<h1>DMS Option Engine</h1>
+
+<h2>About the Option Engine</h2>
+
+<p>DMS offers a very straight forward way to create options for extensions, the option engine. </p>
+
+<p>The option engine consists of a php array format that the system uses to parse and handle the options in a variety of ways. This allows us to abstract the complexities of option handling and give you a simple consistent code interface for adding your options. </p>
+
+<h2>Adding Options To Sections</h2>
+
+<p>Adding options to sections is as simple as returning the option array from the &#39;section_opts()&#39; method/function of the section class. </p>
+
+<p>An example of that is as follows: </p>
+
+<pre><code class="php">
+// Standard Section Class Definition
+class SomeSection extends PageLinesSection {
+
+    // Section Options Method
+    function section_opts(){
+        $opts = array(
+            array(
+                &#39;type&#39;          =&gt; &#39;select&#39;,
+                &#39;title&#39;         =&gt; &#39;Select Format&#39;,
+                &#39;key&#39;           =&gt; &#39;icallout_format&#39;,
+                &#39;label&#39;         =&gt; &#39;Callout Format&#39;,
+                &#39;opts&#39;=&gt; array(
+                    &#39;top&#39;           =&gt; array( &#39;name&#39; =&gt; &#39;Text on top of button&#39; ),
+                    &#39;inline&#39;        =&gt; array( &#39;name&#39; =&gt; &#39;Text/Button Inline&#39; )
+                ),
+            )
+        ); 
+
+        return $opts;
+    }
+
+}
+</code></pre>
+
+<p>More info on this can be found in documentation on creating sections.</p>
+
+<h2>Adding Options To Themes</h2>
+
+<h2>Basic Option Attributes</h2>
+
+<p>The basic option format for simple option types like text fields is as follows. Different option types will have additional parameters you can set depending on your preference.</p>
+
+<pre><code class="php">$opts = array(); 
+
+// Select Type Option Format
+$opts[] = array(
+            &#39;type&#39;          =&gt; &#39;text&#39;, // Option Type 
+            &#39;title&#39;         =&gt; __(&#39;Super Cool Option&#39;, &#39;pagelines&#39;),    // Option Title (localized, &amp; same as &#39;label&#39; if omitted)
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,  // Option KEY (used to get the value of the option (e.g. $this-&gt;opt(&#39;some_key&#39;)))
+            &#39;label&#39;         =&gt; __(&#39;Select Cool Option&#39;, &#39;pagelines&#39;),   // Option Label (localized)
+            &#39;help&#39;          =&gt; __(&#39;A bunch of help text goes here. How nice of you!&#39;, &#39;pagelines&#39;),     // Option Help (localized)
+            &#39;ref&#39;           =&gt; __( &#39;This creates a help field with a toggle, so you can have more help text without it getting in the way.&#39;, &#39;pagelines&#39; )
+        );
+
+</code></pre>
+
+<p>NOTE: 
+For all option types below, basic option attributes are supported but not shown.</p>
+
+<h2>Basic Select Option Format</h2>
+
+<p>Selection option types have to create an array of options for users. 
+Therefore, they make use of an &#39;opts&#39; array with an index for each individual option.</p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;type&#39;          =&gt; &#39;select&#39;, 
+
+            &#39;opts&#39;=&gt; array(
+                &#39;val1&#39;          =&gt; array( &#39;name&#39; =&gt; &#39;Select Option Name&#39; ),
+                &#39;val2&#39;          =&gt; array( &#39;name&#39; =&gt; &#39;Select Option Name&#39; )
+            ),
+        );
+
+</code></pre>
+
+<h3>Count Select Option Format</h3>
+
+<p>This option type can be used to create an iterated number of options. This makes it so you dont have to enter these numbers manually. </p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;type&#39;          =&gt; &#39;count_select&#39;,  // Option Type (select, text, textarea, etc.. ),
+            &#39;count_start&#39;   =&gt; 1,               // Starting Count Number
+            &#39;count_number&#39;  =&gt; 100,             // Ending Count Number
+            &#39;suffix&#39;        =&gt; &#39;%&#39;              // Added to the end of the value
+        );
+
+</code></pre>
+
+<h3>Image Upload Options</h3>
+
+<p>Image upload options are easy! Just use the following attributes... </p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;type&#39;          =&gt; &#39;image_upload&#39;,  // Option Type (select, text, textarea, etc.. ),
+            &#39;imgsize&#39;           =&gt;  &#39;16&#39;,       // The image preview &#39;max&#39; size
+        );
+
+</code></pre>
             </div>
 		</section>
 
@@ -132,7 +234,7 @@
             <p class="pull-right"><a href="#">Back to top</a></p>
             <p>
 				<i class="icon-github icon-2x"></i>
-				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/tutorials/html-css-utilities.md" target="_blank">Edit this page</a>.</p>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/developer/dms-option-engine.md" target="_blank">Edit this page</a>.</p>
         </div>
     </footer>
 
