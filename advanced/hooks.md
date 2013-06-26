@@ -1,3 +1,11 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/less-css">LESS CSS &rarr;</a></li>
+		</ul>
+	</div>
+</div>
+
 # Hooks #
 
 Hooks in PageLines DMS essentially allow you to manipulate or insert code without editing core files. There are two types of hook, these are actions and filters. 
@@ -194,3 +202,11 @@ add_filter( 'the_content', 'add_my_signature' );
 ~~~
 
 Please remember that these examples are displayed for their theoretical value. Although they can be used, these have been added as a starting point for your own hooks creations.
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/less-css">LESS CSS &rarr;</a></li>
+		</ul>
+	</div>
+</div>
