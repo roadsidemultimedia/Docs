@@ -64,22 +64,60 @@ Mixins allow you to embed all the properties of a class into another class by si
 ~~~ .css
 /* Compiled CSS */
 #header {
-	-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-			-ms-border-radius: 5px;
-				-o-border-radius: 5px;
 	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
 #footer {
-	-webkit-border-radius: 10px;
-		-moz-border-radius: 10px;
-			-ms-border-radius: 10px;
-				-o-border-radius: 10px;
 	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 }
 ~~~
 
+## Nested Rules
 
+Rather than constructing long selector names to specify inheritance, in Less you can simply nest selectors inside other selectors. This makes inheritance clear and style sheets shorter.
+
+~~~ .css
+// LESS
+#header {
+	h1 {
+		font-size: 26px;
+    		font-weight: bold;
+    	}
+    	p {
+		font-size: 12px;
+    	a {
+    		text-decoration: none;
+      &:hover {
+      	border-width: 1px
+      }
+    }
+  }
+}
+~~~
+
+~~~ .css
+/* Compiled CSS */
+#header h1 {
+	font-size: 26px;
+	font-weight: bold;
+}
+#header p {
+	font-size: 12px;
+}
+#header p a {
+	text-decoration: none;
+}
+#header p a:hover {
+	border-width: 1px;
+}
+~~~
 
 
 
