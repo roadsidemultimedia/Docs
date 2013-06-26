@@ -18,7 +18,7 @@ Variables allow you to specify widely used values in a single place, and then re
 ~~~ .css
 //LESS
 @myBlue:              #08D;
-...
+
 h1, h2, h3, h4, h5, h6 {
 	color: @myBlue;
 }
