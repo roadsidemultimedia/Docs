@@ -1,18 +1,31 @@
 # Hooks #
 
-Hooks in PageLines DMS essentially allow you to manipulate or insert code without editing core files. There are two types of hook, these are actions and filters.
+Hooks in PageLines DMS essentially allow you to manipulate or insert code without editing core files. There are two types of hook, these are actions and filters. 
 
-**Action Hooks** allow you to insert additional code and, there by, customise the code to do additional functions at designated points in PageLines Framework.
+<table class="table table-striped table-bordered table-condensed">
+	<thead>
+		<tr>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Action Hooks</td>
+			<td>Allow you to insert additional code and, there by, customise the code to do additional functions at designated points in PageLines Framework.</td>
+		</tr>
+		<tr>
+			<td>Filter Hooks</td>
+			<td>Are used to manipulate code output and return a variable. An example of this would be to add a text, a link or even an image to the end of the content on your blog posts or pages.</td>
+		</tr>
+	</tbody>
+</table>
 
-**Filter Hooks** are used to manipulate code output and return a variable. An example of this would be to add a text, a link or even an image to the end of the content on your blog posts or pages.
-
-To put it more elegantly, you can change things that are hard-coded with filters, and you can add things using actions.
-
-For more information on what hook actions and filters are, see WordPress documentation [Plugin API](http://codex.wordpress.org/Plugin_API). There is also an excellent article by WP Candy on hooks [here](http://wpcandy.com/teaches/how-to-use-wordpress-hooks/).
+To put it more elegantly, you can change things that are hard-coded with filters, and you can add things using actions. For more information on what hook actions and filters are, see WordPress documentation [Plugin API](http://codex.wordpress.org/Plugin_API). There is also an excellent article by WP Candy on hooks [here](http://wpcandy.com/teaches/how-to-use-wordpress-hooks/).
 
 ## Using Hooks ##
 
-In order to use a hook to add or manipulate code, you need add it to the functions.php file. This can be found in either the Base Theme folder or the PageLines Customize Plugin, depending on the Customization Method of your choice.
+All hooks are added to the functions.php file, which is located in either the Base Theme or the PageLines Customize Plugin, depending on the Customization Method of your choice.
 
 <table class="table table-striped table-bordered table-condensed">
 	<thead>
