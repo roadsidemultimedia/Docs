@@ -6,7 +6,7 @@
 	</div>
 </div>
 
-# How to create a new template #
+# Create a new template 
 
 Pagelines DMS allows you to create multiple templates for your site. 
 

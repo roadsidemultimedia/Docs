@@ -6,7 +6,7 @@
 	</div>
 </div>
 
-# Changing the Layout Width #
+# Change the Layout Width 
 
 Changing the width of your layout is easy with Pagelines DMS using the visual editor. In the preview window of your site navigate to the edge of the content area, click and drag the page in or out to the required width.  
 

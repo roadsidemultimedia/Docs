@@ -10,13 +10,13 @@
 
 At the top of each container in the layout you can access the container options. There are options to set the width, offset size, clone or delete.
 
-## How to edit the width of a section
+## Width
 
-## How to change the offset size of a section
+## Offset size
 
-## How to clone a section
+## Clone 
 
-## How to delete a section
+## Delete 
 
 
 <div class="row-fluid">
