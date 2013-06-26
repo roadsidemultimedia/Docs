@@ -17,13 +17,11 @@ Variables allow you to specify widely used values in a single place, and then re
 
 ~~~ .less
 //LESS
-
 @grayDark:              #333;
 ...
 h1, h2, h3, h4, h5, h6 {
 	color: @grayDark;
 }
-
 a:hover {
 	color: @grayDark;
 }
@@ -35,7 +33,6 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	color: #333;
 }
-
 a:hover {
 	color: #333;
 }
