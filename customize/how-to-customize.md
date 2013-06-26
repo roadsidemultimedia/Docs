@@ -38,7 +38,7 @@ The PageLines DMS method is recommended to **new** users or users with limited H
 </table>
 
 
-For more information about Customize Options in DMS, please click here.
+For more information about Customize Options in DMS, please [click here](http://docs.pagelines.com/customize/dms-customize-options).
 
 ### PageLines Customize Plugin ###
 
@@ -65,7 +65,7 @@ However, you're unable to override sections with the Customize Plugin, if you wi
 	</tbody>
 </table>
 
-For more information about PageLines Customize plugin please click here.
+For more information about PageLines Customize plugin please [click here](http://docs.pagelines.com/customize/pagelines-customize-plugin).
 
 ### The Base Theme ###
 
@@ -92,7 +92,7 @@ The Base Theme is a free child theme available from the PageLines Store which wi
 	</tbody>
 </table>
 
-For more information about the Base theme, please click here.
+For more information about the Base theme, please [click here](http://docs.pagelines.com/customize/base-child-theme).
 
 ## Learn the Basics ##
 

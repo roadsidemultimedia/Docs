@@ -8,15 +8,17 @@
 
 # Adding Custom Scripts #
 
-Adding custom scripts such as tracking code or any other scripts that offer functionality not possible **"Out of the Box"** with PageLines DMS.
+If you wish to add custom scripts such as tracking code or any other scripts that offer functionality not possible **"Out of the Box"** with PageLines DMS, then the Custom Scripts Editor is your new best friend.
 
 ## Custom Scripts Editor ##
 
-The simplest method to add custom scripts to PageLines DMS, is using the **DMS Custom Code  &rarr;  Custom Scripts** Editor.
+To access the Custom Scripts Editor, navigate to **DMS Toolbar &rarr; Custom Code  &rarr;  Custom Scripts** Editor.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-script-editor.jpg)
 
-The Custom Scripts Editor can be used to add any kind of custom or third party `<script>` such as Google Analytics tracking code. However, the Custom Scripts editor **doe not** `CSS`, `LESS` or `PHP`, if you wish to add these types of customization to your website, please use the correct methods.
+The Custom Scripts Editor can be used to add any kind of custom or third party `<script>` such as Google Analytics tracking code.
+
+However, the Custom Scripts editor **doe not** support `CSS`, `LESS` or `PHP`, if you wish to add these types of customization to your website, please use the correct methods.
 
 <div class="row-fluid">
 	<div class="span12">
