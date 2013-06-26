@@ -11,34 +11,84 @@
 
 LESS is a dynamic stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS reduces the overtime to create and maintain your code base, while also keeping your code clean and optimized.
 
+For more information, pleae visit the [http://lesscss.org/](http://lesscss.org/)
+
 ## Variables ##
 
-Variables allow you to specify widely used values in a single place, and then re-use them throughout the style sheet, making global changes as easy as changing one line of code. An example from PageLines DMS is below:
+Variables allow you to specify widely used values in a single place, and then re-use them throughout the style sheet, making global changes as easy as changing one line of code. An example is shown below:
 
-~~~ .less
+~~~ .css
 //LESS
-@grayDark:              #333;
+@myBlue:              #08D;
 ...
 h1, h2, h3, h4, h5, h6 {
-	color: @grayDark;
+	color: @myBlue;
 }
 a:hover {
-	color: @grayDark;
+	color: @myBlue;
 }
 ~~~
 
-~~~ .less
+~~~ .css
 /* Compiled CSS */
-
 h1, h2, h3, h4, h5, h6 {
-	color: #333;
+	color: #08D;
 }
 a:hover {
-	color: #333;
+	color: #08D;
 }
 ~~~
 
-As you can see in the above example, anywhere `@bodytitle` is used in the LESS files, the value is changed to `#333` in the compiler.
+## Mixins ##
+
+Mixins allow you to embed all the properties of a class into another class by simply including the class name as one of its properties. It’s just like variables, but for whole classes. Mixins can also behave like functions, and take arguments, as seen in the example below.
+
+~~~ .css
+// LESS
+.rounded-corners (@radius: 5px) {
+	-webkit-border-radius: @radius;
+		-moz-border-radius: @radius;
+			-ms-border-radius: @radius;
+				-o-border-radius: @radius;
+	border-radius: @radius;
+}
+
+#header {
+	.rounded-corners;
+}
+#footer {
+	.rounded-corners(10px);
+}
+~~~
+
+~~~ .css
+/* Compiled CSS */
+#header {
+	-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+				-o-border-radius: 5px;
+	border-radius: 5px;
+}
+#footer {
+	-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+				-o-border-radius: 10px;
+	border-radius: 10px;
+}
+~~~
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="row-fluid">
