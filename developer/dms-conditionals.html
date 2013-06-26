@@ -121,29 +121,37 @@
                     <div class="span9 docs-content">
 <h1>To test if DMS is present and active</h1>
 
-<p>To test if DMS is present and active in the framework (e.g. not version 2) just use the following code: 
-<code>if( pl_has_editor() ){
+<p>To test if DMS is present and active in the framework (e.g. not version 2) just use the following code: </p>
+
+<pre><code class="php">if( pl_has_editor() ){
     // your code
-}</code></p>
+}
+</code></pre>
 
 <h2>To test if in draft mode</h2>
 
-<p>If you want to test whether the editor is present and in &#39;draft&#39; or editing mode. Just use this conditional: 
-    if( pl_draft_mode() ){
-        // your code
-    }</p>
+<p>If you want to test whether the editor is present and in &#39;draft&#39; or editing mode. Just use this conditional: </p>
+
+<pre><code class="php">if( pl_draft_mode() ){
+    // your code
+}
+</code></pre>
 
 <h2>To get draft mode</h2>
 
-<p>If you want to test whether the editor is present and in &#39;draft&#39; or editing mode. Just use this conditional: 
-    if( pl_get_mode() == &#39;draft&#39; ){
-        // your code
-    }</p>
+<p>If you want to test whether the editor is present and in &#39;draft&#39; or editing mode. Just use this conditional: </p>
 
-<p>or 
-    if( pl_get_mode() == &#39;live&#39; ){
-        // your code
-    }</p>
+<pre><code class="php">if( pl_get_mode() == &#39;draft&#39; ){
+    // your code
+}
+</code></pre>
+
+<p>or </p>
+
+<pre><code class="php">if( pl_get_mode() == &#39;live&#39; ){
+    // your code
+}
+</code></pre>
             </div>
 		</section>
 
