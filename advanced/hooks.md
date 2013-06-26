@@ -5,8 +5,8 @@ Hooks in PageLines DMS essentially allow you to manipulate or insert code withou
 <table class="table table-striped table-bordered table-condensed">
 	<thead>
 		<tr>
-			<th>Type</th>
-			<th>Description</th>
+			<th class="span2">Type</th>
+			<th class="span10">Description</th>
 		</tr>
 	</thead>
 	<tbody>
