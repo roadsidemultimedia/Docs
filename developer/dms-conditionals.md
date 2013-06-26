@@ -1,9 +1,9 @@
 # To test if DMS is present and active #
 
 To test if DMS is present and active in the framework (e.g. not version 2) just use the following code: 
-	if( pl_has_editor() ){
-		// your code
-	}
+```if( pl_has_editor() ){
+	// your code
+}```
 
 ## To test if in draft mode ##
 
