@@ -51,11 +51,11 @@ $opts = array();
 // Select Type Option Format
 $opts[] = array(
 			'type' 			=> 'text', // Option Type 
-			'title' 		=> __('Super Cool Option', 'pagelines'), 	// Option Title (localized, & same as 'label' if omitted)
-			'key'			=> 'some_key',	// Option KEY (used to get the value of the option (e.g. $this->opt('some_key')))
-			'label' 		=> __('Select Cool Option', 'pagelines'),	// Option Label (localized)
-			'help' 			=> __('A bunch of help text goes here. How nice of you!', 'pagelines'),		// Option Help (localized)
-			'ref'			=> __( 'This creates a help field with a toggle, so you can have more help text without it getting in the way.', 'pagelines' )
+			'title' 		=> __('Super Cool Option', 'pagelines'), 	// (localized, & same as 'label' if omitted)
+			'key'			=> 'some_key', // (used to get the value of the option (e.g. $this->opt('some_key')))
+			'label' 		=> __('Select Cool Option', 'pagelines'), // (localized)
+			'help' 			=> __('Help text goes here. How nice of you!', 'pagelines'), // (localized)
+			'ref'			=> __( 'This creates a help field with a toggle.', 'pagelines' )
 		);
 	
 ```
