@@ -1,4 +1,6 @@
-# To test if DMS is present and active #
+# DMS Specific Conditionals #
+
+## To test if DMS is present and active ##
 
 To test if DMS is present and active in the framework (e.g. not version 2) just use the following code: 
 ```php
