@@ -89,10 +89,10 @@ Rather than constructing long selector names to specify inheritance, in Less you
 		font-weight: bold;
     	}
     	p { font-size: 12px;
-    		a { text-decoration: none;
+		a { text-decoration: none;
 			&:hover { border-width: 1px }
-    }
-  }
+		}
+	}
 }
 ~~~
 
