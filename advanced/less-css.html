@@ -132,13 +132,11 @@
 <p>Variables allow you to specify widely used values in a single place, and then re-use them throughout the style sheet, making global changes as easy as changing one line of code. An example from PageLines DMS is below:</p>
 
 <pre><code class="less">//LESS
-
 @grayDark:              #333;
 ...
 h1, h2, h3, h4, h5, h6 {
     color: @grayDark;
 }
-
 a:hover {
     color: @grayDark;
 }
@@ -149,11 +147,12 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
-
 a:hover {
     color: #333;
 }
 </code></pre>
+
+<p>As you can see in the above example, anywhere <code>@bodytitle</code> is used in the LESS files, the value is changed to <code>#333</code> in the compiler.</p>
 
 <div class="row-fluid">
     <div class="span12">
