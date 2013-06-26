@@ -11,8 +11,6 @@
 
 LESS is a dynamic stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS reduces the overall time to create and maintain your code base, while also keeping your code clean and optimized.
 
-For more information, pleae visit the [http://lesscss.org/](http://lesscss.org/)
-
 ## Variables ##
 
 Variables allow you to specify widely used values in a single place, and then re-use them throughout the style sheet, making global changes as easy as changing one line of code. An example is shown below:
@@ -92,7 +90,7 @@ Rather than constructing long selector names to specify inheritance, in Less you
     	}
     	p { font-size: 12px;
     		a { text-decoration: none;
-      		&:hover { border-width: 1px }
+			&:hover { border-width: 1px }
     }
   }
 }
@@ -115,15 +113,42 @@ Rather than constructing long selector names to specify inheritance, in Less you
 }
 ~~~
 
+## Functions & Operations
 
+Functions & Operations provides the ability to use mathematical operations in your CSS values,  as well as manipulate values through functions.
 
+~~~ .css
+// LESS
+@the-border: 		1px;
+@base-color: 		#111;
+@red:				#842210;
 
+#header {
+	color: (@base-color * 3);
+	border-left: @the-border;
+	border-right: (@the-border * 2);
+}
+#footer {
+	color: (@base-color + #003300);
+	border-color: desaturate(@red, 10%);
+}
+~~~
 
+~~~ .css
+/* Compiled CSS */
 
+#header {
+	color: #333;
+	border-left: 1px;
+	border-right: 2px;
+}
+#footer {
+	color: #114411;
+	border-color: #7d2717;
+}
+~~~
 
-
-
-
+The above examples introduce you to the basics of LESS. For a more detailed overview, please visit the [http://lesscss.org/](http://lesscss.org/)
 
 <div class="row-fluid">
 	<div class="span12">
