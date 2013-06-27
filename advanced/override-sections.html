@@ -131,7 +131,21 @@
 
 <h1>Override Sections</h1>
 
-<p>PageLines DMS allows you override sections which provides the ability to add functionality to sections not available <strong>&quot;&quot;Out of the Box</strong>. For example, you may wish to have the iBox section use a different header tag than the one used by default.</p>
+<p>There may come a point during your design process where a section doesn&#39;t provide a specific function you require in your design, such as header tag being a <code>h3</code> and you wish to use <code>h2</code>. This is where override sections or child sections come in and in PageLines DMS overriding sections is a very straight forward process.</p>
+
+<h2>How to Override Sections</h2>
+
+<p>To begin, we first need to make sure we are using the <strong>Base Theme</strong> customization method, as this is the only method which supports overriding sections.</p>
+
+<p>Once we have determined that the <strong>Base Theme</strong> is our customization method, we need to download a fresh copy of DMS from the PageLines Launchpad . Once download, extract the <code>pagelines.zip</code> and navigate to <strong>pagelines &rarr; sections</strong>, here you will find multiple folders each representing the core sections included with PageLines DMS.</p>
+
+<p>Locate the section in which you wish to override or customize, for this example we will be overriding the <strong>iBox</strong> section. Now open your FTP client, connecting to your server and navigate to the following directory: <code>wp-content/themes/pagelines-template-theme/sections/</code>.</p>
+
+<p>Upload the <strong>iBox</strong> section folder to the Base Themes <code>wp-content/themes/pagelines-template-theme/sections/</code> folder and like magic, we have a child section of <strong>iBox</strong>, read for us to override. You can override the section by opening the <code>section.php</code> file in your code editor.</p>
+
+<h2>Support Scope </h2>
+
+<p>Please be aware that our support team will be able to provide limited support to child sections, as this is considered user created code. If you have any issues or errors related to your own custom code, we recommend contacting one of the <a href="">PageLines Pros</a></p>
 
 <div class="row-fluid">
     <div class="span12">
