@@ -59,7 +59,24 @@ $opts[] = array(
 		);
 	
 ```
+## "Multi" Option Type  ##
 
+Its common and possible to want to nest a bunch of different options together. To do that, simply use the 'multi' option type.
+```php
+$opts[] = array(
+			'type' 			=> 'multi', 
+			
+			'opts'=> array(
+				array(
+					//...option 1 attributes
+				), 
+				array(
+					//...option 2 attributes
+				)
+			),
+		);
+	
+```
 
 ## NOTE: ##
 For all option types below, basic option attributes are supported but not shown.
