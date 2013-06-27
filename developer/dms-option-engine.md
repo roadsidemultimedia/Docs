@@ -50,9 +50,9 @@ $opts = array();
 
 // Select Type Option Format
 $opts[] = array(
+			'key'			=> 'some_key', // (used to get the value of the option (e.g. $this->opt('some_key')))
 			'type' 			=> 'text', // Option Type 
 			'title' 		=> __('Super Cool Option', 'pagelines'), 	// (localized, & same as 'label' if omitted)
-			'key'			=> 'some_key', // (used to get the value of the option (e.g. $this->opt('some_key')))
 			'label' 		=> __('Select Cool Option', 'pagelines'), // (localized)
 			'help' 			=> __('Help text goes here. How nice of you!', 'pagelines'), // (localized)
 			'ref'			=> __( 'This creates a help field with a toggle.', 'pagelines' )
@@ -64,6 +64,7 @@ $opts[] = array(
 Its common and possible to want to nest a bunch of different options together. To do that, simply use the 'multi' option type.
 ```php
 $opts[] = array(
+			'key'			=> 'some_key',
 			'type' 			=> 'multi', 
 			
 			'opts'=> array(
@@ -88,6 +89,7 @@ Therefore, they make use of an 'opts' array with an index for each individual op
 
 ```php
 $opts[] = array(
+			'key'			=> 'some_key',
 			'type' 			=> 'select', 
 			
 			'opts'=> array(
@@ -102,7 +104,8 @@ $opts[] = array(
 This option type can be used to create an iterated number of options. This makes it so you dont have to enter these numbers manually. 
 ```php
 $opts[] = array(
-			'type' 			=> 'count_select', 	// Option Type (select, text, textarea, etc.. ),
+			'key'			=> 'some_key',
+			'type' 			=> 'count_select', 
 			'count_start'	=> 1,				// Starting Count Number
 			'count_number'	=> 100,				// Ending Count Number
 			'suffix'		=> '%'				// Added to the end of the value
@@ -114,8 +117,61 @@ $opts[] = array(
 Image upload options are easy! Just use the following attributes... 
 ```php
 $opts[] = array(
-			'type' 			=> 'image_upload', 	// Option Type (select, text, textarea, etc.. ),
-			'imgsize' 			=> 	'16',		// The image preview 'max' size
+			'key'			=> 'some_key',
+			'type' 			=> 'image_upload',
+			'imgsize' 		=> 	'16',		// The image preview 'max' size
+		);
+	
+```
+
+### Color Picker Options ###
+Color pickers are super simple. Just use the 'color' type... 
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'color', 
+		);
+	
+```
+
+### Text, Textareas and Checkboxes Options ###
+For text, checkboxes, and textarea options just use the 'text', 'check' or 'textarea' type respectively
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'text',  // or "textarea" or "check"
+		);
+	
+```
+
+### Select Menu Option ###
+To create an option that allows users to select a WordPress menu, use the 'select_menu' option. 
+This will return the ID of the selected menu as the value.
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'select_menu', 
+		);
+	
+```
+
+### Select Taxonomy ###
+To create an option that allows users to select a taxonomy (i.e. category) for a specific post type, just use these attributes:
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'select_taxonomy',
+			'post_type' 	=> 'post' // the post type to grab taxonomies from
+		);
+	
+```
+
+### Type/Font Selector ###
+The 'type' option type will create a font selector for you.
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'type',
 		);
 	
 ```
