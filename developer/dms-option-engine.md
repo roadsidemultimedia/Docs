@@ -176,6 +176,17 @@ $opts[] = array(
 	
 ```
 
+
+### Icon Select ###
+Since PageLines comes with a robust icon font, we've created a canned icon selector option type for you: "select_icon".
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'select_icon',
+		);
+	
+```
+
 ### Use a Custom Option Template ###
 It's possible to have an option that is simply a template you've created in your extension. To do that simply set the 'template' option type and the 'template' option attribute. 
 ```php
