@@ -171,9 +171,9 @@ class SomeSection extends PageLinesSection {
 
 // Select Type Option Format
 $opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;, // (used to get the value of the option (e.g. $this-&gt;opt(&#39;some_key&#39;)))
             &#39;type&#39;          =&gt; &#39;text&#39;, // Option Type 
             &#39;title&#39;         =&gt; __(&#39;Super Cool Option&#39;, &#39;pagelines&#39;),    // (localized, &amp; same as &#39;label&#39; if omitted)
-            &#39;key&#39;           =&gt; &#39;some_key&#39;, // (used to get the value of the option (e.g. $this-&gt;opt(&#39;some_key&#39;)))
             &#39;label&#39;         =&gt; __(&#39;Select Cool Option&#39;, &#39;pagelines&#39;), // (localized)
             &#39;help&#39;          =&gt; __(&#39;Help text goes here. How nice of you!&#39;, &#39;pagelines&#39;), // (localized)
             &#39;ref&#39;           =&gt; __( &#39;This creates a help field with a toggle.&#39;, &#39;pagelines&#39; )
@@ -186,6 +186,7 @@ $opts[] = array(
 <p>Its common and possible to want to nest a bunch of different options together. To do that, simply use the &#39;multi&#39; option type.</p>
 
 <pre><code class="php">$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
             &#39;type&#39;          =&gt; &#39;multi&#39;, 
 
             &#39;opts&#39;=&gt; array(
@@ -210,6 +211,7 @@ $opts[] = array(
 Therefore, they make use of an &#39;opts&#39; array with an index for each individual option.</p>
 
 <pre><code class="php">$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
             &#39;type&#39;          =&gt; &#39;select&#39;, 
 
             &#39;opts&#39;=&gt; array(
@@ -225,7 +227,8 @@ Therefore, they make use of an &#39;opts&#39; array with an index for each indiv
 <p>This option type can be used to create an iterated number of options. This makes it so you dont have to enter these numbers manually. </p>
 
 <pre><code class="php">$opts[] = array(
-            &#39;type&#39;          =&gt; &#39;count_select&#39;,  // Option Type (select, text, textarea, etc.. ),
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;count_select&#39;, 
             &#39;count_start&#39;   =&gt; 1,               // Starting Count Number
             &#39;count_number&#39;  =&gt; 100,             // Ending Count Number
             &#39;suffix&#39;        =&gt; &#39;%&#39;              // Added to the end of the value
@@ -238,8 +241,66 @@ Therefore, they make use of an &#39;opts&#39; array with an index for each indiv
 <p>Image upload options are easy! Just use the following attributes... </p>
 
 <pre><code class="php">$opts[] = array(
-            &#39;type&#39;          =&gt; &#39;image_upload&#39;,  // Option Type (select, text, textarea, etc.. ),
-            &#39;imgsize&#39;           =&gt;  &#39;16&#39;,       // The image preview &#39;max&#39; size
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;image_upload&#39;,
+            &#39;imgsize&#39;       =&gt;  &#39;16&#39;,       // The image preview &#39;max&#39; size
+        );
+
+</code></pre>
+
+<h3>Color Picker Options</h3>
+
+<p>Color pickers are super simple. Just use the &#39;color&#39; type... </p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;color&#39;, 
+        );
+
+</code></pre>
+
+<h3>Text, Textareas and Checkboxes Options</h3>
+
+<p>For text, checkboxes, and textarea options just use the &#39;text&#39;, &#39;check&#39; or &#39;textarea&#39; type respectively</p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;text&#39;,  // or &quot;textarea&quot; or &quot;check&quot;
+        );
+
+</code></pre>
+
+<h3>Select Menu Option</h3>
+
+<p>To create an option that allows users to select a WordPress menu, use the &#39;select_menu&#39; option. 
+This will return the ID of the selected menu as the value.</p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;select_menu&#39;, 
+        );
+
+</code></pre>
+
+<h3>Select Taxonomy</h3>
+
+<p>To create an option that allows users to select a taxonomy (i.e. category) for a specific post type, just use these attributes:</p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;select_taxonomy&#39;,
+            &#39;post_type&#39;     =&gt; &#39;post&#39; // the post type to grab taxonomies from
+        );
+
+</code></pre>
+
+<h3>Type/Font Selector</h3>
+
+<p>The &#39;type&#39; option type will create a font selector for you.</p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;type&#39;,
         );
 
 </code></pre>
