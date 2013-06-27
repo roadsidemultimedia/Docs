@@ -28,7 +28,7 @@ The Base Theme's file structure will look like below:
 <pre>
 <i class="icon-folder-open"></i> pagelines-template-theme/
 	<i class="icon-folder-open"></i> sections/
-		<i class="icon-folder-open"></i> iBox/
+		<i class="icon-folder-open"></i> <strong>iBox/</strong>
 	<i class="icon-file"></i> functions.php
 	<i class="icon-file"></i> info.txt
 	<i class="icon-file"></i> page.example.php
