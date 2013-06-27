@@ -15,7 +15,7 @@ To create custom sidebars in DMS, you simply need the Custom Sidebars plugin, av
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin.jpg)
 
-The plugin will facilitate your creation of customized sidebars that will work with all widgetized sections such as **Columizer**, **Primary Sidebar** and Widgetizer.
+The plugin will facilitate your creation of customized sidebars that will work with all widgetized sections such as **Columizer**, **Primary Sidebar** and **Widgetizer**.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/widgetized-sections.jpg)
 
