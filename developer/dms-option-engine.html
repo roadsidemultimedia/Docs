@@ -304,6 +304,21 @@ This will return the ID of the selected menu as the value.</p>
         );
 
 </code></pre>
+
+<h3>Use a Custom Option Template</h3>
+
+<p>It&#39;s possible to have an option that is simply a template you&#39;ve created in your extension. To do that simply set the &#39;template&#39; option type and the &#39;template&#39; option attribute. </p>
+
+<pre><code class="php">
+$my_template = &quot;&lt;div&gt;some HTML&lt;/div&gt;&quot;;
+
+$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;template&#39;,
+            &#39;template&#39;      =&gt; $my_template
+        );
+
+</code></pre>
             </div>
 		</section>
 
