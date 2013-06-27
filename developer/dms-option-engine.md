@@ -187,6 +187,18 @@ $opts[] = array(
 	
 ```
 
+### Link Button ###
+If you want to just create a simple button with a link use the 'link' option type.
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'link',
+			'url'			=> 'http://www.pagelines.com',
+			'classes'		=> 'button classes'
+		);
+	
+```
+
 ### Use a Custom Option Template ###
 It's possible to have an option that is simply a template you've created in your extension. To do that simply set the 'template' option type and the 'template' option attribute. 
 ```php
