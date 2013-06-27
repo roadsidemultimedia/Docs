@@ -13,7 +13,7 @@ There are times when default sidebars just aren't enough.  So, DMS makes it incr
 
 To create custom sidebars in DMS, you simply need the Custom Sidebars plugin, available at [http://wordpress.org/plugins/custom-sidebars/](http://wordpress.org/plugins/custom-sidebars/).
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebar-plugin.jpg)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin.jpg)
 
 The plugin will facilitate your creation of customized sidebars that will work with all widgetized sections such as **Columizer**, **Primary Sidebar** and Widgetizer.
 
