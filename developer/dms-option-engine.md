@@ -50,7 +50,7 @@ $opts = array();
 
 // Select Type Option Format
 $opts[] = array(
-			'key'			=> 'some_key', // (used to get the value of the option (e.g. $this->opt('some_key')))
+			'key'			=> 'option_key', // (used to get the value of the option (e.g. $this->opt('some_key')))
 			'type' 			=> 'text', // Option Type 
 			'title' 		=> __('Super Cool Option', 'pagelines'), 	// (localized, & same as 'label' if omitted)
 			'label' 		=> __('Select Cool Option', 'pagelines'), // (localized)
@@ -59,6 +59,33 @@ $opts[] = array(
 		);
 	
 ```
+
+## Getting and Using Option Values ##
+
+Getting and using option values in your sections and themes is EASY! Just use the following functions.. 
+
+```php
+
+// INSIDE SECTIONS
+// Getting option values inside of sections
+$value = $this->opt('option_key'); 
+
+// note: the opt method keeps track of section ID and page scope
+
+// For GLOBAL SETTINGS (Sitewide)
+// For getting option values in the global settings
+$value = pl_setting('option_key'); 
+
+// note: This option only works with settings in the global scope.
+	
+```
+
+# Option Types #
+
+
+## NOTE: ##
+For all option types below, basic option attributes are supported but not shown.
+
 ## "Multi" Option Type  ##
 
 Its common and possible to want to nest a bunch of different options together. To do that, simply use the 'multi' option type.
@@ -79,8 +106,6 @@ $opts[] = array(
 	
 ```
 
-## NOTE: ##
-For all option types below, basic option attributes are supported but not shown.
 
 ## Basic Select Option Format ##
 
@@ -197,6 +222,22 @@ $opts[] = array(
 			'classes'		=> 'button classes'
 		);
 	
+```
+
+### Multiple Select Option ###
+If you want an option that allows users to select multiple values, this is the one you want. The type is 'select_multi' and it returns an *array* of the values that the user has chosen. Handy!
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'select_multi', 
+			'opts'=> array(
+				'val1'			=> array( 'name' => 'Select Option Name' ),
+				'val2'	 		=> array( 'name' => 'Select Option Name' )
+			),
+		);
+	
+// this will return an array of values	
+
 ```
 
 ### Use a Custom Option Template ###
