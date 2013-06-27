@@ -176,3 +176,17 @@ $opts[] = array(
 	
 ```
 
+### Use a Custom Option Template ###
+It's possible to have an option that is simply a template you've created in your extension. To do that simply set the 'template' option type and the 'template' option attribute. 
+```php
+
+$my_template = "<div>some HTML</div>";
+
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'template',
+			'template'		=> $my_template
+		);
+	
+```
+
