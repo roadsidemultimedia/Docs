@@ -15,6 +15,8 @@ There may come a point during your design process where a section doesn't provid
 
 To begin, let's make sure we are using the **Base Theme** customization method, as this is the only method which supports overriding sections.  Make sure Base Theme is installed from our Store.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/base-theme-active.jpg)
+
 Once we have determined that the **Base Theme** is our customization method, we need to download a fresh copy of DMS from the [PageLines Launchpad](http://www.pagelines.com/launchpad/member.php) . Once downloaded, extract the `pagelines.zip` and navigate to **pagelines &rarr; sections**, here you will find multiple folders each representing the core sections included with PageLines DMS.
 
 Locate the section in which you wish to override or customize, for this example we will be overriding the **iBox** section. Now open your FTP client, connect to your server and navigate to the following directory: `/wp-content/themes/pagelines-template-theme/sections/`.
@@ -23,7 +25,7 @@ Upload the **iBox** section folder to Base Theme at `/wp-content/themes/pageline
 
 ### FIle Structure ###
 
-The Base Theme's file structure will look like below:
+If you have uploaded the **iBox** section folder to the correct location, the Base Theme's file structure will look like this:
 
 <pre>
 <i class="icon-folder-open"></i> pagelines-template-theme/
