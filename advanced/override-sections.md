@@ -21,11 +21,7 @@ Once we have determined that the **Base Theme** is our customization method, we 
 
 Locate the section in which you wish to override or customize, for this example we will be overriding the **iBox** section. Now open your FTP client, connect to your server and navigate to the following directory: `/wp-content/themes/pagelines-template-theme/sections/`.
 
-Upload the **iBox** section folder to Base Theme at `/wp-content/themes/pagelines-template-theme/sections/`  as a folder and like magic, we have a child section of iBox, ready for us to modify. 
-
-### FIle Structure ###
-
-If you have uploaded the **iBox** section folder to the correct location, the Base Theme's file structure will look like this:
+Upload the **iBox** section folder to Base Theme at `/wp-content/themes/pagelines-template-theme/sections/`  as a folder and like magic, we have a child section of iBox, ready for us to modify.
 
 <pre>
 <i class="icon-folder-open"></i> pagelines-template-theme/
@@ -39,7 +35,6 @@ If you have uploaded the **iBox** section folder to the correct location, the Ba
 	<i class="icon-file"></i> style.css
 	<i class="icon-file"></i> thumb.png
 </pre>
-
 
 You can edit the section by opening the `section.php` file in your code editor.  Once saved, your changes will override the previous section, when the Base Theme is activated.
 
