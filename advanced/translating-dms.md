@@ -18,7 +18,7 @@ However, by using either the **Base Theme** or **PageLines Cusotmize Plugin** an
 
 ### PageLines Customize Plugin ###
 
-*wp-content &rarr; plugins &rarr; pagelines-customize**.
+**wp-content &rarr; plugins &rarr; pagelines-customize**.
 
 Once uploaded, your file structure for the PageLines Customize Plugin will look like this:
 
@@ -39,7 +39,7 @@ Once uploaded, your file structure for the Base Theme will look like this:
 
 <pre>
 <i class="icon-folder-open"></i> pagelines-template-theme/
-	<i class="icon-folder-open"></i>  <strong>language/</strong>
+	<i class="icon-folder-open"></i> <strong>language/</strong>
 	<i class="icon-folder-open"></i> sections/
 	<i class="icon-file"></i> functions.php
 	<i class="icon-file"></i> info.txt
