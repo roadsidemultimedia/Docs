@@ -13,7 +13,7 @@ All of the PageLines products are localization-ready, which means they can easil
 
 ## Setup WordPress ##
 
-The first ting you need to do is tell Wordpress which language it should use. Open `wp-config.php` and modify the line below, or add it if it is missing. In the example below, we have set the language to **Danish**, a complete list of language and country codes are outlined in the [Wordpress Codex](http://codex.wordpress.org/WordPress_in_Your_Language).
+The first thing you need to do is tell Wordpress which language it should use. Open `wp-config.php` and modify the line below, or add it if it is missing. In the example below, we have set the language to **Danish**, a complete list of language and country codes are outlined in the [Wordpress Codex](http://codex.wordpress.org/WordPress_in_Your_Language).
 
 ~~~ .php
 define ('WPLANG', 'da_DK');
@@ -23,7 +23,7 @@ define ('WPLANG', 'da_DK');
 
 PageLines DMS includes a `language` folder containing the `pagelines.pot`, which can be used to manually create your custom translations. If you add your custom translations to this language folder, they can be lost when updating.
 
-However, by using either the **Base Theme** or **PageLines Cusotmize Plugin** and creating a `language` folder, your custom translations will be safe from updates. Create the `language` folder in the following location.
+However, by using either the **Base Theme** or **PageLines Customize Plugin** and creating a `language` folder, your custom translations will be safe from updates. Create the `language` folder in the following location.
 
 ### PageLines Customize Plugin ###
 
@@ -71,7 +71,7 @@ Once you have done this, choose the **pagelines.pot** which is located in `/wp-c
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/catalog-property-window.jpg)
 
-Fill the fields such as project name and so on, this informs other translators who you are and click **OK**. After this you will be promoted to save your file, name it based on your language, for example, a Danish translation would be saved as `dk_DK.po`and use the file type `GNU gettext catologs (*.po)`. Now the strings will be listed.
+Fill the out the fields such as project name and so on, this informs other translators who you are and then click **OK**. After this you will be prompted to save your file, name it based on your language, for example, a Danish translation would be saved as `dk_DK.po`and use the file type `GNU gettext catologs (*.po)`. Now the strings will be listed.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/poedit-strings.jpg)
 
