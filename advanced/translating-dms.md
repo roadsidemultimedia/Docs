@@ -1,3 +1,12 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/advanced/custom-sidebars">&larr; Custom Sidebars</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/optimize-load-time">Optimize Load Time &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
+
 # Translating DMS #
 
 All of the PageLines products are localization-ready, which means they can easily be translated into other languages. There are a number of methods to create a translation, most of which are outlined in the [WordPress codex](http://codex.wordpress.org/Translating_WordPress).
@@ -56,7 +65,9 @@ We offer a community-driven [Translation center](http://www.pagelines.com/transl
 
 Alternatively, if you wish to add translations manually, you can do so by using [PoEdit](http://www.poedit.net/).
 
-PageLines DMS includes one `.pot` file which can be imported into PoEdit to translate. To get started open PoEdit and go to **File &rarr; New catalog from POT file**. Once you have done this, choose the **pagelines.pot** which is located in `/wp-content/themes/pagelines/language/` and PoEdit will show the catalog properties window.
+PageLines DMS includes one `.pot` file which can be imported into PoEdit to translate. To get started open PoEdit and go to **File &rarr; New catalog from POT file**.
+
+Once you have done this, choose the **pagelines.pot** which is located in `/wp-content/themes/pagelines/language/` and PoEdit will show the catalog properties window.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/catalog-property-window.jpg)
 
@@ -69,3 +80,12 @@ After translating all strings, save again and the `.mo` file will be generated a
 ## RTL (Right-to-Left) ##
 
 If you add Arabic, Hebrew, Persian, or any other RTL language it should automatically enable Right-to-left (RTL support in PageLines DMS. PageLines Framework is built to recognize RTL and changes the styles accordingly.
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/advanced/custom-sidebars">&larr; Custom Sidebars</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/optimize-load-time">Optimize Load Time &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>

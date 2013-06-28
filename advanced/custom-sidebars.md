@@ -2,7 +2,7 @@
 	<div class="span12">
 		<ul class="pager">
 			<li class="pull-left"><a href="http://docs.pagelines.com/advanced/override-sections">&larr; Override Sections</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/translate">Translations &rarr;</i></a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/translating-dms">Translating DMS &rarr;</i></a></li>
 		</ul>
 	</div>
 </div>
@@ -23,7 +23,7 @@ The plugin will facilitate your creation of customized sidebars that will work w
 	<div class="span12">
 		<ul class="pager">
 			<li class="pull-left"><a href="http://docs.pagelines.com/advanced/override-sections">&larr; Override Sections</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/translate">Translations &rarr;</i></a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/translating-dms">Translating DMS &rarr;</i></a></li>
 		</ul>
 	</div>
 </div>
