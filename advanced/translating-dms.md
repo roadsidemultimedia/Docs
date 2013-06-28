@@ -71,7 +71,7 @@ Once you have done this, choose the **pagelines.pot** which is located in `/wp-c
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/catalog-property-window.jpg)
 
-Fill the out the fields such as project name and so on, this informs other translators who you are and then click **OK**. After this you will be prompted to save your file, name it based on your language, for example, a Danish translation would be saved as `dk_DK.po`and use the file type `GNU gettext catologs (*.po)`. Now the strings will be listed.
+Fill the out the fields such as project name and so on, this informs other translators who you are and then click **OK**. After this you will be prompted to save your file, name it based on your language, for example, a Danish translation would be saved as `da_DK.po`and use the file type `GNU gettext catologs (*.po)`. Now the strings will be listed.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/poedit-strings.jpg)
 
