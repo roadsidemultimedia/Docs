@@ -162,6 +162,8 @@ class SomeSection extends PageLinesSection {
 
 <h2>Adding Options To Themes</h2>
 
+<p>There are several ways to add options to themes. First themes rely on &#39;child section&#39; and in these sections you&#39;ll have options. For </p>
+
 <h2>Basic Option Attributes</h2>
 
 <p>The basic option format for simple option types like text fields is as follows. Different option types will have additional parameters you can set depending on your preference.</p>
@@ -364,6 +366,20 @@ This will return the ID of the selected menu as the value.</p>
 
 // this will return an array of values  
 
+</code></pre>
+
+<h3>Button Color Select Option</h3>
+
+<p>The easiest way to give users button color options is to use the &#39;select_button&#39; option. This returns the bootstrap class for the various button colors.</p>
+
+<pre><code class="php">$opts[] = array(
+            &#39;key&#39;           =&gt; &#39;some_key&#39;,
+            &#39;type&#39;          =&gt; &#39;select_button&#39;, 
+        );
+
+// to use in html
+$class = $this-&gt;opt(&#39;some_key&#39;);
+// &lt;a class=&quot;btn &lt;?php echo $class;?&gt;&quot;&gt;Button Text&lt;/a&gt;
 </code></pre>
 
 <h3>Use a Custom Option Template</h3>
