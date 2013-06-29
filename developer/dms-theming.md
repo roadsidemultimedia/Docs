@@ -28,7 +28,7 @@ Next, a large component in DMS themes is creating customized sections.
 
 Sections are the modular components you create that have specific styles and can be dragged and dropped by users. 
 
-In themes, sections are simply added to the [theme root]/sections/ folder and use the standard options API. 
+In themes, sections are simply added to the *[theme root]/sections/* folder and use the standard options API. 
 
 Read up on <a href="/developer/section-api">creating sections</a>.
 
@@ -58,5 +58,9 @@ $my_theme_settings['my_theme_key'] = array(
 ); 
 
 pl_add_theme_tab( $my_theme_settings );
+
+// The values of these settings should then be accessible via pl_setting()
+$val = pl_setting('my_theme_option1');
+
 	
 ```
