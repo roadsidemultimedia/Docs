@@ -39,11 +39,10 @@ Here is an example:
 
 $my_theme_settings = array();
 $my_theme_settings['my_theme_key'] = array(
-	'pos'	=> 50,
-	'name'	=> 'My Theme Name',
-	'icon'	=> 'icon-pagelines',  // see 'font awesome'
-	'opts'	=> array(
-		// Standard Theme Option Format...
+	'pos'	=> 50,					// Tab position (lower means higher)
+	'name'	=> 'My Theme Name', 	// Tab name
+	'icon'	=> 'icon-pagelines', 	// See 'font awesome'
+	'opts'	=> array(				// Option Engine Format...
 		array(
 			'type' 			=> 'text',
 			'title' 		=> 'Enter Something...',
