@@ -157,7 +157,7 @@
 <p>You&#39;ll find this button under &#39;global options&#39; &gt; &#39;import/export&#39;. Make sure to check the &#39;publish to child theme&#39; option and the file will be generated and added to your child theme on click. 
 <img src="http://docs.pagelines.com/img/theming-publish-config.jpg" /></p>
 
-<h3>Sections and Section API</h3>
+<h2>Sections and Section API</h2>
 
 <p>Next, a large component in DMS themes is creating customized sections. </p>
 
@@ -167,13 +167,49 @@
 
 <p>Read up on <a href="/developer/section-api">creating sections</a>.</p>
 
-<h3>Adding Styles with Style.less</h3>
+<h2>Adding Styles with Style.less</h2>
 
-<p>... to do ...</p>
+<p>DMS has an extremely robust LESS/CSS customization system for themes. </p>
 
-<h3>Adding PHP and Hooks To Your Theme</h3>
+<p>DMS themes supports LESS via a single &#39;global&#39; style.less file and also individual style.less docs for each custom section.<br>
+As a bonus all LESS files in core DMS can be overridden or removed easily.</p>
 
-<p>... to do ... </p>
+<h4>Child style.less</h4>
+
+<p>All LESS styles that are meant to be applied globally in the theme should be added to style.less. These rules will be applied on every page of a site. </p>
+
+<p>Good examples of items that belong in this document would be button styling for a button that will be used in several sections, or for common/standard css formats, like a media list or similar. </p>
+
+<div class="alert alert-info">
+    <strong>A note on modularity</strong> We recommend you add styles directed at specific sections to that section's style.less document. This helps keep your LESS modular and organized.
+</div>
+
+<h4>Overriding LESS Files</h4>
+
+<p>It is also possible to override core LESS files. 
+To do this, simply add a folder named &#39;less&#39; to your child theme. Inside it, add a file with the exact name of the less file you&#39;d like to override. </p>
+
+<p>For example, [child root]/less/modals.less, would override the core stylesheet directed at modals.</p>
+
+<h2>Adding PHP and Hooks To Your Theme</h2>
+
+<p>As an interface to customize the PHP workings of core DMS, PageLines uses hooks/filters methodology. If you&#39;re unfamiliar with how to use hooks and filters, we recommend you read <a href="http://wpcandy.com/teaches/how-to-use-wordpress-hooks/#.Uc9yij44XLM" target="_blank">this article</a>. </p>
+
+<p>All PHP related customizations belong in the functions.php file (or one that is imported into it).. </p>
+
+<p>As an example, this code is added to [child root]/functions.php on pagelines.com: </p>
+
+<pre><code class="php">
+// This hook adds some javascript that tracks the amount of times users hit a particular 404 in a day
+add_action(&#39;pagelines_not_found_actions&#39;, &#39;pagelines_404_event&#39;);
+function pagelines_404_event(){ 
+
+    echo &#39;&lt;script type=&quot;text/javascript&quot;&gt;&#39;;
+    echo google_track_event(&#39;errors&#39;, &#39;NotFound&#39;, get_page_url());
+    echo &#39;&lt;/script&gt;&#39;;
+
+}
+</code></pre>
 
 <h2>Adding Global Theme Options</h2>
 
