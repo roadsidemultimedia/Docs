@@ -134,7 +134,7 @@ $opts[] = array(
 			'type' 			=> 'count_select', 
 			'count_start'	=> 1,				// Starting Count Number
 			'count_number'	=> 100,				// Ending Count Number
-			'suffix'		=> '%'				// Added to the end of the value
+			'suffix'		=> '%'			// Added to the end of the value
 		);
 	
 ```
@@ -145,7 +145,8 @@ Image upload options are easy! Just use the following attributes...
 $opts[] = array(
 			'key'			=> 'some_key',
 			'type' 			=> 'image_upload',
-			'imgsize' 		=> 	'16',		// The image preview 'max' size
+			'imgsize' 		=> '16',		// The image preview 'max' size
+			'sizelimit'		=> '512000'		// Image upload max size default 512kb
 		);
 	
 ```
