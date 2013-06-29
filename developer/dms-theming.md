@@ -44,6 +44,14 @@ In themes, sections are simply added to the *[theme root]/sections/* folder and 
 
 Read up on <a href="/developer/section-api">creating sections</a>.
 
+### Adding Styles with Style.less ###
+
+... to do ...
+
+### Adding PHP and Hooks To Your Theme ###
+
+... to do ... 
+
 ## Adding Global Theme Options ##
 
 Adding options to themes uses the same option API you'll find elsewhere in DMS. 
