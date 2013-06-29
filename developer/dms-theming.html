@@ -161,11 +161,10 @@
 <pre><code class="php">
 $my_theme_settings = array();
 $my_theme_settings[&#39;my_theme_key&#39;] = array(
-    &#39;pos&#39;   =&gt; 50,
-    &#39;name&#39;  =&gt; &#39;My Theme Name&#39;,
-    &#39;icon&#39;  =&gt; &#39;icon-pagelines&#39;,  // see &#39;font awesome&#39;
-    &#39;opts&#39;  =&gt; array(
-        // Standard Theme Option Format...
+    &#39;pos&#39;   =&gt; 50,                  // Tab position (lower means higher)
+    &#39;name&#39;  =&gt; &#39;My Theme Name&#39;,     // Tab name
+    &#39;icon&#39;  =&gt; &#39;icon-pagelines&#39;,    // See &#39;font awesome&#39;
+    &#39;opts&#39;  =&gt; array(               // Option Engine Format...
         array(
             &#39;type&#39;          =&gt; &#39;text&#39;,
             &#39;title&#39;         =&gt; &#39;Enter Something...&#39;,
