@@ -28,6 +28,10 @@ Next, a large component in DMS themes is creating customized sections.
 
 Sections are the modular components you create that have specific styles and can be dragged and dropped by users. 
 
+In themes, sections are simply added to the [theme root]/sections/ folder and use the standard options API. 
+
+Read up on <a href="/developer/section-api">creating sections</a>.
+
 ## Adding Global Theme Options ##
 
 Adding options to themes uses the same option API you'll find elsewhere in DMS. 
