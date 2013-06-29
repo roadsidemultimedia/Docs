@@ -154,7 +154,7 @@ The above examples introduce you to the basics of LESS. For a more detailed over
 	<div class="span12">
 		<ul class="pager">
 			<li class="pull-left"><a href="http://docs.pagelines.com/advanced/hooks">&larr; Hooks</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/overriding-sections">Overriding Sections &rarr;</i></a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/override-sections">Override Sections &rarr;</i></a></li>
 		</ul>
 	</div>
 </div>

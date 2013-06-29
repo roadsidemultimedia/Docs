@@ -36,6 +36,33 @@ For information on configuring these plugins, please review their documentation.
 
 ## Content Delivery Network (CDN)
 
+A CDN (Content Delivery Network) is a network of servers around the globe. The sole purpose of a CDN is to deliver content to end-users with high availability and high performance. Besides better performance and availability, CDNs also offload the traffic served directly from the content provider's origin infrastructure, resulting in cost savings for the content provider.
 
+* [MaxCDN](http://www.maxcdn.com/)
+* [CloudFlare](https://www.cloudflare.com/)
 
+## Images ##
 
+In modern web development even minor optimizations have significant influence on how efficiently your website works. Optimizing your images to reduce the file size can easily be achieve by using an application such as [JpegMini](http://www.jpegmini.com/) available for both <ic class="icon-apple"></i> and <i class="icon-windows"></i>.
+
+Fortunately, there is an amazing, free plugin called [WP-SmushIt](http://wordpress.org/plugins/wp-smushit/) which will do this process to all of your images automatically, as you are uploading them.
+
+## LazyLoad ##
+
+LazyLoad is the process of delaying the loading of images in long web pages. Images outside of viewport (visible part of web page) wont be loaded before user scrolls to them.
+
+PageLines have a free plugin available on the store called [LazyLoader](http://www.pagelines.com/store/plugins/pagelines-lazyloader/)
+
+## Revision Control ##
+
+If WordPress is left to its own devices, it would store every single one of your drafts, indefinitely. If our posts are done and published, why would we need all those drafts stored ?
+
+Installing the [Revision Control](http://wordpress.org/plugins/revision-control/) which makes sure post revisions are kept to a minimum, set it to 3 or 4, in case you make a mistake, but not too high that you clutter your backend with unnecessary drafted posts.
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/advanced/custom-sidebars">&larr; Custom Sidebars</a></li>
+  		</ul>
+	</div>
+</div>
