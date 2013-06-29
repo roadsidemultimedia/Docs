@@ -40,6 +40,7 @@ class SomeSection extends PageLinesSection {
 More info on this can be found in documentation on creating sections.
 
 ## Adding Options To Themes ##
+There are several ways to add options to themes. First themes rely on 'child section' and in these sections you'll have options. For 
 
 ## Basic Option Attributes ##
 
@@ -239,6 +240,20 @@ $opts[] = array(
 // this will return an array of values	
 
 ```
+
+### Button Color Select Option ###
+The easiest way to give users button color options is to use the 'select_button' option. This returns the bootstrap class for the various button colors.
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'select_button', 
+		);
+	
+// to use in html
+$class = $this->opt('some_key');
+// <a class="btn <?php echo $class;?>">Button Text</a>
+```
+
 
 ### Use a Custom Option Template ###
 It's possible to have an option that is simply a template you've created in your extension. To do that simply set the 'template' option type and the 'template' option attribute. 
