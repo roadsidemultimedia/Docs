@@ -27,3 +27,33 @@ In practice the file structure of a DMS theme looks something like this:
 Next, a large component in DMS themes is creating customized sections. 
 
 Sections are the modular components you create that have specific styles and can be dragged and dropped by users. 
+
+## Adding Global Theme Options ##
+
+Adding options to themes uses the same option API you'll find elsewhere in DMS. 
+
+It consists of the option engine, some tab configuration information and a special function: pl_add_theme_tab().
+
+Here is an example:
+```php
+
+$my_theme_settings = array();
+$my_theme_settings['my_theme_key'] = array(
+	'pos'	=> 50,
+	'name'	=> 'My Theme Name',
+	'icon'	=> 'icon-pagelines',  // see 'font awesome'
+	'opts'	=> array(
+		// Standard Theme Option Format...
+		array(
+			'type' 			=> 'text',
+			'title' 		=> 'Enter Something...',
+			'key'			=> 'my_theme_option1',
+			'label' 		=> 'Some Label',
+		),
+		
+	)
+); 
+
+pl_add_theme_tab( $my_theme_settings );
+	
+```
