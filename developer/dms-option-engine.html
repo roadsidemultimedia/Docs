@@ -254,7 +254,7 @@ Therefore, they make use of an &#39;opts&#39; array with an index for each indiv
             &#39;type&#39;          =&gt; &#39;count_select&#39;, 
             &#39;count_start&#39;   =&gt; 1,               // Starting Count Number
             &#39;count_number&#39;  =&gt; 100,             // Ending Count Number
-            &#39;suffix&#39;        =&gt; &#39;%&#39;              // Added to the end of the value
+            &#39;suffix&#39;        =&gt; &#39;%&#39;          // Added to the end of the value
         );
 
 </code></pre>
@@ -266,7 +266,8 @@ Therefore, they make use of an &#39;opts&#39; array with an index for each indiv
 <pre><code class="php">$opts[] = array(
             &#39;key&#39;           =&gt; &#39;some_key&#39;,
             &#39;type&#39;          =&gt; &#39;image_upload&#39;,
-            &#39;imgsize&#39;       =&gt;  &#39;16&#39;,       // The image preview &#39;max&#39; size
+            &#39;imgsize&#39;       =&gt; &#39;16&#39;,        // The image preview &#39;max&#39; size
+            &#39;sizelimit&#39;     =&gt; &#39;512000&#39;     // Image upload max size default 512kb
         );
 
 </code></pre>
