@@ -149,6 +149,36 @@
 <p>Next, a large component in DMS themes is creating customized sections. </p>
 
 <p>Sections are the modular components you create that have specific styles and can be dragged and dropped by users. </p>
+
+<h2>Adding Global Theme Options</h2>
+
+<p>Adding options to themes uses the same option API you&#39;ll find elsewhere in DMS. </p>
+
+<p>It consists of the option engine, some tab configuration information and a special function: pl_add_theme_tab().</p>
+
+<p>Here is an example:</p>
+
+<pre><code class="php">
+$my_theme_settings = array();
+$my_theme_settings[&#39;my_theme_key&#39;] = array(
+    &#39;pos&#39;   =&gt; 50,
+    &#39;name&#39;  =&gt; &#39;My Theme Name&#39;,
+    &#39;icon&#39;  =&gt; &#39;icon-pagelines&#39;,  // see &#39;font awesome&#39;
+    &#39;opts&#39;  =&gt; array(
+        // Standard Theme Option Format...
+        array(
+            &#39;type&#39;          =&gt; &#39;text&#39;,
+            &#39;title&#39;         =&gt; &#39;Enter Something...&#39;,
+            &#39;key&#39;           =&gt; &#39;my_theme_option1&#39;,
+            &#39;label&#39;         =&gt; &#39;Some Label&#39;,
+        ),
+
+    )
+); 
+
+pl_add_theme_tab( $my_theme_settings );
+
+</code></pre>
             </div>
 		</section>
 
