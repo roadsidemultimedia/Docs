@@ -6,13 +6,21 @@ We think this is a revolutionary concept.
 
 Once a theme is created you can then sell it on the PageLines Store or simply give it away to your site visitors as a freebie. 
 
-## Theming Overview ##
+## Theming Overview and Structure ##
 
 At a high-level, creating a DMS theme is as simple as simply building an awesome website (using a child theme) and adding a configuration file. 
 
 Although it is simple, lets go through the specifics. The basic diagram of DMS theme is below. 
  
 <img src="http://docs.pagelines.com/img/theming-overview-graphic.jpg" />
+
+As you can see, DMS themes are just a combinations of a few files that are designed to recreate a site that you've built on someone else's. 
+
+DMS themes are treated very similar to WordPress child themes, only with a few extras to accomodate DMS features, templates and drag+drop configations. 
+
+In practice the file structure of a DMS theme looks something like this: 
+
+<img src="http://docs.pagelines.com/img/theming-file-structure.jpg" />
 
 ### Sections and Section API ###
 
