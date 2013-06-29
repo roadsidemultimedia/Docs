@@ -57,7 +57,7 @@ PageLines have a free plugin available on the store called [LazyLoader](http://w
 
 If WordPress is left to its own devices, it would store every single one of your drafts, indefinitely. If our posts are done and published, why would we need all those drafts stored ?
 
-Installing the [Revision Control](http://wordpress.org/plugins/revision-control/) which makes sure post revisions are kept to a minimum, set it to 3 or 4, in case you make a mistake, but not too high that you clutter your backend with unnecessary drafted posts.
+Installing the [Revision Control](http://wordpress.org/plugins/revision-control/) plugin, makes sure post revisions are kept to a minimum, set it to 3 or 4, in case you make a mistake, but not too high that you clutter your backend with unnecessary drafted posts.
 
 <div class="row-fluid">
 	<div class="span12">
