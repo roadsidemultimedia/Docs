@@ -128,11 +128,11 @@ Below are currently all available icons.
                   <li><i class="icon-lock"></i> icon-lock</li>
                   <li><i class="icon-magic"></i> icon-magic</li>
                   <li><i class="icon-magnet"></i> icon-magnet</li>
+                  <li><i class="icon-mail-forward"></i> icon-mail-forward </li>
             </ul>
       </div>
       <div class="span3">
             <ul class="the-icons">
-                  <li><i class="icon-mail-forward"></i> icon-mail-forward </li>
                   <li><i class="icon-mail-reply"></i> icon-mail-reply </li>
                   <li><i class="icon-mail-reply-all"></i> icon-mail-reply-all</li>
                   <li><i class="icon-male"></i> icon-male</li>
@@ -188,11 +188,11 @@ Below are currently all available icons.
                   <li><i class="icon-search"></i> icon-search</li>
                   <li><i class="icon-share"></i> icon-share</li>
                   <li><i class="icon-share-alt"></i> icon-share-alt</li>
+                  <li><i class="icon-share-sign"></i> icon-share-sign</li>
             </ul>
       </div>
       <div class="span3">
             <ul class="the-icons">
-                  <li><i class="icon-share-sign"></i> icon-share-sign</li>
                   <li><i class="icon-shield"></i> icon-shield</li>
                   <li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
                   <li><i class="icon-sign-blank"></i> icon-sign-blank</li>
