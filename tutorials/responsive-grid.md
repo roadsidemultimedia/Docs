@@ -163,27 +163,25 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 <div class="row-fluid show-grid">
 	<div class="span4">
-		<ul class="unstyled">
-			<p></p>
-			<li>Sidebar Content</li>
-			<li>Sidebar Content</li>
-			<li>Sidebar Content</li>
-			<li>Sidebar Content</li>
-			<li>Sidebar Content</li>
-			<p></p>
-		</ul>
+		Sidebar Content
 	</div>
 	<div class="span8">
-		<ul class="unstyled">
-			<p></p>
-			<li>Main Content</li>
-			<li>Main Content</li>
-			<li>Main Content</li>
-			<li>Main Content</li>
-			<li>Main Content</li>
-			<p></p>
-		</ul>
+		Main Content
 	</div>
 </div>
 
+### Three Columns (Two Sidebars/Main Content)
 
+~~~ .html
+<div class="row-fluid">
+	<div class="span3">Sidebar Content</div>
+	<div class="span6">Main Content</div>
+	<div class="span3">Sidebar Content</div>
+</div>
+~~~
+
+<div class="row-fluid show-grid">
+	<div class="span3">Sidebar Content</div>
+	<div class="span6">Main Content</div>
+	<div class="span3">Sidebar Content</div>
+</div>
