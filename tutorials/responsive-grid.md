@@ -134,13 +134,13 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 <div class="row-fluid">
 	<div class="span4">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis. Phasellus a mauris euismod, aliquet sem sit amet, facilisis orci. Sed a augue rhoncus, elementum orci sed, laoreet elit. Vivamus venenatis sem eget risus consectetur lobortis consectetur et odio. Integer quis tincidunt enim.
 	</div>
 	<div class="span4">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis. Phasellus a mauris euismod, aliquet sem sit amet, facilisis orci. Sed a augue rhoncus, elementum orci sed, laoreet elit. Vivamus venenatis sem eget risus consectetur lobortis consectetur et odio. Integer quis tincidunt enim.
 	</div>
 	<div class="span4">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis. Phasellus a mauris euismod, aliquet sem sit amet, facilisis orci. Sed a augue rhoncus, elementum orci sed, laoreet elit. Vivamus venenatis sem eget risus consectetur lobortis consectetur et odio. Integer quis tincidunt enim.
 	</div>
 </div>
 
