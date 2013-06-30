@@ -105,23 +105,23 @@ The responsive grid system uses percents instead of pixels for column widths, en
 ### Nested ###
 
 ~~~ .html
-<div class="row-fluid">
-	<div class="span4">4</div>
-	<div class="span8">8
-		<div class="row-fluid">
-			<div class="span6 zmb" style="background: #CCC">6</div>
-			<div class="span6 zmb" style="background: #CCC">6</div>
-		</div>
-	</div>
-</div>
-~~~
-
 <div class="row-fluid show-grid">
 	<div class="span4">4</div>
 	<div class="span8">8
 		<div class="row-fluid">
 			<div class="span6 zmb">6</div>
 			<div class="span6 zmb">6</div>
+		</div>
+	</div>
+</div>
+~~~
+
+<div class="row-fluid">
+	<div class="span4">4</div>
+	<div class="span8">8
+		<div class="row-fluid">
+			<div class="span6 zmb" style="background: #CCC">6</div>
+			<div class="span6 zmb" style="background: #CCC">6</div>
 		</div>
 	</div>
 </div>
