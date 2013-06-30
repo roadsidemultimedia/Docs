@@ -120,8 +120,8 @@ The responsive grid system uses percents instead of pixels for column widths, en
 	<div class="span4">4</div>
 	<div class="span8">8
 		<div class="row-fluid">
-			<div class="span6 zmb" style="background: #CCC">6</div>
-			<div class="span6 zmb" style="background: #CCC">6</div>
+			<div class="span6 zmb">6</div>
+			<div class="span6 zmb">6</div>
 		</div>
 	</div>
 </div>
@@ -130,6 +130,25 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 ## Layout Examples ##
 
+### Newspaper Columns ###
 
+<div class="row-fluid">
+	<div class="span4">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis. Phasellus a mauris euismod, aliquet sem sit amet, facilisis orci. Sed a augue rhoncus, elementum orci sed, laoreet elit. Vivamus venenatis sem eget risus consectetur lobortis consectetur et odio. Integer quis tincidunt enim. Duis ut erat nec mauris rhoncus tincidunt sed nec arcu. Sed malesuada ante eget lacus sollicitudin, quis tempus nisi feugiat. Mauris at felis nunc. Sed sit amet lorem eu elit gravida tempus.</p>
+	</div>
+	<div class="span4">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis. Phasellus a mauris euismod, aliquet sem sit amet, facilisis orci. Sed a augue rhoncus, elementum orci sed, laoreet elit. Vivamus venenatis sem eget risus consectetur lobortis consectetur et odio. Integer quis tincidunt enim. Duis ut erat nec mauris rhoncus tincidunt sed nec arcu. Sed malesuada ante eget lacus sollicitudin, quis tempus nisi feugiat. Mauris at felis nunc. Sed sit amet lorem eu elit gravida tempus.</p>
+	</div>
+	<div class="span4">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis. Phasellus a mauris euismod, aliquet sem sit amet, facilisis orci. Sed a augue rhoncus, elementum orci sed, laoreet elit. Vivamus venenatis sem eget risus consectetur lobortis consectetur et odio. Integer quis tincidunt enim. Duis ut erat nec mauris rhoncus tincidunt sed nec arcu. Sed malesuada ante eget lacus sollicitudin, quis tempus nisi feugiat. Mauris at felis nunc. Sed sit amet lorem eu elit gravida tempus.</p>
+	</div>
+</div>
 
+~~~ .html
+<div class="row-fluid">
+	<div class="span4">...</div>
+	<div class="span4">...</div>
+	<div class="span4">...</div>
+</div>
+~~~
 
