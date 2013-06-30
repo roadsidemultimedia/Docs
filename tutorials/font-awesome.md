@@ -304,11 +304,11 @@ Below are currently all available icons.
                   <li><i class="icon-cut"></i> icon-cut</li>
                   <li><i class="icon-eraser"></i> icon-eraser</li>
                   <li><i class="icon-file"></i> icon-file</li>
-                  <li><i class="icon-file-alt"></i> icon-file-alt</li>
             </ul>
       </div>
       <div class="span3">
             <ul class="the-icons">
+                  <li><i class="icon-file-alt"></i> icon-file-alt</li>
                   <li><i class="icon-file-text"></i> icon-file-text</li>
                   <li><i class="icon-file-text-alt"></i> icon-file-text-alt</li>
                   <li><i class="icon-font"></i> icon-font</li>
@@ -318,12 +318,12 @@ Below are currently all available icons.
                   <li><i class="icon-link"></i> icon-link</li>
                   <li><i class="icon-list"></i> icon-list</li>
                   <li><i class="icon-list-alt"></i> icon-list-alt</li>
-                  <li><i class="icon-list-ol"></i> icon-list-ol</li>
-                  <li><i class="icon-list-ul"></i> icon-list-ul</li>
             </ul>
       </div>
       <div class="span3">
             <ul class="the-icons">
+                  <li><i class="icon-list-ol"></i> icon-list-ol</li>
+                  <li><i class="icon-list-ul"></i> icon-list-ul</li>
                   <li><i class="icon-list-ul"></i> icon-list-ul</li>
                   <li><i class="icon-paper-clip"></i> icon-paper-clip</li>
                   <li><i class="icon-paperclip"></i> icon-paperclip <span class="muted">(alias)</span></li>
@@ -332,13 +332,13 @@ Below are currently all available icons.
                   <li><i class="icon-rotate-left"></i> icon-rotate-left <span class="muted">(alias)</span></li>
                   <li><i class="icon-rotate-right"></i> icon-rotate-right <span class="muted">(alias)</span></li>
                   <li><i class="icon-save"></i> icon-save</li>
-                  <li><i class="icon-strikethrough"></i> icon-strikethrough</li>
-                  <li><i class="icon-table"></i> icon-table</li>
-                  <li><i class="icon-text-height"></i> icon-text-height</li>
             </ul>
       </div>
       <div class="span3">
             <ul class="the-icons">
+                  <li><i class="icon-strikethrough"></i> icon-strikethrough</li>
+                  <li><i class="icon-table"></i> icon-table</li>
+                  <li><i class="icon-text-height"></i> icon-text-height</li>
                   <li><i class="icon-text-width"></i> icon-text-width</li>
                   <li><i class="icon-th"></i> icon-th</li>
                   <li><i class="icon-th-large"></i> icon-th-large</li>
