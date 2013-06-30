@@ -189,11 +189,11 @@ Below are currently all available icons.
                   <li><i class="icon-share"></i> icon-share</li>
                   <li><i class="icon-share-alt"></i> icon-share-alt</li>
                   <li><i class="icon-share-sign"></i> icon-share-sign</li>
+                  <li><i class="icon-shield"></i> icon-shield</li>
             </ul>
       </div>
       <div class="span3">
             <ul class="the-icons">
-                  <li><i class="icon-shield"></i> icon-shield</li>
                   <li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
                   <li><i class="icon-sign-blank"></i> icon-sign-blank</li>
                   <li><i class="icon-signal"></i> icon-signal</li>
