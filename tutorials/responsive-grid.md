@@ -76,21 +76,14 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 ### Basic Example ###
 
-~~~ .html
-<div class="row">
-        <div class="span4">4</div>
-        <div class="span8">8</div>
-    </div>
-~~~
-
 <div class="row-fluid">
 	<div class="span6">
-		<pre>
-			<div class="row">
-    			<div class="span4">4</div>
-    			<div class="span8">8</div>
-			</div>
-		</pre>
+		~~~ .html
+		<div class="row">
+			<div class="span4">4</div>
+			<div class="span8">8</div>
+		</div>
+~~~
 	</div>
 <div class="span6">
 	<div class="row-fluid show-grid">
