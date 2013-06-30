@@ -449,7 +449,7 @@ Below are currently all available icons.
 <div class="alert alert-info">
     <ul class="zmb">
             <li>All brand icons are trademarks of their respective owners.</li>
-            <li>The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa.</li>
+            <li>The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, PageLines, nor vice versa.</li>
       </ul>
 </div>
 
@@ -574,6 +574,18 @@ Place Font Awesome icons just about anywhere with the `<i>` tag.
       <p><i class="icon-camera-retro icon-2x"></i> icon-camera-retro</p>
       <p><i class="icon-camera-retro icon-3x"></i> icon-camera-retro</p>
       <p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
+</div>
+
+### Buttons ###
+
+~~~ .html
+[pl_button type="primary" link="" size="large" target="blank"]
+      <i class="icon-refresh icon-spin"></i>  Icon Button
+[/pl_button]
+~~~
+
+<div class="docs-example">
+      <a class="#fakelink" class="btn btn-large btn-primary"><i class="icon-info-sign"></i> Icon Button</a>
 </div>
 
 ### Bulleted Lists ###
