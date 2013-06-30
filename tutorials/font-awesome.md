@@ -585,7 +585,7 @@ Place Font Awesome icons just about anywhere with the `<i>` tag.
 ~~~
 
 <div class="docs-example">
-      <a class="#fakelink" class="btn btn-large btn-primary"><i class="icon-info-sign"></i> Icon Button</a>
+      <a href="#fakelink" class="btn btn-large btn-primary"><i class="icon-info-sign"></i> Icon Button</a>
 </div>
 
 ### Bulleted Lists ###
