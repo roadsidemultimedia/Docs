@@ -424,19 +424,19 @@ Below are currently all available icons.
                   <li><i class="icon-fullscreen"></i> icon-fullscreen</li>
                   <li><i class="icon-pause"></i> icon-pause</li>
                   <li><i class="icon-play"></i> icon-play</li>
-                  <li><i class="icon-play-circle"></i> icon-play-circle</li>
             </ul>
       </div>
       <div class="span3">
             <ul class="the-icons">
+                  <li><i class="icon-play-circle"></i> icon-play-circle</li>
                   <li><i class="icon-play-sign"></i> icon-play-sign</li>
                   <li><i class="icon-resize-full"></i> icon-resize-full</li>
                   <li><i class="icon-resize-small"></i> icon-resize-small</li>
-                  <li><i class="icon-step-backward"></i> icon-step-backward</li>
             </ul>
       </div>
       <div class="span3">
             <ul class="the-icons">
+                  <li><i class="icon-step-backward"></i> icon-step-backward</li>
                   <li><i class="icon-step-forward"></i> icon-step-forward</li>
                   <li><i class="icon-stop"></i> icon-stop</li>
                   <li><i class="icon-youtube-play"></i> icon-youtube-play</li>
