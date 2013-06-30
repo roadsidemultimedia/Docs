@@ -9,7 +9,7 @@ Below are currently all available icons.
 ### Web Application ###
 
 <div class="row-fluid">
-      <li>
+      <div class="span4">
             <ul class="the-icons">
                   <li><i class="icon-adjust"></i> icon-adjust</li>
                   <li><i class="icon-anchor"></i> icon-anchor</li>
@@ -70,7 +70,7 @@ Below are currently all available icons.
                   <li><i class="icon-ellipsis-vertical"></i> icon-ellipsis-vertical</li>
             </ul>
       </div>
-      <li>
+      <div class="span4">
             <ul class="the-icons">
                   <li><i class="icon-envelope"></i> icon-envelope</li>
                   <li><i class="icon-envelope-alt"></i> icon-envelope-alt</li>
@@ -131,7 +131,7 @@ Below are currently all available icons.
                   <li><i class="icon-mail-forward"></i> icon-mail-forward </li>
             </ul>
       </div>
-      <li>
+      <div class="span4">
             <ul class="the-icons">
                   <li><i class="icon-mail-reply"></i> icon-mail-reply </li>
                   <li><i class="icon-mail-reply-all"></i> icon-mail-reply-all</li>
@@ -192,7 +192,7 @@ Below are currently all available icons.
                   <li><i class="icon-shield"></i> icon-shield</li>
             </ul>
       </div>
-      <li>
+      <div class="span4">
             <ul class="the-icons">
                   <li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
                   <li><i class="icon-sign-blank"></i> icon-sign-blank</li>
