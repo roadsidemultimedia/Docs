@@ -9,7 +9,7 @@ Below are currently all available icons.
 ### Web Application ###
 
 <div class="row-fluid">
-      <div class="span4">
+      <div class="span3">
             <ul class="the-icons">
                   <li><i class="icon-adjust"></i> icon-adjust</li>
                   <li><i class="icon-anchor"></i> icon-anchor</li>
@@ -69,7 +69,7 @@ Below are currently all available icons.
                   <li><i class="icon-ellipsis-horizontal"></i> icon-ellipsis-horizontal</li>
             </ul>
       </div>
-      <div class="span4">
+      <div class="span3">
             <ul class="the-icons">
                   <li><i class="icon-ellipsis-vertical"></i> icon-ellipsis-vertical</li>
                   <li><i class="icon-envelope"></i> icon-envelope</li>
@@ -129,7 +129,7 @@ Below are currently all available icons.
                   <li><i class="icon-magic"></i> icon-magic</li>
             </ul>
       </div>
-      <div class="span4">
+      <div class="span3">
             <ul class="the-icons">
                   <li><i class="icon-magnet"></i> icon-magnet</li>
                   <li><i class="icon-mail-forward"></i> icon-mail-forward </li>
@@ -189,7 +189,7 @@ Below are currently all available icons.
                   <li><i class="icon-share"></i> icon-share</li>
             </ul>
       </div>
-      <div class="span4">
+      <div class="span3">
             <ul class="the-icons">
                   <li><i class="icon-share-alt"></i> icon-share-alt</li>
                   <li><i class="icon-share-sign"></i> icon-share-sign</li>
