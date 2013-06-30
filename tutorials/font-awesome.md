@@ -589,4 +589,15 @@ Place Font Awesome icons just about anywhere with the `<i>` tag.
 </ul>
 ~~~
 
+<div class="docs-example">
+      <ul class="icons-ul">
+            <li><i class="icon-li icon-ok"></i>Bulleted lists (like this one)</li>
+            <li><i class="icon-li icon-ok"></i>Buttons</li>
+            <li><i class="icon-li icon-ok"></i>Button groups</li>
+            <li><i class="icon-li icon-ok"></i>Navigation</li>
+            <li><i class="icon-li icon-ok"></i>Prepended form inputs</li>
+            <li><i class="icon-li icon-ok"></i>&hellip;and many more with custom CSS</li>
+      </ul>
+</div>
+
 For more examples, please visit [Font Awesome](http://fortawesome.github.io/Font-Awesome/examples/)
