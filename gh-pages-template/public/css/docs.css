@@ -229,6 +229,9 @@ pre strong {
 	color: #07A;
 }
 
+.zmt {
+	margin-top:0 !important;
+}
 .zmb {
 	margin-bottom:0 !important;
 }

@@ -446,7 +446,7 @@ Below are currently all available icons.
 ### Brand Icons ###
 
 <div class="alert alert-info">
-    <ul class="margin-bottom-none">
+    <ul class="zmb">
             <li>All brand icons are trademarks of their respective owners.</li>
             <li>The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa.</li>
       </ul>
