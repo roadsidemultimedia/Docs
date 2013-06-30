@@ -78,12 +78,12 @@ The responsive grid system uses percents instead of pixels for column widths, en
 
 <div class="row-fluid">
 	<div class="span6">
-		~~~ .html
+		<pre><code>
 		<div class="row">
 			<div class="span4">4</div>
 			<div class="span8">8</div>
 		</div>
-~~~
+		</pre></code>
 	</div>
 <div class="span6">
 	<div class="row-fluid show-grid">
