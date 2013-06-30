@@ -143,7 +143,7 @@ The responsive grid system uses percents instead of pixels for column widths, en
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis. Phasellus a mauris euismod, aliquet sem sit amet, facilisis orci. Sed a augue rhoncus, elementum orci sed, laoreet elit. Vivamus venenatis sem eget risus consectetur lobortis consectetur et odio. Integer quis tincidunt enim.
 	</div>
 </div>
-
+<p></p>
 ~~~ .html
 <div class="row-fluid">
 	<div class="span4">...</div>
@@ -152,3 +152,9 @@ The responsive grid system uses percents instead of pixels for column widths, en
 </div>
 ~~~
 
+### Two Columns (Sidebar/Content) ###
+
+<div class="row-fluid show-grid">
+	<div class="span4">Sidebar Content</div>
+	<div class="span8">Main Content</div>
+</div>
