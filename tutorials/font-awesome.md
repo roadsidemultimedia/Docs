@@ -9,7 +9,7 @@ Below are currently all available icons.
 ### Web Application ###
 
 <div class="row-fluid">
-      <div class="span3">
+      <li>
             <ul class="the-icons">
                   <li><i class="icon-adjust"></i> icon-adjust</li>
                   <li><i class="icon-anchor"></i> icon-anchor</li>
@@ -70,7 +70,7 @@ Below are currently all available icons.
                   <li><i class="icon-ellipsis-vertical"></i> icon-ellipsis-vertical</li>
             </ul>
       </div>
-      <div class="span3">
+      <li>
             <ul class="the-icons">
                   <li><i class="icon-envelope"></i> icon-envelope</li>
                   <li><i class="icon-envelope-alt"></i> icon-envelope-alt</li>
@@ -131,7 +131,7 @@ Below are currently all available icons.
                   <li><i class="icon-mail-forward"></i> icon-mail-forward </li>
             </ul>
       </div>
-      <div class="span3">
+      <li>
             <ul class="the-icons">
                   <li><i class="icon-mail-reply"></i> icon-mail-reply </li>
                   <li><i class="icon-mail-reply-all"></i> icon-mail-reply-all</li>
@@ -192,7 +192,7 @@ Below are currently all available icons.
                   <li><i class="icon-shield"></i> icon-shield</li>
             </ul>
       </div>
-      <div class="span3">
+      <li>
             <ul class="the-icons">
                   <li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
                   <li><i class="icon-sign-blank"></i> icon-sign-blank</li>
@@ -249,6 +249,42 @@ Below are currently all available icons.
                   <li><i class="icon-wrench"></i> icon-wrench</li>
                   <li><i class="icon-zoom-in"></i> icon-zoom-in</li>
                   <li><i class="icon-zoom-out"></i> icon-zoom-out</li>
+            </ul>
+      </div>
+</div>
+
+### Currency Icons ###
+
+<div class="row-fluid">
+      <div class="span4">
+            <ul class="the-icons">
+                  <li><i class="icon-bitcoin"></i> icon-bitcoin</li>
+                  <li><i class="icon-btc"></i> icon-btc</li>
+                  <li><i class="icon-cny"></i> icon-cny</li>
+                  <li><i class="icon-dollar"></i> icon-dollar</li>
+            </ul>
+      </div>
+      <div class="span4">
+            <ul class="the-icons">
+                  <li><i class="icon-eur"></i> icon-eur</li>
+                  <li><i class="icon-euro"></i> icon-euro</li>
+                  <li><i class="icon-gbp"></i> icon-gbp</li>
+                  <li><i class="icon-inr"></i> icon-inr</li>
+            </ul>
+      </div>
+      <div class="span4">
+            <ul class="the-icons">
+                  <li><i class="icon-jpy"></i> icon-jpy</li>
+                  <li><i class="icon-krw"></i> icon-krw</li>
+                  <li><i class="icon-renminbi"></i> icon-renminbi</li>
+                  <li><i class="icon-rupee"></i> icon-rupee</li>
+            </ul>
+      </div>
+      <div class="span4">
+            <ul class="the-icons">
+                  <li><i class="icon-usd"></i> icon-usd</li>
+                  <li><i class="icon-won"></i> icon-won</li>
+                  <li><i class="icon-yen"></i> icon-yen</li>
             </ul>
       </div>
 </div>
