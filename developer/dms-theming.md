@@ -10,7 +10,7 @@ Once a theme is created you can then sell it on the PageLines Store or simply gi
 
 At a high-level, creating a DMS theme is as simple as simply building an awesome website (using a child theme) and adding a configuration file. 
 
-Although it is simple, lets go through the specifics. The basic diagram of DMS theme is below. 
+Although it is simple, lets go through the specifics. The basic diagram of a DMS theme is below. 
  
 <img src="http://docs.pagelines.com/img/theming-overview-graphic.jpg" />
 
