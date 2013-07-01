@@ -19,7 +19,7 @@ To create a new menu, type in a Menu Name (to help you remember what it is), and
 
 Adding pages, posts, categories and tags to your menu is as simple as checking the proper boxes for the items you want and then clicking **Add to Menu**.
 
-Theme locations – Allows you to decide where you would like your custom menu to appear in your theme. By default, the main navigation area of your theme should be selected for you, but you can select a different location if your theme is capable of multiple menus.
+**Theme locations**, allows you to decide where you would like your custom menu to appear in your PageLines DMS. If you wish to add a custom menu to the Fixed Nav or NavBar section, you do so in the sections options.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menus.png)
 
