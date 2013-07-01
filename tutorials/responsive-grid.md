@@ -1,3 +1,12 @@
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-sections">&larr; Using Sections & Plugins</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome &rarr;</a></li>
+    </ul>
+  </div>
+</div>
+
 # Responsive Grid #
 
 PageLines DMS encompasses a completely responsive grid system based on [Bootstrap](http://twitter.github.io/bootstrap/) that contains 12 columns, or "spans". The grid can be used virtually anywhere. Mark it up in a post, in a page, or wherever you need structured, responsive content.
@@ -190,4 +199,13 @@ The responsive grid system uses percents instead of pixels for column widths, en
 		<div class="span6">Main Content</div>
 		<div class="span3">Sidebar Content</div>
 	</div>
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-sections">&larr; Using Sections & Plugins</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome &rarr;</a></li>
+    </ul>
+  </div>
 </div>

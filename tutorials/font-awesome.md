@@ -1,3 +1,12 @@
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/responsive-grid">&larr; Responsive Grid</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/shortcodes">Shortcodes &rarr;</a></li>
+    </ul>
+  </div>
+</div>
+
 # Font Awesome #
 
 Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
@@ -613,3 +622,12 @@ Place Font Awesome icons just about anywhere with the `<i>` tag.
 </div>
 
 For more examples, please visit [Font Awesome](http://fortawesome.github.io/Font-Awesome/examples/)
+
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/responsive-grid">&larr; Responsive Grid</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/shortcodes">Shortcodes &rarr;</a></li>
+    </ul>
+  </div>
+</div>
