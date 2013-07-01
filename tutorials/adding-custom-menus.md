@@ -13,7 +13,7 @@ Creating a custom menu allows you to change the order of pages in your menu, or 
 
 To create a custom menu, go to **Appearance &rarr; Menus** in your Wordpress admin dashboard.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/create-menus.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/create-menu.png)
 
 To create a new menu, type in a Menu Name (to help you remember what it is), and click the **Create Menu** button.
 
