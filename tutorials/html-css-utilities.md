@@ -13,12 +13,12 @@ With minimal markup you can instantly have a styled page heading you’ll be so 
 ~~~
 
 <div class="docs-example">
-      <div class="page-header">
-            <h1>Utilities <small>CSS classes and HTML snips to enhance and extend your creations</small></h1>
-      </div>
+	<div class="page-header">
+		<h1>Utilities <small>CSS classes and HTML snips to enhance and extend your creations</small></h1>
+	</div>
 </div>
 
-You can also specify a class of .page-header-minor, which will return a page heading with a reduced margin-top.
+You can also specify a class of `.page-header-minor`, which will return a page heading with a reduced `margin-top`.
 
 ## CSS ##
 
@@ -49,8 +49,8 @@ Adding these unique classes `.zmt` and `.zmb` to your elements will specify a ze
 ~~~
 
 <div class="docs-example">
-      <h1 class="zmt zmb">This is a h1 Header, without top & bottom margin!</h1>
-      <h2 class="zmt zmb">This is a h2 Header, without top & bottom margin!</h1>
+      <h1 class="zmt zmb zb">This is a h1 Header, without top & bottom margin!</h1>
+      <h2 class="zmt zmb zb">This is a h2 Header, without top & bottom margin!</h1>
 </div>
 
 As you can see in the example above, applying the `zmt` & `zmb` to both headers, has resulted with them both having zero applied to `margin-top` and `margin-bottom`.
