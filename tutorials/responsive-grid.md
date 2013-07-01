@@ -201,6 +201,21 @@ The responsive grid system uses percents instead of pixels for column widths, en
 	</div>
 </div>
 
+### Image & Text
+
+~~~ .html
+<div class="row-fluid">
+	<div class="span4"><img src="..."></div>
+	<div class="span8">Text...</div>
+</div>
+~~~
+
+<div class="row-fluid">
+	<div class="span4"><img src="http://placehold.it/400x200"></div>
+	<div class="span8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices.</div>
+</div>
+
+
 <div class="row-fluid">
   <div class="span12">
     <ul class="pager">
