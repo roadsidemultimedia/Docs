@@ -121,7 +121,149 @@
                         </ul>
                     </div>
                     <div class="span9 docs-content">
-<p>Placeholder</p>
+<h1>HTML/CSS Utilities</h1>
+
+<p>The purpose of this tutorial is to show you cool HTML and CSS snippets built into PageLines DMS, which will enhance and extend your creations.</p>
+
+<h2>HTML</h2>
+
+<p>With minimal markup you can instantly have a styled page heading you’ll be so proud of, you just might invite her to meet your parents.</p>
+
+<pre><code class="html">&lt;div class=&quot;page-header&quot;&gt;
+      &lt;h1&gt;Utilities &lt;small&gt;CSS classes and HTML snips to enhance and extend your creations&lt;/small&gt;&lt;/h1&gt;
+&lt;/div&gt;
+</code></pre>
+
+<div class="docs-example">
+      <div class="page-header">
+            <h1>Utilities <small>CSS classes and HTML snips to enhance and extend your creations</small></h1>
+      </div>
+</div>
+
+<p>You can also specify a class of .page-header-minor, which will return a page heading with a reduced margin-top.</p>
+
+<h2>CSS</h2>
+
+<p>These pre-designed special CSS classes can be added to nearly any element to help aid in customizing.</p>
+
+<h3>Removing top and bottom margins</h3>
+
+<p>Adding these unique classes <code>.zmt</code> and <code>.zmb</code> to your elements will specify a zero margin, <code>.zmt</code> is an abbreviation of zero margin top and <code>.zmb</code> is an abbreviation of zero margin bottom.</p>
+
+<table class="table mid table-bordered table-striped">
+      <thead>
+            <tr>
+                  <td class="span2 center"><code>.zmt</code></td>
+                  <td>Specifies zero margin on top of any element</td>
+            </tr>
+      </thead>
+      <tbody>
+            <tr>
+                  <td class="center"><code>.zmb</code></td>
+                  <td>Specifies zero margin on bottom of any element</td>
+            </tr>
+      </tbody>
+</table>
+
+<pre><code class="html">&lt;h1 class=&quot;zmt zmb&quot;&gt;This is a h1 Header, without top &amp; bottom margin!&lt;/h1&gt;
+&lt;h2 class=&quot;zmt zmb&quot;&gt;This is a h2 Header, without top &amp; bottom margin!&lt;/h1&gt;
+</code></pre>
+
+<div class="docs-example">
+      <h1 class="zmt zmb">This is a h1 Header, without top & bottom margin!</h1>
+      <h2 class="zmt zmb">This is a h2 Header, without top & bottom margin!</h1>
+</div>
+
+<p>As you can see in the example above, applying the <code>zmt</code> &amp; <code>zmb</code> to both headers, has resulted with them both having zero applied to <code>margin-top</code> and <code>margin-bottom</code>.</p>
+
+<h3>Centering Elements</h3>
+
+<p>Adding these unique classes <code>.center</code> and <code>.tac</code> to your elements will align to the center.</p>
+
+<table class="table mid table-bordered table-striped">
+      <thead>
+            <tr>
+                  <td class="center"><code>.center</code></td>
+                  <td>Aligns elements to center</td>
+            </tr>
+      </thead>
+      <tbody>
+            <tr>
+                  <td class="center"><code>.tac</code></td>
+                  <td>Aligns elements to center and uses <code>!important</code> declaration</td>
+            </tr>
+      </tbody>
+</table>
+
+<pre><code class="html">&lt;h1 class=&quot;center zmt zmb&quot;&gt;This h1, is is aligned to the center&lt;/h1&gt;
+&lt;h2 class=&quot;tac zmt zmb&quot;&gt;This h2, is is aligned to the center&lt;/h1&gt;
+</code></pre>
+
+<div class="docs-example">
+      <h1 class="center zmt zmb">This h1, is aligned to the center</h1>
+      <h2 class="tac zmt zmb">This h2, is is aligned to the center</h2>
+</div>
+
+<p>As you can see in the example above, applying the <code>.center</code> and <code>.tag</code> to the headers, aligns them centrally. The headers are also using the <code>zmt</code> &amp; <code>zmb</code> to demonstrate that you can mix and match the CSS utilities in your code.</p>
+
+<h3>Cool Image classes</h3>
+
+<p>Adding these unique classes <code>.pl-imageframe</code>, <code>.img-rounded</code>, <code>.img-circle</code> and <code>.img-polaroid</code> to your image(s) will produce some cool effects.</p>
+
+<pre><code class="html">&lt;img class=&quot;pl-imageframe&quot; src=&quot;&quot;&gt;
+</code></pre>
+
+<p>The example code above, is using the <code>.pl-imageframe</code> class, simply replace <code>class=&quot;pl-imageframe&quot;</code> with any of the classes to get your desired effect.</p>
+
+<table class="table mid table-bordered table-striped">
+      <thead>
+            <tr>
+                  <td class="center"><code>.pl-imageframe</code></td>
+                  <td>Add to img element, produces pretty frame</td>
+            </tr>
+      </thead>
+      <tbody>
+            <tr>
+                  <td class="center"><code>.img-rounded</code></td>
+                  <td>Add to img element, produces curved corners</td>
+            </tr>
+            <tr>
+                  <td class="center"><code>.img-circle</code></td>
+                  <td>Add to img element, produces circle image</td>
+            </tr>
+            <tr>
+                  <td class="center"><code>.img-polaroid</code></td>
+                  <td>Add to img element, produces framed image</td>
+            </tr>
+      </tbody>
+</table>
+
+<div class="row-fluid">
+      <div class="span3">
+            <h5>PL Image Frame</h5>
+            <div class="docs-example">
+                  <img class="pl-imageframe colorbox-1845" src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/pagelines.jpg?v=1371676907">
+            </div>
+      </div>
+      <div class="span3">
+            <h5>Image Rounded</h5>
+            <div class="docs-example">
+            <img class="img-rounded colorbox-1845" src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/pagelines.jpg?v=1371676907">
+            </div>
+      </div>
+      <div class="span3">
+            <h5>Image Circle</h5>
+            <div class="docs-example">
+            <img class="img-circle colorbox-1845" src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/pagelines.jpg?v=1371676907">
+            </div>
+      </div>
+      <div class="span3">
+            <h5>Image Polaroid</h5>
+            <div class="docs-example">
+            <img class="img-polaroid colorbox-1845" src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/pagelines.jpg?v=1371676907">
+            </div>
+      </div>
+</div>
             </div>
 		</section>
 
