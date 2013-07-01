@@ -1,3 +1,12 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/typography">&larr; Typography</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/adding-custom-menus">Adding Custom Menus &rarr;</a></li>
+		</ul>
+	</div>
+</div>
+
 # HTML/CSS Utilities #
 
 The purpose of this tutorial is to show you cool HTML and CSS snippets built into PageLines DMS, which will enhance and extend your creations.
@@ -146,7 +155,14 @@ The example code above, is using the `.pl-imageframe` class, simply replace `cla
       </div>
 </div>
 
-
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/typography">&larr; Typography</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/adding-custom-menus">Adding Custom Menus &rarr;</a></li>
+		</ul>
+	</div>
+</div>
 
 
 
