@@ -6,6 +6,8 @@
 	</div>
 </div>
 
+# Installing Store Products
+
 Pagelines DMS allows you to extend the functionality of your site by adding new sections, these are available from the Pagelines Store. 
 
 To access the store and see which products are available, you can either click on the sections icon in the DMS control panel and select ‘get more sections’. 
