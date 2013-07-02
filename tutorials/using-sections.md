@@ -6,7 +6,9 @@ PageLines DMS Sections are modular extensions based on the PageLines Drag & Drop
 
 Place this section wherever you like and use WordPress widgets and a desired number of columns, to create an instant columnized widget section. Great for Footer designs.
 
-![]()
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/columnizer/png)
+
+When you first add Columnizer to your template, you will need the following default content. This information is here for demonstration purposes and can be replaced by simply adding widgets to a sidebar that has been assigned to Columnizer.
 
 ## Comments ##
 
