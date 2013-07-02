@@ -37,13 +37,19 @@ The Highlight Section is a lightweight, flexible section to showcase key content
 
 ## iBox ##
 
+An easy way to create and configure several box type sections at once
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/ibox.png)
 
+## iCallout ##
+
+A quick call to action for your users.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/icallout.jpg)
 
 ## Masthead ##
 
-A responsive full width splash and text area. Great for getting big ideas across quickly. It supports options to display menu, multi-color action buttons and display optional blocks of text or code.
+A full width splash and text area. Great for getting big ideas across quickly. It supports options to display menu, multi-color action buttons and display optional blocks of text or code.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/masthead.png)
 
