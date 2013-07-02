@@ -4,23 +4,25 @@ PageLines DMS Sections are modular extensions based on the PageLines Drag & Drop
 
 ## Columnizer ##
 
-<p> Text goes here </p>
+Place this section wherever you like and use WordPress widgets and a desired number of columns, to create an instant columnized widget section. Great for Footer designs.
+
+![]()
 
 ## Comments ##
 
-<p> Text goes here </p>
+Comments are a way for visitors to add feedback to your posts and pages. The Comment Section controls where your comments are displayed. Removing the comments section from any of your templates, will disable comments from this template.
 
 ## Flipper ##
 
-<p> Text goes here </p>
+Flipper is a posts  carousel section and a great way to flip through posts. Simply select a post type and done.
 
 ## Hero ##
 
-<p> Text goes here </p>
+The Hero section is a responsive, full width section with a simple headline and call to action. The Intro Unit forces the focus of your visitors onto your featured content, and a call to action with a simple button that directs traffic to any destination.
 
 ## Highlight ##
 
-<p> Text goes here </p>
+The Highlight Section is a lightweight, flexible section to showcase key content on your site. It works well on marketing and content-heavy sites.
 
 ## iBox ##
 
@@ -28,7 +30,7 @@ PageLines DMS Sections are modular extensions based on the PageLines Drag & Drop
 
 ## Masthead ##
 
-<p> Text goes here </p>
+A responsive full width splash and text area. Great for getting big ideas across quickly. It supports options to display menu, multi-color action buttons and display optional blocks of text or code.
 
 ## Mediabox ##
 
