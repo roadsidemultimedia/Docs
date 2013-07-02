@@ -39,7 +39,7 @@ The Highlight Section is a lightweight, flexible section to showcase key content
 
 An easy way to create and configure several box type sections at once
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/ibox.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/ibox.jpg)
 
 ## iCallout ##
 
