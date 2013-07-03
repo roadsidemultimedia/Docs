@@ -158,7 +158,7 @@
 
 <p>This header must have the same value of your master section class (PHP class). We&#39;ll discuss this below. </p>
 
-<h3>Filter Header</h3>
+<h4>Filter Header</h4>
 
 <p>This header determines where your section will appear in the sections panel and can steer the behavior of the section as well. 
 A &#39;Filter: full-width&#39; statement will make your section full width and it won&#39;t be usable inside section areas. An example of this is the RevSlider section. </p>
@@ -190,6 +190,29 @@ class YourSectionClassName extends PageLinesSection {
 </code></pre>
 
 <p>Now your section is started! We&#39;re going to build on this in the next few paragraphs.</p>
+
+<h2>Section Properties and Assets</h2>
+
+<p>By extending the core PageLines Section class you get access to a lot of tools, built right in to the section. </p>
+
+<p>Specifically, there are a bunch of variables set up for you to access that give you information about the section (that you can then use in code)</p>
+
+<p>A few examples of variables you&#39;ll have are below.</p>
+
+<pre><code class="php">
+class YourSectionClassName extends PageLinesSection {
+
+    function section_persistent(){
+
+        $url = $this-&gt;base_url; // the base url of the section
+        $dir = $this-&gt;base_dir; // the base directory of the section
+        $thumb = $this-&gt;screenshot;  // the section thumb
+        $splash = $this-&gt;splash; // the section splash
+    }
+
+}
+
+</code></pre>
 
 <h2>Section Methods</h2>
 
@@ -237,6 +260,27 @@ class YourSectionClassName extends PageLinesSection {
 }
 
 </code></pre>
+
+<h2>section_styles() Method</h2>
+
+<p>This method is most commonly used to add/enqueue javascript and CSS libraries to pages when the section is loaded. </p>
+
+<p>An example of this is as follows: </p>
+
+<pre><code class="php">
+class YourSectionClassName extends PageLinesSection {
+
+    function section_styles(){
+
+        // This will load the &#39;cooljavascript.js&#39; file from the current section folder
+        wp_enqueue_script( &#39;my-js-plugin&#39;, $this-&gt;base_url.&#39;/cooljavascript.js&#39;, array( &#39;jquery&#39; ), PL_CORE_VERSION, true );
+    }
+
+}
+
+</code></pre>
+
+<h1>Dealing With Options</h1>
             </div>
 		</section>
 
