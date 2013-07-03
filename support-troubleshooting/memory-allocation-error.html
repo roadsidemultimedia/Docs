@@ -127,10 +127,11 @@
 
 <p>The error will look similar to this:</p>
 
-<pre><code class="html">Fatal error: Allowed memory size of 3353552 bytes exhausted (tried to allocate 2348957 bytes) in /home/username/public_html/wp-includes/plugin.php on line X
-</code></pre>
+<pre>
+Fatal error: Allowed memory size of 3353552 bytes exhausted (tried to allocate 2348957 bytes) in /home/username/public_html/wp-includes/plugin.php on line X
+</pre>
 
-<p>The simplest method in attempting to resolve this issues is to,fFirst open your <code>wp-config.php</code> which is located in the root WordPress directory. Then add the following line inside the main php tag:</p>
+<p>The simplest method in attempting to resolve this issues is to, open your <code>wp-config.php</code> which is located in the root WordPress directory. Then add the following line inside the main php tag:</p>
 
 <pre><code class="php">define(&#39;WP_MEMORY_LIMIT&#39;, &#39;64M&#39;);
 </code></pre>
