@@ -16,8 +16,6 @@ The preview screen is split into a series of containers: header, footer, main co
 
 ![Preview Window](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/preview-window.png "Preview Window")
 
-![DMS Control Panel](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/DMS-control-panel.png "DMS Control Panel")
-
 ## Adding sections  
 
 To populate the containers on your site with PageLines sections, navigate to the "Add sections" tab. The list of available sections will populate the panel.
