@@ -10,15 +10,19 @@ If you can access the Wordpress administrator dashboard try deactivating all of 
 
 If you are unable to access your Wordpress administrator dashboard, log in to your website via FTP. Locate the folder `/wp-content/plugins` and rename the Plugin folder `plugins_old`. This will deactivate all of your Plugins.
 
+## Memory Limit ##
+
+The white screen of death can also be caused by your memory being exhausted. Read our tutorial on how to increase [PHP memory in WordPress](http://docs.pagelines.com/support-troubleshooting/memory-allocation-error) for more information.
+
 ## WP_DEBUG ##
 
 If disabling all plugins didn't resolve the issue, you can also use the WordPress debug function. `WP_DEBUG` is a PHP constant (a permanent global variable) that can be used to trigger the "debug" mode throughout WordPress. It is false by default and can be set to true in the `wp-config.php` file.
 
 ~~~ .php
-// Replace false
+// REPLACE FALSE
 define('WP_DEBUG', false);
 
-// with true, to enable debug mode
+// WITH TRUE TO ENABLE DEBUG MODE
 define('WP_DEBUG', true;
 ~~~
 
