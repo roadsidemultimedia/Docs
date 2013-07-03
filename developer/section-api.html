@@ -190,6 +190,53 @@ class YourSectionClassName extends PageLinesSection {
 </code></pre>
 
 <p>Now your section is started! We&#39;re going to build on this in the next few paragraphs.</p>
+
+<h2>Section Methods</h2>
+
+<p>In the world of object oriented programming, they talk about something called &#39;methods.&#39; These are functions within and a class that give is some sort of functionality. </p>
+
+<p>Sections use a bunch of methods to accomplish various things on a website. For example, there is a method for injecting things in the website header, or another one to add options to a section. </p>
+
+<p>Let&#39;s walk through the various methods available to you, and how they work... </p>
+
+<h2>section_persistent() Method</h2>
+
+<p>This method is used to add code to a section that should ALWAYS be loaded. For example, if a section needs to add something to the admin or a new post type, use this method. </p>
+
+<pre><code class="php">
+class YourSectionClassName extends PageLinesSection {
+
+    function section_persistent(){
+        // Put code that should always be loaded here. 
+    }
+
+}
+
+</code></pre>
+
+<h2>section_head() Method</h2>
+
+<p>This method is used to add code and output that runs during the header portion of your website. This is often where javascript or metatags, etc... are put. </p>
+
+<pre><code class="php">
+class YourSectionClassName extends PageLinesSection {
+
+    function section_head(){
+        // This will out put in between your sites &lt;head&gt; tags. 
+        // For example, adding javascript: 
+        ?&gt;
+
+        &lt;script&gt;
+        jQuery(window).ready(function() {
+            // Javascript could go here.
+        });
+        &lt;/script&gt;
+        &lt;?php
+    }
+
+}
+
+</code></pre>
             </div>
 		</section>
 
