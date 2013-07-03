@@ -156,6 +156,17 @@ class YourSectionClassName extends PageLinesSection {
 
 ```
 
+#### prefix() Method ####
+
+As a note, we've created a special 'prefix' method that can be used to get a unique JS and CSS selector for the current section. This can be incredibly useful when you're trying to specifically target a section with JS. 
+
+```php
+$this->prefix // returns > .section-yoursectionid[data-clone="######"] > which is a unique sitewide selector for your current section
+
+```
+
+
+
 ## section_styles() Method ##
 This method is most commonly used to add/enqueue javascript and CSS libraries to pages when the section is loaded. 
 
