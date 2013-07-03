@@ -281,6 +281,56 @@ class YourSectionClassName extends PageLinesSection {
 </code></pre>
 
 <h1>Dealing With Options</h1>
+
+<h2>section_opts() Method</h2>
+
+<p>Options are added to sections primarily through the section_opts() method. This method simply returns an array that is used by the option engine to create your options. </p>
+
+<p>An example would look like this:</p>
+
+<pre><code class="php">
+class YourSectionClassName extends PageLinesSection {
+
+    function section_opts(){
+
+        function section_opts(){
+            $opts = array(
+                array(
+                    &#39;key&#39;           =&gt; &#39;the_option_key&#39;,
+                    &#39;type&#39;          =&gt; &#39;select&#39;,
+                    &#39;title&#39;         =&gt; &#39;Select Something&#39;,
+                    &#39;label&#39;         =&gt; &#39;Select Somethign&#39;,
+                    &#39;opts&#39;=&gt; array(
+                        &#39;optvalue1&#39;     =&gt; array( &#39;name&#39; =&gt; &#39;Some Option Stuff&#39; ),
+                        &#39;optvalue2&#39;     =&gt; array( &#39;name&#39; =&gt; &#39;Some Option Stuff&#39; )
+                    )
+                )
+
+            );
+
+            return $opts;
+
+        }
+
+    }
+
+}
+
+
+</code></pre>
+
+<h2>The opt() Method</h2>
+
+<p>To reduce the complexity created by various scopes and cloning in DMS; we&#39;ve created the ridiculously simple &#39;opt&#39; method. </p>
+
+<p>This function simply takes the key of the option you&#39;d like the value for and returns that value. </p>
+
+<pre><code class="php">
+// The above option array in section_opts() would create a select option, with two options to select from. 
+// The option value would be attainable via:
+$opt_value = $this-&gt;opt(&#39;the_option_key&#39;);
+
+</code></pre>
             </div>
 		</section>
 
