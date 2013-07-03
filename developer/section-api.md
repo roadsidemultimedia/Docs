@@ -31,19 +31,43 @@ Here is how the headers work and look in a section.php file:
 	Loading: active
 */
 ```
-### Class Name Header ### 
+#### Class Name Header ####
 This header must have the same value of your master section class (PHP class). We'll discuss this below. 
 
-### Filter Header ### 
+### Filter Header ####
 This header determines where your section will appear in the sections panel and can steer the behavior of the section as well. 
 A 'Filter: full-width' statement will make your section full width and it won't be usable inside section areas. An example of this is the RevSlider section. 
 
-### Loading Header ### 
+#### Loading Header ####
 This header determines if the section is actively loaded when a user drags it on to the page. This means it appears instantly without page refresh. Any other value here will require a page refresh on load of your section. 
 
 Currently sections with a lot of javascript will require reloads but simpler sections may not. 
 
 ## Your Section Class ##
+
+The basic wrapper for a DMS section is a PHP class that extends a base 'PageLinesSection' class. 
+
+This gives your section a lot of prebuilt functionality and gets you off to a strong start. 
+
+After you create this class, your functions and properties will all be added to the class to steer its functionality. 
+
+A section wrapper looks like this: 
+
+```php
+
+class YourSectionClassName extends PageLinesSection {
+	
+	// Your Methods will go here. 
+	// Note: the Class Name header and the section class name need to be the same.
+	
+}
+
+```
+
+Now your section is started! We're going to build on this in the next few paragraphs.
+
+
+
 
 
 
