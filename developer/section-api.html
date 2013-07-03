@@ -237,6 +237,27 @@ class YourSectionClassName extends PageLinesSection {
 
 </code></pre>
 
+<h2>section_template() Method</h2>
+
+<p>This is the most common and critical method in the entire section system. It is the output that appears on the page, wherever the section is placed. </p>
+
+<p>An example of this is as follows: </p>
+
+<pre><code class="php">
+class YourSectionClassName extends PageLinesSection {
+
+    function section_template(){
+        ?&gt;
+        &lt;div class=&quot;example&quot;&gt;
+            This output HTML would appear on the page wherever the user drops the section.
+        &lt;/div&gt;
+        &lt;?php
+    }
+
+}
+
+</code></pre>
+
 <h2>section_head() Method</h2>
 
 <p>This method is used to add code and output that runs during the header portion of your website. This is often where javascript or metatags, etc... are put. </p>
@@ -282,6 +303,8 @@ class YourSectionClassName extends PageLinesSection {
 
 <h1>Dealing With Options</h1>
 
+<p>For a more comprehensive overview of the options engine, read this article: <a href="/developer/dms-option-engine">DMS Option Engine <i class="icon-angle-right"></i></a>.</p>
+
 <h2>section_opts() Method</h2>
 
 <p>Options are added to sections primarily through the section_opts() method. This method simply returns an array that is used by the option engine to create your options. </p>
@@ -307,13 +330,9 @@ class YourSectionClassName extends PageLinesSection {
                 )
 
             );
-
             return $opts;
-
         }
-
     }
-
 }
 
 
