@@ -4,11 +4,11 @@ The reason why this error shows up is because you exceed your default Memory Lim
 
 The error will look similar to this:
 
-~~~ .html
+<pre>
 Fatal error: Allowed memory size of 3353552 bytes exhausted (tried to allocate 2348957 bytes) in /home/username/public_html/wp-includes/plugin.php on line X
-~~~
+</pre>
 
-The simplest method in attempting to resolve this issues is to,fFirst open your `wp-config.php` which is located in the root WordPress directory. Then add the following line inside the main php tag:
+The simplest method in attempting to resolve this issues is to, open your `wp-config.php` which is located in the root WordPress directory. Then add the following line inside the main php tag:
 
 ~~~ .php
 define('WP_MEMORY_LIMIT', '64M');
