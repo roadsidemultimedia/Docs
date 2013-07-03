@@ -34,7 +34,7 @@ Here is how the headers work and look in a section.php file:
 #### Class Name Header ####
 This header must have the same value of your master section class (PHP class). We'll discuss this below. 
 
-### Filter Header ####
+#### Filter Header ####
 This header determines where your section will appear in the sections panel and can steer the behavior of the section as well. 
 A 'Filter: full-width' statement will make your section full width and it won't be usable inside section areas. An example of this is the RevSlider section. 
 
@@ -65,6 +65,29 @@ class YourSectionClassName extends PageLinesSection {
 ```
 
 Now your section is started! We're going to build on this in the next few paragraphs.
+
+## Section Properties and Assets ##
+By extending the core PageLines Section class you get access to a lot of tools, built right in to the section. 
+
+Specifically, there are a bunch of variables set up for you to access that give you information about the section (that you can then use in code)
+
+A few examples of variables you'll have are below.
+
+```php
+
+class YourSectionClassName extends PageLinesSection {
+	
+	function section_persistent(){
+		
+		$url = $this->base_url; // the base url of the section
+		$dir = $this->base_dir; // the base directory of the section
+		$thumb = $this->screenshot;  // the section thumb
+		$splash = $this->splash; // the section splash
+	}
+	
+}
+
+```
 
 ## Section Methods ##
 In the world of object oriented programming, they talk about something called 'methods.' These are functions within and a class that give is some sort of functionality. 
@@ -112,6 +135,26 @@ class YourSectionClassName extends PageLinesSection {
 
 ```
 
+## section_styles() Method ##
+This method is most commonly used to add/enqueue javascript and CSS libraries to pages when the section is loaded. 
+
+An example of this is as follows: 
+```php
+
+class YourSectionClassName extends PageLinesSection {
+	
+	function section_styles(){
+		
+		// This will load the 'cooljavascript.js' file from the current section folder
+		wp_enqueue_script( 'my-js-plugin', $this->base_url.'/cooljavascript.js', array( 'jquery' ), PL_CORE_VERSION, true );
+	}
+	
+}
+
+```
+
+
+# Dealing With Options #
 
 
 
