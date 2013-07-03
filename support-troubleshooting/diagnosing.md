@@ -2,17 +2,15 @@
 
 This page lists instructions that can assist in diagnosing your issue(s) which you should follow before creating a topic on our support forums.
 
-By following these guidelines you may indentify the cause of your issue yourself. If this isn't the case, don't worry, as providing this information when creating your forum topic, will greatly help our support staff identify the cause of your error(s).
-
-## 1. Browsers ##
+## Browsers ##
 
 PageLines DMS utilties the latest web technology and therefore, is only compatible with browsers that support HTML5 and CSS3. If you or your clients are using a legacy browser such as Internet Explorer 7, we highly recommend you update to the latest version, as we do not support legacy browsers. For more information about the latest version of browsers, see [BrowseHappy](http://browsehappy.com/).
 
-## 2. Up-To-Date
+## Up-To-Date
 
 To improve security and compatibility, always keep Wordpress, DMS, store products and plugins up-to-date. We can not provide support to users who have out-of-date products.
 
-## 2. Plugins ##
+## Plugins ##
 
 All of the PageLines products are built according to WordPress API standards and do work with the majority of plugins out there. However, not all plugins follow the Wordpress API standards or are maintained by their author, which can lead to errors.
 
@@ -55,3 +53,7 @@ The DMSWith Because every system is setup differently, `phpinfo()` is commonly u
 
 <li>Once loaded, you will now be able to view all of the information about PHP for your server for that particular directory.</li>
 </ul>
+
+## Next Step ##
+
+By following these guidelines you may indentify the cause of your issue yourself. If this isn't the case, don't panic, by providing this information when creating your forum topic, you will greatly help our support staff identify the cause of your error(s).
