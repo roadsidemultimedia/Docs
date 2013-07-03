@@ -1,13 +1,13 @@
 # Installation #
 
-To start using PageLines DMS for your project, you will first need to make sure you have [Wordpress](http://wordpress.org) installed. Once setup, PageLines DMS can be installed like any other Wordpress theme.
+To start using PageLines DMS, you will first need to make sure you have [WordPress](http://wordpress.org) installed. Once set up, the PageLines DMS can be installed like any other WordPress theme.
 
 ## Downloading PageLines DMS ##
 
 PageLines DMS is available in two versions, the Professional/Developer editions (premium) and Lite (free).
 
-* **PageLines DMS** can be downloaded from your [PageLines Launchpad](https://www.pagelines.com/launchpad/member.php) after [purchase](https://www.pagelines.com/pricing/).
-* **DMS Lite** can be downloaded freely from [Wordpress.org](http://wordpress.org/)
+* **PageLines DMS** can be downloaded from your [PageLines member area](https://www.pagelines.com/launchpad/member.php) after [purchase](https://www.pagelines.com/pricing/).
+* **DMS Lite** can be downloaded from the [WordPress.org Repository](http://wordpress.org/) for free.
 
 ## Installing PageLines DMS ##
 
@@ -16,12 +16,8 @@ PageLines DMS is available in two versions, the Professional/Developer editions 
 * Browse your computer and locate the **pagelines.zip** file.
 * Click **Install Now** to begin installation.
 
-![Installation](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/installation.jpg "Installation")
-
 **Note:** PageLines DMS can also be installed via [FTP](http://codex.wordpress.org/Using_Themes#Adding_New_Themes_Manually_.28FTP.29).
 
 ## Activation ##
 
-After uploading PageLines DMS, simply go to the **Appearance &rarr; Themes** area in the WordPress admin dashboard and click **Activate**.
-
-![Activation](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/activation.jpg "Activation")
+After uploading PageLines DMS, head back to **Themes** and click **Activate**. You should be all set up and ready to go!

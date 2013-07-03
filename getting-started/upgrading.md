@@ -1,10 +1,10 @@
 # Upgrading #
 
-Upgrading to PageLines DMS from PageLines Framework is straightfoward and headache free process.
+Upgrading to the PageLines DMS from other PageLines installs is a straightforward process covered below.
 
 ## Upgrading From DMS Lite
 
-After your purchase of PageLines DMS has been completed, login to your websites Wordpress admin dashboard.
+After your purchase of PageLines DMS has been completed, log in to your website's WordPress admin dashboard.
 
 * Navigate **PageLines &rarr; Account**.
 * Enter your PageLines `username` and `password`.

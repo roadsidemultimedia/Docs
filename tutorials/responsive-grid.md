@@ -1,3 +1,12 @@
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-sections">&larr; Using Sections & Plugins</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome &rarr;</a></li>
+    </ul>
+  </div>
+</div>
+
 # Responsive Grid #
 
 PageLines DMS encompasses a completely responsive grid system based on [Bootstrap](http://twitter.github.io/bootstrap/) that contains 12 columns, or "spans". The grid can be used virtually anywhere. Mark it up in a post, in a page, or wherever you need structured, responsive content.
@@ -105,7 +114,7 @@ The responsive grid system uses percents instead of pixels for column widths, en
 ### Nested ###
 
 ~~~ .html
-<div class="row-fluid show-grid">
+<div class="row-fluid">
 	<div class="span4">4</div>
 	<div class="span8">8
 		<div class="row-fluid">
@@ -116,7 +125,7 @@ The responsive grid system uses percents instead of pixels for column widths, en
 </div>
 ~~~
 
-<div class="row-fluid">
+<div class="row-fluid show-grid">
 	<div class="span4">4</div>
 	<div class="span8">8
 		<div class="row-fluid">
@@ -190,4 +199,31 @@ The responsive grid system uses percents instead of pixels for column widths, en
 		<div class="span6">Main Content</div>
 		<div class="span3">Sidebar Content</div>
 	</div>
+</div>
+
+### Image & Text
+
+~~~ .html
+<div class="row-fluid">
+	<div class="span4"><img src="..."></div>
+	<div class="span8">Text...</div>
+</div>
+~~~
+
+<div class="docs-example">
+	<div class="row-fluid">
+		<div class="span4"><img src="http://www.pagelines.com/wp-content/uploads/2012/04/PL-logo.jpg" style="padding:0; box-shadow:none;"></div>
+		<div class="span8">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet aliquam lectus. Nulla sagittis sed dolor ut ultrices. Nunc quam mauris, consequat at mauris cursus, hendrerit laoreet turpis. Phasellus a mauris euismod, aliquet sem sit amet, facilisis orci. Sed a augue rhoncus, elementum orci sed, laoreet elit. Vivamus venenatis sem eget risus consectetur lobortis consectetur et odio. Integer quis tincidunt enim.</div>
+	</div>
+</div>
+
+
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="pager">
+      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-sections">&larr; Using Sections & Plugins</a></li>
+        <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome &rarr;</a></li>
+    </ul>
+  </div>
 </div>
