@@ -40,19 +40,18 @@ That said, we can’t test every possible environment, this is  why PageLines DM
 
 The DMSWith Because every system is setup differently, `phpinfo()` is commonly used to check configuration settings and for available predefined variables on a given system. It is also a valuable debugging tool as it contains all EGPCS (Environment, GET, POST, Cookie, Server) data.
 
-1. To create a phpinfo file, create a new file in your code editor, add the following lines, click save and name the file `phpinfo.php`:
+<ul>
+<li> To create a phpinfo file, create a new file in your code editor, add the following lines, click save and name the file `phpinfo.php`:</li>
+</ul>
 
 ~~~ .php
-<?php
-
-	phpinfo();
-
-?>
+<?php phpinfo(); ?>
 ~~~
 
-2. Upload the `phpinfo.php` file to your server. You should upload your file to the exact directory you want to test. Typically, this will be the root directory, where you have Wordpress installed `/home/username/domains/example.com/html/`.
+<ul>
+<li>Upload the `phpinfo.php` file to your server. You should upload your file to the exact directory you want to test. Typically, this will be the root directory, where you have Wordpress installed `/home/username/domains/example.com/html/`.</li>
 
-3. Visit the page in your browser. If you uploaded it to your root directory, you should now visit `http://www.example.com/phpinfo.php`, replacing `example.com` with your own domain name.
+<li>Visit the page in your browser. If you uploaded it to your root directory, you should now visit `http://www.example.com/phpinfo.php`, replacing `example.com` with your own domain name.</li>
 
-4. Once loaded, you will now be able to view all of the information about PHP for your server for that particular directory.
-
+<li>Once loaded, you will now be able to view all of the information about PHP for your server for that particular directory.</li>
+</ul>
