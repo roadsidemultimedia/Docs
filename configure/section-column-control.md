@@ -18,6 +18,8 @@ At the top of each container in the layout you can access the container options.
 
 ## Delete 
 
+![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/section-control.png "Section Control")
+
 
 <div class="row-fluid">
 	<div class="span12">
