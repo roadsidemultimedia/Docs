@@ -38,13 +38,12 @@ The pros are specialists, developers and designers that can help you customize a
 
 Unfortunately, there are limits to PageLines support, which have been listed below:
 
-* We can not provide general WordPress support, please use the [Wordpress.org](http://wordpress.org/support/) forums for all WordPress questions.
-
-* We can not provide support on third party plugins, please contact the plugin author for assistance.
-
-* Keep up-to-date, we can not provide support if the PageLines product you're using is out-of-date. Before contacting support, please make sure Wordpress, plugins and your PageLines product are all updated to the latest version.
-
-* Edits to the core PageLines files, is not recommended nor supported. If you have made changes to core files and require assistance, you will need to revert your changes.
+<ul>
+<li>We can not provide general WordPress support, please use the [Wordpress.org](http://wordpress.org/support/) forums for all WordPress questions.</li>
+<li>We can not provide support on third party plugins, please contact the plugin author for assistance.</li>
+<li>Keep up-to-date, we can not provide support if the PageLines product you're using is out-of-date. Before contacting support, please make sure Wordpress, plugins and your PageLines product are all updated to the latest version.</li>
+<li>Edits to the core PageLines files, is not recommended nor supported. If you have made changes to core files and require assistance, you will need to revert your changes.</li>
+</ul>
 
 ### Customization ###
 
