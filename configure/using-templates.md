@@ -14,11 +14,15 @@ You can set a template to be site-wide from the same tab, using the **Actions** 
 
 The current configuration can be set as a template using the same **Actions** dropdown. Additionally, you can use the dropdown to delete templates.
 
+![Configuring Templates](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/setting-templates.png "Configuring Templates")
+
 # Creating a new template 
 
 To create a new template you will first need to set the desired layout for the template using the visual editor. Once the layout is complete go to the DMS control panel and select the **Page Templates** tab. 
 
 Click on the option to **Save a New Template** and fill out the options. The template will be added to the **Your Templates** menu.
+
+![Creating Templates](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/saving-templates.png "Creating Templates")
 
 <div class="row-fluid">
 	<div class="span12">
