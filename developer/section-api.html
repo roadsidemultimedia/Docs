@@ -154,22 +154,42 @@
 */
 </code></pre>
 
-<h3>Class Name Header ###</h3>
+<h4>Class Name Header</h4>
 
 <p>This header must have the same value of your master section class (PHP class). We&#39;ll discuss this below. </p>
 
-<h3>Filter Header ###</h3>
+<h3>Filter Header</h3>
 
 <p>This header determines where your section will appear in the sections panel and can steer the behavior of the section as well. 
 A &#39;Filter: full-width&#39; statement will make your section full width and it won&#39;t be usable inside section areas. An example of this is the RevSlider section. </p>
 
-<h3>Loading Header ###</h3>
+<h4>Loading Header</h4>
 
 <p>This header determines if the section is actively loaded when a user drags it on to the page. This means it appears instantly without page refresh. Any other value here will require a page refresh on load of your section. </p>
 
 <p>Currently sections with a lot of javascript will require reloads but simpler sections may not. </p>
 
 <h2>Your Section Class</h2>
+
+<p>The basic wrapper for a DMS section is a PHP class that extends a base &#39;PageLinesSection&#39; class. </p>
+
+<p>This gives your section a lot of prebuilt functionality and gets you off to a strong start. </p>
+
+<p>After you create this class, your functions and properties will all be added to the class to steer its functionality. </p>
+
+<p>A section wrapper looks like this: </p>
+
+<pre><code class="php">
+class YourSectionClassName extends PageLinesSection {
+
+    // Your Methods will go here. 
+    // Note: the Class Name header and the section class name need to be the same.
+
+}
+
+</code></pre>
+
+<p>Now your section is started! We&#39;re going to build on this in the next few paragraphs.</p>
             </div>
 		</section>
 
