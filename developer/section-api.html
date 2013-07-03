@@ -111,7 +111,7 @@
                             <li><a href="/support-troubleshooting/internal-server-error">Internal Server Error <i class="icon-angle-right"></i></a></li>
                         </ul>
 						<ul class="nav nav-list">
-                            <li><p class="lead"><a href="/developer/section-api">Dev (Temp Location)</a></p></li>
+                            <li><p class="lead"><a href="/developer/section-api">Development</a></p></li>
 							<li><a href="/developer/section-api">Building Sections <i class="icon-angle-right"></i></a></li>
                             <li><a href="/developer/dms-theming">DMS Theming <i class="icon-angle-right"></i></a></li>
 							
@@ -279,6 +279,14 @@ class YourSectionClassName extends PageLinesSection {
     }
 
 }
+
+</code></pre>
+
+<h4>prefix() Method</h4>
+
+<p>As a note, we&#39;ve created a special &#39;prefix&#39; method that can be used to get a unique JS and CSS selector for the current section. This can be incredibly useful when you&#39;re trying to specifically target a section with JS. </p>
+
+<pre><code class="php">$this-&gt;prefix // returns &gt; .section-yoursectionid[data-clone=&quot;######&quot;] &gt; which is a unique sitewide selector for your current section
 
 </code></pre>
 
