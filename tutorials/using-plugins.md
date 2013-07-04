@@ -1,137 +1,59 @@
-# PageLines Sections #
+# PageLines Plugins #
 
 PageLines DMS Plugins are extensions based on the WordPress Plugin architecture. If you are looking for information on configuring or activating plugins, please review <a href="/configure/configuring-sections">this guide</a>.
 
-## Columnizer ##
+## Action Map ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Comments ##
+## bbPress / PageLines ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Flipper ##
+## Browser Specific CSS ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Hero ##
+## BuddyPress / PageLines ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Highlight ##
+## Customize Plugin ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## iBox ##
+## Gadget ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Masthead ##
+## Google Web Fonts ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Mediabox ##
+## Hooker ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## NavBar ##
+## JigoShop / PageLines ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Noposts ##
+## Launch Page ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Pagination ##
+## Lazy Loader ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## pl_area ##
+## Poppy ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## plcolumn ##
+## SaleBar ##
 
-<p> Text goes here </p>
+<p>Text goes here!</p>
 
-## Postauthor ##
+## Snowfall ##
 
-<p> Text goes here </p>
-
-## Postloop ##
-
-<p> Text goes here </p>
-
-## Postnav ##
-
-<p> Text goes here </p>
-
-## Postsinfo ##
-
-<p> Text goes here </p>
-
-## Quickslider ##
-
-<p> Text goes here </p>
-
-## sb_primary ##
-
-<p> Text goes here </p>
-
-## ScrollSpy ##
-
-<p> Text goes here </p>
-
-## Secondnav ##
-
-<p> Text goes here </p>
-
-## Sharebar ##
-
-<p> Text goes here </p>
-
-## Simple_nav ##
-
-<p> Text goes here </p>
-
-## Textbox ##
-
-<p> Text goes here </p>
-
-## Watermark ##
-
-<p> Text goes here </p>
-
-## Widgetizer ##
-
-<p> Text goes here </p>
-
-<hr>
-
-# PageLines Plus Sections #
-
-The PageLines Plus Sections are additional extensions available for free to <a href="www.pagelines.com/plus">PageLines Plus</a> subscribers.
-
-## RapidTabs ##
-
-<p> Text goes here </p>
-
-## StarBars ##
-
-<p> Text goes here </p>
-
-## Letters ##
-
-<p> Text goes here </p>
-
-## PostPins ##
-
-<p> Text goes here </p>
-
-## Response Gallery ##
-
-<p> Text goes here </p>
-
-## TwinShot ##
-
-<p> Text goes here </p>
+<p>Text goes here!</p>
