@@ -2,7 +2,7 @@
 
 PageLines' mission is to create awesome experiences for everyone in our community. We’ve got a variety of resources to help you get the most out of PageLines DMS. Each support resource focuses on a specific area, that we'll explain below.
 
-## Support Resources ##
+## Support Channels ##
 
 ### Documentation ##
 
@@ -16,7 +16,17 @@ The PageLines Helpdesk is for all pre-sales enquires as well submitting tickets 
 
 ### Support Forums ###
 
-The PageLines support forum should be used for any technical questions related to PageLines products, third party plugin questions/compatibility issues as well limited customization support. As well as receiving support, you can use the forum area to post and share code and tips.
+The PageLines support forum should be used for any technical questions related to PageLines products, store product questions/compatibility issues as well as limited customization support. As well as receiving support, you can use the forum area to post and share code and tips.
+
+### Live Chat ###
+
+Subscribers to Plus membership gain access to PageLines Live Chat, a moderated technical community chat for discussing your website development with community members and PageLines support staff.
+
+## Support Resources ##
+
+### PageLines Pros ###
+
+The pros are specialists, developers and designers that can help you customize and setup your website. For more information on the Pros service, please visit our Pros contact page.
 
 ### Tracker ###
 
@@ -24,15 +34,7 @@ The PageLines [Tracker](http://www.pagelines.com/forum/tracdown/) should be used
 
 ### Translation Center ###
 
-The PageLines [Translation Center](http://pagelines.com/translate/projects/) allows PageLines users and developers to collaborate on translations
-
-### Live Chat ###
-
-Subscribers to Plus membership gain access to PageLines Live Chat, a moderated technical community chat for discussing your website development with community members and PageLines support staff.
-
-### PageLines Pros ###
-
-The pros are specialists, developers and designers that can help you customize and setup your website. For more information on the Pros service, please visit our Pros contact page.
+The PageLines [Translation Center](http://pagelines.com/translate/projects/) allows PageLines users and developers to collaborate on translations.
 
 ## Support Coverage ##
 
@@ -40,8 +42,13 @@ Unfortunately, there are limits to PageLines support, which have been listed bel
 
 <ul>
 <li>We can not provide general WordPress support, please use the [Wordpress.org](http://wordpress.org/support/) forums for all WordPress questions.</li>
+
 <li>We can not provide support on third party plugins, please contact the plugin author for assistance.</li>
+
+<li>We can not provide support for users experiencing issues or conflicts with Internet Explorer 6/7 or any legacy browsers. For a list of browsers PageLines DMS does support, see our <a href="http://docs.pagelines.com/getting-started/requirements">requirements</a> page.</li>
+
 <li>Keep up-to-date, we can not provide support if the PageLines product you're using is out-of-date. Before contacting support, please make sure Wordpress, plugins and your PageLines product are all updated to the latest version.</li>
+
 <li>Edits to the core PageLines files, is not recommended nor supported. If you have made changes to core files and require assistance, you will need to revert your changes.</li>
 </ul>
 

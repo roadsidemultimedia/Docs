@@ -29,8 +29,8 @@ If disabling all active plugins didn't resolve your issue, then please move onto
 
 We try to ensure that PageLines DMS will work with any modern and secure server environment.
 
-* [PHP](http://php.net/) 4.3 or greater
-* [MySQL](http://www.mysql.com/) 4.1.2
+* [PHP](http://php.net/) version 5.2.4 or greater (5.3 recommended)
+* [MySQL](http://www.mysql.com/) version 5.0 or greater
 
 That said, we can’t test every possible environment, this is  why PageLines DMS includes a debugging tool which can be useful when investigating issues you may have. For more information see our [debug](http://docs.pagelines.com/support-troubleshooting/debug) page.
 

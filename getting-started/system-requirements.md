@@ -6,8 +6,8 @@ PageLines DMS has some system requirements you should be aware of prior to insta
 
 PageLines DMS has been designed to work with any modern server environment, the recommended minimum requirements are:
 
-* PHP 5.2.17+ (5.3+ recommended)
-* MySQL version 5.0 or greater
+* [PHP](http://php.net/) version 5.2.4 or greater (5.3 recommended)
+* [MySQL](http://www.mysql.com/) version 5.0 or greater
 * At least 40MB of memory dedicated to PHP
 
 ## WordPress Requirements ##
