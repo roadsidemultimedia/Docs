@@ -9,5 +9,5 @@ There can be a number of reasons for an Internal Server Error. Here are some thi
 
 	<li>Increase the PHP Memory limit</li>
 
-	<li>Try re-uploading the **wp-admin** and **wp-includes** folders from a fresh install of WordPress.</li>
+	<li>Try re-uploading the <strong>wp-admin</strong> and <srong>wp-includes</strong> folders from a fresh install of WordPress.</li>
 </ul>
