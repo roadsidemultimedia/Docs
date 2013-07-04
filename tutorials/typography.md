@@ -6,17 +6,14 @@ PageLines DMS typography is based on the powerful Bootstrap providing styling fo
 
 All HTML headings, `<h1>` through `<h6>` are available.
 
-# h1. PageLines DMS #
-
-## h2. PageLines DMS ##
-
-### h3. PageLines DMS ###
-
-#### h4. PageLines DMS ####
-
-##### h5. PageLines DMS #####
-
-###### H6. PAGELINES DMS ######
+<div class="docs-example">
+<h1 class="zmt">h1. PageLines Framework</h1>
+<h2>h2. PageLines Framework</h2>
+<h3>h3. PageLines Framework</h3>
+<h4>h4. PageLines Framework</h4>
+<h5>h5. PageLines Framework</h5>
+<h6>h6. PageLines Framework</h6>
+</div>
 
 ## Body ##
 

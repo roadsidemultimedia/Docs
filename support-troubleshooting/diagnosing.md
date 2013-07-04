@@ -21,7 +21,7 @@ If you encounter an error on your website and you're using the latest version of
 3. Activate your plugins one at a time, and check to see if the issue has returned. If the issue hasn't returned, move onto the next plugin, repeat this process until you locate the culprit.
 4. Once the plugin causing the issue has been indentified, you have two options, disable the plugin for the time being, then contact the author and wait for assistance or remove the plugin from your website and find an alternative. Our support staff may be able to offer alternatives.
 
-<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">Note:</span> Please be aware, if you have a cache plugin installed such as WP Super Cache or W3 Total Cache, please flush the cache before disabling the plugin.</small></p>
+If you have a cache plugin installed such as WP Super Cache or W3 Total Cache, flush the cache before disabling the plugin.
 
 If disabling all active plugins didn't resolve your issue, then please move onto the next step, as your issue may be server related.
 
@@ -32,11 +32,11 @@ We try to ensure that PageLines DMS will work with any modern and secure server 
 * [PHP](http://php.net/) version 5.2.4 or greater (5.3 recommended)
 * [MySQL](http://www.mysql.com/) version 5.0 or greater
 
-That said, we can’t test every possible environment, this is  why PageLines DMS includes a debugging tool which can be useful when investigating issues you may have. For more information see our [debug](http://docs.pagelines.com/support-troubleshooting/debug) page.
+That said, we can’t test every possible environment, this is why PageLines DMS includes a debugging tool which can be useful when investigating issues you may have. For more information see our [debug](http://docs.pagelines.com/support-troubleshooting/debug) page.
 
 ### PHP Info ###
 
-The DMSWith Because every system is setup differently, `phpinfo()` is commonly used to check configuration settings and for available predefined variables on a given system. It is also a valuable debugging tool as it contains all EGPCS (Environment, GET, POST, Cookie, Server) data.
+Because every system is setup differently, `phpinfo()` is commonly used to check configuration settings and for available predefined variables on a given system. It is also a valuable debugging tool as it contains all EGPCS (Environment, GET, POST, Cookie, Server) data.
 
 <ul>
 <li> To create a phpinfo file, create a new file in your code editor, add the following lines, click save and name the file `phpinfo.php`:</li>
