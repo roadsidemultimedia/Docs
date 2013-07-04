@@ -24,7 +24,7 @@ With Browser Specific CSS plugin enabled, if you were to view your website on a 
 
 Below is a list of all available classes for you to choose for both browsers and devices.
 
-<div class="row">
+<div class="row-fluid">
 <div class="span4 zmb">
 <ul class="unstyled zmt zmb">
 <li><code>.android</code></li>
@@ -84,11 +84,9 @@ body.chrome {
 }
 ~~~
 
-<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">Note:</span> You’re free to change the <code>.chrome</code> from the example code, to any specific browser/device class from the list above.</small></p>
+You’re free to change the `.chrome` from the example code, to any specific browser/device class from the list above. Using the above code, allows visitors using the Google Chrome browser to view your site with a black body background color.
 
-Using the above code, allows visitors using the Google Chrome browser to view your site with a black body background color.
-
-<p class="zmt zmb"><small><span class="label label-info" style="margin-right: 5px;">Note:</span> You can also add any CSS property you like. For example, <code>background-image</code> giving visitors a unique background image, <code>font-size</code> increasing/decreasing the size of text for that specific browser. </small></p>
+You can also add any CSS property you like. For example, `background-image` giving visitors a unique background image, `font-size`increasing/decreasing the size of text for that specific browser.
 
 ### Targeting a Section ###
 
