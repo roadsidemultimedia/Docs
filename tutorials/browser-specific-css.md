@@ -65,8 +65,7 @@ Below is a list of all available classes for you to choose for both browsers and
 </div>
 </div>
 
-
-<p class="zmb"><small><span class="label label-info" style="margin-right: 5px;">Note:</span> If Internet explorer is detected the version will also be added like <code>.ie7</code>.</small></p>
+If Internet explorer is detected the version will also be added like `.ie7`.
 
 ## Examples ##
 
