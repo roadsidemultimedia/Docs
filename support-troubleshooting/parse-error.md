@@ -19,5 +19,6 @@ We have provided a basic example below, this minor error can trigger a Parse Err
 	padding: 20px 0;
 	margin: 15px 0;
 }
+~~~
 
 As you can see above, the `color: 14px` has no semi-colon `;` that is required to separate each decalaration. To resolve this example issue above, simply locate the CSS in your custom code and add the semi-colon, save the changes and refresh, the parse error should now be resolved.
