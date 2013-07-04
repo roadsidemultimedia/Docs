@@ -165,6 +165,17 @@ a:hover i{
   border-radius: 4px 0 4px 0;
 }
 
+.docs-example .page-header,
+.docs-example h2,
+.docs-example h3,
+.docs-example h4,
+.docs-example h5,
+.docs-example h6 {
+padding: 0;
+margin: 10px 0;
+border: 0 none;
+}
+
 @media (max-width: 979px) {
 body {
 padding-top: 0;
