@@ -174,6 +174,7 @@ These are the variables which are part of PageLines DMS core.
 				</tr>
 				<tr>
 					<td><code>@resPhoneLandscape</code></td>
+					<td>480px</td>
 				</tr>
 			</tbody>
 		</table>
