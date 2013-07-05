@@ -224,11 +224,15 @@ These are the variables which are part of PageLines DMS core.
 					<td>#eee</td>
 					<td><span class="swatch" style="background-color: #eee"></span></td>
 				</tr>
+			</tbody>
+			<thead>
 				<tr style="height:30px">
-					<td>Accent</td>
-					<td>Color</td>
-					<td>Preview</td>
+					<th>Accent</th>
+					<th>Color</th>
+					<th>Preview</th>
 				</tr>
+			</thead>
+			<tbody>
 				<tr>
 					<td><code>@white</code></td>
 					<td>#fff</td>
@@ -269,11 +273,15 @@ These are the variables which are part of PageLines DMS core.
 					<td>#7a43b6</td>
 					<td><span class="swatch" style="background-color: #7a43b6"></span></td>
 				</tr>
+			</tbody>
+			<thead>
 				<tr style="height:30px">
 					<td>Buttons</td>
 					<td>Color</td>
 					<td>Preview</td>
 				</tr>
+			</thead>
+			<tbody>
 				<tr>
 					<td class="span4"><code>@btnBackground</code></td>
 					<td><code>@white</code></td>
@@ -349,11 +357,15 @@ These are the variables which are part of PageLines DMS core.
 					<td><code>@grayDarker</code></td>
 					<td class="swatch-col"><span class="swatch" style="background-color: #222"></span></td>
 				</tr>
+			</tbody>
+			<thead>
 				<tr style="height:30px">
 					<td>Form States/Alerts</td>
 					<td>Color</td>
 					<td>Preview</td>
 				</tr>
+			</thead>
+			<tbody>
 				<tr>
 					<td class="span4"><code>@warningText</code></td>
 					<td><code>#c09853</code></td>
