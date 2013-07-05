@@ -304,6 +304,10 @@ pre strong {
 	border-radius: 3px;
 }
 
+.swatch-col {
+	width: 30px;
+}
+
 /* @ DOCS CONTENT */
 .docs-content img{
 	box-shadow: 0 1px 4px rgba(0,0,0,.3);
