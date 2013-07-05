@@ -205,11 +205,11 @@ These are the variables which are part of PageLines DMS core.
 				</tr>
 				<tr>
 					<td><code>@defaultFont</code></td>
-					<td>"Helvetica Neue", "Helvetica", Arial, serif;</td>
+					<td><code>"Helvetica Neue", "Helvetica", Arial, serif;</code></td>
 				</tr>
 				<tr>
 					<td><code>@codeFont</code></td>
-					<td>Menlo, Monaco, "Courier New", monospace;</td>
+					<td><code>Menlo, Monaco, "Courier New", monospace;</code></td>
 				</tr>
 				<tr>
 					<td><code>@baseFontFamily</code></td>
@@ -226,7 +226,7 @@ These are the variables which are part of PageLines DMS core.
 
 ### Component Sizing ###
 
-Based on `font-size: 14px;` and `line-height: 20px;`.
+Based on `font-size` 14px and `line-height` 20px.
 
 <div class="row-fluid zmb">
 	<div class="span12 zmb">
@@ -234,19 +234,19 @@ Based on `font-size: 14px;` and `line-height: 20px;`.
 			<tbody>
 				<tr>
 					<td><code>@fontSizeLarge</code></td>
-					<td><code>@baseFontSize * 1.25;</code> // ~18px</td>
+					<td><code>@baseFontSize * 1.25;</code> ~18px</td>
 				</tr>
 				<tr>
 					<td><code>@fontSizeSmall<code></td>
-					<td><code>@baseFontSize * 0.85;</code> // ~12px</td>
+					<td><code>@baseFontSize * 0.85;</code> ~12px</td>
 				</tr>
 				<tr>
 					<td><code>@fontSizeMini</code></td>
-					<td><code>@baseFontSize * 0.75;</code> // ~11px</td>
+					<td><code>@baseFontSize * 0.75;</code> ~11px</td>
 				</tr>
 				<tr>
 					<td><code>@paddingLarge</code></td>
-					<td></code>11px 19px;</code> // 44px</td>
+					<td><code>11px 19px;</code> // 44px</td>
 				</tr>
 				<tr>
 					<td><code>@paddingSmall</code></td>
@@ -254,7 +254,7 @@ Based on `font-size: 14px;` and `line-height: 20px;`.
 				</tr>
 				<tr>
 					<td><code>@paddingMini</code></td>
-					<td></code>0 6px;</code> // 22px</td>
+					<td><code>0 6px;</code> // 22px</td>
 				</tr>
 				<tr>
 					<td><code>@baseBorderRadius</code></td>
