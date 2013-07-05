@@ -28,7 +28,7 @@ a:hover {
 ~~~
 
 ~~~ .css
-/* Compiled CSS */
+// Compiled CSS
 h1, h2, h3, h4, h5, h6 {
 	color: #08D;
 }
@@ -60,7 +60,7 @@ Mixins allow you to embed all the properties of a class into another class by si
 ~~~
 
 ~~~ .css
-/* Compiled CSS */
+// Compiled CSS
 #header {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -97,7 +97,7 @@ Rather than constructing long selector names to specify inheritance, in Less you
 ~~~
 
 ~~~ .css
-/* Compiled CSS */
+// Compiled CSS
 #header h1 {
 	font-size: 26px;
 	font-weight: bold;
@@ -135,7 +135,7 @@ Functions & Operations provides the ability to use mathematical operations in yo
 ~~~
 
 ~~~ .css
-/* Compiled CSS */
+// Compiled CSS
 
 #header {
 	color: #333;
@@ -663,8 +663,8 @@ This is a partial listing, for the entire variable library, see the `/less` dire
 .example {
 	.border-radius(5px);
 }
-Returns…
 
+// Compiled CSS
 .example {
 -webkit-border-radius:5px;
 -moz-border-radius:5px;
@@ -675,11 +675,12 @@ border-radius:5px;
 ##### Box Shadow #####
 
 ~~~ .css
+// LESS
 .example {
 	.box-shadow(0 0 5px black);
 }
 
-
+// Compiled CSS
 .example {
 	-webkit-box-shadow:0px 0px 5px black;
 	-moz-box-shadow:0px 0px 5px black;
@@ -690,10 +691,12 @@ border-radius:5px;
 ##### Gradients #####
 
 ~~~ .css
+// LESS
 .example {
 	#gradient > .vertical (#000000,#333333);
 }
 
+// Compiled CSS
 .example {
 	background-color: #000000;
 	background-image: -moz-linear-gradient(top,#000000, #333333;
