@@ -183,16 +183,11 @@ These are the variables which are part of PageLines DMS core.
 
 ### Color Variables ###
 
+#### Grays ####
+
 <div class="row-fluid zmb">
 	<div class="span12 zmb">
 		<table class="table mid table-bordered table-striped table-condensed">
-			<thead>
-				<tr>
-					<th>Greys</th>
-					<th>Color</th>
-					<th>Swatch</th>
-				</tr>
-			</thead>
 			<tbody>
 				<tr>
 					<td class="span4"><code>@black</code></td>
@@ -225,13 +220,15 @@ These are the variables which are part of PageLines DMS core.
 					<td><span class="swatch" style="background-color: #eee"></span></td>
 				</tr>
 			</tbody>
-			<thead>
-				<tr style="height:30px">
-					<th>Accent</th>
-					<th>Color</th>
-					<th>Preview</th>
-				</tr>
-			</thead>
+		</table>
+	</div>
+</div>
+
+#### Accent Colors ####
+
+<div class="row-fluid zmb">
+	<div class="span12 zmb">
+		<table class="table mid table-bordered table-striped table-condensed">
 			<tbody>
 				<tr>
 					<td><code>@white</code></td>
@@ -274,13 +271,15 @@ These are the variables which are part of PageLines DMS core.
 					<td><span class="swatch" style="background-color: #7a43b6"></span></td>
 				</tr>
 			</tbody>
-			<thead>
-				<tr style="height:30px">
-					<td>Buttons</td>
-					<td>Color</td>
-					<td>Preview</td>
-				</tr>
-			</thead>
+		</table>
+	</div>
+</div>
+
+#### Buttons ####
+
+<div class="row-fluid zmb">
+	<div class="span12 zmb">
+		<table class="table mid table-bordered table-striped table-condensed">
 			<tbody>
 				<tr>
 					<td class="span4"><code>@btnBackground</code></td>
@@ -358,13 +357,15 @@ These are the variables which are part of PageLines DMS core.
 					<td class="swatch-col"><span class="swatch" style="background-color: #222"></span></td>
 				</tr>
 			</tbody>
-			<thead>
-				<tr style="height:30px">
-					<td>Form States/Alerts</td>
-					<td>Color</td>
-					<td>Preview</td>
-				</tr>
-			</thead>
+		</table>
+	</div>
+</div>
+
+#### Form States and Alerts ####
+
+<div class="row-fluid zmb">
+	<div class="span12 zmb">
+		<table class="table mid table-bordered table-striped table-condensed">
 			<tbody>
 				<tr>
 					<td class="span4"><code>@warningText</code></td>
