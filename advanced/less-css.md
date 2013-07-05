@@ -227,12 +227,12 @@ SEE ANDREW OR SIMON REGARDING  CORE VARIABLES AND LAYOUT
 #### Example ####
 
 ~~~ .css
-// in sections
+// In Sections
 .example {
 	background: url(@{plSectionsRoot}/yoursection/img/bar.png);
 }
 
-// in child themes
+// In Child Themes
 .example {
 	background: url(@{plChildRoot}/img/bar.png);
 }
