@@ -156,7 +156,7 @@ These are the variables which are part of PageLines DMS core.
 
 ### Responsive ###
 
-<div class="row zmb">
+<div class="row-fluid zmb">
 	<div class="span12 zmb">
 		<table class="table mid table-bordered table-striped table-condensed">
 			<tbody>
@@ -182,7 +182,7 @@ These are the variables which are part of PageLines DMS core.
 
 ### Color Variables ###
 
-<div class="row zmb">
+<div class="row-fluid zmb">
 <div class="span12 zmb">
 <table class="table mid table-bordered table-striped table-condensed">
 <tbody>
