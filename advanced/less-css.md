@@ -154,6 +154,82 @@ The above examples introduce you to the basics of LESS. For a more detailed over
 
 These are the variables which are part of PageLines DMS core.
 
+### Core ###
+
+SEE ANDREW OR SIMON REGARDING  CORE VARIABLES AND LAYOUT
+
+### Layout ###
+
+
+### Layout ###
+
+<div class="row-fluid">
+	<div class="span12 zmb">
+		<table class="table mid table-bordered table-striped table-condensed">
+			<tbody>
+				<tr>
+					<td class="span3 center"><code>@pl-base</code></td>
+					<td>Page background color</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@pl-page-width</code></td>
+					<td>User set page width</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@pl-content-width</code></td>
+					<td>Uset set content width</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@pl-responsive-width</code></td>
+					<td>User set responsive width</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@pl-sidebar-width</code></td>
+					<td>User set sidebar width</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@pl-secondary-width</code></td>
+					<td>User set secondary sidebar width</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+### Path ###
+
+<div class="row-fluid">
+	<div class="span12 zmb">
+		<table class="table mid table-bordered table-striped table-condensed">
+			<tbody>
+				<tr>
+					<td class="span3 center"><code>@{plChildRoot}</code></td>
+					<td>Used to specify root Child theme URL</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@{plRoot}</code></td>
+					<td>Used to set Parent theme dir</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@{plSectionsRoot}</code></td>
+					<td>Used to specify /sections dir</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@{plExtendRoot}</code></td>
+					<td>Used to specify section root in pagelines-sections plugin</td>
+				</tr>
+				<tr>
+					<td class="center"><code>@{plPluginsRoot}</code></td>
+					<td>Used to specify base plugin path directory</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+
+
 ### Responsive ###
 
 <div class="row-fluid zmb">
