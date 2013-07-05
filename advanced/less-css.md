@@ -160,9 +160,6 @@ SEE ANDREW OR SIMON REGARDING  CORE VARIABLES AND LAYOUT
 
 ### Layout ###
 
-
-### Layout ###
-
 <div class="row-fluid">
 	<div class="span12 zmb">
 		<table class="table mid table-bordered table-striped table-condensed">
@@ -227,7 +224,19 @@ SEE ANDREW OR SIMON REGARDING  CORE VARIABLES AND LAYOUT
 	</div>
 </div>
 
+#### Example ####
 
+~~~ .css
+// in sections
+.example {
+	background: url(@{plSectionsRoot}/yoursection/img/bar.png);
+}
+
+// in child themes
+.example {
+	background: url(@{plChildRoot}/img/bar.png);
+}
+~~~
 
 
 ### Responsive ###
@@ -579,6 +588,126 @@ Based on `font-size` 14px and `line-height` 20px.
 		</table>
 	</div>
 </div>
+
+This is a partial listing, for the entire variable library, see the `/less` directory located in `/wp-content/themes/pagelines/`.
+
+## DMS Mixins ##
+
+<div class="row-fluid zmb">
+	<div class="span12 zmb">
+		<table class="table mid table-bordered table-striped table-condensed">
+			<tbody>
+				<tr>
+					<td><code>.border-radius()</code></td>
+					<td>Round the corners of an element. Can be a single value or four space-separated values</td>
+				</tr>
+					<tr>
+					<td><code>.box-shadow()</code></td>
+					<td>Add a drop shadow to an element</td>
+				</tr>
+				<tr>
+					<td><code>.transition()</code></td>
+					<td>Add CSS3 transition effect (e.g., <code>all .2s linear</code>)</td>
+				</tr>
+				<tr>
+					<td><code>.box-sizing()</code></td>
+					<td>Change the box model for an element (e.g., <code>border-box</code> for a full-width <code>input</code>)</td>
+				</tr>
+				<tr>
+					<td><code>#translucent &gt; .background()</code></td>
+					<td>Give an element a translucent background color</td>
+				</tr>
+				<tr>
+					<td><code>#translucent &gt; .border()</code></td>
+					<td>Give an element a translucent border color</td>
+				</tr>
+				<tr>
+					<td><code>#gradient &gt; .vertical()</code></td>
+					<td>Create a cross-browser vertical background gradient</td>
+				</tr>
+				<tr>
+					<td><code>#gradient &gt; .horizontal()</code></td>
+					<td>Create a cross-browser horizontal background gradient</td>
+				</tr>
+				<tr>
+					<td><code>#gradient &gt; .directional()</code></td>
+					<td>Create a cross-browser directional background gradient</td>
+				</tr>
+				<tr>
+					<td><code>#gradient &gt; .vertical-three-colors()</code></td>
+					<td>Create a cross-browser three-color background gradient</td>
+				</tr>
+				<tr>
+					<td><code>#gradient &gt; .radial()</code></td>
+					<td>Create a cross-browser radial background gradient</td>
+				</tr>
+				<tr>
+					<td><code>#gradient &gt; .striped()</code></td>
+					<td>Create a cross-browser striped background gradient</td>
+				</tr>
+				<tr>
+					<td><code>#gradientBar()</code></td>
+					<td>Used for buttons to assign a gradient and slightly darker border</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+#### Example ####
+
+##### Border Radius #####
+
+~~~ .css
+// LESS
+.example {
+	.border-radius(5px);
+}
+Returns…
+
+.example {
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+}
+~~~
+
+##### Box Shadow #####
+
+~~~ .css
+.example {
+	.box-shadow(0 0 5px black);
+}
+
+
+.example {
+	-webkit-box-shadow:0px 0px 5px black;
+	-moz-box-shadow:0px 0px 5px black;
+	box-shadow:0px 0px 5px black;
+}
+~~~
+
+##### Gradients #####
+
+~~~ .css
+.example {
+	#gradient > .vertical (#000000,#333333);
+}
+
+.example {
+	background-color: #000000;
+	background-image: -moz-linear-gradient(top,#000000, #333333;
+	background-image: -ms-linear-gradient(top,#000000, #333333;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#000000, #333333;
+	background-image: -webkit-linear-gradient(top,#000000, #333333;
+	background-image: -o-linear-gradient(top,#000000, #333333;
+	background-image: linear-gradient(top,#000000, #333333;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000, #333333;
+}
+~~~
+
+This is a partial listing, for the entire mixins library, see the `mixin.less` file located in `/wp-content/themes/pagelines/less/`.
 
 <div class="row-fluid">
 	<div class="span12">
