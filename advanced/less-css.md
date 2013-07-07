@@ -238,7 +238,6 @@ SEE ANDREW OR SIMON REGARDING  CORE VARIABLES AND LAYOUT
 }
 ~~~
 
-
 ### Responsive ###
 
 <div class="row-fluid zmb">
@@ -661,7 +660,7 @@ This is a partial listing, for the entire variable library, see the `/less` dire
 ~~~ .css
 // LESS
 .example {
-	.border-radius(5px);
+	c
 }
 
 // Compiled CSS
@@ -711,6 +710,36 @@ border-radius:5px;
 ~~~
 
 This is a partial listing, for the entire mixins library, see the `mixin.less` file located in `/wp-content/themes/pagelines/less/`.
+
+## Examples ##
+
+In the example below we will be using the Masthead section and using the gradient and border radius mixins. By default the Masthed section looks like this:
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-default-masthead.jpg)
+
+Using Google Chrome's web dev tools to inspect the Masthead section, we can indentify the correct class(es), needed to override the sections default CSS.
+
+~~~ .css
+.masthead {
+	position: relative;
+	margin-bottom: 65.1px;
+}
+~~~
+
+By using the the LESS mixins`.border-radius();` and `#gradient &gt; .vertical()`, we can add a gradient background with a border radius to the masthead with just a few lines of code.
+
+~~~ .css
+#site .masthead {
+	#gradient > .vertical(#05F, #09F);
+	.border-radius(8px);
+	padding: 20px
+}
+~~~
+
+We also adding some `padding: 20px;` just to give our header, text and buttons some space, the end result looks like this:
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-less-masthead.jpg)
+
 
 <div class="row-fluid">
 	<div class="span12">
