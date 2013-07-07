@@ -1,33 +1,35 @@
 # Diagnosing #
 
-This page lists instructions that can assist in diagnosing your issue(s) which you should follow before creating a topic on our support forums.
+Here are some instructions to assist in diagnosing your issue(s) which you should evaluate and attempt before creating a topic on our support forums.
 
 ## Browsers ##
 
-PageLines DMS utilties the latest web technology and therefore, is only compatible with browsers that support HTML5 and CSS3. If you or your clients are using a legacy browser such as Internet Explorer 7, we highly recommend you update to the latest version, as we do not support legacy browsers. For more information about the latest version of browsers, see [BrowseHappy](http://browsehappy.com/).
+PageLines DMS utilties the latest web technology and therefore, is only compatible with browsers that support HTML5 and CSS3. If you or your clients are using a legacy browser such as Internet Explorer 7, we highly recommend you update to the latest version, as we do not support legacy browsers. We understand that's not always possible, though there's little we're able to do to fix outdated systems.
+
+For more information about the latest version of browsers, see [BrowseHappy](http://browsehappy.com/).
 
 ## Up-To-Date
 
-To improve security and compatibility, always keep Wordpress, DMS, store products and plugins up-to-date. We can not provide support to users who have out-of-date products.
+To improve security and compatibility issues, always keep Wordpress, DMS, store products and plugins current with the latest versions and releases. We cannot provide support to those who have out-of-date products.
 
 ## Plugins ##
 
-All of the PageLines products are built according to WordPress API standards and do work with the majority of plugins out there. However, not all plugins follow the Wordpress API standards or are maintained by their author, which can lead to errors.
+All of the PageLines products are built according to WordPress API standards and do work with the majority of plugins out there. However, not all plugins follow the Wordpress API standards or are properly maintained by their author, which can lead to errors.
 
 If you encounter an error on your website and you're using the latest version of your preferred browser, please follow the steps below.
 
-1. Disable all active plugins and see if your issue persists.
+1. Disable all active non-Pagelines plugins and see if your issue persists.
 2. If the issue has been resolved, it is related to one of your installed plugins.
-3. Activate your plugins one at a time, and check to see if the issue has returned. If the issue hasn't returned, move onto the next plugin, repeat this process until you locate the culprit.
-4. Once the plugin causing the issue has been indentified, you have two options, disable the plugin for the time being, then contact the author and wait for assistance or remove the plugin from your website and find an alternative. Our support staff may be able to offer alternatives.
+3. Re-activate your plugins one at a time, and check to see if the issue has returned. If the issue hasn't returned, move on to the next plugin, repeat this process until you locate the culprit.
+4. Once the plugin causing the issue has been identified, you have two options, disable the plugin for the time being, then contact the author and wait for assistance or, remove the plugin from your website and find an alternative. Our support staff may be able to offer or recommend alternatives.
 
-If you have a cache plugin installed such as WP Super Cache or W3 Total Cache, flush the cache before disabling the plugin.
+Please be aware, if you have a cache plugin installed such as WP Super Cache or W3 Total Cache, please flush the cache before disabling the plugin.
 
 If disabling all active plugins didn't resolve your issue, then please move onto the next step, as your issue may be server related.
 
 ## Server Configuration ##
 
-We try to ensure that PageLines DMS will work with any modern and secure server environment.
+We try to ensure that PageLines DMS will work with any modern and secured server environment.
 
 * [PHP](http://php.net/) version 5.2.4 or greater (5.3 recommended)
 * [MySQL](http://www.mysql.com/) version 5.0 or greater
@@ -36,10 +38,10 @@ That said, we can’t test every possible environment, this is why PageLines DMS
 
 ### PHP Info ###
 
-Because every system is setup differently, `phpinfo()` is commonly used to check configuration settings and for available predefined variables on a given system. It is also a valuable debugging tool as it contains all EGPCS (Environment, GET, POST, Cookie, Server) data.
+Because every system is setup differently, phpinfo() is commonly used to check configuration settings, and for available predefined variables on a given system. It is also a valuable debugging tool as it contains all EGPCS (Environment, GET, POST, Cookie, Server) data.
 
 <ul>
-<li> To create a phpinfo file, create a new file in your code editor, add the following lines, click save and name the file `phpinfo.php`:</li>
+<li>To create a phpinfo file, create a new file in your code editor, add the following lines, click save and name the file `phpinfo.php`:</li>
 </ul>
 
 ~~~ .php
@@ -51,9 +53,9 @@ Because every system is setup differently, `phpinfo()` is commonly used to check
 
 <li>Visit the page in your browser. If you uploaded it to your root directory, you should now visit `http://www.example.com/phpinfo.php`, replacing `example.com` with your own domain name.</li>
 
-<li>Once loaded, you will now be able to view all of the information about PHP for your server for that particular directory.</li>
+<li>You will now be able to view all of the information about PHP for your server for that particular directory.</li>
 </ul>
 
 ## Next Step ##
 
-By following these guidelines you may indentify the cause of your issue yourself. If this isn't the case, don't panic, by providing this information when creating your forum topic, you will greatly help our support staff identify the cause of your error(s).
+By following these guidelines you may indentify the cause of your issue yourself. If this isn't the case, don't panic. Providing this information when creating your forum topic, will greatly help our support staff identify the cause of your error(s).
