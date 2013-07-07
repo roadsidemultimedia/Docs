@@ -660,9 +660,11 @@ This is a partial listing, for the entire variable library, see the `/less` dire
 ~~~ .css
 // LESS
 .example {
-	c
+	.border-radius(5px);
 }
+~~~
 
+~~~ .css
 // Compiled CSS
 .example {
 -webkit-border-radius:5px;
@@ -678,7 +680,9 @@ border-radius:5px;
 .example {
 	.box-shadow(0 0 5px black);
 }
+~~~
 
+~~~ .css
 // Compiled CSS
 .example {
 	-webkit-box-shadow:0px 0px 5px black;
@@ -694,7 +698,9 @@ border-radius:5px;
 .example {
 	#gradient > .vertical (#000000,#333333);
 }
+~~~
 
+~~~ .css
 // Compiled CSS
 .example {
 	background-color: #000000;
