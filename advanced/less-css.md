@@ -246,19 +246,19 @@ SEE ANDREW OR SIMON REGARDING  CORE VARIABLES AND LAYOUT
 			<tbody>
 				<tr>
 					<td><code>@resLargeDesktop</code></td>
-					<td>1200px</td>
+					<td><code>1200px</code></td>
 				</tr>
 				<tr>
 					<td><code>@resDesktop</code></td>
-					<td>979px</td>
+					<td><code>979px</code></td>
 				</tr>
 				<tr>
 					<td><code>@resPortraitTablet</code></td>
-					<td>767px</td>
+					<td><code>767px</code></td>
 				</tr>
 				<tr>
 					<td><code>@resPhoneLandscape</code></td>
-					<td>480px</td>
+					<td><code>480px</code></td>
 				</tr>
 			</tbody>
 		</table>
@@ -367,32 +367,32 @@ Based on `font-size` 14px and `line-height` 20px.
 			<tbody>
 				<tr>
 					<td class="span4"><code>@black</code></td>
-					<td>#000</td>
+					<td><code>#000</code></td>
 					<td class="swatch-col"><span class="swatch" style="background-color: #000"></span></td>
 				</tr>
 				<tr>
 					<td><code>@grayDarker</code></td>
-					<td>#222</td>
+					<td><code>#222</code></td>
 					<td><span class="swatch" style="background-color: #222"></span></td>
 				</tr>
 				<tr>
 					<td><code>@grayDark</code></td>
-					<td>#333</td>
+					<td><code>#333</code></td>
 					<td><span class="swatch" style="background-color: #333"></span></td>
 				</tr>
 				<tr>
 					<td><code>@gray</code></td>
-					<td>#555</td>
+					<td><code>#555</code></td>
 					<td><span class="swatch" style="background-color: #555"></span></td>
 				</tr>
 				<tr>
 					<td><code>@grayLight</code></td>
-					<td>#999</td>
+					<td><code>#999</code></td>
 					<td><span class="swatch" style="background-color: #999"></span></td>
 				</tr>
 				<tr>
 					<td><code>@grayLighter</code></td>
-					<td>#eee</td>
+					<td><code>#eee</code></td>
 					<td><span class="swatch" style="background-color: #eee"></span></td>
 				</tr>
 			</tbody>
@@ -408,42 +408,42 @@ Based on `font-size` 14px and `line-height` 20px.
 			<tbody>
 				<tr>
 					<td><code>@white</code></td>
-					<td>#fff</td>
+					<td><code>#fff</code></td>
 					<td><span class="swatch swatch-bordered" style="background-color: #fff"></span></td>
 				</tr>
 				<tr>
 					<td class="span4"><code>@blue</code></td>
-					<td>#049cdb</td>
+					<td><code>#049cdb</td>
 					<td class="swatch-col"><span class="swatch" style="background-color: #049cdb"></span></td>
 				</tr>
 				<tr>
 					<td><code>@green</code></td>
-					<td>#46a546</td>
+					<td><code>#46a546</code></td>
 					<td><span class="swatch" style="background-color: #46a546"></span></td>
 				</tr>
 				<tr>
 					<td><code>@red</code></td>
-					<td>#9d261d</td>
+					<td><code>#9d261d</code></td>
 					<td><span class="swatch" style="background-color: #9d261d"></span></td>
 				</tr>
 				<tr>
 					<td><code>@yellow</code></td>
-					<td>#ffc40d</td>
+					<td><code>#ffc40d</code></td>
 					<td><span class="swatch" style="background-color: #ffc40d"></span></td>
 				</tr>
 				<tr>
 					<td><code>@orange</code></td>
-					<td>#f89406</td>
+					<td><code>#f89406</code></td>
 					<td><span class="swatch" style="background-color: #f89406"></span></td>
 				</tr>
 				<tr>
 					<td><code>@pink</code></td>
-					<td>#c3325f</td>
+					<td><code>#c3325f</code></td>
 					<td><span class="swatch" style="background-color: #c3325f"></span></td>
 				</tr>
 				<tr>
 					<td><code>@purple</code></td>
-					<td>#7a43b6</td>
+					<td><code>#7a43b6</code></td>
 					<td><span class="swatch" style="background-color: #7a43b6"></span></td>
 				</tr>
 			</tbody>
