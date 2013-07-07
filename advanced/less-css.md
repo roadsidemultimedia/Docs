@@ -9,11 +9,11 @@
 
 # LESS #
 
-LESS is a dynamic stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS reduces the overall time to create and maintain your code base, while also keeping your code clean and optimized.
+LESS is a stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions.  LESS reduces the overall time to create and maintain your code base, while also keeping your code clean and optimized.
 
 ## Variables ##
 
-Variables allow you to specify widely used values in a single place, and then re-use them throughout the style sheet, making global changes as easy as changing one line of code. An example is shown below:
+Variables allow you to specify widely-used values in a single place, and then re-use them throughout the style sheet, making global changes as easy as changing a single line of code. An example is shown below:
 
 ~~~ .css
 //LESS
@@ -39,7 +39,7 @@ a:hover {
 
 ## Mixins ##
 
-Mixins allow you to embed all the properties of a class into another class by simply including the class name as one of its properties. It’s just like variables, but for whole classes. Mixins can also behave like functions, and take arguments, as seen in the example below.
+Mixins allow you to embed all the properties of one class into another by simply including the class name as one of its properties. It’s just like variables, but for whole classes.  Mixins can also behave like functions, and take arguments, as seen in the example below:
 
 ~~~ .css
 // LESS
@@ -79,7 +79,7 @@ Mixins allow you to embed all the properties of a class into another class by si
 
 ## Nested Rules
 
-Rather than constructing long selector names to specify inheritance, in Less you can simply nest selectors inside other selectors. This makes inheritance clear and style sheets shorter.
+Rather than constructing long selector names to specify inheritance, in LESS you can simply nest selectors inside other selectors. This makes inheritance clear and style sheets shorter.
 
 ~~~ .css
 // LESS
@@ -115,7 +115,7 @@ Rather than constructing long selector names to specify inheritance, in Less you
 
 ## Functions & Operations
 
-Functions & Operations provides the ability to use mathematical operations in your CSS values,  as well as manipulate values through functions.
+Functions & Operations provides the ability to use mathematical operations in your CSS values, as well as manipulate values through functions.
 
 ~~~ .css
 // LESS
@@ -719,7 +719,7 @@ This is a partial listing, for the entire mixins library, see the `mixin.less` f
 
 ## Examples ##
 
-In the example below we will be using the Masthead section and using the gradient and border radius mixins. By default the Masthed section looks like this:
+In the example below, we will be using the Masthead section, and using the gradient and border radius mixins. The standard Masthed section looks like this:
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-default-masthead.jpg)
 
@@ -742,10 +742,29 @@ By using the the LESS mixins`.border-radius();` and `#gradient &gt; .vertical()`
 }
 ~~~
 
-We also adding some `padding: 20px;` just to give our header, text and buttons some space, the end result looks like this:
+We will also add some `padding: 20px;` just to give our header, text and buttons some space, the end result looks like this:
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-less-masthead.jpg)
 
+As you can see, with just three lines of LESS CSS, we have created a browser compatible customization. If we were to use standard CSS, our custom CSS would look like this:
+
+~~~ .css
+#site .masthead {
+	background-color: #008FBE;
+	background-image: -moz-linear-gradient(top, #08A, #09D);
+	background-image: -ms-linear-gradient(top, #08A, #09D);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08A), to(#09D));
+	background-image: -webkit-linear-gradient(top, #06F, #09F);
+	background-image: -o-linear-gradient(top, #08A, #09D);
+	background-image: linear-gradient(top, #08A, #09D);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088aa', endColorstr='#0099dd', GradientType=0);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 20px;
+}
+~~~
 
 <div class="row-fluid">
 	<div class="span12">
