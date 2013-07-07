@@ -9,7 +9,7 @@
 
 # LESS #
 
-LESS is a stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions.  LESS reduces the overall time to create and maintain your code base, while also keeping your code clean and optimized.
+LESS is a stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS reduces the overall time it takes to create and maintain your code base, while also keeping your code clean and optimized.
 
 ## Variables ##
 
@@ -717,7 +717,7 @@ border-radius:5px;
 
 This is a partial listing, for the entire mixins library, see the `mixin.less` file located in `/wp-content/themes/pagelines/less/`.
 
-## Examples ##
+## Example ##
 
 In the example below, we will be using the Masthead section, and using the gradient and border radius mixins. The standard Masthed section looks like this:
 
@@ -732,7 +732,7 @@ Using Google Chrome's web dev tools to inspect the Masthead section, we can inde
 }
 ~~~
 
-By using the the LESS mixins`.border-radius();` and `#gradient &gt; .vertical()`, we can add a gradient background with a border radius to the masthead with just a few lines of code.
+By using the the LESS mixins`.border-radius();` and `#gradient > .vertical()`, we can add a gradient background with a border radius to the masthead with just a few lines of code.
 
 ~~~ .css
 #site .masthead {
