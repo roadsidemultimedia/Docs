@@ -440,7 +440,7 @@ Use Popover to provide subtextual information to a page without affecting layout
 	<tbody>
 		<tr>
 			<td class="span2 center"><code>position=""</code></td>
-			<td>Specifies the location of the popover. top,left,bottom,and right</td>
+			<td>Specifies the location of the popover top, left, bottom and right</td>
 		</tr>
 		<tr>
 			<td class="span2 center"><code>title=""</code></td>
