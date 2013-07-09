@@ -354,6 +354,8 @@
 
 <h3>Button Groups</h3>
 
+<p>You can specify the same attrbutes as the buttons above, but placed into the markup instead of the shortcode.</p>
+
 <div class="row-fluid">
     <div class="span3">
         <div class="btn-group">
@@ -369,15 +371,15 @@
             <a class="btn btn-primary" href="#">Link</a>
         </div>
     </div>
-<div class="span3">
-<div class="btn-group">
+    <div class="span3">
+        <div class="btn-group">
             <a class="btn btn-success" href="#">Link</a>
             <a class="btn btn-success" href="#">Link</a>
             <a class="btn btn-success" href="#">Link</a>
         </div>
     </div>
-<div class="span3">
-<div class="btn-group">
+    <div class="span3">
+        <div class="btn-group">
             <a class="btn btn-warning" href="#">Link</a>
             <a class="btn btn-warning" href="#">Link</a>
             <a class="btn btn-warning" href="#">Link</a>
@@ -391,8 +393,6 @@
     &lt;a class=&quot;btn btn-important&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
 [/pl_buttongroup]
 </code></pre>
-
-<p><strong>Note:</strong> You can specify the same attrbutes as the buttons above, but placed into the markup instead of the shortcode.</p>
 
 <h2>Labels &amp; Badges</h2>
 
@@ -516,6 +516,8 @@ The Modal contains a title, content, along with a set of actions in the footer a
     </tbody>
 </table>
 
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/modal-example.jpg" alt=""></p>
+
 <pre><code class="html">[pl_modal title=&quot;Title&quot; type=&quot;btn&quot; colortype=&quot;info&quot; label=&quot;Click Me!&quot;]
 Some content here for the cool modal pop up. Labels, badges, and buttons can open them!
 [/pl_modal]
@@ -524,10 +526,6 @@ Some content here for the cool modal pop up. Labels, badges, and buttons can ope
 <h2>Tooltips &amp; Popovers</h2>
 
 <h3>Tooltips</h3>
-
-<div class="docs-example tooltip-demo">
-    <p class="muted">This is a <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tooltip on top">Tooltip on top</a></p>
-</div>
 
 <table class="table mid table-bordered table-striped table-condensed">
     <thead>
@@ -551,13 +549,11 @@ Some content here for the cool modal pop up. Labels, badges, and buttons can ope
 <pre><code class="html">This is a [pl_tooltip tip=&quot;Cool&quot; position=&quot;right&quot;]tooltip [/pl_tooltip] example.
 </code></pre>
 
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/tooltip-example.jpg" alt=""></p>
+
 <h3>Popovers</h3>
 
 <p>Use Popover to provide subtextual information to a page without affecting layout.</p>
-
-<div class="docs-example" style="padding-bottom: 24px;">
-    <a href="#" id="example" class="btn btn-success" rel="popover" data-content="It's so simple to create a tooltop for my website!" data-original-title="Twitter Bootstrap Popover">hover for popover</a>
-</div>
 
 <table class="table mid table-bordered table-striped table-condensed">
     <thead>
@@ -582,6 +578,11 @@ Some content here for the cool modal pop up. Labels, badges, and buttons can ope
     </tbody>
 </table>
 
+<pre><code class="html">This is a [pl_popover title=&quot;Title&quot; content=&quot;...&quot; position=&quot;right&quot;]popover[/pl_popover] example.
+</code></pre>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/popover-example.jpg" alt=""></p>
+
 <h2>Alerts</h2>
 
 <p>Wrap any text and an optional dismiss button for a basic alert message, which supports multiple color schemes.</p>
@@ -595,7 +596,7 @@ Some content here for the cool modal pop up. Labels, badges, and buttons can ope
             <div class="alert alert-success"><a class="close" data-dismiss="alert" href="#">×</a>This is a Success, using the <code>.closable="yes"</code> attribute.</div>
         </div>
     </div>
-    <div class="row">
+    <div class="row-fluid">
         <div class="span6 zmb">
             <div class="alert alert-info alert-block">This is useful Info.</div>
         </div>
@@ -639,7 +640,7 @@ This is an error.
 </div>
 
 <pre><code class="html">[pl_alertbox type=&quot;info&quot;]
-    &lt;h2 class=&quot;alert-heading&quot;&gt;Alert Heading&lt;/h2&gt;
+    &lt;h2 class=&quot;alert-heading zmt&quot;&gt;Alert Heading&lt;/h2&gt;
     This is an error.
 [/pl_alertbox]
 </code></pre>
