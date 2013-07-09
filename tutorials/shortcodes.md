@@ -226,6 +226,8 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 
 ### Button Groups ###
 
+You can specify the same attrbutes as the buttons above, but placed into the markup instead of the shortcode.
+
 <div class="row-fluid">
 	<div class="span3">
 		<div class="btn-group">
@@ -241,15 +243,15 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 			<a class="btn btn-primary" href="#">Link</a>
 		</div>
 	</div>
-<div class="span3">
-<div class="btn-group">
+	<div class="span3">
+		<div class="btn-group">
 			<a class="btn btn-success" href="#">Link</a>
 			<a class="btn btn-success" href="#">Link</a>
 			<a class="btn btn-success" href="#">Link</a>
 		</div>
 	</div>
-<div class="span3">
-<div class="btn-group">
+	<div class="span3">
+		<div class="btn-group">
 			<a class="btn btn-warning" href="#">Link</a>
 			<a class="btn btn-warning" href="#">Link</a>
 			<a class="btn btn-warning" href="#">Link</a>
@@ -264,8 +266,6 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 	<a class="btn btn-important" href="#">Link</a>
 [/pl_buttongroup]
 ~~~
-
-**Note:** You can specify the same attrbutes as the buttons above, but placed into the markup instead of the shortcode.
 
 ## Labels & Badges ##
 
@@ -389,7 +389,7 @@ The Modal contains a title, content, along with a set of actions in the footer a
 	</tbody>
 </table>
 
-
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/modal-example.jpg)
 
 ~~~ .html
 [pl_modal title="Title" type="btn" colortype="info" label="Click Me!"]
@@ -400,10 +400,6 @@ Some content here for the cool modal pop up. Labels, badges, and buttons can ope
 ## Tooltips & Popovers ##
 
 ### Tooltips ###
-
-<div class="docs-example tooltip-demo">
-    <p class="muted">This is a <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tooltip on top">Tooltip on top</a></p>
-</div>
 
 <table class="table mid table-bordered table-striped table-condensed">
 	<thead>
@@ -428,14 +424,11 @@ Some content here for the cool modal pop up. Labels, badges, and buttons can ope
 This is a [pl_tooltip tip="Cool" position="right"]tooltip [/pl_tooltip] example.
 ~~~
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/tooltip-example.jpg)
+
 ### Popovers ###
 
 Use Popover to provide subtextual information to a page without affecting layout.
-
-<div class="docs-example" style="padding-bottom: 24px;">
-    <a href="#" id="example" class="btn btn-success" rel="popover" data-content="It's so simple to create a tooltop for my website!" data-original-title="Twitter Bootstrap Popover">hover for popover</a>
-</div>
-
 
 <table class="table mid table-bordered table-striped table-condensed">
 	<thead>
@@ -460,6 +453,12 @@ Use Popover to provide subtextual information to a page without affecting layout
 	</tbody>
 </table>
 
+~~~ .html
+This is a [pl_popover title="Title" content="..." position="right"]popover[/pl_popover] example.
+~~~
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/popover-example.jpg)
+
 ## Alerts ##
 
 Wrap any text and an optional dismiss button for a basic alert message, which supports multiple color schemes.
@@ -473,7 +472,7 @@ Wrap any text and an optional dismiss button for a basic alert message, which su
 			<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#">×</a>This is a Success, using the <code>.closable="yes"</code> attribute.</div>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row-fluid">
 		<div class="span6 zmb">
 			<div class="alert alert-info alert-block">This is useful Info.</div>
 		</div>
@@ -519,7 +518,7 @@ This is an error.
 
 ~~~ .html
 [pl_alertbox type="info"]
-	<h2 class="alert-heading">Alert Heading</h2>
+	<h2 class="alert-heading zmt">Alert Heading</h2>
 	This is an error.
 [/pl_alertbox]
 ~~~
