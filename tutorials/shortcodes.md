@@ -2,32 +2,8 @@
 
 ## Buttons ##
 
-<div class="row-fluid">
-	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-primary">Primary Button</a>
-	</div>
-	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-success">Success Button</a>
-	</div>
-	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-danger">Important Button</a>
-	</div>
-</div>
-<p></p>
-<div class="row-fluid">
-	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-info">Info Button</a>
-	</div>
-	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-warning">Warning Button</a>
-	</div>
-	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-inverse">Inverse Button</a>
-	</div>
-</div>
-<p></p>
 There are 7 different color schemes to choose from, as well 3 sizes; mini, default and large.
-<p></p>
+
 <div class="row-fluid">
 	<div class="span12">
 		<table class="table mid table-bordered table-striped table-condensed">
@@ -62,7 +38,8 @@ There are 7 different color schemes to choose from, as well 3 sizes; mini, defau
 <table class="table table-bordered table-striped">
 	<thead>
 		<tr>
-			<th>Button</th><th>Description</th>
+			<th>Button</th>
+			<th>Description</th>
 			<th>Shortcode</th>
 		</tr>
     </thead>
