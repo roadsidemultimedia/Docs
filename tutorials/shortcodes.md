@@ -463,22 +463,20 @@ This is a [pl_popover title="Title" content="..." position="right"]popover[/pl_p
 
 Wrap any text and an optional dismiss button for a basic alert message, which supports multiple color schemes.
 
-<div class="docs-example">
-	<div class="row-fluid">
-		<div class="span6">
-			<div class="alert alert-warning alert-block">This is a Warning.</div>
-		</div>
-		<div class="span6">
-			<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#">×</a>This is a Success, using the <code>.closable="yes"</code> attribute.</div>
-		</div>
+<div class="row-fluid">
+	<div class="span6">
+		<div class="alert alert-warning alert-block">This is a Warning.</div>
 	</div>
-	<div class="row-fluid">
-		<div class="span6 zmb">
-			<div class="alert alert-info alert-block">This is useful Info.</div>
-		</div>
-		<div class="span6 zmb">
-			<div class="alert alert-important"><a class="close" data-dismiss="alert" href="#">×</a>This is Important using the <code>.closable="yes"</code> attribute.</div>
-		</div>
+	<div class="span6">
+		<div class="alert alert-success"><a class="close" data-dismiss="alert" href="#">×</a>This is a Success, using the <code>.closable="yes"</code> attribute.</div>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span6 zmb">
+		<div class="alert alert-info alert-block">This is useful Info.</div>
+	</div>
+	<div class="span6 zmb">
+		<div class="alert alert-important"><a class="close" data-dismiss="alert" href="#">×</a>This is Important using the <code>.closable="yes"</code> attribute.</div>
 	</div>
 </div>
 
@@ -509,16 +507,14 @@ This is an error.
 
 ### Alert Headings ###
 
-<div class="docs-example zmt">
-	<div class="alert alert-important alert-block">
-		<h2 class="alert-heading">Alert Heading</h2>
+<div class="alert alert-important alert-block">
+		<h2 class="alert-heading zmt">Alert Heading</h2>
 		<p>This is Important.</p>
-	</div>
 </div>
 
 ~~~ .html
 [pl_alertbox type="info"]
-	<h2 class="alert-heading zmt">Alert Heading</h2>
+	<h2 class="alert-heading">Alert Heading</h2>
 	This is an error.
 [/pl_alertbox]
 ~~~
