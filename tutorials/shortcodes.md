@@ -508,7 +508,7 @@ This is an error.
 ### Alert Headings ###
 
 <div class="alert alert-important alert-block">
-		<h2 class="alert-heading zmt">Alert Heading</h2>
+		<h2 class="alert-heading zmt zb">Alert Heading</h2>
 		<p>This is Important.</p>
 </div>
 
