@@ -87,51 +87,87 @@ There are 7 different color schemes to choose from, as well 3 sizes; mini, defau
 The Dropdown button shortcode supports both `size=""` for button size and `type=""` for color control like the Standard Button shortcode.
 
 <div class="row-fluid">
-	<div class="span3">
-		<div class="btn-group"><button class="btn btn-large btn-important dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
-			<ul class="dropdown-menu">
+	<div class="span6">
+		<pre><code>
+			[pl_buttondropdown size="large" type="info" label="button"]
 				<ul>
   					<li><a href="#">This</a></li>
   					<li><a href="#">This</a></li>
   					<li><a href="#">This</a></li>
 				</ul>
-			</ul>
-		</div>
+			[/pl_buttondropdown]
+		</code></pre>
 	</div>
-	<div class="span3">
-		<div class="btn-group"><button class="btn btn-large btn-primary dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
-			<ul class="dropdown-menu">
-				<ul>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-				</ul>
-			</ul>
-		</div>
+	<div class="span6">
+		<table class="table mid table-bordered table-striped table-condensed">
+			<tbody>
+				<tr>
+					<td class="span2 center"><code>size=""</code></td>
+					<td>Determines size. Includes mini, and large</td>
+				</tr>
+				<tr>
+					<td class="center"><code>type=""</code></td>
+					<td>Controls color</td>
+				</tr>
+				<tr>
+					<td class="center"><code>label=""</code></td>
+					<td>Button label</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
-	<div class="span3">
-		<div class="btn-group"><button class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
-			<ul class="dropdown-menu">
-				<ul>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
+</div>
+
+<div class="docs-example">
+	<div class="row-fluid">
+		<div class="span3">
+			<div class="btn-group"><button class="btn btn-large btn-important dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<ul>
+  						<li><a href="#">This</a></li>
+  						<li><a href="#">This</a></li>
+  						<li><a href="#">This</a></li>
+					</ul>
 				</ul>
-			</ul>
+			</div>
 		</div>
-	</div>
-	<div class="span3">
-		<div class="btn-group"><button class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
-			<ul class="dropdown-menu">
-				<ul>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
+		<div class="span3">
+			<div class="btn-group"><button class="btn btn-large btn-primary dropdown-toggle" data-toggle="dropdown" href	="#">button <span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<ul>
+  						<li><a href="#">This</a></li>
+  						<li><a href="#">This</a></li>
+  						<li><a href="#">This</a></li>
+					</ul>
 				</ul>
-			</ul>
+			</div>
+		</div>
+		<div class="span3">
+			<div class="btn-group"><button class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<ul>
+  						<li><a href="#">This</a></li>
+  						<li><a href="#">This</a></li>
+  						<li><a href="#">This</a></li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+		<div class="span3">
+			<div class="btn-group"><button class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<ul>
+  						<li><a href="#">This</a></li>
+  						<li><a href="#">This</a></li>
+  						<li><a href="#">This</a></li>
+					</ul>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
+
+### Split Button Dropdown ###
 
 <table class="table mid table-bordered table-striped table-condensed">
 	<tbody>
@@ -149,18 +185,6 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 		</tr>
 	</tbody>
 </table>
-
-~~~ .html
-[pl_buttondropdown size="large" type="info" label="button"]
-<ul>
-  <li><a href="#">This</a></li>
-  <li><a href="#">This</a></li>
-  <li><a href="#">This</a></li>
-</ul>
-[/pl_buttondropdown]
-~~~
-
-### Split Button Dropdown ###
 
 <div class="row-fluid">
 	<div class="span3">
@@ -200,23 +224,6 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 		</div>
 	</div>
 </div>
-
-<table class="table mid table-bordered table-striped table-condensed">
-	<tbody>
-		<tr>
-			<td class="span2 center"><code>size=""</code></td>
-			<td>Determines size. Includes mini, and large</td>
-		</tr>
-		<tr>
-			<td class="center"><code>type=""</code></td>
-			<td>Controls color</td>
-		</tr>
-		<tr>
-			<td class="center"><code>label=""</code></td>
-			<td>Button label</td>
-		</tr>
-	</tbody>
-</table>
 
 ~~~ .html
 [pl_splitbuttondropdown size="large" type="success" label="button"]
@@ -286,32 +293,32 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 	<tbody>
 		<tr>
 			<td class="center span3"><span class="label label-default">Default</span></td>
-			<td>`[pl_label type="default"]Default[/pl_label]`</td>
+			<td><code>[pl_label type="default"]Default[/pl_label]</code></td>
 			<td class="span3">Available attributes include default, success, warning, important, info, and inverse</td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-success">Success</span></td>
-			<td>`[pl_label type="success"]Success[/pl_label]`</td>
+			<td><code>[pl_label type="success"]Success[/pl_label]</code></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-warning">Warning</span></td>
-			<td>`[pl_label type="warning"]Warning[/pl_label]`</td>
+			<td><code>[pl_label type="warning"]Warning[/pl_label]</code></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-important">Important</span></td>
-			<td>`[pl_label type="important"]Important[/pl_label]`</td>
+			<td><code>[pl_label type="important"]Important[/pl_label]</code></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-info">Info</span></td>
-			<td>`[pl_label type="info"]Info[/pl_label]`</td>
+			<td><code>[pl_label type="info"]Info[/pl_label]</code></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="label label-inverse">Inverse</span></td>
-			<td>`[pl_label type="inverse"]Inverse[/pl_label]`</td>
+			<td><code>[pl_label type="inverse"]Inverse[/pl_label]</code></td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -330,32 +337,32 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 	<tbody>
 		<tr>
 			<td class="center span3"><span class="badge badge-default">Default</span></td>
-			<td>`[pl_badge type="default"]Default[/pl_badge]`</td>
+			<td><code>[pl_badge type="default"]Default[/pl_badge]</code></td>
 			<td class="span3">Available attributes include default, success, warning, important, info, and inverse</td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-success">Success</span></td>
-			<td>`[pl_badge type="success"]Success[/pl_badge]`</td>
+			<td><code>[pl_badge type="success"]Success[/pl_badge]</code></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-warning">Warning</span></td>
-			<td>`[pl_badge type="warning"]Warning[/pl_badge]`</td>
+			<td><code>[pl_badge type="warning"]Warning[/pl_badge]</code></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-important">Important</span></td>
-			<td>`[pl_badge type="important"]Important[/pl_badge]`</td>
+			<td><code>[pl_badge type="important"]Important[/pl_badge]</code></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-info">Info</span></td>
-			<td>`[pl_badge type="info"]Info[/pl_badge]`</td>
+			<td><code>[pl_badge type="info"]Info[/pl_badge]</code></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td class="center"><span class="badge badge-inverse">Inverse</span></td>
-			<td>`[pl_badge type="inverse"]Inverse[/pl_badge]`</td>
+			<td><code>[pl_badge type="inverse"]Inverse[/pl_badge]</code></td>
 			<td></td>
 		</tr>
 	</tbody>
@@ -365,24 +372,6 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 
 Modals are great for situations where it’s important that the background context be maintained.
 The Modal contains a title, content, along with a set of actions in the footer and can be used with Buttons, Labels and Badges.
-
-<!-- Button to trigger modal -->
-<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
- 
-<!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <button class="btn btn-primary">Save changes</button>
-  </div>
-</div>
 
 <table class="table mid table-bordered table-striped table-condensed">
 	<thead>
@@ -410,6 +399,8 @@ The Modal contains a title, content, along with a set of actions in the footer a
 		</tr>
 	</tbody>
 </table>
+
+
 
 ~~~ .html
 [pl_modal title="Title" type="btn" colortype="info" label="Click Me!"]
