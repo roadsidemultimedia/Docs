@@ -587,22 +587,21 @@ Some content here for the cool modal pop up. Labels, badges, and buttons can ope
 
 <p>Wrap any text and an optional dismiss button for a basic alert message, which supports multiple color schemes.</p>
 
-<div class="docs-example">
-    <div class="row-fluid">
-        <div class="span6">
-            <div class="alert alert-warning alert-block">This is a Warning.</div>
-        </div>
-        <div class="span6">
-            <div class="alert alert-success"><a class="close" data-dismiss="alert" href="#">×</a>This is a Success, using the <code>.closable="yes"</code> attribute.</div>
-        </div>
+<div class="row-fluid">
+    <div class="span6">
+        <div class="alert alert-warning alert-block">This is a Warning.</div>
     </div>
-    <div class="row-fluid">
-        <div class="span6 zmb">
-            <div class="alert alert-info alert-block">This is useful Info.</div>
-        </div>
-        <div class="span6 zmb">
-            <div class="alert alert-important"><a class="close" data-dismiss="alert" href="#">×</a>This is Important using the <code>.closable="yes"</code> attribute.</div>
-        </div>
+    <div class="span6">
+        <div class="alert alert-success"><a class="close" data-dismiss="alert" href="#">×</a>This is a Success, using the <code>.closable="yes"</code> attribute.</div>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span6 zmb">
+        <div class="alert alert-info alert-block">This is useful Info.</div>
+    </div>
+    <div class="span6 zmb">
+        <div class="alert alert-important"><a class="close" data-dismiss="alert" href="#">×</a>This is Important using the <code>.closable="yes"</code> attribute.</div>
     </div>
 </div>
 
@@ -632,15 +631,13 @@ This is an error.
 
 <h3>Alert Headings</h3>
 
-<div class="docs-example zmt">
-    <div class="alert alert-important alert-block">
-        <h2 class="alert-heading">Alert Heading</h2>
+<div class="alert alert-important alert-block">
+        <h2 class="alert-heading zmt">Alert Heading</h2>
         <p>This is Important.</p>
-    </div>
 </div>
 
 <pre><code class="html">[pl_alertbox type=&quot;info&quot;]
-    &lt;h2 class=&quot;alert-heading zmt&quot;&gt;Alert Heading&lt;/h2&gt;
+    &lt;h2 class=&quot;alert-heading&quot;&gt;Alert Heading&lt;/h2&gt;
     This is an error.
 [/pl_alertbox]
 </code></pre>
