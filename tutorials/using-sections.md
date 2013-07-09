@@ -7,7 +7,7 @@ PageLines DMS Sections are modular extensions based on the PageLines Drag & Drop
 		<div class="container" style="width: auto;">
                   <a class="brand" href="#">Sections</a>
                   <ul class="nav">
-                    <li class=""><a href="#Columnizer">Columnizer</a></li>
+                    <li class=""><a href="#columnizer">Columnizer</a></li>
                     <li class=""><a href="#mdo">@mdo</a></li>
                     <li class="dropdown active">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -25,7 +25,7 @@ PageLines DMS Sections are modular extensions based on the PageLines Drag & Drop
 
 <div data-spy="scroll" data-target="#navbarExample" data-offset="0" class="scrollspy-example">
 
-<h2 id="">Columnizer</h2>
+<h2 id="columnizer">Columnizer</h2>
 
 Place this section wherever you like and use WordPress widgets and a desired number of columns, to create an instant columnized widget section. Great for Footer designs.
 
