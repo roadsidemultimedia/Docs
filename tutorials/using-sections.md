@@ -8,7 +8,7 @@ PageLines DMS Sections are modular extensions based on the PageLines Drag & Drop
                   <a class="brand" href="#">Sections</a>
                   <ul class="nav">
                     <li class=""><a href="#columnizer">Columnizer</a></li>
-                    <li class=""><a href="#mdo">@mdo</a></li>
+                    <li class=""><a href="#highlight">HighLight</a></li>
                     <li class="dropdown active">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                       <ul class="dropdown-menu">
@@ -52,7 +52,7 @@ The Hero section is a responsive, full width section with a simple headline and 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/hero.jpg)
 
 
-<h2 id="">Highlight</h2>
+<h2 id="highlight">Highlight</h2>
 
 The Highlight Section is a lightweight, flexible section to showcase key content on your site. It works well on marketing and content-heavy sites.
 
