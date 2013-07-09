@@ -1,7 +1,7 @@
 <div class="row-fluid">
   <div class="span12">
     <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-sections">&larr; Using Sections & Plugins</a></li>
+      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-plugins">&larr; Using Plugins</a></li>
         <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome &rarr;</a></li>
     </ul>
   </div>
@@ -222,7 +222,7 @@ The responsive grid system uses percents instead of pixels for column widths, en
 <div class="row-fluid">
   <div class="span12">
     <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-sections">&larr; Using Sections & Plugins</a></li>
+      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-plugins">&larr; Using Plugins</a></li>
         <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome &rarr;</a></li>
     </ul>
   </div>
