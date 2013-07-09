@@ -86,18 +86,8 @@ There are 7 different color schemes to choose from, as well 3 sizes; mini, defau
 
 The Dropdown button shortcode supports both `size=""` for button size and `type=""` for color control like the Standard Button shortcode.
 
-~~~ .html
-[pl_buttondropdown size="large" type="info" label="button"]
-	<ul>
-  		<li><a href="#">This</a></li>
-  		<li><a href="#">This</a></li>
-  		<li><a href="#">This</a></li>
-	</ul>
-[/pl_buttondropdown]
-~~~
-
 <div class="row-fluid">
-<div class="span12">
+	<div class="span12">
 		<table class="table mid table-bordered table-striped table-condensed">
 			<tbody>
 				<tr>
@@ -117,49 +107,50 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 	</div>
 </div>
 
+~~~ .html
+[pl_buttondropdown size="large" type="info" label="button"]
+	<ul>
+  		<li><a href="#">This</a></li>
+  		<li><a href="#">This</a></li>
+  		<li><a href="#">This</a></li>
+	</ul>
+[/pl_buttondropdown]
+~~~
 
 <div class="row-fluid">
 	<div class="span3">
 		<div class="btn-group"><button class="btn btn-large btn-important dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
 			<ul class="dropdown-menu">
-				<ul>
-					<li><a href="#">This</a></li>
-					<li><a href="#">This</a></li>
-					<li><a href="#">This</a></li>
-				</ul>
+				<li><a href="#">This</a></li>
+				<li><a href="#">This</a></li>
+				<li><a href="#">This</a></li>
 			</ul>
 		</div>
 	</div>
 	<div class="span3">
 		<div class="btn-group"><button class="btn btn-large btn-primary dropdown-toggle" data-toggle="dropdown" href	="#">button <span class="caret"></span></button>
 				<ul class="dropdown-menu">
-					<ul>
-  						<li><a href="#">This</a></li>
-  						<li><a href="#">This</a></li>
-  						<li><a href="#">This</a></li>
-					</ul>
+					<li><a href="#">This</a></li>
+  					<li><a href="#">This</a></li>
+  					<li><a href="#">This</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="span3">
 			<div class="btn-group"><button class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
 				<ul class="dropdown-menu">
-					<ul>
-  						<li><a href="#">This</a></li>
-  						<li><a href="#">This</a></li>
-  						<li><a href="#">This</a></li>
-					</ul>
+					<li><a href="#">This</a></li>
+  					<li><a href="#">This</a></li>
+  					<li><a href="#">This</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="span3">
 			<div class="btn-group"><button class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
 				<ul class="dropdown-menu">
-					<ul>
-  						<li><a href="#">This</a></li>
-  						<li><a href="#">This</a></li>
-  						<li><a href="#">This</a></li>
-					</ul>
+					<li><a href="#">This</a></li>
+  					<li><a href="#">This</a></li>
+  					<li><a href="#">This</a></li>
 				</ul>
 			</div>
 		</div>
@@ -183,6 +174,16 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 		</tr>
 	</tbody>
 </table>
+
+~~~ .html
+[pl_splitbuttondropdown size="large" type="success" label="button"]
+<ul>
+	<li><a href="#">This</a></li>
+	<li><a href="#">This</a></li>
+	<li><a href="#">This</a></li>
+</ul>
+[/pl_splitbuttondropdown]
+~~~
 
 <div class="row-fluid">
 	<div class="span3">
@@ -222,16 +223,6 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 		</div>
 	</div>
 </div>
-
-~~~ .html
-[pl_splitbuttondropdown size="large" type="success" label="button"]
-<ul>
-	<li><a href="#">This</a></li>
-	<li><a href="#">This</a></li>
-	<li><a href="#">This</a></li>
-</ul>
-[/pl_splitbuttondropdown]
-~~~
 
 ### Button Groups ###
 
