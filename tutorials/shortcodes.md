@@ -3,36 +3,19 @@
 ## Buttons ##
 
 <div class="row-fluid">
-	<div class="span3">
-		<a href="#fakelink" class="btn btn-large btn-default">Defalt Button</a>
-	</div>
-	<div class="span3">
-		<a href="#fakelink" class="btn btn-large btn-primary">Primary Button</a>
-	</div>
-	<div class="span3">
-		<a href="#fakelink" class="btn btn-large btn-success">Success Button</a>
-	</div>
-	<div class="span3">
-		<a href="#fakelink" class="btn btn-large btn-danger">Important Button</a>
-	</div>
-</div>
-<p></p>
-<div class="row-fluid">
 	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-info">Info Button</a>
+		<p>There are 7 different color schemes to choose from, as well 3 sizes; mini, default and large.</p>
+		<ul class="unstyled">
+			<li><a href="#fakelink" class="btn btn-large btn-default">Defalt Button</a></li>
+			<li><a href="#fakelink" class="btn btn-large btn-primary">Primary Button</a></li>
+			<li><a href="#fakelink" class="btn btn-large btn-success">Success Button</a></li>
+			<li><a href="#fakelink" class="btn btn-large btn-danger">Important Button</a></li>
+			<li><a href="#fakelink" class="btn btn-large btn-info">Info Button</a></li>
+			<li><a href="#fakelink" class="btn btn-large btn-warning">Warning Button</a></li>
+			<li><a href="#fakelink" class="btn btn-large btn-inverse">Inverse Button</a></li>
+		</ul>
 	</div>
-	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-warning">Warning Button</a>
-	</div>
-	<div class="span4">
-		<a href="#fakelink" class="btn btn-large btn-inverse">Inverse Button</a>
-	</div>
-</div>
-<p></p>
-There are 7 different color schemes to choose from, as well 3 sizes; mini, default and large.
-<p></p>
-<div class="row-fluid">
-	<div class="span12">
+	<div class="span8">
 		<table class="table mid table-bordered table-striped table-condensed">
 			<tbody>
 				<tr>
@@ -57,6 +40,9 @@ There are 7 different color schemes to choose from, as well 3 sizes; mini, defau
 				</tr>
 			</tbody>
 		</table>
+		~~~ .html
+		[pl_button type="inverse" link="" target="blank"]Inverse[/pl_button]
+		~~~
 	</div>
 </div>
 
