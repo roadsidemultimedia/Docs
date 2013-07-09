@@ -7,12 +7,12 @@ PageLines DMS typography is based on the powerful Bootstrap providing styling fo
 All HTML headings, `<h1>` through `<h6>` are available.
 
 <div class="docs-example">
-<h1>h1. Header 1</h1>
-<h2>h2. Header 2</h2>
-<h3>h3. Header 3</h3>
-<h4>h4. Header 4</h4>
-<h5>h5. Header 5</h5>
-<h6>h6. Header 6</h6>
+	<h1>h1. Header 1</h1>
+	<h2>h2. Header 2</h2>
+	<h3>h3. Header 3</h3>
+	<h4>h4. Header 4</h4>
+	<h5>h5. Header 5</h5>
+	<h6>h6. Header 6</h6>
 </div>
 
 ## Body ##
@@ -74,11 +74,11 @@ The following snippet of text is <em>rendered as italicized text.</em>
 Display meaning through color with a handful of emphasis utility classes.
 
 <div class="docs-example">
-<p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
-<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
-<p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
-<p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
-<p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+	<p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+	<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+	<p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
+	<p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
+	<p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
 </div>
 ~~~ .html
 <p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
