@@ -217,51 +217,87 @@
 <p>The Dropdown button shortcode supports both <code>size=&quot;&quot;</code> for button size and <code>type=&quot;&quot;</code> for color control like the Standard Button shortcode.</p>
 
 <div class="row-fluid">
-    <div class="span3">
-        <div class="btn-group"><button class="btn btn-large btn-important dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
-            <ul class="dropdown-menu">
+    <div class="span6">
+        <pre><code>
+            [pl_buttondropdown size="large" type="info" label="button"]
                 <ul>
                     <li><a href="#">This</a></li>
                     <li><a href="#">This</a></li>
                     <li><a href="#">This</a></li>
                 </ul>
-            </ul>
-        </div>
+            [/pl_buttondropdown]
+        </code></pre>
     </div>
-    <div class="span3">
-        <div class="btn-group"><button class="btn btn-large btn-primary dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <ul>
-                    <li><a href="#">This</a></li>
-                    <li><a href="#">This</a></li>
-                    <li><a href="#">This</a></li>
-                </ul>
-            </ul>
-        </div>
+    <div class="span6">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td class="span2 center"><code>size=""</code></td>
+                    <td>Determines size. Includes mini, and large</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>type=""</code></td>
+                    <td>Controls color</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>label=""</code></td>
+                    <td>Button label</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    <div class="span3">
-        <div class="btn-group"><button class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <ul>
-                    <li><a href="#">This</a></li>
-                    <li><a href="#">This</a></li>
-                    <li><a href="#">This</a></li>
+</div>
+
+<div class="docs-example">
+    <div class="row-fluid">
+        <div class="span3">
+            <div class="btn-group"><button class="btn btn-large btn-important dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <ul>
+                        <li><a href="#">This</a></li>
+                        <li><a href="#">This</a></li>
+                        <li><a href="#">This</a></li>
+                    </ul>
                 </ul>
-            </ul>
+            </div>
         </div>
-    </div>
-    <div class="span3">
-        <div class="btn-group"><button class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <ul>
-                    <li><a href="#">This</a></li>
-                    <li><a href="#">This</a></li>
-                    <li><a href="#">This</a></li>
+        <div class="span3">
+            <div class="btn-group"><button class="btn btn-large btn-primary dropdown-toggle" data-toggle="dropdown" href    ="#">button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <ul>
+                        <li><a href="#">This</a></li>
+                        <li><a href="#">This</a></li>
+                        <li><a href="#">This</a></li>
+                    </ul>
                 </ul>
-            </ul>
+            </div>
+        </div>
+        <div class="span3">
+            <div class="btn-group"><button class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <ul>
+                        <li><a href="#">This</a></li>
+                        <li><a href="#">This</a></li>
+                        <li><a href="#">This</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div class="span3">
+            <div class="btn-group"><button class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">button <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <ul>
+                        <li><a href="#">This</a></li>
+                        <li><a href="#">This</a></li>
+                        <li><a href="#">This</a></li>
+                    </ul>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
+
+<h3>Split Button Dropdown</h3>
 
 <table class="table mid table-bordered table-striped table-condensed">
     <tbody>
@@ -279,17 +315,6 @@
         </tr>
     </tbody>
 </table>
-
-<pre><code class="html">[pl_buttondropdown size=&quot;large&quot; type=&quot;info&quot; label=&quot;button&quot;]
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;This&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;This&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;This&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-[/pl_buttondropdown]
-</code></pre>
-
-<h3>Split Button Dropdown</h3>
 
 <div class="row-fluid">
     <div class="span3">
@@ -329,23 +354,6 @@
         </div>
     </div>
 </div>
-
-<table class="table mid table-bordered table-striped table-condensed">
-    <tbody>
-        <tr>
-            <td class="span2 center"><code>size=""</code></td>
-            <td>Determines size. Includes mini, and large</td>
-        </tr>
-        <tr>
-            <td class="center"><code>type=""</code></td>
-            <td>Controls color</td>
-        </tr>
-        <tr>
-            <td class="center"><code>label=""</code></td>
-            <td>Button label</td>
-        </tr>
-    </tbody>
-</table>
 
 <pre><code class="html">[pl_splitbuttondropdown size=&quot;large&quot; type=&quot;success&quot; label=&quot;button&quot;]
 &lt;ul&gt;
@@ -413,32 +421,32 @@
     <tbody>
         <tr>
             <td class="center span3"><span class="label label-default">Default</span></td>
-            <td>`[pl_label type="default"]Default[/pl_label]`</td>
+            <td><code>[pl_label type="default"]Default[/pl_label]</code></td>
             <td class="span3">Available attributes include default, success, warning, important, info, and inverse</td>
         </tr>
         <tr>
             <td class="center"><span class="label label-success">Success</span></td>
-            <td>`[pl_label type="success"]Success[/pl_label]`</td>
+            <td><code>[pl_label type="success"]Success[/pl_label]</code></td>
             <td></td>
         </tr>
         <tr>
             <td class="center"><span class="label label-warning">Warning</span></td>
-            <td>`[pl_label type="warning"]Warning[/pl_label]`</td>
+            <td><code>[pl_label type="warning"]Warning[/pl_label]</code></td>
             <td></td>
         </tr>
         <tr>
             <td class="center"><span class="label label-important">Important</span></td>
-            <td>`[pl_label type="important"]Important[/pl_label]`</td>
+            <td><code>[pl_label type="important"]Important[/pl_label]</code></td>
             <td></td>
         </tr>
         <tr>
             <td class="center"><span class="label label-info">Info</span></td>
-            <td>`[pl_label type="info"]Info[/pl_label]`</td>
+            <td><code>[pl_label type="info"]Info[/pl_label]</code></td>
             <td></td>
         </tr>
         <tr>
             <td class="center"><span class="label label-inverse">Inverse</span></td>
-            <td>`[pl_label type="inverse"]Inverse[/pl_label]`</td>
+            <td><code>[pl_label type="inverse"]Inverse[/pl_label]</code></td>
             <td></td>
         </tr>
     </tbody>
@@ -457,32 +465,32 @@
     <tbody>
         <tr>
             <td class="center span3"><span class="badge badge-default">Default</span></td>
-            <td>`[pl_badge type="default"]Default[/pl_badge]`</td>
+            <td><code>[pl_badge type="default"]Default[/pl_badge]</code></td>
             <td class="span3">Available attributes include default, success, warning, important, info, and inverse</td>
         </tr>
         <tr>
             <td class="center"><span class="badge badge-success">Success</span></td>
-            <td>`[pl_badge type="success"]Success[/pl_badge]`</td>
+            <td><code>[pl_badge type="success"]Success[/pl_badge]</code></td>
             <td></td>
         </tr>
         <tr>
             <td class="center"><span class="badge badge-warning">Warning</span></td>
-            <td>`[pl_badge type="warning"]Warning[/pl_badge]`</td>
+            <td><code>[pl_badge type="warning"]Warning[/pl_badge]</code></td>
             <td></td>
         </tr>
         <tr>
             <td class="center"><span class="badge badge-important">Important</span></td>
-            <td>`[pl_badge type="important"]Important[/pl_badge]`</td>
+            <td><code>[pl_badge type="important"]Important[/pl_badge]</code></td>
             <td></td>
         </tr>
         <tr>
             <td class="center"><span class="badge badge-info">Info</span></td>
-            <td>`[pl_badge type="info"]Info[/pl_badge]`</td>
+            <td><code>[pl_badge type="info"]Info[/pl_badge]</code></td>
             <td></td>
         </tr>
         <tr>
             <td class="center"><span class="badge badge-inverse">Inverse</span></td>
-            <td>`[pl_badge type="inverse"]Inverse[/pl_badge]`</td>
+            <td><code>[pl_badge type="inverse"]Inverse[/pl_badge]</code></td>
             <td></td>
         </tr>
     </tbody>
@@ -492,26 +500,6 @@
 
 <p>Modals are great for situations where it’s important that the background context be maintained.
 The Modal contains a title, content, along with a set of actions in the footer and can be used with Buttons, Labels and Badges.</p>
-
-<!-- Button to trigger modal -->
-
-<p><a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a></p>
-
-<!-- Modal -->
-
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <button class="btn btn-primary">Save changes</button>
-  </div>
-</div>
 
 <table class="table mid table-bordered table-striped table-condensed">
     <thead>
