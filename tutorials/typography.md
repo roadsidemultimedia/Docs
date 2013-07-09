@@ -6,7 +6,7 @@ PageLines DMS typography is based on the powerful Bootstrap providing styling fo
 
 All HTML headings, `<h1>` through `<h6>` are available.
 
-<div class="docs-example">
+<div markdown="1" class="docs-example">
 	<h1>h1. Header 1</h1>
 	<h2>h2. Header 2</h2>
 	<h3>h3. Header 3</h3>
@@ -73,7 +73,7 @@ The following snippet of text is <em>rendered as italicized text.</em>
 
 Display meaning through color with a handful of emphasis utility classes.
 
-<div class="docs-example">
+<div markdown="1" class="docs-example">
 	<p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
 	<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
 	<p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
