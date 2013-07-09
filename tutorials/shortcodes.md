@@ -88,13 +88,13 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 
 <div class="row-fluid">
 	<div class="span6">
-		<pre><code>[pl_buttondropdown size="large" type="info" label="button"]
+		<pre>[pl_buttondropdown size="large" type="info" label="button"]
 				<ul>
   					<li><a href="#">This</a></li>
   					<li><a href="#">This</a></li>
   					<li><a href="#">This</a></li>
 				</ul>
-			[/pl_buttondropdown]</code></pre>
+			[/pl_buttondropdown]</pre>
 	</div>
 	<div class="span6">
 		<table class="table mid table-bordered table-striped table-condensed">
@@ -162,7 +162,6 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 				</ul>
 			</div>
 		</div>
-	</div>
 </div>
 
 ### Split Button Dropdown ###
