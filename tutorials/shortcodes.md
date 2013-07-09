@@ -86,17 +86,18 @@ There are 7 different color schemes to choose from, as well 3 sizes; mini, defau
 
 The Dropdown button shortcode supports both `size=""` for button size and `type=""` for color control like the Standard Button shortcode.
 
+~~~ .html
+[pl_buttondropdown size="large" type="info" label="button"]
+	<ul>
+  		<li><a href="#">This</a></li>
+  		<li><a href="#">This</a></li>
+  		<li><a href="#">This</a></li>
+	</ul>
+[/pl_buttondropdown]
+~~~
+
 <div class="row-fluid">
-	<div class="span6">
-		<pre>[pl_buttondropdown size="large" type="info" label="button"]
-				<ul>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-  					<li><a href="#">This</a></li>
-				</ul>
-			[/pl_buttondropdown]</pre>
-	</div>
-	<div class="span6">
+<div class="span12">
 		<table class="table mid table-bordered table-striped table-condensed">
 			<tbody>
 				<tr>
