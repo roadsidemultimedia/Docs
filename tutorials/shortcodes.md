@@ -776,7 +776,7 @@ You can have as many slides as you can create.
 	</thead>
 	<tbody>
 		<tr>
-			<td><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="above"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a><script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script></td>
+			<td><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a><script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script></td>
 			<td><code>[pinterest img=url(optional)]</code></td>
 			<td>Optionally add an image url to the shortcode. If none is added one will be auto detected.</td>
 		</tr>
@@ -825,4 +825,118 @@ You can have as many slides as you can create.
 	</tbody>
 </table>
 
+## Responsive Videos ##
 
+A lightweight, easy-to-use shortcode for fluid width video embeds, which supports both YouTube and Vimeo.
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="span1 center"><code>type=""</code></td>
+			<td>Available types include youtube, and vimeo</td>
+		</tr>
+		<tr>
+			<td class="center"><code>id=""</code></td>
+			<td>ID of the video. See below for an example</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="row">
+	<div class="span6">
+		<img src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/vimeo.jpg?v=1371676907" alt="" title="vimeo">
+	</div>
+	<div class="span6">
+		<img src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/youtube.jpg?v=1371676907" alt="" title="youtube">
+	</div>
+</div>
+
+<iframe src="http://player.vimeo.com/video/67237715?title=0&amp;byline=0" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+## Maps ##
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="span2 center"><code>width=""</code></td>
+			<td>Width of embedded map, in pixels or percent</td>
+		</tr>
+		<tr>
+			<td class="center"><code>height=""</code></td>
+			<td>Height of embedded map, in pixels or percent</td>
+		</tr>
+		<tr>
+			<td class="center"><code>address=""</code></td>
+			<td>Address of location.</td>
+		</tr>
+	</tbody>
+</table>
+
+~~~ .html
+[googlemap width="100%" height="300" address="San Francisco,CA"]
+~~~
+
+<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=San Francisco,CA&amp;output=embed"></iframe>
+
+## Charts ##
+
+<table class="table mid table-bordered table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="center"><code>size=""</code></td>
+			<td>Specifies the size of the chart</td>
+		</tr>
+		<tr>
+			<td class="center"><code>bg=""</code></td>
+			<td>Background color of chart</td>
+		</tr>
+		<tr>
+			<td class="center"><code>title=""</code></td>
+			<td>Title of chart</td>
+		</tr>
+		<tr>
+			<td class="center"><code>labels=""</code></td>
+			<td>Data labels, comma separated</td>
+		</tr>
+		<tr>
+			<td class="center"><code>advanced=""</code></td>
+			<td>For l33t</td>
+		</tr>
+		<tr>
+			<td class="center"><code>type=""</code></td>
+			<td>Type of chart: line, xyline, sparkline, meter, scatter, venn, pie, pie2d</td>
+		</tr>
+		<tr>
+			<td class="span2 center"><code>data=""</code></td>
+			<td>Data, separated between commas</td>
+		</tr>
+		<tr>
+			<td class="center"><code>colors=""</code></td>
+			<td>Specifies the color of the data</td>
+		</tr>
+	</tbody>
+</table>
+
+~~~ .html
+[chart data="41.52,37.79,20.67,0.03" bg="F7F9FA" labels="Reffering+sites|Search+Engines|Direct+traffic|Other" colors="058DC7,50B432,ED561B,EDEF00" size="488x200" title="Traffic Sources" type="pie"]
+~~~
+
+<img title="Traffic Sources" src="http://chart.apis.google.com/chart?cht=p3&amp;chtt=Traffic Sources&amp;chl=Reffering+sites|Search+Engines|Direct+traffic|Other&amp;chco=058DC7,50B432,ED561B,EDEF00&amp;chs=488x200&amp;chd=t:41.52,37.79,20.67,0.03&amp;chf=bg,s,F7F9FA" alt="Traffic Sources">
