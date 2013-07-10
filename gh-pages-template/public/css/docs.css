@@ -165,6 +165,17 @@ a:hover i{
   border-radius: 4px 0 4px 0;
 }
 
+.docs-example .page-header,
+.docs-example h2,
+.docs-example h3,
+.docs-example h4,
+.docs-example h5,
+.docs-example h6 {
+padding: 0;
+margin: 10px 0;
+border: 0 none;
+}
+
 @media (max-width: 979px) {
 body {
 padding-top: 0;
@@ -281,6 +292,25 @@ pre strong {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+}
+
+.swatch {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin: -6px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.swatch-col {
+	width: 30px;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	box-shadow: none;
+	padding: 0;
 }
 
 /* @ DOCS CONTENT */

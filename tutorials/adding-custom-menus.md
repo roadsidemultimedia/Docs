@@ -9,7 +9,7 @@
 
 # Adding Menus #
 
-Creating a custom menu allows you to change the order of pages in your menu, or delete them, create nested sub-menus of links and add custom links to other sites.
+Creating a custom menu allows you to change the order of links in your menu, or delete them, create nested sub-menus of links and add custom links to other sites.
 
 To create a custom menu, go to **Appearance &rarr; Menus** in your Wordpress admin dashboard.
 
@@ -32,6 +32,8 @@ To change the order and placement of menu items, simply drag and drop the items 
 Be sure to click **Save Menu** to save any changes to your custom menu.
 
 WordPress Custom Menus is well documented on the [WordPress codex](http://codex.wordpress.org/Appearance_Menus_SubPanel).
+
+Important:  WordPress limits the number of levels for menus to three (3) -- Parent, child and grandchild. Some plugins may allow you to extend that, though we do not support such plugins.
 
 <div class="row-fluid">
 	<div class="span12">

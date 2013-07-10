@@ -37,7 +37,6 @@ The PageLines DMS method is recommended to **new** users or users with limited H
 	</tbody>
 </table>
 
-
 For more information about Customize Options in DMS, please [click here](http://docs.pagelines.com/customize/dms-customize-options).
 
 ### PageLines Customize Plugin ###

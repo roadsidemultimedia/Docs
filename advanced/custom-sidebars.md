@@ -11,7 +11,7 @@
 
 There are times when default sidebars just aren't enough.  So, DMS makes it incredibly easy to add new ones.
 
-To create custom sidebars in DMS, you simply need the Custom Sidebars plugin, available at [http://wordpress.org/plugins/custom-sidebars/](http://wordpress.org/plugins/custom-sidebars/).
+To create custom sidebars in DMS, you simply need Custom Sidebars plugin, available at [http://wordpress.org/plugins/custom-sidebars/](http://wordpress.org/plugins/custom-sidebars/).
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin.jpg)
 
