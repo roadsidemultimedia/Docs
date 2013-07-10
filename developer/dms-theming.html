@@ -249,6 +249,25 @@ $val = pl_setting(&#39;my_theme_option1&#39;);
 
 
 </code></pre>
+
+<h2>Controlling Page On Theme Activation</h2>
+
+<p>When a theme is initially activated, it&#39;s always nice to control where the user is redirected for experience. In a theme you may want to add a &#39;Welcome to [Theme Name]!&#39; panel and redirect them there. </p>
+
+<p>Luckily we&#39;ve added a filter for this that makes it easy.. </p>
+
+<pre><code class="php">
+// NOTE: This filter must come early in the loading of your child theme, preferably at the top of your functions.php file
+
+add_filter(&#39;pl_activate_url&#39;, &#39;my_theme_activation_url&#39;);
+function my_theme_activation_url( $url ){ 
+
+    // Change the redirect to the theme tab, and a panel with ID of &#39;welcome&#39;
+    $url = home_url() . &#39;?tablink=theme&amp;tabsublink=welcome&#39;
+
+    return $url;
+}
+</code></pre>
             </div>
 		</section>
 
