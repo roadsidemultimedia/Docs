@@ -644,28 +644,6 @@ This is an error.
 
 <h2>Quotes</h2>
 
-<blockquote>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-</blockquote>
-
-<pre><code class="html">[pl_blockquote cite=&quot;Someone Famous&quot;]
-    This is a quote with a source
-[/pl_blockquote]
-</code></pre>
-
-<h3>Pull Right</h3>
-
-<pre><code class="html">[pl_blockquote pull=&quot;right&quot; cite=&quot;Someone Famous&quot;]
-    This is a quote with a source
-[/pl_blockquote]
-</code></pre>
-
-<blockquote class="pull-right">
-    <p>This is a quote. Below is the source if all goes well
-        <small>Someone Famous</small>
-    </p>
-</blockquote>
-
 <table class="table mid table-bordered table-striped table-condensed">
     <thead>
         <tr>
@@ -684,6 +662,28 @@ This is an error.
         </tr>
     </tbody>
 </table>
+
+<pre><code class="html">[pl_blockquote cite=&quot;Someone Famous&quot;]
+    This is a quote with a source
+[/pl_blockquote]
+</code></pre>
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+</blockquote>
+
+<h3>Pull Right</h3>
+
+<pre><code class="html">[pl_blockquote pull=&quot;right&quot; cite=&quot;Someone Famous&quot;]
+    This is a quote with a source
+[/pl_blockquote]
+</code></pre>
+
+<blockquote class="pull-right">
+    <p>This is a quote. Below is the source if all goes well
+        <small>Someone Famous</small>
+    </p>
+</blockquote>
 
 <h2>Tabs</h2>
 
@@ -743,32 +743,129 @@ This is an error.
 
 <h2>Accordion</h2>
 
+<table class="table mid table-bordered table-striped table-condensed">
+<tbody>
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+<tr>
+<td class="span3 center"><code>pl_accordion name=</code></td>
+<td>Serves as the ID(#) of the accordion. To have multiple accordions, specify different names.</td>
+</tr>
+<tr>
+<td class="center"><code>pl_accordioncontent name=</code></td>
+<td>This content name must match the accordion name</td>
+</tr>
+<tr>
+<td class="center"><code>number=""</code></td>
+<td>Indicates the order the content sections are displayed</td>
+</tr>
+<tr>
+<td class="center"><code>heading=""</code></td>
+<td>Serves as the title of the tab</td>
+</tr>
+<tr>
+<td class="center"><code>open=""</code></td>
+<td>Indicates whether or not the tab should be opened by default</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code class="html">[pl_accordion name=&quot;accordion&quot;][pl_accordioncontent name=&quot;accordion&quot; number=&quot;1&quot; heading=&quot;Tile 1&quot; open=&quot;yes&quot;]
+Content 1
+[/pl_accordioncontent]
+[pl_accordioncontent name=&quot;accordion&quot; number=&quot;2&quot; heading=&quot;Title 2&quot;]
+&lt;img class=&quot;pl-imageframe&quot; src=&quot;&quot; alt=&quot;&quot; /&gt;
+[/pl_accordioncontent]
+[/pl_accordion]
+</code></pre>
+
 <div class="accordion" id="accordion2">
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-        Collapsible Group Item #1
+        Title
       </a>
     </div>
     <div id="collapseOne" class="accordion-body collapse in">
       <div class="accordion-inner">
-        Anim pariatur cliche...
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
       </div>
     </div>
   </div>
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-        Collapsible Group Item #2
+        TItle
       </a>
     </div>
     <div id="collapseTwo" class="accordion-body collapse">
       <div class="accordion-inner">
-        Anim pariatur cliche...
+        <img class="pl-imageframe" src="http://netdna.pagelines.me/wp-content/themes/pagelines/sections/features/images/feature3.jpg" alt="">
       </div>
     </div>
   </div>
 </div>
+
+<h2>Carousel</h2>
+
+<table class="table mid table-bordered table-striped table-condensed">
+<tbody>
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+<tr>
+<td class="span2 center"><code>name=""</code></td>
+<td>Serves as the ID (#) of the carousel. For more than one carousel, specify distinct names</td>
+</tr>
+<tr>
+<td class="center"><code>first=""</code></td>
+<td>Signifies the first slide in the carousel rotation</td>
+</tr>
+<tr>
+<td class="center"><code>title=""</code></td>
+<td>Indicates the title of the slide</td>
+</tr>
+<tr>
+<td class="center"><code>imageurl=""</code></td>
+<td>Specifies the path to the carousel image</td>
+</tr>
+</tbody>
+</table>
+
+<div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">…</div>
+    <div class="item">…</div>
+    <div class="item">…</div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+
+<pre><code class="html">[pl_carousel name=&quot;PageLinesCarousel&quot;][pl_carouselimage first=&quot;yes&quot; title=&quot;Slide 1&quot; imageurl=&quot;&quot; ]
+Here is the first slide and it&#39;s caption.
+[/pl_carouselimage]
+
+[pl_carouselimage title=&quot;Slide 2&quot; imageurl=&quot;&quot;]
+Here is the second slide, in all its glory.
+[/pl_carouselimage]
+
+[pl_carouselimage title=&quot;Slide 3&quot; imageurl=&quot;&quot;]
+You can have as many slides as you can create.
+[/pl_carouselimage]
+
+[/pl_carousel]
+</code></pre>
             </div>
 		</section>
 
