@@ -308,6 +308,11 @@ pre strong {
 	width: 30px;
 }
 
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	box-shadow: none;
+	padding: 0;
+}
+
 /* @ DOCS CONTENT */
 .docs-content img{
 	box-shadow: 0 1px 4px rgba(0,0,0,.3);
