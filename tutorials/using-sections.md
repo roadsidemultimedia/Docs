@@ -28,7 +28,6 @@ The Hero section is a responsive, full width section with a simple headline and 
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/hero.jpg)
 
-
 <h2 id="highlight">Highlight</h2>
 
 The Highlight Section is a lightweight, flexible section to showcase key content on your site. It works well on marketing and content-heavy sites.
@@ -65,39 +64,17 @@ The NavBar is the attractive, responsive menu, providing navigation and allowing
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/navbar-section.jpg)
 
-<h2 id="">Noposts</h2>
-
-<p> Text goes here </p>
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/noposts.png)
-
-
 <h2 id="">Pagination</h2>
 
 Pagination is a section that allows your visitors to flip through the pages of posts in your blog, category or archives.  When a blog page has more than the set number of  posts, a new page is created, and Pagination displays links to it at the bottom of all blog pages.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagination.png)
 
-
-<h2 id="">pl_area</h2>
-
-<p> Text goes here </p>
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pl_area.png)
-
-
-<h2 id="">plcolumn</h2>
-
-<p> Text goes here </p>
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pl_column.png)
-
-
 <h2 id="">Postauthor</h2>
 
 The Postauthor is a section that lets you display the posts created by an author.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postauthor.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/post-author.png)
 
 
 <h2 id="">Postloop</h2>
