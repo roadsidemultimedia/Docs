@@ -407,17 +407,18 @@ $opts[] = array(
 
 </code></pre>
 
+<h4>Adding custom inputs</h4>
+
 <p>To add a custom option input to your template option, you simply have to set your input up with certain attributes. </p>
 
 <p>To create an input that saves on blur/change add the &#39;lstn&#39; class. The name must be &#39;settings[whatever]&#39; and the value must be the pl_setting with the key. See below.</p>
 
-<pre><code class="html">&lt;input type=&quot;text&quot; class=&quot;lstn&quot; name=&quot;settings[my_option_key]&quot; value=&quot;&lt;?php echo pl_setting(&#39;my_option_key&#39;);?&gt;&quot;/&gt;  
+<pre><code class="php">&lt;input type=&quot;text&quot; class=&quot;lstn&quot; name=&quot;settings[my_option_key]&quot; value=&quot;&lt;?php echo pl_setting(&#39;my_option_key&#39;);?&gt;&quot;/&gt;  
 </code></pre>
 
 <p>This could then be accessible sitewide with </p>
 
 <pre><code class="php">$my_option = pl_setting(&#39;my_option_key&#39;);
-
 </code></pre>
 
 <p>For selects and checkboxes, you&#39;ll need to check the value then set the &#39;selected&#39; or &#39;checked&#39; attributes accordingly.</p>
