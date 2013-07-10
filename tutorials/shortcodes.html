@@ -356,6 +356,13 @@
 
 <p>You can specify the same attrbutes as the buttons above, but placed into the markup instead of the shortcode.</p>
 
+<pre><code class="html">[pl_buttongroup]
+    &lt;a class=&quot;btn btn-important&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+    &lt;a class=&quot;btn btn-important&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+    &lt;a class=&quot;btn btn-important&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+[/pl_buttongroup]
+</code></pre>
+
 <div class="row-fluid">
     <div class="span3">
         <div class="btn-group">
@@ -386,13 +393,6 @@
         </div>
     </div>
 </div>
-
-<pre><code class="html">[pl_buttongroup]
-    &lt;a class=&quot;btn btn-important&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
-    &lt;a class=&quot;btn btn-important&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
-    &lt;a class=&quot;btn btn-important&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
-[/pl_buttongroup]
-</code></pre>
 
 <h2>Labels &amp; Badges</h2>
 
@@ -660,6 +660,12 @@ This is an error.
 [/pl_blockquote]
 </code></pre>
 
+<blockquote class="pull-right">
+    <p>This is a quote. Below is the source if all goes well
+        <small>Someone Famous</small>
+    </p>
+</blockquote>
+
 <table class="table mid table-bordered table-striped table-condensed">
     <thead>
         <tr>
@@ -731,10 +737,38 @@ This is an error.
 <div class="tab-pane" id="2"><p></p><p><img class="pl-imageframe tac colorbox-1607" alt="" src="http://netdna.pagelines.me/wp-content/themes/pagelines/sections/features/images/feature3.jpg" data-lazy-loaded="true" style="display: inline;"></p>
 <p></p></div>
 </div>
- 
 
 <p></div>
 </div></p>
+
+<h2>Accordion</h2>
+
+<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse in">
+      <div class="accordion-inner">
+        Anim pariatur cliche...
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+        Anim pariatur cliche...
+      </div>
+    </div>
+  </div>
+</div>
             </div>
 		</section>
 
