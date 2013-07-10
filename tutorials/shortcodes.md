@@ -715,34 +715,51 @@ Content 1
 </table>
 
 <div id="myCarousel" class="carousel slide">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <!-- Carousel items -->
-  <div class="carousel-inner">
-    <div class="active item">…</div>
-    <div class="item">…</div>
-    <div class="item">…</div>
-  </div>
-  <!-- Carousel nav -->
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class=""></li>
+		<li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="item">
+			<img src="http://netdna.pagelines.me/wp-content/themes/pagelines/sections/features/images/feature1.jpg">
+			<div class="carousel-caption">
+				<h4>First Thumbnail label</h4>
+				<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+			</div>
+		</div>
+		<div class="item active">
+			<img src="http://netdna.pagelines.me/wp-content/themes/pagelines/sections/features/images/feature2.jpg">
+			<div class="carousel-caption">
+				<h4>Second Thumbnail label</h4>
+				<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+			</div>
+		</div>
+		<div class="item">
+			<img src="http://netdna.pagelines.me/wp-content/themes/pagelines/sections/features/images/feature3.jpg">
+			<div class="carousel-caption">
+				<h4>Third Thumbnail label</h4>
+				<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+			</div>
+		</div>
+	</div>
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+	<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
 </div>
+
 
 ~~~ .html
 [pl_carousel name="PageLinesCarousel"][pl_carouselimage first="yes" title="Slide 1" imageurl="" ]
 Here is the first slide and it's caption.
 [/pl_carouselimage]
- 
+
 [pl_carouselimage title="Slide 2" imageurl=""]
 Here is the second slide, in all its glory.
 [/pl_carouselimage]
- 
+
 [pl_carouselimage title="Slide 3" imageurl=""]
 You can have as many slides as you can create.
 [/pl_carouselimage]
- 
+
 [/pl_carousel]
 ~~~
