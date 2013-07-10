@@ -134,7 +134,7 @@ add_filter('pl_activate_url', 'my_theme_activation_url');
 function my_theme_activation_url( $url ){ 
 
 	// Change the redirect to the theme tab, and a panel with ID of 'welcome'
-	$url = home_url() . '?tablink=theme&tabsublink=welcome'
+	$url = home_url() . '?tablink=theme&tabsublink=welcome';
 
 	return $url;
 }
