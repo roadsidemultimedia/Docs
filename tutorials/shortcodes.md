@@ -848,7 +848,7 @@ A lightweight, easy-to-use shortcode for fluid width video embeds, which support
 	</tbody>
 </table>
 
-<div class="row">
+<div class="row-fluid">
 	<div class="span6">
 		<img src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/vimeo.jpg?v=1371676907" alt="" title="vimeo">
 	</div>
@@ -857,7 +857,7 @@ A lightweight, easy-to-use shortcode for fluid width video embeds, which support
 	</div>
 </div>
 
-<iframe src="http://player.vimeo.com/video/67237715?title=0&amp;byline=0" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/67237715?title=0&amp;byline=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## Maps ##
 
