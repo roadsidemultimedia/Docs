@@ -850,14 +850,14 @@ A lightweight, easy-to-use shortcode for fluid width video embeds, which support
 
 <div class="row-fluid">
 	<div class="span6">
-		<img src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/vimeo.jpg?v=1371676907" alt="" title="vimeo">
+		<img src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/vimeo.jpg?v=1371676907" alt="" title="vimeo" style="margin-bottom: 0.5em;">
 	</div>
 	<div class="span6">
-		<img src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/youtube.jpg?v=1371676907" alt="" title="youtube">
+		<img src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/youtube.jpg?v=1371676907" alt="" title="youtube" style="margin-bottom: 0.5em;">
 	</div>
 </div>
 
-<iframe src="http://player.vimeo.com/video/67237715?title=0&amp;byline=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/67237715?title=0&amp;byline=0" width="870" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## Maps ##
 
