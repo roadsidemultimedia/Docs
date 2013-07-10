@@ -763,3 +763,56 @@ You can have as many slides as you can create.
 
 [/pl_carousel]
 ~~~
+
+## Social Media ##
+
+<table class="table mid table-bordered table-striped table-condensed">
+<tbody>
+<tr>
+<th>Button</th>
+<th>Usage</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td class="center"><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fsupport.pagelines.me%2Fdocs%2Fmiscellaneous%2Fshortcodes%2F&amp;media=&amp;description=Shortcodes" class="PIN_1373444258552_pin_it_button PIN_1373444258552_pin_it_button_inline PIN_1373444258552_pin_it_beside" target="_blank" data-pin-log="button_pinit" data-pin-config="beside"><span class="PIN_1373444258552_hidden" id="PIN_1373444258552_pin_count_0"><i></i></span></a></td>
+<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[pinterest img=url(optional)]</span></span></span></li></ol></li></ol></pre></td>
+<td class="span4">Optionally add an image url to the shortcode. If none is added one will be auto detected.</td>
+</tr>
+<tr>
+<td class="center">				<script>(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+						js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+						fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
+				</script><div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-href="http://url-to-like.com" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false" data-font="arial" style="vertical-align: top" fb-xfbml-state="rendered"><span style="height: 20px; width: 75px;"><iframe id="f14e8cb1b4" name="fe84d8304" scrolling="no" title="Like this content on Facebook." class="fb_ltr" src="http://www.facebook.com/plugins/like.php?api_key=&amp;locale=en_GB&amp;sdk=joey&amp;channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Df1333d2fc4%26origin%3Dhttp%253A%252F%252Fsupport.pagelines.me%252Ff3513ad%26domain%3Dsupport.pagelines.me%26relation%3Dparent.parent&amp;href=http%3A%2F%2Furl-to-like.com&amp;node_type=link&amp;width=90&amp;font=arial&amp;layout=button_count&amp;colorscheme=light&amp;show_faces=false&amp;send=false&amp;extended_social_context=false" style="border: none; overflow: hidden; height: 20px; width: 75px;"></iframe></span></div></td>
+<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[like_button url=http://url-to-like.com]</span></span></span></li></ol></li></ol></pre></td>
+<td>Add an optional URL to like, otherwise likes the page that the button is placed on.</td>
+</tr>
+<tr>
+<td class="center">			<script type="text/javascript">
+			  (function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 190px; height: 20px; background-position: initial initial; background-repeat: initial initial;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 190px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1373444258628" name="I0_1373444258628" src="https://apis.google.com/_/+1/fastbutton?bsv&amp;size=medium&amp;annotation=inline&amp;width=190&amp;hl=en-US&amp;origin=http%3A%2F%2Fsupport.pagelines.me&amp;url=http%3A%2F%2Fsupport.pagelines.me%2Fdocs%2Fmiscellaneous%2Fshortcodes%2F&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_GB.xvm6DDvVCBQ.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAItRSTPtJExNAZpKI1SqrfjUgDo9OkzFBg#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Conload&amp;id=I0_1373444258628&amp;parent=http%3A%2F%2Fsupport.pagelines.me&amp;pfname=&amp;rpctoken=36478066" allowtransparency="true" data-gapiattached="true" title="+1"></iframe></div></td>
+<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[googleplus]</span></span></span></li></ol></li></ol></pre></td>
+<td></td>
+</tr>
+<tr>
+<td class="center"><script src="//platform.linkedin.com/in.js" type="text/javascript"></script><span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><span id="li_ui_li_gen_1373444258991_1-container" class="IN-horizontal"><span id="li_ui_li_gen_1373444258991_1" class="IN-horizontal"><span id="li_ui_li_gen_1373444258991_1-inner" class="IN-horizontal"><span id="li_ui_li_gen_1373444258991_1-content" class="IN-horizontal">0</span></span></span></span></span><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><span id="li_ui_li_gen_1373444258945_0"><a id="li_ui_li_gen_1373444258945_0-link" href="javascript:void(0);"><span id="li_ui_li_gen_1373444258945_0-logo">in</span><span id="li_ui_li_gen_1373444258945_0-title"><span id="li_ui_li_gen_1373444258945_0-mark"></span><span id="li_ui_li_gen_1373444258945_0-title-text">Share</span></span></a></span></span></span><script type="IN/Share+init" data-url="http://support.pagelines.me/docs/miscellaneous/shortcodes/" data-counter="horizontal"></script></td>
+<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[linkedin]</span></span></span></li></ol></li></ol></pre></td>
+<td></td>
+</tr>
+<tr>
+<td class="center"><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.1372833608.html#_=1373444258761&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fsupport.pagelines.me%2Fdocs%2Fmiscellaneous%2Fshortcodes%2F&amp;size=m&amp;text=http%3A%2F%2Fsupport.pagelines.me%2Fdocs%2Fmiscellaneous%2Fshortcodes%2F&amp;url=http%3A%2F%2Fsupport.pagelines.me%2Fdocs%2Fmiscellaneous%2Fshortcodes%2F" class="twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="width: 106px; height: 20px;"></iframe></td>
+<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[twitter_button]</span></span></span></li></ol></li></ol></pre></td>
+<td></td>
+</tr>
+<tr>
+<td class="center"><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.1372833608.html#_=1373444258779&amp;id=twitter-widget-1&amp;lang=en&amp;screen_name=PageLines&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 226px; height: 20px;"></iframe></td>
+<td><pre class=" prettyprint lang-html linenums"><ol class="linenums"><li class="L0"><ol class="linenums"><li class="L0"><span class="sc_code"><span class="pln"><span class="pln">[twitter_button type="follow"]</span></span></span></li></ol></li></ol></pre></td>
+<td>Input Twitter handle under PageLines---&gt;Website Setup.</td>
+</tr>
+</tbody>
+</table>
+
