@@ -228,6 +228,14 @@ The Dropdown button shortcode supports both `size=""` for button size and `type=
 
 You can specify the same attrbutes as the buttons above, but placed into the markup instead of the shortcode.
 
+~~~ .html
+[pl_buttongroup]
+	<a class="btn btn-important" href="#">Link</a>
+	<a class="btn btn-important" href="#">Link</a>
+	<a class="btn btn-important" href="#">Link</a>
+[/pl_buttongroup]
+~~~
+
 <div class="row-fluid">
 	<div class="span3">
 		<div class="btn-group">
@@ -258,14 +266,6 @@ You can specify the same attrbutes as the buttons above, but placed into the mar
 		</div>
 	</div>
 </div>
-
-~~~ .html
-[pl_buttongroup]
-	<a class="btn btn-important" href="#">Link</a>
-	<a class="btn btn-important" href="#">Link</a>
-	<a class="btn btn-important" href="#">Link</a>
-[/pl_buttongroup]
-~~~
 
 ## Labels & Badges ##
 
@@ -539,6 +539,12 @@ This is an error.
 [/pl_blockquote]
 ~~~
 
+<blockquote class="pull-right">
+	<p>This is a quote. Below is the source if all goes well
+		<small>Someone Famous</small>
+	</p>
+</blockquote>
+
 <table class="table mid table-bordered table-striped table-condensed">
 	<thead>
 		<tr>
@@ -610,6 +616,34 @@ This is an error.
 <div class="tab-pane" id="2"><p></p><p><img class="pl-imageframe tac colorbox-1607" alt="" src="http://netdna.pagelines.me/wp-content/themes/pagelines/sections/features/images/feature3.jpg" data-lazy-loaded="true" style="display: inline;"></p>
 <p></p></div>
 </div>
- 
 </div>
+</div>
+
+## Accordion ##
+
+<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse in">
+      <div class="accordion-inner">
+        Anim pariatur cliche...
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+        Anim pariatur cliche...
+      </div>
+    </div>
+  </div>
 </div>
