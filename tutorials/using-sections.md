@@ -57,104 +57,13 @@ A full width splash and text area. Great for getting big ideas across quickly. I
 
 A simple box which supports image, text, html and has viewpoint animation.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/mediabox.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/mediabox.jpg)
 
 <h2 id="">NavBar</h2>
 
 The NavBar is the attractive, responsive menu, providing navigation and allowing visitors to find the important areas of your site.
 
-<div class="navbar fix navbar-content-width  pl-color-black-trans">
-<div class="navbar-inner ">
-<div class="navbar-content-pad fix">
-<div class="nav-collapse collapse">
-<ul class="font-sub navline pldrop pull-left">
-<li><a href="http://localhost/wordpress5-dev/">Transparent Black Nav Style</a></li>
-<li><a href="http://localhost/wordpress5-dev/">Home</a></li>
-<li class="dropdown" id="m2"><a href="#m2" class="dropdown-toggle" data-toggle="dropdown">Parent Menu Item <b></b> <b class="caret"></b></a>
-<ul class="sub-menu dropdown-menu">
-<li><a href="#">Menu item</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-<div class="navbar fix navbar-content-width  pl-color-blue">
-<div class="navbar-inner ">
-<div class="navbar-content-pad fix">
-<div class="nav-collapse collapse">
-<ul class="font-sub navline pldrop pull-left">
-<li><a href="http://localhost/wordpress5-dev/">Blue Nav Style</a></li>
-<li><a href="http://localhost/wordpress5-dev/">Home</a></li>
-<li class="dropdown" id="m3"><a href="#m3" class="dropdown-toggle" data-toggle="dropdown">Parent Menu Item <b></b> <b class="caret"></b></a>
-<ul class="sub-menu dropdown-menu">
-<li><a href="#">Menu item</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-<div class="navbar fix navbar-content-width  pl-color-grey">
-<div class="navbar-inner ">
-<div class="navbar-content-pad fix">
-<div class="nav-collapse collapse">
-<ul class="font-sub navline pldrop pull-left">
-<li><a href="http://localhost/wordpress5-dev/">Grey Nav Style</a></li>
-<li><a href="http://localhost/wordpress5-dev/">Home</a></li>
-<li class="dropdown" id="m4"><a href="#m4" class="dropdown-toggle" data-toggle="dropdown">Parent Menu Item <b></b> <b class="caret"></b></a>
-<ul class="sub-menu dropdown-menu">
-<li><a href="#">Menu item</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-<div class="navbar fix navbar-content-width  pl-color-orange">
-<div class="navbar-inner ">
-<div class="navbar-content-pad fix">
-<div class="nav-collapse collapse">
-<ul class="font-sub navline pldrop pull-left">
-<li><a href="http://localhost/wordpress5-dev/">Orange Nav Style</a></li>
-<li><a href="http://localhost/wordpress5-dev/">Home</a></li>
-<li class="dropdown" id="m5"><a href="#m5" class="dropdown-toggle" data-toggle="dropdown">Parent Menu Item <b></b> <b class="caret"></b></a>
-<ul class="sub-menu dropdown-menu">
-<li><a href="#">Menu item</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-<div class="navbar fix navbar-content-width  pl-color-red">
-<div class="navbar-inner ">
-<div class="navbar-content-pad fix">
-<div class="nav-collapse collapse">
-<ul class="font-sub navline pldrop pull-left">
-<li><a href="http://localhost/wordpress5-dev/">Red Nav Style</a></li>
-<li><a href="http://localhost/wordpress5-dev/">Home</a></li>
-<li class="dropdown" id="m6"><a href="#m6" class="dropdown-toggle" data-toggle="dropdown">Parent Menu Item <b></b> <b class="caret"></b></a>
-<ul class="sub-menu dropdown-menu">
-<li><a href="#">Menu item</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/navbar-section.png)
 
 <h2 id="">Noposts</h2>
 
