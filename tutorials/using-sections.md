@@ -68,20 +68,20 @@ The NavBar is the attractive, responsive menu, providing navigation and allowing
 
 Pagination is a section that allows your visitors to flip through the pages of posts in your blog, category or archives.  When a blog page has more than the set number of  posts, a new page is created, and Pagination displays links to it at the bottom of all blog pages.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagination.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pagination.jpg)
 
 <h2 id="">Postauthor</h2>
 
 The Postauthor is a section that lets you display the posts created by an author.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/post-author.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/post-author.jpg)
 
 
 <h2 id="">Postloop</h2>
 
 The Postloop is the area of your site which pulls the post content from the database.  It calls the WordPress postloop, displaying such things as the title, excerpt, thumbnail, meta data and content, all created during the process of writing a post.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postloop.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postloop.jpg)
 
 
 <h2 id="">Postnav</h2>
