@@ -63,7 +63,7 @@ A simple box which supports image, text, html and has viewpoint animation.
 
 The NavBar is the attractive, responsive menu, providing navigation and allowing visitors to find the important areas of your site.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/navbar-section.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/navbar-section.jpg)
 
 <h2 id="">Noposts</h2>
 
