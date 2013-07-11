@@ -95,7 +95,7 @@ The Postnav is the area that allows you to navigate from one post to the next. O
 
 Postsinfo displays information about the posts, such as "Currently Viewing Archives from... ".  This helps inform your visitor where they are, and what type of content they're viewing.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postinfo.jpg)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/post-info.jpg)
 
 
 <h2 id="">Quickslider</h2>
@@ -114,7 +114,7 @@ A professional and versatile slider section. Can be customized with several tran
 
 This section is the primary sidebar, which is selected via Drag & Drop, and placed upon the site to provide supplemental resources and information to your visitors.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/sb_primary.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/sidebar_primary.png)
 
 <h2 id="">Secondnav</h2>
 
