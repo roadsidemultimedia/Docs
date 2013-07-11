@@ -12,7 +12,7 @@ Pagelines DMS comes with a selection of pre-installed fonts you can use on your 
 
 The typography panel is split into two sections, Primary text and Text headers. Both sections contain options to choose a font and select the font’s weight and size. 
 
-![Preview Window](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-fonts.png "Adjusting fonts")
+![Preview Window](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-fonts.png "Adjusting Fonts")
 
 Next to each options title there is a refresh button, which can be used to update the preview window with the current selection. 
 
