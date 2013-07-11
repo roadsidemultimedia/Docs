@@ -154,10 +154,6 @@ The above examples introduce you to the basics of LESS. For a more detailed over
 
 These are the variables which are part of PageLines DMS core.
 
-### Core ###
-
-SEE ANDREW OR SIMON REGARDING  CORE VARIABLES AND LAYOUT
-
 ### Layout ###
 
 <div class="row-fluid">
@@ -667,9 +663,9 @@ This is a partial listing, for the entire variable library, see the `/less` dire
 ~~~ .css
 // Compiled CSS
 .example {
--webkit-border-radius:5px;
--moz-border-radius:5px;
-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
 }
 ~~~
 
