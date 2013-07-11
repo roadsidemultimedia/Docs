@@ -134,7 +134,7 @@ A textbox allows you to place text in designated places.  Textboxes can usually 
 
 The watermark is by default, the PageLines logo, but it may be replaced with your own logo, or, hidden altogether.  The watermark is the last element on the page.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/watermark.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/watermark.jpg)
 
 ## Widgetizer ##
 
