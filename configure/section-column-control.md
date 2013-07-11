@@ -32,7 +32,7 @@ To delete a section from the layout, click on the cross icon on the right of the
 
 Sometimes if you have sections nestled or positioned next to one another, you might want to move one down into the next available row. To do this click on the double arrow icon in section control options. 
 
-![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/section-column-row.png "Section Control Row")
+![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/section-column-new-row.png "Section Control Row")
 
 
 <div class="row-fluid">
