@@ -14,7 +14,7 @@ You can set a template to be site-wide from the same tab, using the **Actions** 
 
 The current configuration can be set as a template using the same **Actions** dropdown. Additionally, you can use the dropdown to delete templates.
 
-![Configuring Templates](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/setting-templates.png "Configuring Templates")
+![Configuring Templates](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/template-options.png "Configuring Templates")
 
 # Creating a new template 
 
@@ -22,7 +22,7 @@ To create a new template you will first need to set the desired layout for the t
 
 Click on the option to **Save a New Template** and fill out the options. The template will be added to the **Your Templates** menu.
 
-![Creating Templates](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/saving-templates.png "Creating Templates")
+![Creating Templates](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/new-templates.png "Creating Templates")
 
 <div class="row-fluid">
 	<div class="span12">
