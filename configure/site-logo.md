@@ -10,7 +10,7 @@
 
 ![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/section-branding-site-logo.png "Section Branding Site Logo")
 
-![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adding--site-logo.png "Adding Site Logo")
+![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adding-site-logo.png "Adding Site Logo")
 
 
 
