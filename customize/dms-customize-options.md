@@ -42,6 +42,7 @@ From here, simply add either custom CSS or LESS CSS and click publish, alternati
 
 ### Scripts ###
 
+To access the Custom Scripts Editor, navigate to **DMS Toolbar → Custom Code → Custom Scripts Editor**.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-script-editor.jpg)
 
