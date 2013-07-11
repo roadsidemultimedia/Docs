@@ -88,36 +88,33 @@ The Postloop is the area of your site which pulls the post content from the data
 
 The Postnav is the area that allows you to navigate from one post to the next. Often positioned above or below the Postloop, it displays the titles of the previous and next posts (if any), letting visitors read other content you've published in your blog (posts).
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postnav.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postnav.jpg)
 
 
 <h2 id="">Postsinfo</h2>
 
 Postsinfo displays information about the posts, such as "Currently Viewing Archives from... ".  This helps inform your visitor where they are, and what type of content they're viewing.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postinfo.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postinfo.jpg)
 
 
 <h2 id="">Quickslider</h2>
 
 The Quickslider is a very simple, responsive slider that will allow you to display a series of basic slides, with a link to a post, and its title, and short excerpt.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/quickslider.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/quickslider.jpg)
 
+## Rev Slider ##
 
-<h2 id="">sb_primary</h2>
+A professional and versatile slider section. Can be customized with several transitions and a large number of slides.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/rev-slider.jpg)
+
+<h2 id="">Sidebar Primary</h2>
 
 This section is the primary sidebar, which is selected via Drag & Drop, and placed upon the site to provide supplemental resources and information to your visitors.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/sb_primary.png)
-
-
-<h2 id="">ScrollSpy</h2>
-
-The Scroll Spy section adds an additional navigation bar that automatically updates nav targets based on scroll position. It also allows you to jump from one section of your page to another instantly.
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/scrollspy.png)
-
 
 <h2 id="">Secondnav</h2>
 
@@ -190,4 +187,3 @@ The Response section is a responsive, scrolling image gallery which is populated
 
 TwinShot is a responsive video gallery best used as a full-width section. You may add up to 10 Youtube or Vimeo videos, and display a menu on the side, with title and a brief description.
 
-</div>
