@@ -110,7 +110,7 @@ A professional and versatile slider section. Can be customized with several tran
 
 This section is the primary sidebar, which is selected via Drag & Drop, and placed upon the site to provide supplemental resources and information to your visitors.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/sidebar_primary.jpg)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/sidebar-primary.jpg)
 
 ## Sharebar ##
 
@@ -138,9 +138,7 @@ The watermark is by default, the PageLines logo, but it may be replaced with you
 
 ## Widgetizer ##
 
-<p> Text goes here </p>
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/widgetizer.png)
+Place this section wherever you like and select a widgetized area (configured in admin) for it to use.
 
 # PageLines Plus Sections #
 
@@ -150,23 +148,35 @@ The PageLines Plus Sections are additional extensions available for free to [Pag
 
 Displays your most popular, and latest posts as well as comments and tags in a tabbed format.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/rapidtabs.jpg)
+
 ## StarBars ##
 
 StarBars is a collection of animated stat bars that change as the user scrolls. Use them to display stats or other information in an attractive graphical format.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/starbars.jpg)
 
 ## Letters ##
 
 The Letters section is designed to replace your blog or other ‘content’ pages with a simple, and extremely readable long form content section. Classic typography uses rules such as proportional line heights, font-sizes and line widths. The Letters section is designed to play by these rules and make for extremely readable, non-distractive content.  It is well suited to prolific authors or those who write books online.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/letters.jpg)
+
 ## PostPins ##
 
 Similar to Pinterest, the PostPins section displays the post's featured image, title and excerpt, and a link to the post. It displays in columns which can be determined by settings.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/postpins.jpg)
 
 ## Response Gallery ##
 
 The Response section is a responsive, scrolling image gallery which is populated by media uploaded to your WordPress Media library. Response is fully compatible with iOS devices, and the image galleries scrolling uses hardware acceleration for that native feel.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/response-gallery.jpg)
+
 ## TwinShot ##
 
 TwinShot is a responsive video gallery best used as a full-width section. You may add up to 10 Youtube or Vimeo videos, and display a menu on the side, with title and a brief description.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/twinshot.jpg)
 
