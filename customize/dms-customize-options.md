@@ -42,9 +42,12 @@ From here, simply add either custom CSS or LESS CSS and click publish, alternati
 
 ### Scripts ###
 
-NEED MORE INFORMATION, APPEARS TO BE ADDING SCRIPTS AT THE TOP OF `<body>`
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-script-editor.jpg)
+
+The Custom Scripts Editor can be used to add any kind of custom or third party `<script>` such as Google Analytics tracking code.
+
+However, the Custom Scripts editor **doe not** support `CSS`, `LESS` or `PHP`, if you wish to add these types of customization to your website, please use the correct methods.
 
 <div class="row-fluid">
   <div class="span12">
