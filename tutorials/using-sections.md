@@ -172,11 +172,11 @@ Similar to Pinterest, the PostPins section displays the post's featured image, t
 
 The Response section is a responsive, scrolling image gallery which is populated by media uploaded to your WordPress Media library. Response is fully compatible with iOS devices, and the image galleries scrolling uses hardware acceleration for that native feel.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/response-gallery.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/response-gallery.jpg)
 
 ## TwinShot ##
 
 TwinShot is a responsive video gallery best used as a full-width section. You may add up to 10 Youtube or Vimeo videos, and display a menu on the side, with title and a brief description.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/twinshot.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/twinshot.jpg)
 
