@@ -20,6 +20,8 @@ To set a background image for your site, first upload your image using the optio
 
 Once your image has been uploaded, you can either choose the ‘fit image to page’ option, use this if you want your image to be responsively stretched to fit the browser widow. Or use the drop down menus below to set additional background options. These options include, background repeat, vertical/horizontal positioning and background alignment. 
 
+![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-site-background.png "Site Background")
+
 
 <div class="row-fluid">
 	<div class="span12">

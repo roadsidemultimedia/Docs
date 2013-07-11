@@ -28,7 +28,7 @@ Using the upload image button you can choose your own image/logo to appear in th
 
 Using the dropdown menus in these two sections you will be able to choose a color theme for your Navbar and assign a custom menu.
 
-
+![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-navbar-options.png "Navbar options")
 
 <div class="row-fluid">
 	<div class="span12">

@@ -28,6 +28,7 @@ Use Full width display to allow each section container to display full width of 
 
 Box width display will place all the section containers inside one main content container. This choice is good for creating a floating page layout. 
 
+![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-site-layout.png "Site layout")
 
 
 

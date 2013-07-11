@@ -12,6 +12,9 @@ Navigation options for Pagelines can be found in the Layout and Nav tab. To acce
 
 In the Standard Navigation panel you have options to select a custom menu for both the Primary and Secondary Navigation on your site by selecting the menu from either of the dropdown menus.  
 
+![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-nav-options.png "Site Navigation Options")
+
+
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
