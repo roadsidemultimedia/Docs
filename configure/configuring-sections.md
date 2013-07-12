@@ -6,7 +6,9 @@
 	</div>
 </div>
 
-# Configuring Sections #
+# Sections Overview #
+
+## Configuring Sections ##
 
 Once you have your section in place on the layout, you will need to set the section options. To access the options for each section, hover over the top of the section in the layout so you see the section control panel, then select the edit icon. The options for that section will appear in the DMS control panel below. 
 
