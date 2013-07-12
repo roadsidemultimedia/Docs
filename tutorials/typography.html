@@ -58,9 +58,9 @@
                             <li><p class="lead"><a href="/configure/visual-editor-overview">Configure</a></p></li>
                             <li><a href="/configure/visual-editor-overview">Visual Editor Overview <i class="icon-angle-right"></i></a></li>
                             <li><a href="/configure/configuring-sections">Sections Overview <i class="icon-angle-right"></i></a></li>
-							<li><a href="/configure/using-templates">Using Templates <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/using-templates">Using Templates <i class="icon-angle-right"></i></a></li>
                             <li><a href="/configure/global-options">Using Global Options <i class="icon-angle-right"></i></a></li>
-							<li><a href="/getting-started/pagelines-store">PageLines Store <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/pagelines-store">PageLines Store <i class="icon-angle-right"></i></a></li>
                         </ul>
                         <ul class="nav nav-list">
                             <li><p class="lead"><a href="/customize/how-to-customize">Customize</a></p></li>
@@ -119,7 +119,23 @@
 
 <p>PageLines DMS typography is based on the powerful Bootstrap providing styling for tables, forms, buttons, and other standard interface elements.</p>
 
-<h2>Headings</h2>
+<h1>Adjusting Fonts</h1>
+
+<p>Pagelines DMS comes with a selection of pre-installed fonts you can use on your site. To select a font or to edit the current font’s settings select the ‘typography’ tab from the DMS control panel. </p>
+
+<p>The typography panel is split into two sections, Primary text and Text headers. Both sections contain options to choose a font and select the font’s weight and size. </p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-fonts.png" alt="Preview Window" title="Adjusting Fonts"></p>
+
+<p>Next to each options title there is a refresh button, which can be used to update the preview window with the current selection. </p>
+
+<p>Note: The base font size is a reference that will be scaled for the text used throughout your site. </p>
+
+<p>Note: Font weights with a * icon do not take affect on all browsers.</p>
+
+<h2>Typopgrahy Examples</h2>
+
+<h3>Headings</h3>
 
 <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are available.</p>
 
@@ -132,7 +148,7 @@
     <h6>h6. Header 6</h6>
 </div>
 
-<h2>Body</h2>
+<h3>Body</h3>
 
 <p>PageLines DMS’s global default <code>font-size</code> is 14px, with a <code>line-height</code> of 1.55em. This is applied to the <body> and all paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a top/bottom margin of 1.55em.</p>
 
@@ -146,7 +162,7 @@
 <pre><code class="html">&lt;p&gt;...&lt;/p&gt;
 </code></pre>
 
-<h2>Lead body</h2>
+<h3>Lead body</h3>
 
 <p>Make a paragraph stand out by adding <code>.lead</code>.</p>
 
@@ -157,7 +173,7 @@
 <pre><code class="html">&lt;p class=&quot;lead&quot;&gt;...&lt;/p&gt;
 </code></pre>
 
-<h2>Emphasis</h2>
+<h3>Emphasis</h3>
 
 <p>Make use of HTML’s default emphasis tags to make your text standout.</p>
 
@@ -173,7 +189,7 @@ The following snippet of text is <strong>rendered as bold text</strong>.</p>
 <pre><code class="html">&lt;strong&gt;rendered as bold text&lt;/strong&gt;
 </code></pre>
 
-<h2>Italic</h2>
+<h3>Italic</h3>
 
 <p>For emphasizing a snippet of text with stress</p>
 
@@ -186,7 +202,7 @@ The following snippet of text is <em>rendered as italicized text.</em>
 <pre><code class="html">&lt;em&gt;rendered as italicized text&lt;/em&gt;
 </code></pre>
 
-<h2>Emphasis classes</h2>
+<h3>Emphasis classes</h3>
 
 <p>Display meaning through color with a handful of emphasis utility classes.</p>
 
@@ -205,9 +221,9 @@ The following snippet of text is <em>rendered as italicized text.</em>
 &lt;p class=&quot;text-success&quot;&gt;Duis mollis, est non commodo luctus, nisi erat porttitor ligula.&lt;/p&gt;
 </code></pre>
 
-<h2>Lists</h2>
+<h3>Lists</h3>
 
-<h3>Unordered</h3>
+<h4>Unordered</h4>
 
 <p>A list of items in which the order does not explicitly matter.</p>
 
@@ -230,7 +246,7 @@ The following snippet of text is <em>rendered as italicized text.</em>
 &lt;/ul&gt;
 </code></pre>
 
-<h3>Ordered</h3>
+<h4>Ordered</h4>
 
 <p>A list of items in which the order does explicitly matter.</p>
 
@@ -252,7 +268,7 @@ The following snippet of text is <em>rendered as italicized text.</em>
 &lt;/ol&gt;
 </code></pre>
 
-<h3>Unstyled</h3>
+<h4>Unstyled</h4>
 
 <p>A list of items with no <code>list-style</code> or additional left padding.</p>
 
