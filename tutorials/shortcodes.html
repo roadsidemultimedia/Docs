@@ -117,6 +117,19 @@
                     <div class="span9 docs-content">
 <h1>Shortcodes</h1>
 
+<h2>PL RAW</h2>
+
+<p>Wordpress is designed to add <code>&lt;p&gt;&lt;/p&gt;</code> tags whenever you add a new line. This is great when using normal text, but when writing code or using shortcodes, it can be the cause of all sorts of issues.</p>
+
+<p>To resolve this issue, we have created a utility shortcode that stops Wordpress adding <code>&lt;p&gt;&lt;/p&gt;</code> tags whenever a new linebreak has been used, or in cleaning up copied code to which paragraph tags were included. Simply wrap the <code>[pl_raw]...[/pl_raw]</code> around your code/shortcode and erroneous tags will be eradicated. See examples below.</p>
+
+<pre><code class="html">[pl_raw]
+[pl_button type=&quot;btn&quot; link=&quot;&quot; target=&quot;blank&quot;]Default[/pl_button]
+[/pl_raw]
+</code></pre>
+
+<p>Please be aware that the `[pl_raw] shortcode can only be used once per page.</p>
+
 <h2>Buttons</h2>
 
 <p>There are 7 different color schemes to choose from, as well 3 sizes; mini, default and large.</p>
