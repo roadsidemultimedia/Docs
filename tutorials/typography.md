@@ -24,7 +24,7 @@ For each of the text color options you can either enter the hex value directly i
 
 ![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-font-color.png "Font Color Options")
 
-## Typopgrahy Examples ##
+## Typography Examples ##
 
 ### Headings ###
 
