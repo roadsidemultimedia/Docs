@@ -33,9 +33,27 @@ You can also specify a class of `.page-header-minor`, which will return a page h
 
 These pre-designed special CSS classes can be added to nearly any element to help aid in customizing.
 
+### Remove border ####
+
+Adding this unique class `zb` to your element will specify a zero border, `zb` is an acronym of zero border.
+
+<table class="table mid table-bordered table-striped">
+      <tbody>
+            <tr>
+                  <td class="span2 center"><code>.zb</code></td>
+                  <td>Specifies zero margin on top of any element</td>
+            </tr>
+      </tbody>
+</table>
+
+~~~ .html
+<h1 class="zb">This is a h1 Header, without a border, if it had one!</h1>
+<h2 class="zb">This is a h2 Header, without a border, if it had one!</h1>
+~~~
+
 ### Removing top and bottom margins ###
 
-Adding these unique classes `.zmt` and `.zmb` to your elements will specify a zero margin, `.zmt` is an abbreviation of zero margin top and `.zmb` is an abbreviation of zero margin bottom.
+Adding these unique classes `.zmt` and `.zmb` to your elements will specify a zero margin, `.zmt` is an acronym of zero margin top and `.zmb` is an abbreviation of zero margin bottom.
 
 <table class="table mid table-bordered table-striped">
       <thead>
