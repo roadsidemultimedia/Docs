@@ -4,7 +4,7 @@
 
 Wordpress is designed to add `<p></p>` tags whenever you add a new line. This is great when using normal text, but when writing code or using shortcodes, it can be the cause of all sorts of issues.
 
-To resolve this issue, we have created a utility shortcode that stops Wordpress adding `<p></p>` tags whenever a new linebreak has been used, or in cleaning up copied code to which paragraph tags were included. Simply wrap the `[pl_raw]...[/pl_raw]` around your code/shortcode and erroneous tags will be eradicated. See examples below.
+To resolve this issue, we have created a utility shortcode that stops Wordpress adding `<p></p>` tags whenever a new linebreak has been used, or in cleaning up copied code to which paragraph tags were included. Simply wrap the `[pl_raw][/pl_raw]` around your code/shortcode and erroneous tags will be eradicated. See examples below.
 
 ~~~ .html
 [pl_raw]
@@ -12,7 +12,7 @@ To resolve this issue, we have created a utility shortcode that stops Wordpress 
 [/pl_raw]
 ~~~
 
-Please be aware that the `[pl_raw] shortcode can only be used once per page.
+Please be aware that the `[pl_raw]` shortcode can only be used once per page.
 
 ## Buttons ##
 
