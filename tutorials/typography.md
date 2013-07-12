@@ -2,7 +2,23 @@
 
 PageLines DMS typography is based on the powerful Bootstrap providing styling for tables, forms, buttons, and other standard interface elements.
 
-## Headings ##
+# Adjusting Fonts
+
+Pagelines DMS comes with a selection of pre-installed fonts you can use on your site. To select a font or to edit the current font’s settings select the ‘typography’ tab from the DMS control panel. 
+
+The typography panel is split into two sections, Primary text and Text headers. Both sections contain options to choose a font and select the font’s weight and size. 
+
+![Preview Window](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-fonts.png "Adjusting Fonts")
+
+Next to each options title there is a refresh button, which can be used to update the preview window with the current selection. 
+
+Note: The base font size is a reference that will be scaled for the text used throughout your site. 
+
+Note: Font weights with a * icon do not take affect on all browsers.
+
+## Typopgrahy Examples ##
+
+### Headings ###
 
 All HTML headings, `<h1>` through `<h6>` are available.
 
@@ -15,7 +31,7 @@ All HTML headings, `<h1>` through `<h6>` are available.
 	<h6>h6. Header 6</h6>
 </div>
 
-## Body ##
+### Body ###
 
 PageLines DMS’s global default `font-size` is 14px, with a `line-height` of 1.55em. This is applied to the <body> and all paragraphs. In addition, `<p>` (paragraphs) receive a top/bottom margin of 1.55em.
 
@@ -29,7 +45,7 @@ PageLines DMS’s global default `font-size` is 14px, with a `line-height` of 1.
 <p>...</p>
 ~~~
 
-## Lead body ##
+### Lead body ###
 
 Make a paragraph stand out by adding `.lead`.
 
@@ -40,7 +56,7 @@ Make a paragraph stand out by adding `.lead`.
 <p class="lead">...</p>
 ~~~
 
-## Emphasis ##
+### Emphasis ###
 
 Make use of HTML’s default emphasis tags to make your text standout.
 
@@ -56,7 +72,7 @@ The following snippet of text is <strong>rendered as bold text</strong>.</p>
 <strong>rendered as bold text</strong>
 ~~~
 
-## Italic ##
+### Italic ###
 
 For emphasizing a snippet of text with stress
 
@@ -69,7 +85,7 @@ The following snippet of text is <em>rendered as italicized text.</em>
 <em>rendered as italicized text</em>
 ~~~
 
-## Emphasis classes ##
+### Emphasis classes ###
 
 Display meaning through color with a handful of emphasis utility classes.
 
@@ -88,9 +104,9 @@ Display meaning through color with a handful of emphasis utility classes.
 <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
 ~~~
 
-## Lists ##
+### Lists ###
 
-### Unordered ###
+#### Unordered ####
 
 A list of items in which the order does not explicitly matter.
 
@@ -113,7 +129,7 @@ A list of items in which the order does not explicitly matter.
 </ul>
 ~~~
 
-### Ordered ###
+#### Ordered ####
 
 A list of items in which the order does explicitly matter.
 
@@ -135,7 +151,7 @@ A list of items in which the order does explicitly matter.
 </ol>
 ~~~
 
-### Unstyled
+#### Unstyled ####
 
 A list of items with no `list-style` or additional left padding.
 
