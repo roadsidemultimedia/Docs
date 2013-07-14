@@ -13,11 +13,23 @@ There are times when default sidebars just aren't enough.  So, DMS makes it incr
 
 To create custom sidebars in DMS, you simply need Custom Sidebars plugin, available at [http://wordpress.org/plugins/custom-sidebars/](http://wordpress.org/plugins/custom-sidebars/).
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin.jpg)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin.png)
 
 The plugin will facilitate your creation of customized sidebars that will work with all widgetized sections such as **Columizer**, **Primary Sidebar** and **Widgetizer**.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/widgetized-sections.jpg)
+## Creating Custom Sidebars ##
+
+Once the plugin has been installed, navigate to **Appearance &rarr; Custom Sidebars** and choose a name and description for your new sidebar. Save your changes and the sidebar will appear **Appearance &rarr; Widgets.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin2.png)
+
+You will now be able to add widgets to your custom sidebar.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin3.png)
+
+You can assign your custom sidebars by dragging and dropping one of the widgetized sections such as **Columizer**, **Primary Sidebar** and **Widgetizer**.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin4.png)
 
 <div class="row-fluid">
 	<div class="span12">
