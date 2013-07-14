@@ -4,56 +4,56 @@ PageLines DMS Plugins are extensions based on the WordPress Plugin architecture.
 
 ## Action Map ##
 
-<p>Text goes here!</p>
+<p>The Action Map plugin is used to indicate where hooks are positioned throughout your page. If you are looking to insert a custom hook, activate this plugin to determine which hook is in the best location to insert your code. You can also view a list of the available pagelines hooks here <a href="http://api.pagelines.com/hooks">here</a>.</p>
 
 ## bbPress / PageLines ##
 
-<p>Text goes here!</p>
+<p>If using bbpress inside Pagelines DMS, use this plugin to ensure the graphical elements of bbpress are styled correctly within DMS.</p>
 
 ## Browser Specific CSS ##
 
-<p>Text goes here!</p>
+<p>Use this pkugin If you notice your site is not displaying correctly in some browsers, or if you want to make specific adjustments to your site within certain browsers. The Browser Specific CSS plugin inserts a range of additional classes into DMS which can be use to tailor the design of your site.</p>
 
 ## BuddyPress / PageLines ##
 
-<p>Text goes here!</p>
+<p>BuddyPress will allow you to create your own social network inside Pagelines DMS site. The Pagelines BuddyPress plugin is to be used in conjunction with the BuddyPress plugin available from Wordpress.org and is used to ensure BuddyPress is styled correctly inside of DMS.</p>
 
 ## Customize Plugin ##
 
-<p>Text goes here!</p>
+<p>The Customize plugin adds an additional style.css and functions.php to your Pagelines DMS site. Use these files to add custom css or custom functions/hooks into your DMS site. Using the customize plugin will ensure your customizations are safe from being overwritten each time you update DMS.</p>
 
 ## Gadget ##
 
-<p>Text goes here!</p>
+<p>The Gadget plugin is an ideal solution for anyone looking to include a graphic based, animated side menu to their site. Gadget can be set to display on either the left or right of the page and includes a selection of icons for you to choose from. There are additional settings for the alignment and offset of the menu to perfectly position Gadget on your page.</p>
 
 ## Google Web Fonts ##
 
-<p>Text goes here!</p>
+<p>The Google Web Fonts plugin greatly extends your selection of fonts within DMS. This plugin automatically updates and pulls in any new fonts added to the Google Font Directory, so you'll always have access to latest font options when designing your site.</p>
 
 ## Hooker ##
 
-<p>Text goes here!</p>
+<p>Hooker is a powerful, user friendly plugin which will allow you to insert custom HTML, JS, CSS and PHP into specific locations on your site. Hooker can be used to insert code into certain pages,templates or sections and includes all of the Pagelines and Wordpress action hooks.</p>
 
 ## JigoShop / PageLines ##
 
-<p>Text goes here!</p>
+<p>Jigoshop is an e commerce solution for your DMS site. The Pagelines Jigoshop integration is to be installed along with the Jigoshop plugin (available from Wordpress.org). This plugin is used to correct the styling of Jigoshop within DMS.  </p>
 
 ## Launch Page ##
 
-<p>Text goes here!</p>
+<p>Launch Page creates a squeeze or launch page for your site. Features include a responsive background, choice of custom menu and a selection of color buttons for your page. Launchpage is easily setup and activated directly through the page meta settings.</p>
 
 ## Lazy Loader ##
 
-<p>Text goes here!</p>
+<p>Use the Lazy Loader plugin to defer image loading for all images outside of the visable portion of your screen. Lazy loader can be used to improve your page load time, especially on long pages which use multiple images.</p>
 
 ## Poppy ##
 
-<p>Text goes here!</p>
+<p>Use the Poppy plugin to add a quick modal based contact form to your page. Poppy is triggered using a shortcode which means it can be positioned in various locations within your page. The option to trigger your contact form can be a button, text, envelope icon or bootstrap label. Poppy also includes the option for a custom field to be added to your form.</p>
 
 ## SaleBar ##
 
-<p>Text goes here!</p>
+<p>The Salesbar plugin adds an additional promotional bar to the top of your page. This is ideal for directing users to specific areas of your site or promoting and advertising your campaign or cause. Salesbar comes with 5 color options and 5 preset button colors, allowing to create upto 25 combinations.</p>
 
 ## Snowfall ##
 
-<p>Text goes here!</p>
+<p>Snowfall is perfect for giving your site that festive/wintry feel. Activate and watch snowflakes gently fall across your page</p>
