@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+  			<li class="active">Using Plugins</li>
+		</ul>
+	</div>
+</div>
+
 # PageLines Plugins #
 
 PageLines DMS Plugins are extensions based on the WordPress Plugin architecture. If you are looking for information on configuring or activating plugins, please review <a href="/configure/configuring-sections">this guide</a>.
@@ -85,3 +95,12 @@ PageLines DMS Plugins are extensions based on the WordPress Plugin architecture.
 <p>Snowfall is perfect for giving your site that festive/wintry feel. Activate and watch snowflakes gently fall across your page</p>
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/snowfall.png)
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-scrollspy">&larr; Using ScrollSpy</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/browser-specific-css">Browser Specific CSS &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>

@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/getting-started">Requirements</a> <span class="divider">/</span></li>
+  			<li class="active">Requirements</li>
+		</ul>
+	</div>
+</div>
+
 # System Requirements #
 
 PageLines DMS has some system requirements you should be aware of prior to installing.
@@ -28,3 +38,11 @@ To ensure you have a secure and enjoyable browsing experience, we recommend you 
 * Google Chrome 10+
 * Opera 10+
 * Internet Explorer 8+
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+  			<li class="pull-right"><a href="http://docs.pagelines.com/getting-started/installation">Installation &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>

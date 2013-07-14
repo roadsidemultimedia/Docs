@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/configure">Configure</a> <span class="divider">/</span></li>
+  			<li class="active">PageLines Store</li>
+		</ul>
+	</div>
+</div>
+
 # PageLines Store #
 
 From time-to-time you may want to add a plugin, a section or even a child theme. The PageLines Store provides unique products, all built, designed and tested to work within PageLines DMS. This is your one-stop shop for great amenities to improve your site.
@@ -22,4 +32,12 @@ Or select the extend icon directly in the DMS control panel.
 
 Select the image for the product you want to add and you will be taken to the product overview page. Here you can click to purchase the product, go to the full product over on Pagelines.com or close the window to return to the store.
 
-Once purchased your product will be added to the ‘your sections’ tab, where you can drag it to the required position in the layout. 
+Once purchased your product will be added to the ‘your sections’ tab, where you can drag it to the required position in the layout.
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/configure/global-options">&larr; Global Options</a></li>
+  		</ul>
+	</div>
+</div>

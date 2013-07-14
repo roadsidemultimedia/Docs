@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/getting-started">Getting Started</a> <span class="divider">/</span></li>
+  			<li class="active">Installation</li>
+		</ul>
+	</div>
+</div>
+
 # Installation #
 
 To start using PageLines DMS, you will first need to make sure you have [WordPress](http://wordpress.org) installed. Once set up, the PageLines DMS can be installed like any other WordPress theme.
@@ -21,3 +31,12 @@ PageLines DMS is available in two versions, the Professional/Developer editions 
 ## Activation ##
 
 After uploading PageLines DMS, head back to **Themes** and click **Activate**. You should be all set up and ready to go!
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/system-requirements">&larr; Requirements</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/getting-started/upgrade">Upgrade &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>

@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/tutorials">Getting Started</a> <span class="divider">/</span></li>
+  			<li class="active">Upgrading</li>
+		</ul>
+	</div>
+</div>
+
 # Upgrading #
 
 Upgrading to the PageLines DMS from other PageLines installs is a straightforward process covered below.
@@ -32,4 +42,13 @@ Add instructions on how to upgrade to PageLines DMS from PageLines Framework
 Unfortunately, there is no upgrade path from Platform/Platform Pro due to PageLines DMS and Platform being separate themes. Instead you will need to migrate.
 
 Add migrate instructions here...
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/installation">&larr; Installation</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/getting-started/dashboard-account">Dashboard & Your Account &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
 
