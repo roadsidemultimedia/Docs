@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/configure">Configure</a> <span class="divider">/</span></li>
+  			<li class="active">Global Options</li>
+		</ul>
+	</div>
+</div>
+
 # Options #
 
 PageLines DMS provides users with a number of global settings, allowing them to change their site's layout, add social intergration, control colors & styles and more.
