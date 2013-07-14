@@ -27,7 +27,7 @@ You will now be able to add widgets to your custom sidebar.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin3.png)
 
-You can assign your custom sidebars by dragging and dropping one of the widgetized sections such as **Columizer**, **Primary Sidebar** and **Widgetizer** to your template and configure the section, using the drop down menu to select your custom sidebar.
+You can assign your custom sidebars by dragging and dropping one of the widgetized sections such as **Columizer**, **Primary Sidebar** and **Widgetizer** to your template and configure the section using the drop down menu to select your custom sidebar.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin4.png)
 
