@@ -19,7 +19,7 @@ The plugin will facilitate your creation of customized sidebars that will work w
 
 ## Creating Custom Sidebars ##
 
-Once the plugin has been installed, navigate to **Appearance &rarr; Custom Sidebars** and choose a name and description for your new sidebar. Save your changes and the sidebar will appear **Appearance &rarr; Widgets.
+Once the plugin has been installed, navigate to **Appearance &rarr; Custom Sidebars** and choose a name and description for your new sidebar. Save your changes and the sidebar will appear **Appearance &rarr; Widgets**.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin2.png)
 
@@ -27,7 +27,7 @@ You will now be able to add widgets to your custom sidebar.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin3.png)
 
-You can assign your custom sidebars by dragging and dropping one of the widgetized sections such as **Columizer**, **Primary Sidebar** and **Widgetizer**.
+You can assign your custom sidebars by dragging and dropping one of the widgetized sections such as **Columizer**, **Primary Sidebar** and **Widgetizer** to your template and configure the section, using the drop down menu to select your custom sidebar.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-sidebars-plugin4.png)
 
