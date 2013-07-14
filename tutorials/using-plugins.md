@@ -54,7 +54,7 @@ PageLines DMS Plugins are extensions based on the WordPress Plugin architecture.
 
 <p>Jigoshop is an e commerce solution for your DMS site. The Pagelines Jigoshop integration is to be installed along with the Jigoshop plugin (available from Wordpress.org). This plugin is used to correct the styling of Jigoshop within DMS.</p>
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/actionmap.png)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/jigoshop-plugin.png)
 
 ## Launch Page ##
 
