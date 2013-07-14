@@ -8,7 +8,7 @@ Pagelines DMS comes with a selection of pre-installed fonts you can use on your 
 
 The typography panel is split into two sections, Primary text and Text headers. Both sections contain options to choose a font and select the font’s weight and size.
 
-![Preview Window](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-fonts.png "Adjusting Fonts")
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/typography.jpg)
 
 Next to each options title there is a refresh button, which can be used to update the preview window with the current selection.
 
@@ -22,7 +22,7 @@ Pagelines DMS allows you to choose a custom font color for both the main text co
 
 For each of the text color options you can either enter the hex value directly into the color field, or select the desired using the inbuilt color picker. Use the refresh button next to each option to update the preview window with your new selection.
 
-![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adjusting-font-color.png "Font Color Options")
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/color-style.jpg)
 
 ## Typography Examples ##
 
