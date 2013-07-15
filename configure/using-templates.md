@@ -31,8 +31,8 @@ Click on the option to **Save a New Template** and fill out the options. The tem
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/configure/configure-sections"><i class="icon-arrow-left"></i> Using Sections</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/global-options">Global Options <i class="icon-arrow-right"></i></i></a></li>
+			<li class="pull-left"><a href="http://docs.pagelines.com/configure/configure-sections">&larr; Using Sections</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/global-options">Global Options &rarr;</a></li>
 		</ul>
 	</div>
 </div>

@@ -199,8 +199,8 @@ For more information and examples on typography, head over to [Bootstrap’s typ
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/shortcodes"><i class="icon-arrow-left"></i> Shortcodes</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/html-css-utilities">HTML/CSS Utilities <i class="icon-arrow-right"></i></i></a></li>
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/shortcodes">&larr; Shortcodes</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/html-css-utilities">HTML/CSS Utilities &rarr;</a></li>
 		</ul>
 	</div>
 </div>

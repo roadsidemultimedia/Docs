@@ -193,7 +193,7 @@ TwinShot is a responsive video gallery best used as a full-width section. You ma
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/using-scrollspy">Using ScrollSpy <i class="icon-arrow-right"></i></i></a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/using-scrollspy">Using ScrollSpy &rarr;</a></li>
 		</ul>
 	</div>
 </div>

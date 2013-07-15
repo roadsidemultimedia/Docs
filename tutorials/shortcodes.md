@@ -968,8 +968,8 @@ A lightweight, easy-to-use shortcode for fluid width video embeds, which support
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/font-awesome"><i class="icon-arrow-left"></i> Font Awesome</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/typography">Typography <i class="icon-arrow-right"></i></i></a></li>
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/font-awesome">&larr; Font Awesome</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/typography">Typography &rarr;</a></li>
 		</ul>
 	</div>
 </div>
