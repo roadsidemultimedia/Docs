@@ -51,7 +51,7 @@ If you have an active Plus subscription, this information will also be visible i
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/upgrade">&larr; Upgrade</a></li>
+			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/upgrading">&larr; Upgrading</a></li>
 		</ul>
 	</div>
 </div>

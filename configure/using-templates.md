@@ -1,7 +1,9 @@
 <div class="row-fluid">
 	<div class="span12">
-		<ul class="pager">
-  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/creating-templates">Creating Templates &rarr;</a></li>
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/configure">Configure</a> <span class="divider">/</span></li>
+  			<li class="active">Using Templates</li>
 		</ul>
 	</div>
 </div>
@@ -27,7 +29,8 @@ Click on the option to **Save a New Template** and fill out the options. The tem
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/creating-templates">Creating Templates &rarr;</a></li>
+			<li class="pull-left"><a href="http://docs.pagelines.com/configure/configure-sections">&larr; Using Sections</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/global-options">Global Options &rarr;</i></a></li>
 		</ul>
 	</div>
 </div>

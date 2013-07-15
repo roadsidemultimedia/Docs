@@ -1,7 +1,9 @@
 <div class="row-fluid">
 	<div class="span12">
-		<ul class="pager">
-  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/configure-templates">Configuring Templates &rarr;</a></li>
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/configure">Configure</a> <span class="divider">/</span></li>
+  			<li class="active">Visual Editor</li>
 		</ul>
 	</div>
 </div>
@@ -52,7 +54,7 @@ The pixel/percentage width of the layout will be displayed in the bottom right c
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/configure-templates">Configuring Templates &rarr;</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/configure-sections">Sections Overview &rarr;</a></li>
 		</ul>
 	</div>
 </div>

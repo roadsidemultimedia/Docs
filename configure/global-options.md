@@ -197,7 +197,7 @@ The **Resets** panel should be used with **caution**, there are three **Reset** 
 
 #### Reset Global Site Settings ####
 
-Use this button to reset **all global settings** to their default state. 
+Use this button to reset **all global settings** to their default state.
 
 #### Reset Current Page Settings ####
 
@@ -208,3 +208,12 @@ Use this button to reset all settings on the current page back to their default 
 Use this button to dump settings to a dat file in current theme root.
 
 **Note:** Once you've completed these actions, you may want to publish these changes to your live site.
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/configure/using-templates">&larr; Using Templates</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/pagelines-store">PageLines Store &rarr;</i></a></li>
+		</ul>
+	</div>
+</div>
