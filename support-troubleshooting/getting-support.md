@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/support-troubleshooting">Support & Troubleshooting</a> <span class="divider">/</span></li>
+  			<li class="active">Getting Support</li>
+		</ul>
+	</div>
+</div>
+
 # Getting Support #
 
 PageLines' mission is to create an awesome experience for everyone in our community. We have a variety of resources to help you get the most out of PageLines DMS. Each support resource focuses on a specific area, that we'll explain below.
@@ -53,3 +63,11 @@ Unfortunately, there are limits to PageLines support, which have been listed bel
 ### Customization ###
 
 We are unable to provide support for customizations of our products. Support is provided for our products as they're intended to function -- out of the box. Anything that changes the way our products are designed or function is considered customization, our support staff will do their best to offer advice and guidance, as well as direct you to the resources to assist.
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+  			<li class="pull-right"><a href="http://docs.pagelines.com/support-troubleshooting/diagnosing">Diagnosing &rarr;</a></li>
+		</ul>
+	</div>
+</div>
