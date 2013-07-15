@@ -1,13 +1,14 @@
 <div class="row-fluid">
 	<div class="span12">
-		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/html-css-utilities">&larr; HTML/CSS Utilities</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/adding-custom-fonts">Adding Custom Fonts &rarr;</a></li>
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+  			<li class="active">Adding Custom Menus</li>
 		</ul>
 	</div>
 </div>
 
-# Adding Menus #
+# Adding Custom Menus #
 
 Creating a custom menu allows you to change the order of links in your menu, or delete them, create nested sub-menus of links and add custom links to other sites.
 

@@ -1,10 +1,11 @@
 <div class="row-fluid">
-	<div class="span12">
-		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/typography">&larr; Typography</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/adding-custom-menus">Adding Custom Menus &rarr;</a></li>
-		</ul>
-	</div>
+      <div class="span12">
+            <ul class="breadcrumb">
+                  <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+                  <li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+                  <li class="active">HTML/CSS Utilities</li>
+            </ul>
+      </div>
 </div>
 
 # HTML/CSS Utilities #

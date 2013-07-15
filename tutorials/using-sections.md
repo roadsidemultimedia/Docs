@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+  			<li class="active">Using Sections</li>
+		</ul>
+	</div>
+</div>
+
 # PageLines Sections #
 
 PageLines DMS Sections are modular extensions based on the PageLines Drag & Drop architecture, and are included in the core DMS. If you are looking for information on configuring or activating sections, please review [this guide](http://docs.pagelines.com/configure/configure-sections).
@@ -179,4 +189,12 @@ The Response section is a responsive, scrolling image gallery which is populated
 TwinShot is a responsive video gallery best used as a full-width section. You may add up to 10 Youtube or Vimeo videos, and display a menu on the side, with title and a brief description.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/twinshot.jpg)
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/using-scrollspy">Using ScrollSpy <i class="icon-arrow-right"></i></i></a></li>
+		</ul>
+	</div>
+</div>
 

@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+  			<li class="active">Using ScrollSpy</li>
+		</ul>
+	</div>
+</div>
+
 ## Using Scroll Spy ##
 
 The Scroll Spy section adds an additional navigation bar that automatically updates nav targets based on scroll position. It also allows you to jump from one section of your page to another instantly.
@@ -58,3 +68,12 @@ Once you have completed the above, your Page should now look similar to the exam
 All we need to do is add some content to each of these areas. In the example code above, you will notice that there is this `<p>Your page content here</p>`. This is the where you add your content, this could be text, images or both. You can also add Shortcodes or even use the PageLines Grid with text, images and shortcodes. 
 
 This is where your creative side comes into play!
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/using-sections"><i class="icon-arrow-left"></i> Using Sections</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/using-plugins">Using Plugins <i class="icon-arrow-right"></i></i></a></li>
+		</ul>
+	</div>
+</div>

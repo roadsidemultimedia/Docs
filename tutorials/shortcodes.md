@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+  			<li class="active">Shortcodes</li>
+		</ul>
+	</div>
+</div>
+
 # Shortcodes #
 
 ## PL RAW ##
@@ -954,3 +964,12 @@ A lightweight, easy-to-use shortcode for fluid width video embeds, which support
 ~~~
 
 <img title="Traffic Sources" src="http://chart.apis.google.com/chart?cht=p3&amp;chtt=Traffic Sources&amp;chl=Reffering+sites|Search+Engines|Direct+traffic|Other&amp;chco=058DC7,50B432,ED561B,EDEF00&amp;chs=488x200&amp;chd=t:41.52,37.79,20.67,0.03&amp;chf=bg,s,F7F9FA" alt="Traffic Sources">
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/font-awesome"><i class="icon-arrow-left"></i> Font Awesome</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/typography">Typography <i class="icon-arrow-right"></i></i></a></li>
+		</ul>
+	</div>
+</div>

@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+  			<li class="active">Typography</li>
+		</ul>
+	</div>
+</div>
+
 # Typography #
 
 PageLines DMS typography is based on the powerful Bootstrap providing styling for tables, forms, buttons, and other standard interface elements.
@@ -185,4 +195,13 @@ A list of items with no `list-style` or additional left padding.
 ## More Examples ##
 
 For more information and examples on typography, head over to [Bootstrap’s typography](http://twitter.github.io/bootstrap/base-css.html#typography) page.
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/shortcodes"><i class="icon-arrow-left"></i> Shortcodes</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/html-css-utilities">HTML/CSS Utilities <i class="icon-arrow-right"></i></i></a></li>
+		</ul>
+	</div>
+</div>
 

@@ -1,10 +1,11 @@
 <div class="row-fluid">
-  <div class="span12">
-    <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/responsive-grid">&larr; Responsive Grid</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/shortcodes">Shortcodes &rarr;</a></li>
-    </ul>
-  </div>
+      <div class="span12">
+            <ul class="breadcrumb">
+                  <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+                  <li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+                  <li class="active">Font Awesome</li>
+            </ul>
+      </div>
 </div>
 
 # Font Awesome #

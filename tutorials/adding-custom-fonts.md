@@ -1,3 +1,13 @@
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="breadcrumb">
+        <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+        <li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+        <li class="active">Adding Custom Fonts</li>
+    </ul>
+  </div>
+</div>
+
 # Adding a Custom Font #
 
 There may come a time during development where you feel the need to add a custom font to your website, one that isn't available from the Google web fonts library. This tutorial will take you through the steps needed to add a custom font to your PageLines DMS powered website.
@@ -86,5 +96,13 @@ The primary reason for this failure? You are still using a version Firefox older
 Are you looking at Internet Explorer on an actual Windows machine or are you cheating by using a service like Adobe BrowserLab? Many of these screenshot services do not render @font-face for IE. Best to test it on a real machine.
 
 ### Fonts not loading in IE9 ###
-IE9, like Firefox, requires that fonts be served from the same domain as the website. Make sure that is the case, you can do this by following the instructions in **Step 1.**
+IE9, like Firefox, requires that fonts be served from the same domain as the website. Make sure that is the case, you can do this by following the instructions in **Step 1**.
+
+<div class="row-fluid">
+    <div class="span12">
+        <ul class="pager">
+            <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/adding-custom-menus"><i class="icon-arrow-left"></i> Adding Custom Menus</a></li>
+        </ul>
+    </div>
+</div>
 
