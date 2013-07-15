@@ -1,8 +1,9 @@
 <div class="row-fluid">
   <div class="span12">
-    <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/customize/base-child-theme">&larr; The Base Child Theme</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/override-default-css">Override Default CSS &rarr;</a></li>
+    <ul class="breadcrumb">
+        <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+        <li><a href="http://docs.pagelines.com/customize">Customize</a> <span class="divider">/</span></li>
+        <li class="active">Store Child Theme</li>
     </ul>
   </div>
 </div>

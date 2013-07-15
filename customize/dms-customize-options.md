@@ -1,10 +1,11 @@
 <div class="row-fluid">
-  <div class="span12">
-    <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/customize/how-to-customize"><i class="icon-arrow-left"></i> How to Customize</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/pagelines-customize-plugin">PageLines Customize Plugin <i class="icon-arrow-right"></i></a></li>
-    </ul>
-  </div>
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/customize">Customize</a> <span class="divider">/</span></li>
+  			<li class="active">DMS Customize Options</li>
+		</ul>
+	</div>
 </div>
 
 # DMS Customize Options #
@@ -51,9 +52,10 @@ The Custom Scripts Editor can be used to add any kind of custom or third party `
 However, the Custom Scripts editor **doe not** support `CSS`, `LESS` or `PHP`, if you wish to add these types of customization to your website, please use the correct methods.
 
 <div class="row-fluid">
-  <div class="span12">
-    <ul class="pager">
-      <li class="pull-left"><a href="http://docs.pagelines.com/customize/how-to-customize"><i class="icon-arrow-left"></i> How to Customize</a></li>
-        <li class="pull-right"><a href="http://docs.pagelines.com/customize/dms-customize-options">DMS Customize Options <i class="icon-arrow-right"></i></a></li>
-    </ul>
-  </div>
+ 	<div class="span12">
+    		<ul class="pager">
+      		<li class="pull-left"><a href="http://docs.pagelines.com/customize/how-to-customize"><i class="icon-arrow-left"></i> How to Customize</a></li>
+        		<li class="pull-right"><a href="http://docs.pagelines.com/customize/pagelines-customize-plugin">PageLines Customize Plugin <i class="icon-arrow-right"></i></a></li>
+    		</ul>
+  	</div>
+</div>

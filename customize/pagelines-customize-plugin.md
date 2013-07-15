@@ -1,10 +1,11 @@
 <div class="row-fluid">
-	<div class="span12">
-		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/customize/dms-customize-options">&larr; DMS Customize Options</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/customize/base-child-theme">The Base Child Theme &rarr;</a></li>
-		</ul>
-	</div>
+  <div class="span12">
+    <ul class="breadcrumb">
+        <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+        <li><a href="http://docs.pagelines.com/customize">Customize</a> <span class="divider">/</span></li>
+        <li class="active">PageLines Customize Plugin</li>
+    </ul>
+  </div>
 </div>
 
 # PageLines Customize Plugin #
@@ -143,7 +144,6 @@ For more information about LESS CSS , see our [LESS CSS](/advanced/less-css) doc
 The functions.php file allows you to add/manipulate functionality to PageLines DMS. You can use it to call functions and to define your own customized actions. The code is only executed when the PageLines Customized Plugin is activated, if the plugin is deactivated, the functionality will not carry over. The `functions.php` file supports numerous blocks of code to be used for many different purposes.
 
 For more information about hooks, see our [Hooks](/advanced/hooks) documentation which also includes some examples.
-
 
 <div class="row-fluid">
 	<div class="span12">
