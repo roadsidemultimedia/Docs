@@ -1,10 +1,11 @@
 <div class="row-fluid">
-	<div class="span12">
-		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/advanced/hooks">&larr; Hooks</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/advanced/override-sections">Override Sections &rarr;</i></a></li>
-		</ul>
-	</div>
+  <div class="span12">
+    <ul class="breadcrumb">
+        <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+        <li><a href="http://docs.pagelines.com/customize">Customize</a> <span class="divider">/</span></li>
+        <li class="active">LESS</li>
+    </ul>
+  </div>
 </div>
 
 # LESS #
