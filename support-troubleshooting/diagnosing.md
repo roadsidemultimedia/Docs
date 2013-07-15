@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/support-troubleshooting">Support & Troubleshooting</a> <span class="divider">/</span></li>
+  			<li class="active">Diagnosing</li>
+		</ul>
+	</div>
+</div>
+
 # Diagnosing #
 
 Here are some instructions to assist in diagnosing your issue(s) which you should evaluate and attempt before creating a topic on our support forums.
@@ -59,3 +69,12 @@ Because every system is setup differently, phpinfo() is commonly used to check c
 ## Next Step ##
 
 By following these guidelines you may indentify the cause of your issue yourself. If this isn't the case, don't panic. Providing this information when creating your forum topic, will greatly help our support staff identify the cause of your error(s).
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/support-troubleshooting/getting-support">&larr; Getting Support</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/support-troubleshooting/memory-allocation-error">Memory Allocation Error &rarr;</a></li>
+		</ul>
+	</div>
+</div>

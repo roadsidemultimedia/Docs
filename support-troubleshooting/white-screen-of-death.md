@@ -1,3 +1,13 @@
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="breadcrumb">
+  			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+  			<li><a href="http://docs.pagelines.com/support-troubleshooting">Support & Troubleshooting</a> <span class="divider">/</span></li>
+  			<li class="active">White Screen of Death</li>
+		</ul>
+	</div>
+</div>
+
 # The White Screen of Death #
 
 PHP errors, as well as database errors can manifest as a white screen, a blank screen with no information, in the WordPress community this is commonly known as the White Screen of Death.
@@ -29,3 +39,12 @@ define('WP_DEBUG', true;
 Once added, the blank screen may now display errors, warnings, or notices. These will likely help you determine the root cause.  If you're going to open a topic in our support forum, please copy and paste these errors there, explaining what occurred before you experienced the white page condition.
 
 Once added, the blank screen may now have errors, warnings, or notices. These may be able to help you determine the root cause.
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/support-troubleshooting/memory-allocation-error">&larr; Memory Allocation Error</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/support-troubleshooting/parse-error">Parse Error &rarr;</a></li>
+		</ul>
+	</div>
+</div>
