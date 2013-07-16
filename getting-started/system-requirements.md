@@ -31,7 +31,7 @@ We strongly advise that you always use the latest stable version of [Wordpress](
 
 PageLines DMS supports all modern web browsers which includes Chrome, FireFox, Safari and Internet Explorer 8 & 9.
 
-To ensure you have a secure and enjoyable browsing experience, we recommend you visit Browse Happy. Browse Happy is a way for you to find out what is the latest version of each major browser.
+To ensure you have a secure and enjoyable browsing experience, we recommend you visit [Browse Happy](http://browsehappy.com/). Browse Happy is a way for you to find out what is the latest version of each major browser.
 
 * Firefox 4+
 * Safari 5+
