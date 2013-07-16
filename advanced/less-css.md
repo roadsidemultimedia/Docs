@@ -2,7 +2,7 @@
   <div class="span12">
     <ul class="breadcrumb">
         <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
-        <li><a href="http://docs.pagelines.com/customize">Customize</a> <span class="divider">/</span></li>
+        <li><a href="http://docs.pagelines.com/advanced">Advanced</a> <span class="divider">/</span></li>
         <li class="active">LESS</li>
     </ul>
   </div>
