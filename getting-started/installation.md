@@ -36,7 +36,7 @@ After uploading PageLines DMS, head back to **Themes** and click **Activate**. Y
 	<div class="span12">
 		<ul class="pager">
 			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/system-requirements">&larr; Requirements</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/getting-started/upgrade">Upgrade &rarr;</i></a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/getting-started/upgrading">Upgrading &rarr;</i></a></li>
 		</ul>
 	</div>
 </div>

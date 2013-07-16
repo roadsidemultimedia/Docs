@@ -54,7 +54,7 @@ The pixel/percentage width of the layout will be displayed in the bottom right c
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/configure-sections">Sections Overview &rarr;</a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/configure/configuring-sections">Sections Overview &rarr;</a></li>
 		</ul>
 	</div>
 </div>
