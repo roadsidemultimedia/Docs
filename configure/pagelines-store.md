@@ -24,13 +24,14 @@ You can purchase them directly, or if you're a Plus subscriber, get your Plus Ex
 
 ## Installing Store Products
 
-Select the image for the product you want to add and you will be taken to the product overview page. Here you can click to purchase the product, go to the full product overview on Pagelines.com or close the window to return to the store.
+Select the image for the product you want to add (this can be a plugin, section or theme) and you will be taken to the product overview page. Here you can click to purchase the product, go to the full product overview on Pagelines.com or close the window to return to the store.
 
-Once purchased, select the product again and click the install button.
+Once purchased, select the product again and click the install button. Your product will now be added to the **Add Sections &rarr; Your Sections**, where you can drag it to the required position in the layout.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/store-product.jpg)
 
- Your product will be added to the **Add Sections &rarr; Your Sections**, where you can drag it to the required position in the layout.
+
+
 
 <div class="row-fluid">
 	<div class="span12">
