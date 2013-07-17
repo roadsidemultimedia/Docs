@@ -16,21 +16,15 @@ The Store is an incredible asset, full of important resources to improve the qua
 
 ## Accessing the store ##
 
-To access the Store, you may purchase direct from our [website](http://www.pagelines.com/store) or, for easier installation and integration, simply access the Store tab from the PageLines Toolbar to find the products you need. You can purchase them directly, or if you're a Plus subscriber, get your Plus Extensions here, too.
+To access the Store, you may purchase direct from our [website](http://www.pagelines.com/store) or, for easier installation, simply access the Store tab from the PageLines Toolbar to find the products you need.
 
-The Store has four basic departments: Sections; Plugins; Themes; and Integrations.
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/store.jpg)
+
+You can purchase them directly, or if you're a Plus subscriber, get your Plus Extensions here, too.
 
 ## Installing Store Products
 
-Pagelines DMS allows you to extend the functionality of your site by adding new sections, these are available from the Pagelines Store. 
-
-To access the store and see which products are available, you can either click on the sections icon in the DMS control panel and select ‘get more sections’. 
-
-Or select the extend icon directly in the DMS control panel.
-
-![Adding Store Products](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/sections.png "Adding Store Products")
-
-Select the image for the product you want to add and you will be taken to the product overview page. Here you can click to purchase the product, go to the full product over on Pagelines.com or close the window to return to the store.
+Select the image for the product you want to add and you will be taken to the product overview page. Here you can click to purchase the product, go to the full product overview on Pagelines.com or close the window to return to the store.
 
 Once purchased your product will be added to the ‘your sections’ tab, where you can drag it to the required position in the layout.
 

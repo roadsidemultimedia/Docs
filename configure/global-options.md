@@ -124,7 +124,7 @@ To access the social media options select the global icon from the DMS control p
 
 Enter the required information for either twitter, facebook or hashtag into the required field and publish your page to view the changes.
 
-![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/adding-social-local.png "Social Media")
+![Section Control](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/social-local.jpg "Social Media")
 
 ## NavBar ##
 
