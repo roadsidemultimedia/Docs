@@ -42,29 +42,31 @@ If you'd like to display icons on your menu items, we recommend using [Font Awes
 
 ### Method 1. Using icon class ###
 
-1. Navigate to **Appearance &rarr; Menus** and choose the menu item (for this example, we will be using our **Home** menu item) with the drop down menu you want to customize and click on the arrow to expand the settings.
+Navigate to **Appearance &rarr; Menus** and choose the menu item (for this example, we will be using our **Home** menu item) with the drop down menu you want to customize and click on the arrow to expand the settings.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example1.jpg)
 
-2. In the **CSS Classes (optional)** add `icon-home` and click **Save**. When you refresh your homepage, your menu should look similar to this to the image below.
+In the **CSS Classes (optional)** add `icon-home` and click **Save**.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example3.jpg)
 
-3. Repeat this process for all your menu items. For a full list of icons see our [Font Awesome](http://docs.pagelines.com/tutorials/font-awesome) page.
+When you refresh your homepage, your menu should look similar to this to the image below.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example2.jpg)
 
+Repeat this process for all your menu items. For a full list of icons see our [Font Awesome](http://docs.pagelines.com/tutorials/font-awesome) page.
+
 ### Method 2. Using icon code ###
 
-1. Navigate to **Appearance &rarr; Menus** and choose the menu item (for this example, we will be using our **Home** menu item) with the drop down menu you want to customize and click on the arrow to expand the settings.
+Navigate to **Appearance &rarr; Menus** and choose the menu item (for this example, we will be using our **Home** menu item) with the drop down menu you want to customize and click on the arrow to expand the settings.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example1.jpg)
 
-2. Instead of using the icon class in **CSS Classes (optional)** field, we can use the actual icon code in the **Navigation Label** field. Add the following before or after your menu items name, in our example, we will be adding the icon code before.
+Instead of using the icon class in **CSS Classes (optional)** field, we can use the actual icon code in the **Navigation Label** field. Add the following before or after your menu items name, in our example, we will be adding the icon code before.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example4.jpg)
 
-3. Repeat this process for all your menu items. For a full list of icons see our [Font Awesome](http://docs.pagelines.com/tutorials/font-awesome) page.
+Repeat this process for all your menu items. For a full list of icons see our [Font Awesome](http://docs.pagelines.com/tutorials/font-awesome) page.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example2.jpg)
 
