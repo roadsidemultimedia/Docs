@@ -10,7 +10,7 @@
 
 # Adding Custom Menus #
 
-Creating a custom menu allows you to change the order of links in your menu, or delete them, create nested sub-menus of links and add custom links to other sites.
+Creating a custom menu allows you to change the order of the links in your menu, or delete them, create nested sub-menus of links and add custom links to other sites.
 
 To create a custom menu, go to **Appearance &rarr; Menus** in your Wordpress admin dashboard.
 
@@ -18,7 +18,7 @@ To create a custom menu, go to **Appearance &rarr; Menus** in your Wordpress adm
 
 To create a new menu, type in a Menu Name (to help you remember what it is), and click the **Create Menu** button.
 
-Adding pages, posts, categories and tags to your menu is as simple as checking the proper boxes for the items you want and then clicking **Add to Menu**.
+Adding pages, posts, categories and tags to your menu is as simple as checking the boxes for the items you want and then clicking **Add to Menu**.
 
 **Theme locations**, allows you to decide where you would like your custom menu to appear in your PageLines DMS. If you wish to add a custom menu to the Fixed Nav or NavBar section, you do so in the sections options.
 
@@ -38,7 +38,7 @@ Important:  WordPress limits the number of levels for menus to three (3) -- Pare
 
 ## Adding Icons ##
 
-If you'd like to display icons on your menu items, we recommend using [Font Awesome](http://docs.pagelines.com/tutorials/font-awesome). There are two simple methods, which will go through below.
+If you'd like to display icons on your menu items, we recommend using [Font Awesome](http://docs.pagelines.com/tutorials/font-awesome). There are two simple methods, which we will go through below.
 
 ### Using icon class ###
 
@@ -73,6 +73,7 @@ Repeat this process for all your menu items. For a full list of icons see our [F
 There is a more complex method to adding icons to your menu items, which requires you to indentify each menu items ID and then use the CSS Pseudo class `:before` or `:after` depending on where you want your icon positioned.
 
 For more information on CSS Pseudo classes, see this [article](http://css-tricks.com/pseudo-class-selectors/).
+
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
