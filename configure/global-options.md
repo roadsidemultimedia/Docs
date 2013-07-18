@@ -10,13 +10,13 @@
 
 # Options #
 
-PageLines DMS provides users with a number of global settings, allowing them to change their site's layout, add social intergration, control colors & styles and more.
+PageLines DMS provides users with a number of global settings, allowing them to change their site's layout, add social intergration, control colors, styles and more.
 
 ## Admin Shortcuts ##
 
 The **Admin Shortcuts** panel provides a quick and efficient method of managing common Wordpress settings through the DMS front-end.
 
-The Wordpress settings included are **Set Site Homepage**, **Manage Menus**, **Manage Widgets**, **User Profiles**, **Site Settings**, **Manage Plugins** and **Permalinks**.
+The Wordpress settings included are **Set Site Homepage**, **Manage Menus**, **Manage Widgets**, **User Profiles**, **Site Settings**, **Plugins Admin** and **Permalinks**.
 
 ![Admin Shortcuts](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/admin-shortcuts.jpg "Admin Shortcuts")
 
@@ -95,7 +95,7 @@ The **Color & style** panel provides the ability to easily change the color of y
 
 #### Content Base & Site Text Colors ####
 
-The **Content base** color is used as your background and as a basis for calculating contrast values in elements such as hover effects, etc. Use it as your default background color and refine using custom CSS/LESS or a theme.
+The **Content base** color is used as your background and as a basis for calculating contrast values in elements such as hover effects, etc. Use it as your default background color and refine using custom CSS/LESS or a child theme.
 
 The Site text colors setting allows you to configure the basic text colors for your site.
 
@@ -165,7 +165,7 @@ You're able to configure the NavBar further with the following options, check th
 
 ## Import + Export ##
 
-The **Import + Export** panel provides the ability to import and/or export your DMS config so that you don’t have to spend time implementing your settings again, if you plan on moving them to another PageLines DMS install or migrate your site to a new server. This time saving process assures that your DMS settings are identical when imported.
+The **Import + Export** panel provides the ability to import and/or export your DMS config so that you don’t have to spend time implementing your settings again, if you plan on moving them to another PageLines DMS install or migrate your site to a new server. This time saving process ensures that your DMS settings are identical when imported.
 
 ![Import + Export](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/import-export.jpg "Import + Export")
 
@@ -191,23 +191,23 @@ Use this option to add a class to the `<body>` element of the website. This can 
 
 ## Resets ##
 
-The **Resets** panel should be used with **caution**, there are three **Reset** options available which reset your global settings with the other resetting your current page settings.
+The **Resets** panel should be used with extreme caution. There are two reset options available on that panel. Use of these resets will restore global settings, including resetting current page settings.  You will be removing, on a global basis, all changes you've made to the site via settings.  
+
+We recommend taking extra care and proceeding slowly, when using the Reset options.
 
 ![Resets](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/resets.jpg "Resets")
 
 #### Reset Global Site Settings ####
 
-Use this button to reset **all global settings** to their default state.
+Use this button to reset **all global settings** to their default state. Once you've completed this action, you may want to publish these changes to your live site.
 
 #### Reset Current Page Settings ####
 
-Use this button to reset all settings on the current page back to their default state.
+Use this button to reset all settings on the **current page** back to their default state. Once you've completed this action, you may want to publish these changes to your live site.
 
-#### Dump Settings to file ####
+#### Clear all CSS/LESS cached data. ####
 
-Use this button to dump settings to a dat file in current theme root.
-
-**Note:** Once you've completed these actions, you may want to publish these changes to your live site.
+Use this button to purge the stored LESS/CSS data. This will also clear cached pages if wp-super-cache or w3-total-cache are detected.
 
 <div class="row-fluid">
 	<div class="span12">
