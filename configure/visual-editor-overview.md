@@ -32,7 +32,7 @@ Once the section is in place, use the tool bar at the top of the section block t
 
 ## Disabling the visual editor ##
 
-To turn off the visual editor, select the power in the DMS control panel.
+To disable the visual editor, select the power in the DMS control panel.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/disable-editor.jpg)
 

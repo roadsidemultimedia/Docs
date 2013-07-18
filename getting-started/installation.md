@@ -10,7 +10,7 @@
 
 # Installation #
 
-To start using PageLines DMS, you will first need to make sure you have [WordPress](http://wordpress.org) installed. Once set up, the PageLines DMS can be installed like any other WordPress theme.
+To start using PageLines DMS, you will first need to make sure you have [WordPress](http://wordpress.org) installed. Once set up, PageLines DMS can be installed like any other WordPress theme.
 
 ## Downloading PageLines DMS ##
 
