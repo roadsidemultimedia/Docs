@@ -128,13 +128,13 @@
 
 <h1>Options</h1>
 
-<p>PageLines DMS provides users with a number of global settings, allowing them to change their site&#39;s layout, add social intergration, control colors &amp; styles and more.</p>
+<p>PageLines DMS provides users with a number of global settings, allowing them to change their site&#39;s layout, add social intergration, control colors, styles and more.</p>
 
 <h2>Admin Shortcuts</h2>
 
 <p>The <strong>Admin Shortcuts</strong> panel provides a quick and efficient method of managing common Wordpress settings through the DMS front-end.</p>
 
-<p>The Wordpress settings included are <strong>Set Site Homepage</strong>, <strong>Manage Menus</strong>, <strong>Manage Widgets</strong>, <strong>User Profiles</strong>, <strong>Site Settings</strong>, <strong>Manage Plugins</strong> and <strong>Permalinks</strong>.</p>
+<p>The Wordpress settings included are <strong>Set Site Homepage</strong>, <strong>Manage Menus</strong>, <strong>Manage Widgets</strong>, <strong>User Profiles</strong>, <strong>Site Settings</strong>, <strong>Plugins Admin</strong> and <strong>Permalinks</strong>.</p>
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/admin-shortcuts.jpg" alt="Admin Shortcuts" title="Admin Shortcuts"></p>
 
@@ -215,7 +215,7 @@
 
 <h4>Content Base &amp; Site Text Colors</h4>
 
-<p>The <strong>Content base</strong> color is used as your background and as a basis for calculating contrast values in elements such as hover effects, etc. Use it as your default background color and refine using custom CSS/LESS or a theme.</p>
+<p>The <strong>Content base</strong> color is used as your background and as a basis for calculating contrast values in elements such as hover effects, etc. Use it as your default background color and refine using custom CSS/LESS or a child theme.</p>
 
 <p>The Site text colors setting allows you to configure the basic text colors for your site.</p>
 
@@ -295,7 +295,7 @@
 
 <h2>Import + Export</h2>
 
-<p>The <strong>Import + Export</strong> panel provides the ability to import and/or export your DMS config so that you don’t have to spend time implementing your settings again, if you plan on moving them to another PageLines DMS install or migrate your site to a new server. This time saving process assures that your DMS settings are identical when imported.</p>
+<p>The <strong>Import + Export</strong> panel provides the ability to import and/or export your DMS config so that you don’t have to spend time implementing your settings again, if you plan on moving them to another PageLines DMS install or migrate your site to a new server. This time saving process ensures that your DMS settings are identical when imported.</p>
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/import-export.jpg" alt="Import + Export" title="Import + Export"></p>
 
@@ -321,23 +321,23 @@
 
 <h2>Resets</h2>
 
-<p>The <strong>Resets</strong> panel should be used with <strong>caution</strong>, there are three <strong>Reset</strong> options available which reset your global settings with the other resetting your current page settings.</p>
+<p>The <strong>Resets</strong> panel should be used with extreme caution. There are two reset options available on that panel. Use of these resets will restore global settings, including resetting current page settings.  You will be removing, on a global basis, all changes you&#39;ve made to the site via settings.  </p>
+
+<p>We recommend taking extra care and proceeding slowly, when using the Reset options.</p>
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/resets.jpg" alt="Resets" title="Resets"></p>
 
 <h4>Reset Global Site Settings</h4>
 
-<p>Use this button to reset <strong>all global settings</strong> to their default state.</p>
+<p>Use this button to reset <strong>all global settings</strong> to their default state. Once you&#39;ve completed this action, you may want to publish these changes to your live site.</p>
 
 <h4>Reset Current Page Settings</h4>
 
-<p>Use this button to reset all settings on the current page back to their default state.</p>
+<p>Use this button to reset all settings on the <strong>current page</strong> back to their default state. Once you&#39;ve completed this action, you may want to publish these changes to your live site.</p>
 
-<h4>Dump Settings to file</h4>
+<h4>Clear all CSS/LESS cached data.</h4>
 
-<p>Use this button to dump settings to a dat file in current theme root.</p>
-
-<p><strong>Note:</strong> Once you&#39;ve completed these actions, you may want to publish these changes to your live site.</p>
+<p>Use this button to purge the stored LESS/CSS data. This will also clear cached pages if wp-super-cache or w3-total-cache are detected.</p>
 
 <div class="row-fluid">
     <div class="span12">
