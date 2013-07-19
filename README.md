@@ -1,6 +1,6 @@
 <h1 class="text-info">Welcome</h3>
 	<p class="text-info lead">Welcome to PageLines DMS docuementation, the open source platform that allows beginners and experts to build amazing websites, as fast and easy as possible. If you're new here, continue reading our documentation to get started.</p>
-<hr class="text-info">
+<hr>
 
 <h2>Getting Started</h2>
 <p>There are a few ways to quickly get started with DMS, you can download the open source version  available via GitHub, to see if the product meets your requirements or go straight ahead and purchase the professional version which provided additional options and functionality.</p>
@@ -12,18 +12,15 @@
 <div class="row-fluid">
 	<div class="span6">
 		<h3>Download Comiled</h3>
-		<p>Fastet way to get started is by downloading the compiled version.</p>
+		<p>Fastet way to get started is by downloading the compiled version which comes in .zip format.</p>
 		<p><a class="btn btn-large btn-primary" href="#"><i class="icon-github"></i> Download DMS</a></p>
 	</div>
 	<div class="span6">
 		<h3>Download Source</h3>
 		<p>Get the original files for LESS and javascript by downloading the latest version from GitHub.
-		<p><a class="btn btn-large btn-default" href="#"><i class="icon-github"></i> Download DMS Source</a></p>
+		<p><a class="btn btn-large btn-success" href="#"><i class="icon-github"></i> Download DMS Source</a></p>
 	</div>
 </div>
-
-
-<hr>
 
 <h2>Quick Links</h2>
 
@@ -50,8 +47,6 @@
 		</ul>
 	</div>
 </div>
-
-<hr>
 
 <h2>Contributing and Collaborating on Improvements</h2>
 
