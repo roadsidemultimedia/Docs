@@ -44,7 +44,17 @@ We try to ensure that PageLines DMS will work with any modern and secured server
 * [PHP](http://php.net/) version 5.2.4 or greater (5.3 recommended)
 * [MySQL](http://www.mysql.com/) version 5.0 or greater
 
-That said, we can’t test every possible environment, this is why PageLines DMS includes a debugging tool which can be useful when investigating issues you may have. For more information see our [debug](http://docs.pagelines.com/support-troubleshooting/debug) page.
+That said, we can’t test every possible environment, this is why PageLines DMS includes a debugging tool which can be useful when investigating issues you may have.
+
+### Debug Mode ###
+
+Should you experience problems with your website, you might need to enable the DMS debug mode. This will provide the support team with additional information about your site and can help in troubleshooting. This information includes your server setup, PHP and MySql version, Operating System and currently installed plugins.
+
+To enable the Pagelines Debug mode, click on the global icon in the DMS control panel and select the advanced tab from the menu. In the debug panel, select the checkbox and then republish your page so the changes take effect. To view your debug information, navigate to the admin shortcuts tab and click the view debug information button.
+
+If you're unsure about the details provided, don't worry, provide this information to our support team and they will be able to determine if there your issue is server related.
+
+Note: the view debug information button will only appear if debug mode is enabled. 
 
 ### PHP Info ###
 
