@@ -23,53 +23,38 @@
 
 <hr>
 
-
-
-
-
-
-
-
-
-<div class="row-fluid">
-	<div class="span12">
-		<div class="alert alert-block alert-info">
-			<h1>Welcome!</h1>
-  				<p>Welcome to PageLines documentation.....</p>
-  				<p>User Documentation</p>
-  				<p>Developer Documentation</p>
-		</div>
-	</div>
-</div>
+<h2>Quick Links</h2>
 
 <div class="row-fluid">
 	<div class="span6">
-		<div class="alert alert-block">
-		  <h3>Quick Links</h3>
-  			<ul>
-  				<li>Getting Started</li>
-  				<li>Configure</li>
-  				<li>...</li>
-  			</ul>
-		</div>
+		<h3>Documentaion</h3>
+		<ul>
+			<li><a href="http://docs.pagelines.com/getting-started/">Getting Started</a></li>
+			<li><a href="http://docs.pagelines.com/configure/">Configure</a></li>
+			<li><a href="http://docs.pagelines.com/customize/">Customize</a></li>
+			<li><a href="http://docs.pagelines.com/advanced/">Advanced</a></li>
+			<li><a href="http://docs.pagelines.com/tutorials/">Tutorials</a></li>
+			<li><a href="http://docs.pagelines.com/support-troubleshooting/">Support & Troubleshooting</a></li>
+		</ul>
 	</div>
 	<div class="span6">
-		<div class="alert alert-block alert-success">
-		  <h3>Support</h3>
-  			<ul>
-  				<li>Forums</li>
-  				<li>Help Desk</li>
-  				<li>Live Chat</li>
-  			</ul>
-		</div>
+		<h3>Support & Resouces</h3>
+		<ul>
+			<li><a href="http://www.pagelines.com/forum/">Forum</a></li>
+			<li><a href="http://www.pagelines.com/contact/">Helpdesk</a></li>
+			<li><a href="http://www.pagelines.com/pros/">PageLines Pros</a></li>
+			<li><a href="http://pagelines.com/translate/projects/">Translation Center</a></li>
+			<li><a href="https://github.com/pagelines/DMS/issues">Issue Tracker</a></li>
+		</ul>
 	</div>
 </div>
 
-<div class="row-fluid">
-	<div class="span12">
-		<div class="alert alert-block alert-warning">
-  			<h3>Contribute!</h3>
-  				<p>The PageLines documentation is open to the public on GitHub so feel free to contribute if you like!</p>
-  		</div>
-  	</div>
-</div>
+<hr>
+
+<h2>Contributing and Collaborating on Improvements<h2>
+
+<p>Throughout the development of DMS, we’ve been collaborating with the DMS Beta team to make the best product/platform possible.</p>
+
+<p>Since we were using a collaborative coding platform, we realized that you could implement features and improve code by just by doing a simple ‘pull request’ in GitHub.</p>
+
+<p>This makes it possible to get fixes and improvements into the core PageLines codebase faster and more frequently. We think that’s awesome because it makes the platform better and helps speed up the development.</p>
