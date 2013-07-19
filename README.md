@@ -9,17 +9,19 @@
 
 <p>DMS is open source and hosted on GitHub. This means you’ll have a collaborative codebase which gives you the ability to access latest changes, file issues, and contribute to the source.</p>
 
-<h3>Download Comiled</h3>
+<div class="row-fluid">
+	<div class="span6">
+		<h3>Download Comiled</h3>
+		<p>Fastet way to get started is by downloading the compiled version.</p>
+		<p><a class="btn btn-large btn-primary" href="#"><i class="icon-github"></i> Download DMS</a></p>
+	</div>
+	<div class="span6">
+		<h3>Download Source</h3>
+		<p>Get the original files for LESS and javascript by downloading the latest version from GitHub.
+		<p><a class="btn btn-large btn-default" href="#"><i class="icon-github"></i> Download DMS Source</a></p>
+	</div>
+</div>
 
-<p>Fastet way to get started is by downloading the compiled version.</p>
-
-<p><a class="btn btn-large btn-primary" href="#"><i class="icon-github"></i> Download DMS</a></p>
-
-<h3>Download Source</h3>
-
-<p>Get the original files for LESS and javascript by downloading the latest version from GitHub.
-
-<p><a class="btn btn-large btn-default" href="#"><i class="icon-github"></i> Download DMS Source</a></p>
 
 <hr>
 
