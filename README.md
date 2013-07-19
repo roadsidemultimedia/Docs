@@ -53,7 +53,7 @@
 
 <hr>
 
-<h2>Contributing and Collaborating on Improvements<h2>
+<h2>Contributing and Collaborating on Improvements</h2>
 
 <p>Throughout the development of DMS, we’ve been collaborating with the DMS Beta team to make the best product/platform possible.</p>
 
