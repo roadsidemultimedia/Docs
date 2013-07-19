@@ -64,4 +64,4 @@
 
 <p>This makes it possible to get fixes and improvements into the core PageLines codebase faster and more frequently. We think that’s awesome because it makes the platform better and helps speed up the development.</p>
 
-<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS" target="_blank"><i class="icon-github-alt"></i> DMS on GitHub</a></p>
+<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS" target="_blank"><i class="icon-github-alt"></i> Contribute</a></p>
