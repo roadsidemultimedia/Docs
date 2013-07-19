@@ -14,12 +14,12 @@
 	<div class="span6">
 		<h3>Download Compiled</h3>
 		<p>Fastet way to get started is by downloading the compiled version which comes in .zip format.</p>
-		<p><a class="btn btn-large btn-primary" href="# target="_blank""><i class="icon-github-alt"></i> Download DMS</a></p>
+		<p><a class="btn btn-default btn-primary" href="# target="_blank""><i class="icon-github-alt"></i> Download DMS</a></p>
 	</div>
 	<div class="span6">
 		<h3>Download Source</h3>
 		<p>Get the original files for LESS and javascript by downloading the latest version from GitHub.
-		<p><a class="btn btn-large btn-success" href="# target="_blank""><i class="icon-github-alt"></i> Download DMS Source</a></p>
+		<p><a class="btn btn-default btn-success" href="# target="_blank""><i class="icon-github-alt"></i> Download DMS Source</a></p>
 	</div>
 </div>
 
@@ -27,7 +27,7 @@
 
 <p>As well as being open source and hosted on GitHub. We have also developed a professional edition, which included extra options and added functionslity such as viewpoint animation.</p>
 
-<p><a class="btn btn-large btn-success" href="# target="_blank"">Purchase DMS now!</a></p>
+<p><a class="btn btn-default btn-success" href="# target="_blank"">Purchase DMS now!</a></p>
 
 
 <h2>Quick Links</h2>
@@ -64,4 +64,4 @@
 
 <p>This makes it possible to get fixes and improvements into the core PageLines codebase faster and more frequently. We think that’s awesome because it makes the platform better and helps speed up the development.</p>
 
-<p><a class="btn btn-large btn-primary" href="https://github.com/pagelines/DMS" target="_blank"><i class="icon-github-alt"></i> DMS on GitHub</a></p>
+<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS" target="_blank"><i class="icon-github-alt"></i> DMS on GitHub</a></p>
