@@ -1,6 +1,6 @@
 <h1 class="text-info">Welcome</h3>
 
-<p class="text-info lead">Welcome to PageLines DMS docuementation, the open source platform that allows beginners and experts to build amazing websites, as fast and easy as possible. If you're new here, continue reading our documentation to get started.</p>
+<p class="text-info lead">Welcome to PageLines DMS documentation, the open source platform that allows beginners and experts to build amazing websites, as fast and easy as possible. If you're new here, continue reading our documentation to get started.</p>
 
 <h2>Getting Started</h2>
 
