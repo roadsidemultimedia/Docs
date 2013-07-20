@@ -14,12 +14,33 @@ To start using PageLines DMS, you will first need to make sure you have [WordPre
 
 ## Downloading PageLines DMS ##
 
-PageLines DMS is available in two versions, the Professional/Developer editions (premium) and Lite (free).
+PageLines DMS is open source and available on GitHub for you to download, we have also created a premium version. The premium product is available in three editions, **Personal**, **Professional** and **Enterprise**. For more information regarding the differences between each edition, please see our [pricing page](http://www.pagelines.com/pricing/).
 
-* **PageLines DMS** can be downloaded from your [PageLines member area](https://www.pagelines.com/launchpad/member.php) after [purchase](https://www.pagelines.com/pricing/).
-* **DMS Lite** can be downloaded from the [WordPress.org Repository](http://wordpress.org/) for free.
+#### GitHub ####
+
+<p>DMS is open source and hosted on GitHub. This means you’ll have a collaborative codebase which gives you the ability to access latest changes, file issues, and contribute to the source.</p>
+
+<div class="row-fluid">
+	<div class="span6">
+		<h4>Download Compiled</h4>
+		<p>Fastet way to get started is by downloading the compiled version which comes in .zip format.</p>
+		<p><a class="btn btn-default btn-primary" href="#" "target="_blank""><i class="icon-github-alt"></i> Download DMS</a></p>
+	</div>
+	<div class="span6">
+		<h4>Download Source</h4>
+		<p>Get the original files for LESS and javascript by downloading the latest version from GitHub.
+		<p><a class="btn btn-default btn-success" href="#" "target="_blank""><i class="icon-github-alt"></i> Download DMS Source</a></p>
+	</div>
+</div>
+
+#### Premium Version ####
+
+The premium version can be downloaded from your [PageLines member area](https://www.pagelines.com/launchpad/member.php) after [purchase](https://www.pagelines.com/pricing/).
+
 
 ## Installing PageLines DMS ##
+
+Once you have downloaded PageLines DMS, login to your Wordpress Admin Dashboard and follow the instructions below:
 
 * Navigate to **Appearance &rarr; Themes**.
 * Select **Install Themes** and click **Upload**.
