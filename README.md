@@ -4,30 +4,25 @@
 
 <h2>Getting Started</h2>
 
-<p>There are a few ways to quickly get started with DMS, you can download the open source version  available via GitHub, to see if the product meets your requirements or go straight ahead and purchase the professional version which provided additional options and functionality.</p>
+<p>There are a few ways to quickly get started with DMS, you can download the open source version  available via GitHub, to see if the product meets your requirements or go straight ahead and purchase the professional version which provides additional options and functionality.</p>
 
-<h4>Open Source</h4>
+<h3>Open Source</h3>
 
 <p>DMS is open source and hosted on GitHub. This means you’ll have a collaborative codebase which gives you the ability to access latest changes, file issues, and contribute to the source.</p>
 
 <div class="row-fluid">
-	<div class="span6">
+	<div class="span12">
 		<h4>Download Compiled</h4>
 		<p>Fastet way to get started is by downloading the compiled version which comes in .zip format.</p>
-		<p><a class="btn btn-default btn-primary" href="# target="_blank""><i class="icon-github-alt"></i> Download DMS</a></p>
-	</div>
-	<div class="span6">
-		<h4>Download Source</h4>
-		<p>Get the original files for LESS and javascript by downloading the latest version from GitHub.
-		<p><a class="btn btn-default btn-success" href="# target="_blank""><i class="icon-github-alt"></i> Download DMS Source</a></p>
+		<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS/archive/Free.zip" "target="_blank""><i class="icon-github-alt"></i> Download DMS</a></p>
 	</div>
 </div>
 
-<h4>Professional Edition</h4>
+<h3>Professional Edition</h3>
 
 <p>As well as being open source and hosted on GitHub. We have also developed a professional edition, which included extra options and added functionslity such as viewpoint animation.</p>
 
-<p><a class="btn btn-default btn-success" href="# target="_blank"">Purchase DMS now!</a></p>
+<p><a class="btn btn-default btn-success" href="http://www.pagelines.com/pricing/" "target="_blank"">Purchase DMS now!</a></p>
 
 
 <h2>Quick Links</h2>
@@ -60,4 +55,4 @@
 
 <p>The PageLines DMS documentation is hosted on GitHub, this means our documentation is open to the public. Anyone who has a GitHub account can contribute to improving our documentation, this includes correcting any errors or creating your own docs to assist other PageLines DMS users.</p>
 
-<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS" target="_blank"><i class="icon-github-alt"></i> Contribute</a></p>
+<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/Docs/" target="_blank"><i class="icon-github-alt"></i> Contribute</a></p>
