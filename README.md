@@ -58,10 +58,6 @@
 
 <h2>Contributing and Collaborating on Improvements</h2>
 
-<p>Throughout the development of DMS, we’ve been collaborating with the DMS Beta team to make the best product/platform possible.</p>
-
-<p>Since we were using a collaborative coding platform, we realized that you could implement features and improve code by just by doing a simple ‘pull request’ in GitHub.</p>
-
-<p>This makes it possible to get fixes and improvements into the core PageLines codebase faster and more frequently. We think that’s awesome because it makes the platform better and helps speed up the development.</p>
+<p>The PageLines DMS documentation has been created and hosted on GitHub, this means our documentation is open to the public. Anyone who has a GitHub account can contribute to our documentation, this includes correcting any errors or creating your own docs to assist other PageLines DMS users.</p>
 
 <p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS" target="_blank"><i class="icon-github-alt"></i> Contribute</a></p>
