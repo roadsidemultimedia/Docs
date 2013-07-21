@@ -26,13 +26,15 @@ The DMS Tools tab is a fallback system that allows you to remove any LESS or cus
 
 ## Account ##
 
-The **Account** panel which is located in Visiual Editor Toolbar &rarr; Account, includes three tabs. 
+The **Account** panel which is located in Visiual Editor Toolbar &rarr; Account, includes three tabs.
 
-* The **Welcome!** tab provides a simple congratulations message for using PageLines DMS and a getting started video.
+<ul>
+<li>The <strong>Welcome!</strong> tab provides a simple congratulations message for using PageLines DMS and a getting started video.</li>
 
-* The *Your Account** tab allows you to enter your PageLines account details. This activates the Premium product features and any store products you may have purchased. It also allows you to receive automatic updates and easily install Store products. Your activation key is provided upon completion of your DMS purchase.
+<li>The <strong>Your Account</strong> tab allows you to enter your PageLines account details. This activates the Premium product features and any store products you may have purchased. It also allows you to receive automatic updates and easily install Store products. Your activation key is provided upon completion of your DMS purchase.</li>
 
-* The **Support** tab, provides quick access to our Support Forums and Documentation.
+<li>The <strong>Support</strong> tab, provides quick access to our Support Forums and Documentation.</li>
+</ul>
 
 ## Troubleshooting ##
 
