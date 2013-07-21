@@ -38,7 +38,7 @@ The **Account** panel which is located in Visiual Editor Toolbar &rarr; Account,
 
 ## Troubleshooting ##
 
-If you're having difficulty connecting to the PageLines activation service, you most likely using a strict server environment or your server has fuctions disabled that are required in order to connect to PageLines. If this is the case, please contact your web host provider for support.
+If you're having difficulty connecting to the PageLines activation service, you're most likely using a strict server environment or your server has fuctions disabled that are required in order to connect. If this is the case, please contact your web host provider for support.
 
 <div class="row-fluid">
 	<div class="span12">
