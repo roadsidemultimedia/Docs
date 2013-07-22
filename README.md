@@ -29,7 +29,7 @@
 
 <div class="row-fluid">
 	<div class="span6">
-		<h3>Documentaion</h3>
+		<h3>Documentation</h3>
 		<ul>
 			<li><a href="http://docs.pagelines.com/getting-started/">Getting Started</a></li>
 			<li><a href="http://docs.pagelines.com/configure/">Configure</a></li>
