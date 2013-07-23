@@ -48,6 +48,21 @@ Once you have downloaded PageLines DMS, login to your Wordpress Admin Dashboard 
 
 After uploading PageLines DMS, head back to **Themes** and click **Activate**. You should be all set up and ready to go!
 
+## Adding License Key ##
+
+Login to your [PageLines Account](http://www.pagelines.com/my-account/).
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/account-page.jpg)
+
+Click on the View button which will take you to your License details.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/license-key.jpg)
+
+Now copy and paste your License Key into **DMS Toolbar &rarr; Account &rarr; Your Account**
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/account-info.jpg)
+
+
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
