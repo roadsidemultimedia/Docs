@@ -38,7 +38,7 @@ While developing PageLines DMS, it is very difficult to prevent CSS changes from
 
 ## Migrating from PageLines Framework ##
 
-Like Platform Pro, there isn't an upgrade path and you will need to migrate. However, we have included a option called **Framework V2 Upgrade**, using this option enables PageLines Framework interfaces and options. Not all PageLines Framework options work in DMS due to specificity; but it allows you to reference your old settings as you are rebuilding your site using the DMS system.
+Like Platform Pro, there isn't an upgrade path and you will need to migrate. However, we have included a option **DMS Toolbar &rarr; Global Options &Rarr; Advanced **Framework V2 Upgrade**, using this option enables PageLines Framework backend interface and options. Not all PageLines Framework options work in DMS due to specificity; but it allows you to reference your old settings as you are rebuilding your site using the DMS system.
 
 ### Database Untouched ###
 
