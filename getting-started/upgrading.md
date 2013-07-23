@@ -10,19 +10,21 @@
 
 # Upgrading & Migration #
 
-In this tutorial, we will show you how to migrate from Platform Pro and PageLines Framework, as well as upgrade from the open source version of DMS to the Premium version.
+In this tutorial, we will show you the process of migrating from Platform Pro and the PageLines Framework. We will also cover upgrading from the Open Source edition of DMS to one of the Premium DMS subscriptions.
 
 ## Migrating from Platform Pro ##
 
-Unfortunately, there is no upgrade path for users of Platform or Platform Pro and instead you will need to migrate to PageLines DMS. What this means is that you will need to recreate your sites design again using PageLines DMS. The average time to make the switch ranges from five minutes to a few hours depending on the level of customization that was previously applied to the website. That said, there are still a few things you should be aware of when upgrading.
+Unfortunately, there is no automatic upgrade path for users of Platform or Platform Pro, instead you will need to migrate to PageLines DMS. This means that you will need to recreate your sites design again using the available tools and features within PageLines DMS.
+
+The average site transition time ranges from five minutes to a few hours depending on the level of customization that you had previously applied to your website. However, there are still a few things you should be aware of when upgrading to make your transition as easy as possible. 
 
 ### Database Untouched ###
 
-Your content such as pages and posts will remain intact, in the database upon installation and activation of PageLines DMS.
+Your site content, such as your pages and posts will remain untouched upon installing and activating PageLines DMS.
 
 ### CSS Changes ###
 
-While developing PageLines DMS, it is very difficult to prevent CSS changes from happening. This means that you may need to review your custom CSS and make some adjustments, correcting your custom CSS rules to align with the new elements.
+Whilst developing PageLines DMS, it is very difficult to prevent some CSS changes from occurring. This means that you may need to review your custom CSS and make some adjustments where required, to correct your custom CSS rules and align them with the new elements inside Pagelines DMS.
 
 ### Migration Steps ###
 
@@ -40,7 +42,7 @@ While developing PageLines DMS, it is very difficult to prevent CSS changes from
 
 Like Platform Pro, there isn't an upgrade path and you will need to migrate. However, we have included a option **DMS Toolbar &rarr; Global Options &Rarr; Advanced **Framework V2 Upgrade**, using this option enables PageLines Framework backend interface and options. Not all PageLines Framework options work in DMS due to specificity; but it allows you to reference your old settings as you are rebuilding your site using the DMS system.
 
-Like the instructions above, your content such as pages and posts will remain intact and your custom CSS will need adjusting to align with the new elements.
+Like the instructions above, your site content such as pages and posts will remain untouched and your custom CSS will need adjusting to align with the new elements.
 
 ### Migration Steps ###
 
