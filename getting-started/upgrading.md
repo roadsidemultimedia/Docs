@@ -40,13 +40,7 @@ While developing PageLines DMS, it is very difficult to prevent CSS changes from
 
 Like Platform Pro, there isn't an upgrade path and you will need to migrate. However, we have included a option **DMS Toolbar &rarr; Global Options &Rarr; Advanced **Framework V2 Upgrade**, using this option enables PageLines Framework backend interface and options. Not all PageLines Framework options work in DMS due to specificity; but it allows you to reference your old settings as you are rebuilding your site using the DMS system.
 
-### Database Untouched ###
-
-Your content such as pages and posts will remain intact, in the database upon installation and activation of PageLines DMS.
-
-### CSS Changes ###
-
-While developing PageLines DMS, it is very difficult to prevent CSS changes from happening. This means that you may need to review your custom CSS and make some adjustments, correcting your custom CSS rules to align with the new elements.
+Like the instructions above, your content such as pages and posts will remain intact and your custom CSS will need adjusting to align with the new elements.
 
 ### Migration Steps ###
 
