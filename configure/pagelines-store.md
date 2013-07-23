@@ -22,16 +22,25 @@ To access the Store, you may purchase direct from our [website](http://www.pagel
 
 You can purchase them directly, or if you're a Plus subscriber, get your Plus Extensions here, too.
 
-## Installing Store Products
+## Installing Store Products ##
 
-Select the image for the product you want to add (this can be a plugin, section or theme) and you will be taken to the product overview page. Here you can click to purchase the product, go to the full product overview on Pagelines.com or close the window to return to the store.
+Once you have completed your purchase, login to your [PageLines Account](http://www.pagelines.com/my-account/).
 
-Once purchased, select the product again and click the install button. Your product will now be added to the **Add Sections &rarr; Your Sections**, where you can drag it to the required position in the layout.
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/account-page.jpg)
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/store-product.jpg)
+From here, all your recent purchases and downloads will be avilable, select the product you wish to install and click the products link to download the product. All products are downloaded in `.zip` format, once downloaded navigate to your Wordpress Admin Dashboard.
 
+### Installing Sections ###
 
+Sections in DMS are now plugins, therefore all sections downloaded can be installed using the Wordpress Plugin installing.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/install-plugins-sections.jpg)
+
+### Installing Themes ###
+
+Themes purchased through the PageLines Store are installed like any other Wordpress.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/install-themes.jpg)
 
 <div class="row-fluid">
 	<div class="span12">
