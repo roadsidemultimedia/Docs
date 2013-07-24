@@ -107,7 +107,7 @@ Adding these unique classes `.center` and `.tac` to your elements will align to 
 <h2 class="tac zmt zmb">This h2, is is aligned to the center</h1>
 ~~~
 
-<div class="docs-example">
+<div class="docs-example center">
       <h1 class="center zmt zmb">This h1, is aligned to the center</h1>
       <h2 class="tac zmt zmb">This h2, is is aligned to the center</h2>
 </div>
