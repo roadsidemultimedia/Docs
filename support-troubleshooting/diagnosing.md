@@ -14,7 +14,7 @@ Here are some instructions to assist in diagnosing your issue(s) which you shoul
 
 ## Browsers ##
 
-PageLines DMS utilties the latest web technology and therefore, is only compatible with browsers that support HTML5 and CSS3. If you or your clients are using a legacy browser such as Internet Explorer 7, we highly recommend you update to the latest version, as we do not support legacy browsers. We understand that's not always possible, though there's little we're able to do to fix outdated systems.
+PageLines DMS utilizes the latest web technology and therefore, is only compatible with browsers that support HTML5 and CSS3. If you or your clients are using a legacy browser such as Internet Explorer 7, we highly recommend you update to the latest version, as we do not support legacy browsers. We understand that's not always possible, though there's little we're able to do to fix outdated systems.
 
 For more information about the latest version of browsers, see [BrowseHappy](http://browsehappy.com/).
 

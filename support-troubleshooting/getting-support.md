@@ -18,11 +18,11 @@ PageLines' mission is to create an awesome experience for everyone in our commun
 
 Your first stop should be our documentation, where you’ll find information on everything from installing PageLines DMS for the first time, to configuring sections, and creating your own templates.
 
-Our documentation is now participating in [GitHub](https://github.com/pagelines/Docs/), and open to the public -- allowing anyone in the PageLines community to contribute; make edits or corrections, and [report issues](https://github.com/pagelines/Docs/issues) that can be used to notifiy the docs team about bugs, duplicates, enhancements, questions and so forth. With this feedback, we can improve and maintain accurate, up-to-date documentation.
+Our documentation is now participating in [GitHub](https://github.com/pagelines/Docs/), and open to the public -- allowing anyone in the PageLines community to contribute; make edits or corrections, and [report issues](https://github.com/pagelines/Docs/issues) that can be used to notify the docs team about bugs, duplicates, enhancements, questions and so forth. With this feedback, we can improve and maintain accurate, up-to-date documentation.
 
 ### PageLines Helpdesk ###
 
-The PageLines Helpdesk is for all pre-sales enquires as well submitting tickets for quesitons realted to your account and billing. All technical questions will receive an auto response, informing the recipient all technical questions should be asked in our support forums.
+The PageLines Helpdesk is for all pre-sales enquires as well submitting tickets for questions related to your account and billing. All technical questions will receive an auto response, informing the recipient all technical questions should be asked in our support forums.
 
 ### Support Forums ###
 
