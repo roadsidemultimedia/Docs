@@ -23,7 +23,7 @@ PageLines DMS is open source and available on GitHub for you to download, we hav
 <div class="row-fluid">
 	<div class="span12">
 		<h4>Download Compiled</h4>
-		<p>Fastet way to get started is by downloading the compiled version which comes in .zip format.</p>
+		<p>Fastest way to get started is by downloading the compiled version which comes in .zip format.</p>
 		<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS/archive/Free.zip" "target="_blank""><i class="icon-github-alt"></i> Download DMS</a></p>
 	</div>
 </div>
