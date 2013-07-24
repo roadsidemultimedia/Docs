@@ -3,7 +3,7 @@
 		<ul class="breadcrumb">
   			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
   			<li><a href="http://docs.pagelines.com/tutorials">Getting Started</a> <span class="divider">/</span></li>
-  			<li class="active">Upgrading</li>
+  			<li class="active">Upgrading & Migration</li>
 		</ul>
 	</div>
 </div>
