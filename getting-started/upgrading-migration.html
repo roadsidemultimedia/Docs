@@ -117,68 +117,89 @@
                     </div>
                     <div class="span9 docs-content">
 <div class="row-fluid">
-  <div class="span12">
-    <ul class="breadcrumb">
-        <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
-        <li><a href="http://docs.pagelines.com/customize">Customize</a> <span class="divider">/</span></li>
-        <li class="active">Custom RTL Support</li>
-    </ul>
-  </div>
+    <div class="span12">
+        <ul class="breadcrumb">
+            <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+            <li><a href="http://docs.pagelines.com/tutorials">Getting Started</a> <span class="divider">/</span></li>
+            <li class="active">Upgrading & Migration</li>
+        </ul>
+    </div>
 </div>
 
-<h1>Adding Custom RTL Support</h1>
+<h1>Upgrading &amp; Migration</h1>
 
-<p>PageLines is built to recognize RTL and changes the styles accordingly. However, there may come a time where you wish to customize PageLines RTL styling, this can be achieved by using either the <strong>Base Theme</strong> or <strong>PageLines Customize Plugin</strong> and creating a <code>rtl.css</code> file.</p>
+<p>In this tutorial, we will show you the process of migrating from Platform Pro (and other legacy themes) and the PageLines Framework. Additionally, we will discuss upgrading from the Open Source edition of DMS to one of the Premium DMS subscriptions.</p>
 
-<p>By default, neither the Base Theme or PageLines Customize Plugin, includes the <code>rtl.css</code> file, we prefer to have users create the file, as not all PageLines users will wish to use custom RTL in their designs.</p>
+<h2>Migrating from Legacy Products</h2>
 
-<h2>Creating  rtl.css</h2>
+<p>Unfortunately, there is no automatic upgrade path for users of Platform or Platform Pro (or legacy themes), instead you will need to migrate to PageLines DMS. This means that you will need to recreate your site&#39;s design again using the available tools and features within PageLines DMS.</p>
 
-<p>Open your code editor (we recommend <a href="http://www.sublimetext.com/2">Sublime Text 2</a>), and create a new file. For the time being leave the file blank, and click save, naming the file <strong>rtl.css</strong>.</p>
+<p>The average site transition takes from five minutes to a few hours, depending on the volume of customization that you applied to your website. There are, however, a few things you should be aware of when upgrading to make your transition as easy as possible.</p>
 
-<p>Now open your FTP client and upload the file to the following directory:</p>
+<h3>Database Untouched</h3>
 
-<h3>Using the PageLines Customize Plugin:</h3>
+<p>Your site content, such as your pages and posts will remain untouched upon installing and activating PageLines DMS.</p>
 
-<p><strong>wp-content &rarr; plugins &rarr; pagelines-customize</strong>.</p>
+<h3>CSS Changes</h3>
 
-<p>Once uploaded, your file structure for the PageLines Customize Plugin will look like this:</p>
+<p>Whilst developing PageLines DMS, it is very difficult to prevent some CSS changes from occurring. This means that you may need to review your custom CSS and make some adjustments where required, to correct your custom CSS rules and align them with the new elements inside Pagelines DMS.</p>
 
-<pre>
-<i class="icon-folder-open"></i> pagelines-customize/
-    <i class="icon-file"></i> functions.php
-    <i class="icon-file"></i> pagelines-customize.php
-    <i class="icon-file"></i> <strong>rtl.css</strong>
-    <i class="icon-file"></i> style.css
-    <i class="icon-file"></i> thumb.png
-</pre>
+<h3>Migration Steps</h3>
 
-<h3>Using the Base Theme:</h3>
+<ul>
+<li>Back up your database.</li>
+<li>Copy any custom CSS, functions and any other code you may have added into a code editor.</li>
+<li>Move all of your widgets to the “**inactive”** area at the bottom <strong>Appearance &rarr; Widgets</strong>.</li>
+<li>Follow these instructions on how to <a href="http://docs.pagelines.com/getting-started/installation">install &amp; activate PageLines DMS</a>.</li>
+<li>Re-establish your WordPress menus <strong>Appearance &rarr; Menus</strong> and click <strong>Save</strong>.</li>
+<li>Move all of your widgets back to the desired locations <strong>Appearance &rarr; Widgets</strong>.</li>
+<li>Visit each tab of the DMS Toolbar and adjust the settings to your liking (don’t forget to enter your account info too!).</li>
+<li>Paste your custom CSS, functions, etc, that you copied earlier back into your site.</li>
+<li>There are three ways to do this, for more information see our <a href="http://docs.pagelines.com/customize/how-to-customize/">How to Customize</a> doc.</li>
+</ul>
 
-<p><strong>wp-content &rarr; themes &rarr; pagelines-template-theme</strong>.</p>
+<h2>Migrating from PageLines Framework</h2>
 
-<p>Once uploaded, your file structure for the Base Theme will look like this:</p>
+<p>Like Platform Pro, there isn&#39;t an upgrade path and you will need to migrate. However, we have included a option <strong>DMS Toolbar → Global Options ↠ Advanced &rarr; Framework V2 Upgrade</strong>. Using this option enables PageLines Framework backend interface and options. Not all PageLines Framework options work in DMS due to specificity; but it allows you to reference your old settings as you are rebuilding your site using the DMS system.</p>
 
-<pre>
-<i class="icon-folder-open"></i> pagelines-template-theme/
-    <i class="icon-folder-open"></i> sections/
-    <i class="icon-file"></i> functions.php
-    <i class="icon-file"></i> info.txt
-    <i class="icon-file"></i> page.example.php
-    <i class="icon-file"></i> <strong>rtl.css</strong>
-    <i class="icon-file"></i> screenshot.png
-    <i class="icon-file"></i> setup.php
-    <i class="icon-file"></i> style.css
-    <i class="icon-file"></i> thumb.png
-</pre>
+<p>Like the instructions above, your site content such as pages and posts will remain untouched, though your custom CSS will need adjusting to align with the new elements.</p>
 
-<p>Once uploaded, you will have successfully created the custom <strong>rtl.css</strong> file and ready to start customizing your RTL style.</p>
+<h3>Migration Steps</h3>
+
+<ul>
+<li>Back up your database.</li>
+<li>Copy any custom CSS, functions and any other code you may have added into a code editor.</li>
+<li>Move all of your widgets to the “**inactive”** area at the bottom <strong>Appearance &rarr; Widgets</strong>.</li>
+<li>Follow these instructions on how to <a href="http://docs.pagelines.com/getting-started/installation">install &amp; activate PageLines DMS</a>.</li>
+<li>Re-establish your WordPress menus <strong>Appearance &rarr; Menus</strong> and click <strong>Save</strong>.</li>
+<li>Move all of your widgets back to the desired locations <strong>Appearance &rarr; Widgets</strong>.</li>
+<li>Visit each tab of the DMS Toolbar and adjust the settings to your liking (don’t forget to enter your account info too!).</li>
+<li>Paste your custom CSS, functions, etc, that you copied earlier back into your site.</li>
+<li>There are three ways to do this, for more information see our <a href="http://docs.pagelines.com/customize/how-to-customize/">How to Customize</a> doc.</li>
+</ul>
+
+<h2>Upgrading From DMS Lite</h2>
+
+<p>After your purchase of PageLines DMS has been completed, log in to your website&#39;s WordPress admin dashboard.</p>
+
+<ul>
+<li>Navigate <strong>PageLines &rarr; Account</strong>.</li>
+<li>Enter your PageLines <strong>username</strong> and <strong>password</strong>.</li>
+<li>Once successfully logged in, it will state <strong>PageLines DMS enabled</strong>.</li>
+<li>Go back to your WordPress Dashboard. You should see a notice at the top of the screen (see graphic below).</li>
+<li>Click <strong>Update Now</strong>.</li>
+<li>Under the <strong>Themes</strong> tab, check the box next to <strong>PageLines</strong> and click <strong>Update Themes</strong>.</li>
+<li>Once updated, you will have successfully upgraded to the premium version of PageLines DMS.</li>
+</ul>
+
+<p><code>PageLines DMS Version 3.X is available. You should Update Now.
+Please check out the release thread before upgrading</code></p>
 
 <div class="row-fluid">
     <div class="span12">
         <ul class="pager">
-            <li class="pull-left"><a href="http://docs.pagelines.com/customize/adding-less-css-support">&larr; Adding LESS CSS Support</a></li>
-            <li class="pull-right"><a href="http://docs.pagelines.com/customize/adding-custom-scripts">Custom Scripts &rarr;</i></a></li>
+            <li class="pull-left"><a href="http://docs.pagelines.com/getting-started/installation">&larr; Installation</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/getting-started/dashboard-account">Dashboard & Your Account &rarr;</i></a></li>
         </ul>
     </div>
 </div>
@@ -193,7 +214,7 @@
             <p class="pull-right"><a href="#">Back to top</a></p>
             <p>
 				<i class="icon-github icon-2x"></i>
-				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/customize/adding-custom-rtl-support.md" target="_blank">Edit this page</a>.</p>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/getting-started/upgrading-migration.md" target="_blank">Edit this page</a>.</p>
         </div>
     </footer>
 
