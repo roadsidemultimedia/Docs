@@ -30,17 +30,17 @@ The PageLines Support Forum should be used for any technical questions related t
 
 ## Support Resources ##
 
-### PageLines Pros ###
-
-The [Pros](http://www.pagelines.com/pros/) are specialists, developers and designers that can help you customize and setup your website. For more information on the Pros service, please visit our Pros contact page.
-
 ### Tracker ###
 
 The PageLines [Tracker](http://www.pagelines.com/forum/tracdown/) should be used for submitting any kind of bugs, including but not limited to usability issues, errors and other DMS malfunctions.
 
 ### Translation Center ###
 
-The PageLines [Translation Center](http://pagelines.com/translate/projects/) allows PageLines users and developers to collaborate on translations
+The PageLines [Translation Center](http://pagelines.com/translate/projects/) allows PageLines users and developers to collaborate on translations.
+
+### PageLines Pastie ###
+
+[PageLines Paste Bin](http://paste.pagelines.com/) - The service allows PageLines users to paste any type of text, such as code or configuration information. When posting large snippets of code in a forum post, we recommend using this service for your code.
 
 ## Support Coverage ##
 
