@@ -14,7 +14,7 @@ PageLines DMS Plugins are extensions based on the WordPress Plugin architecture.
 
 ## Action Map ##
 
-<p>The Action Map plugin is used to indicate where hooks are positioned throughout your page. If you are looking to insert a custom hook, activate this plugin to determine which hook is in the best location to insert your code. You can also view a list of the available pagelines hooks here <a href="http://api.pagelines.com/hooks">here</a>.</p>
+<p>The Action Map plugin is used to indicate where hooks are positioned throughout your page. If you are looking to insert a custom hook, activate this plugin to determine which hook is in the best location to insert your code. You can also view a list of the available pagelines hooks <a href="http://api.pagelines.com/hooks">here</a>.</p>
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/actionmap.png)
 
@@ -26,15 +26,9 @@ PageLines DMS Plugins are extensions based on the WordPress Plugin architecture.
 
 ## Browser Specific CSS ##
 
-<p>Use this pkugin If you notice your site is not displaying correctly in some browsers, or if you want to make specific adjustments to your site within certain browsers. The Browser Specific CSS plugin inserts a range of additional classes into DMS which can be use to tailor the design of your site.</p>
+<p>Use this plugin If you notice your site is not displaying correctly in some browsers, or if you want to make specific adjustments to your site within certain browsers. The Browser Specific CSS plugin inserts a range of additional classes into DMS which can be use to tailor the design of your site.</p>
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/browserspecificcss.png)
-
-## BuddyPress / PageLines ##
-
-<p>BuddyPress will allow you to create your own social network inside Pagelines DMS site. The Pagelines BuddyPress plugin is to be used in conjunction with the BuddyPress plugin available from Wordpress.org and is used to ensure BuddyPress is styled correctly inside of DMS.</p>
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/buddypress.png)
 
 ## Customize Plugin ##
 
@@ -60,15 +54,9 @@ PageLines DMS Plugins are extensions based on the WordPress Plugin architecture.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/hooker.png)
 
-## JigoShop / PageLines ##
-
-<p>Jigoshop is an e commerce solution for your DMS site. The Pagelines Jigoshop integration is to be installed along with the Jigoshop plugin (available from Wordpress.org). This plugin is used to correct the styling of Jigoshop within DMS.</p>
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/jigoshop-plugin.png)
-
 ## Launch Page ##
 
-<p>Launch Page creates a squeeze or launch page for your site. Features include a responsive background, choice of custom menu and a selection of color buttons for your page. Launchpage is easily setup and activated directly through the page meta settings.</p>
+<p>Launch Page creates a squeeze or launch page for your site. Features include a responsive background, choice of custom menu and a selection of colored buttons for your page. Launchpage is easily setup.</p>
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/launchpage.png)
 

@@ -16,13 +16,11 @@ The PageLines Dashboard is accessible by logging into your WordPress Admin Dashb
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dashboard-news.jpg)
 
-
 ## DMS Tools ##
 
 The DMS Tools tab is a fallback system that allows you to remove any LESS or custom scripts that cause the DMS Visual editor to break. Any custom LESS or scripts you added to **Visual Editor Toolbar &rarr; Custom Code** tab via the Visual Editor, will also appear in DMS Tools.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dashboard-dmstools.gif)
-
 
 ## Account ##
 

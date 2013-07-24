@@ -10,6 +10,8 @@
 
 # Browser Specific CSS #
 
+The Browser Specific CSS plugin adds a browser or device specific class to your body tag, depending on what browser/device is viewing the page. Which can be used to add styling for that particular browser or device.
+
 The Browser Specific CSS plugin adds a browser or device specific class to your body tag, depending on what browser/device is viewing the page. which can be used to add styling for that particular browser or device.
 
 ## Usage ##
@@ -24,7 +26,7 @@ If the browser specific css plugin isn’t installed or activated, your body tag
 
 ### With Plugin ###
 
-With Browser Specific CSS plugin enabled, if you were to view your website on a desktop PC/Mac and in Google Chrome, the body tag will contain a `.desktop` and `.chrome` class.
+With the Browser Specific CSS plugin enabled, if you were to view your website on a desktop PC/Mac and in Google Chrome, the body tag will contain a `.desktop` and `.chrome` class.
 
 ~~~ .html
 <body class="home blog logged-in admin-bar custom responsive pagelines posts full_width desktop chrome">

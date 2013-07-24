@@ -18,7 +18,7 @@ Place this section wherever you like and use WordPress widgets and a desired num
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/columnizer.png)
 
-When you first add Columnizer to your template, you will need the following default content. This information is here for demonstration purposes and can be replaced by simply adding widgets to a sidebar that has been assigned to Columnizer.
+When you first add Columnizer to your template, you will see the following default content. This information is provided for demonstration purposes and can be replaced by simply adding widgets to a sidebar that has been assigned to Columnizer.
 
 ## Comments ##
 
@@ -58,7 +58,7 @@ A quick call to action for your users, enticing or guiding them to engage with y
 
 ## Masthead ##
 
-A full width splash and text area. Great for getting big ideas across quickly. It supports options to display menu, multi-color action buttons and display optional blocks of text or code.
+A full width splash and text area. Great for getting big ideas across quickly. It supports options to display a menu, multi-color action buttons and display optional blocks of text or code.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-default-masthead.jpg)
 
@@ -70,7 +70,7 @@ A simple box which supports image, text, html and has viewpoint animation.
 
 ## NavBar ##
 
-The NavBar is the attractive, responsive menu, providing navigation and allowing visitors to find the important areas of your site.
+The NavBar is an attractive, responsive menu, providing navigation and allowing visitors to find the important areas of your site.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/navbar-section.jpg)
 

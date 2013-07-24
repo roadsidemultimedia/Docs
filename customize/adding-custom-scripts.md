@@ -20,7 +20,7 @@ To access the Custom Scripts Editor, navigate to **DMS Toolbar &rarr; Custom Cod
 
 The Custom Scripts Editor can be used to add any kind of custom or third party `<script>` such as Google Analytics tracking code.
 
-However, the Custom Scripts editor **doe not** support `CSS`, `LESS` or `PHP`, if you wish to add these types of customization to your website, please use the correct methods.
+However, the Custom Scripts editor does not support CSS, LESS or PHP, if you wish to add these types of customizations to your website, please use the correct methods.
 
 <div class="row-fluid">
 	<div class="span12">

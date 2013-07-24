@@ -10,7 +10,7 @@
 
 # Adding LESS Support #
 
-In order to take advantage of LESS CSS in the Base Theme or PageLines Customize Plugin, a `style.less` file is required. By default, neither the Base Theme or PageLines Customize Plugin, includes the `style.less` file, we prefer to have users create the file, as not all PageLines users will wish to use LESS CSS in their designs.
+In order to take advantage of LESS CSS in the Base Theme or PageLines Customize Plugin, a `style.less` file is required. By default, neither the Base Theme or PageLines Customize Plugin, includes the style.less file. We prefer to have users create the file, as not all PageLines users will wish to use LESS CSS in their designs.
 
 ## Creating  style.less ##
 

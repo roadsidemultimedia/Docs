@@ -80,7 +80,9 @@ After translating all strings, save again and the `.mo` file will be generated a
 
 ## RTL (Right-to-Left) ##
 
-If you add Arabic, Hebrew, Persian, or any other RTL language it should automatically enable Right-to-left (RTL support in PageLines DMS. PageLines Framework is built to recognize RTL and changes the styles accordingly.
+Upon launch PageLines DMS will not provide RTL (right-to-left) support. However, such support has been discussed and will be implemented in a future release via an update.
+
+Once RTL support has been implemented, you will be able to add Arabic, Hebrew, Persian, or any other RTL language and it will automatically enable Right-to-left (RTL) support in PageLines DMS and will change the styles accordingly.
 
 <div class="row-fluid">
 	<div class="span12">

@@ -10,11 +10,11 @@
 
 # Store Child themes #
 
-Store Child themes are designed by third-party developers which may be subject to updates by their developers. Placing customizations within these child theme files are at risk of being overwritten.
+Store Child themes are designed by third-party developers which may be subject to updates by the theme author. Placing customizations within these child theme files are at risk of being overwritten.
 
 Therefore, when customizing a child theme purchased from the [PageLines Store](/getting-started/pagelines-store), such as iBlogPro5 or any third-party theme, it is best to use the PageLines Customize plugin (free in the Store) for any CSS/LESS changes, or additional hooks you may wish to add.
 
-Using the Customize plugin eliminates any risk of loss due to updates.
+Using the Customize plugin eliminates the loss of any customisations due to updates.
 
 ## Structure ##
 
@@ -106,7 +106,7 @@ For more information about LESS CSS , see our [LESS CSS](/advanced/less-css) doc
 
 #### functions.php ####
 
-The functions.php file allows you to add/manipulate functionality to PageLines DMS. You can use it to call functions and to define your own customized actions. The code is only executed when the PageLines Customized Plugin is activated, if the plugin is deactivated, the functionality will not carry over. The `functions.php` file supports numerous blocks of code to be used for many different purposes.
+The functions.php file allows you to add/manipulate functionality within PageLines DMS. You can use it to call functions and to define your own customized actions. The code is only executed when the PageLines Customized Plugin is activated, if the plugin is deactivated, the functionality will not carry over. The `functions.php` file supports numerous blocks of code to be used for many different purposes.
 
 For more information about hooks, see our [Hooks](/advanced/hooks) documentation which also includes some examples.
 

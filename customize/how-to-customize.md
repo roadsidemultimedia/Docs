@@ -10,6 +10,8 @@
 
 # How to Customize #
 
+There are three methods for adding customization to your website, these are: the DMS toolbar → Customize options; the Base Child theme, or the PageLines Customize plugin. Which customisation method you choose to use will depend on your comfort level and proficiency, which we'll go through in more depth below.
+
 In this tutorial we'll show you how to start customizing PageLines DMS, using one of three methods, and recommend which tools you'll need to learn to make minor or advanced modifications.
 
 ## Customization Method ##
@@ -110,17 +112,7 @@ We have compiled a list of websites to get you started:
 
 ## Adding Code ##
 
-Depending on your choice of customization method, adding custom CSS/LESS and scripts will vary. 
-
-For example, the **DMS Customize Options** doesn't require any edits to files to add custom code. Instead, custom code is added to the options. 
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-cssless-editor.jpg)
-
-Adding code to both the **PageLines Customize Plugin** and **Base Theme** requires editing the `style.css`, `style.less` and `functions.php` files with a code editor.
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/code-editor-app.jpg)
-
-For a more detailed explanation, click the link below which represents your selected customization method.
+Depending on your choice of customization method, adding custom CSS/LESS and scripts will vary. For a more detailed explanation, click the link below which represents your selected customization method.
 
 * [Using DMS Customize Options](/customize/dms-customize-options)
 * [Using PageLines Customize Plugin](/customize/pagelines-customize-plugin)

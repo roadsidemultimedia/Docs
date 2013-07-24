@@ -22,7 +22,7 @@ Hooks in PageLines DMS essentially allow you to manipulate or insert code withou
 	<tbody>
 		<tr>
 			<td>Action Hooks</td>
-			<td>Allow you to insert additional code and, there by, customise the code to do additional functions at designated points in PageLines Framework.</td>
+			<td>Allows you to insert additional code directly into specific areas of your site, which you can then customise further using css..</td>
 		</tr>
 		<tr>
 			<td>Filter Hooks</td>
@@ -35,7 +35,7 @@ To put it more elegantly, you can change things that are hard-coded with filters
 
 ## Using Hooks ##
 
-All hooks are added to the functions.php file, which is located in either the Base Theme or the PageLines Customize Plugin, depending on the Customization Method of your choice.
+All hooks are added to the functions.php file, which is located in either the Base Theme or the PageLines Customize Plugin, depending on the Customization Method you have chosen
 
 <table class="table table-striped table-bordered table-condensed">
 	<thead>

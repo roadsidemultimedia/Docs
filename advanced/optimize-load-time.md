@@ -12,13 +12,13 @@
 
 You have probably heard this before, but when a user visits your website for the first time, you only have a few seconds to capture their attention, convincing them to stick around. This is why having a optimized load time, is important, especially for those of you running a business.
 
-PageLInes DMS has been built with performance in mind. However, some hosting environments can have a negactive effect on the performance of DMS, which is out of our control. Therefore, we have compiled a list of everything you can do, to improve your load time.
+PageLines DMS has been built with performance in mind. However, some hosting environments can have a negactive effect on the performance of DMS, which is out of our control. Therefore, we have compiled a list of everything you can do, to improve your load time.
 
 ## Web Host Provider ##
 
-When choosing your web host package, shared hosting may seem like a bargin (unlimited databases, unlimited disk space etc...). This is not the case, as it comes at another price, incredibly slow performance and possible down time.
+When choosing your web host package, shared hosting may seem like a bargin (unlimited databases, unlimited disk space etc...). However, this may not always be the case and these extras can come at a price elsewhere on your setup. Usually resulting in incredibly slow performance and possible down time.
 
-This is why choosing a good web host provider, is one of the most important decisions you will ever make and getting it right, is usually found the hard way. Luckily, we have provided you with a list below of recommended hosts by our Store developers.
+This is why choosing a good web host provider, is one of the most important decisions you will ever make. Although finding one that works for you, is usually found the hard way via trial and error. Luckily, we have provided you with a list below of recommended hosts by our Store developers.
 
 * [FlyWheel](http://getflywheel.com/)
 * [WP Engine](http://wpengine.com/)
@@ -27,7 +27,7 @@ This is why choosing a good web host provider, is one of the most important deci
 
 ## Caching ##
 
-Cache plugin generate a copy of your web pages and stores them on your server as static files. When a visitor arrives at a particular page, the server uses the cached page rather than re-querying your database and dynamically generating it. Therefore, speeding up page response times and reducing the server resources required for generating and serving a web page.
+A cache plugin generates a HTML copy of your web pages and stores them on your server as static files. When a visitor arrives at a particular page, the server uses the cached page rather than re-querying your database and dynamically generating it. Therefore, speeding up page response times and reducing the server resources required for generating and serving a web page.
 
 There are many cache plugins available via the Wordpress plugin repository. However, we recommend the following:
 
@@ -45,7 +45,7 @@ A CDN (Content Delivery Network) is a network of servers around the globe. The s
 
 ## Images ##
 
-In modern web development even minor optimizations have significant influence on how efficiently your website works. Optimizing your images to reduce the file size can easily be achieve by using an application such as [JpegMini](http://www.jpegmini.com/) available for both <ic class="icon-apple"></i> and <i class="icon-windows"></i>.
+In modern web development even minor optimizations have significant influence on how efficiently your website works. Optimizing your images to reduce the file size can easily be achieved by using an application such as [JpegMini](http://www.jpegmini.com/) available for both  <ic class="icon-apple"></i> and <i class="icon-windows"></i>.
 
 Fortunately, there is an amazing, free plugin called [WP-SmushIt](http://wordpress.org/plugins/wp-smushit/) which will do this process to all of your images automatically, as you are uploading them.
 
