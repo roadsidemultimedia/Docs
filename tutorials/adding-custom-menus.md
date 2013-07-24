@@ -42,7 +42,7 @@ If you'd like to display icons on your menu items, we recommend using [Font Awes
 
 ### Using icon class ###
 
-Navigate to **Appearance &rarr; Menus** and choose the menu item (for this example, we will be using our **Home** menu item) with the drop down menu you want to customize and click on the arrow to expand the settings.
+Navigate to **Appearance &rarr; Menus** and choose the menu item (for this example, we will be using our **Home** menu item) you want to customize and click on the arrow to expand the settings.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example1.jpg)
 
@@ -58,7 +58,7 @@ Repeat this process for all your menu items. For a full list of icons see our [F
 
 ### Using icon code ###
 
-Navigate to **Appearance &rarr; Menus** and choose the menu item (for this example, we will be using our **Home** menu item) with the drop down menu you want to customize and click on the arrow to expand the settings.
+Navigate to **Appearance &rarr; Menus** and choose the menu item (for this example, we will be using our **Home** menu item) you want to customize and click on the arrow to expand the settings.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example1.jpg)
 
