@@ -28,10 +28,6 @@ The PageLines Helpdesk is for all pre-sales enquires as well submitting tickets 
 
 The PageLines Support Forum should be used for any technical questions related to PageLines products, third-party plugin compatibility issues as well limited customization support. As well as receiving support, you can use the forum area to post and share code and tips.
 
-### Live Chat ###
-
-Our Plus members gain access to PageLines Live Chat, a moderated technical community chat for discussing your website development with community members and PageLines support staff.
-
 ## Support Resources ##
 
 ### PageLines Pros ###
