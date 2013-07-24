@@ -26,7 +26,7 @@ To ensure you have a secure and enjoyable browsing experience, we recommend you 
 
 ## Visual Editor Requirements ##
 
-PageLines DMS Visual Editor is currently only compatible with Google Chrome. The reason behind this is that Chrome has the best compiler and fastest javascript. Therefore if you wish to use the PageLines DMS Visual Editor, you will need to use [Google Chrome](http://www.google.com/intl/en_uk/chrome/browser/).
+PageLines DMS Visual Editor is currently only compatible with Google Chrome. The reason behind this is that Chrome has the best compiler and fastest javascript. Therefore if you wish to use the PageLines DMS Visual Editor, [Google Chrome](http://www.google.com/intl/en_uk/chrome/browser/) is required.
 
 ## Server Requirements ##
 
