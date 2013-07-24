@@ -54,7 +54,7 @@ Adding this unique class `zb` to your element will specify a zero border, `zb` i
 
 ### Removing top and bottom margins ###
 
-Adding these unique classes `.zmt` and `.zmb` to your elements will specify a zero margin, `.zmt` is an acronym of zero margin top and `.zmb` is an abbreviation of zero margin bottom.
+Adding these unique classes `.zmt` and `.zmb` to your elements will specify a zero margin, `.zmt` and `zmb` are acronyms of zero margin top and zero margin bottom.
 
 <table class="table mid table-bordered table-striped">
       <thead>
