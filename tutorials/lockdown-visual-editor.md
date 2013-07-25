@@ -10,7 +10,7 @@
 
 # Lockdown the Visual Editor #
 
-If you have completed your clients design and would prefer to lockdown the DMS Visual Editor to prevent unwanted changes, please use the following code.
+Use the following code If you have completed your clients design and would prefer to lockdown the DMS Visual Editor, this will prevent your client from making any unwanted changes.
 
 ## Admin Only Access ##
 
