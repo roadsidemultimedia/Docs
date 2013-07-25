@@ -142,7 +142,13 @@
 <pre><code class="php">define( &#39;PL_EDITOR_LOCK&#39;, &#39;admin&#39; );
 </code></pre>
 
-<p>Save the changes and from now on, only the <strong>admin</strong> user will be able to access the Visual Editor.</p>
+<p>Your changes will look similar to this:</p>
+
+<pre><code class="php">define(&#39;WP_DEBUG&#39;, false);
+define( &#39;PL_EDITOR_LOCK&#39;, &#39;admin&#39; );
+</code></pre>
+
+<p>Save these changes and from now on, only the <strong>admin</strong> user will be able to access the Visual Editor.</p>
 
 <h2>Multiple Users Access</h2>
 
@@ -156,7 +162,13 @@
 <pre><code class="php">define( &#39;PL_EDITOR_LOCK&#39;, &#39;andrew,bob,chris,daniel,eric&#39; );
 </code></pre>
 
-<p>Save the changes and from now on, only <strong>andrew</strong>, <strong>bob</strong>, <strong>chris</strong>, <strong>daniel</strong> and <strong>eric</strong> users will be able to access the Visual Editor.</p>
+<p>Your changes will look similar to this:</p>
+
+<pre><code class="php">define(&#39;WP_DEBUG&#39;, false);
+define( &#39;PL_EDITOR_LOCK&#39;, &#39;andrew,bob,chris,daniel,eric&#39; );
+</code></pre>
+
+<p>Save these changes and from now on, only <strong>andrew</strong>, <strong>bob</strong>, <strong>chris</strong>, <strong>daniel</strong> and <strong>eric</strong> users will be able to access the Visual Editor.</p>
 
 <p>If no users are defined, all users with <strong>edit_theme_options</strong> role will have access to the Visual Editor.</p>
 
