@@ -26,7 +26,14 @@ Add below that, the following code:
 define( 'PL_EDITOR_LOCK', 'admin' );
 ~~~
 
-Save the changes and from now on, only the **admin** user will be able to access the Visual Editor.
+Your changes will look similar to this:
+
+~~~ .php
+define('WP_DEBUG', false);
+define( 'PL_EDITOR_LOCK', 'admin' );
+~~~
+
+Save these changes and from now on, only the **admin** user will be able to access the Visual Editor.
 
 ## Multiple Users Access ##
 
@@ -42,7 +49,14 @@ Add below that, the following code:
 define( 'PL_EDITOR_LOCK', 'andrew,bob,chris,daniel,eric' );
 ~~~
 
-Save the changes and from now on, only **andrew**, **bob**, **chris**, **daniel** and **eric** users will be able to access the Visual Editor.
+Your changes will look similar to this:
+
+~~~ .php
+define('WP_DEBUG', false);
+define( 'PL_EDITOR_LOCK', 'andrew,bob,chris,daniel,eric' );
+~~~
+
+Save these changes and from now on, only **andrew**, **bob**, **chris**, **daniel** and **eric** users will be able to access the Visual Editor.
 
 
  If no users are defined, all users with **edit_theme_options** role will have access to the Visual Editor.
