@@ -10,7 +10,7 @@
 
 # Lockdown the Visual Editor #
 
-If you have designed a website for a client and prefer to lockdown the PageLines DMS Visual Editor to prevent your clients from making alterations to your design, you can use the following code.
+If you have completed your clients design and would prefer to lockdown the DMS Visual Editor to prevent unwanted changes, please use the following code.
 
 ## Admin Only Access ##
 
