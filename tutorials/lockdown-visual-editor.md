@@ -35,7 +35,7 @@ define( 'PL_EDITOR_LOCK', 'admin' );
 
 Save these changes and from now on, only the **admin** user will be able to access the Visual Editor.
 
-## Multiple Users Access ##
+## Multiple User Access ##
 
 If you work in a team and wish to have multiple users access to the Visual Editor but keep your client lockout, use this method. Open up your `wp-config.php` file and find the following code:
 
