@@ -20,7 +20,7 @@ If you wish to lockdown the visual editor and only allow the **admin** access to
 define('WP_DEBUG', false);
 ~~~
 
-Add below that, the following code:
+Add below that, the following code (remember to change **admin** to your admin accounts username):
 
 ~~~ .php
 define( 'PL_EDITOR_LOCK', 'admin' );
@@ -43,7 +43,7 @@ If you work in a team and wish to have multiple users access to the Visual Edito
 define('WP_DEBUG', false);
 ~~~
 
-Add below that, the following code:
+Add below that, the following code (remember to change the usersname in the example below to your teams usernames):
 
 ~~~ .php
 define( 'PL_EDITOR_LOCK', 'andrew,bob,chris,daniel,eric' );
