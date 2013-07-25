@@ -12,7 +12,7 @@
 
 If you have designed a website for a client and prefer to lockdown the PageLines DMS Visual Editor to prevent your clients from making alterations to your design, you can use the following code.
 
-## Admin Access Only ##
+## Admin Only Access ##
 
 If you wish to lockdown the visual editor and only allow the **admin** access to the editor, open up your `wp-config.php` file and find the following code:
 
