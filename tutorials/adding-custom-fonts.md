@@ -102,6 +102,8 @@ IE9, like Firefox, requires that fonts be served from the same domain as the web
     <div class="span12">
         <ul class="pager">
             <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/adding-custom-menus">&larr; Adding Custom Menus</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/lockdown-visual-editor">Lockdown Visual Editor &rarr;</i></a></li>
+
         </ul>
     </div>
 </div>
