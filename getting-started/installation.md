@@ -30,7 +30,7 @@ PageLines DMS is open source and available on GitHub for you to download, we hav
 
 ### Premium Version ###
 
-The premium version can be downloaded from your [PageLines member area](https://www.pagelines.com/launchpad/member.php) after [purchase](https://www.pagelines.com/pricing/).
+The premium version can be downloaded from your [PageLines member area](https://www.pagelines.com/my-account) after [purchase](https://www.pagelines.com/pricing/).
 
 
 ## Installing PageLines DMS ##
