@@ -26,7 +26,7 @@ To setup our Branding area, the first thing we want to do is enable the Visual E
 
 Now we will change the width of the two columns, so that our naviation has more room, to this simply click on the **decrease/increase** options. For this tutorial, we will be setting the width of the left column to `4/12` and the right column to `8/12`.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/store.jpg)
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-column-width.jpg)
 
 
 ## Adding Logo ##
