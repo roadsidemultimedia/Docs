@@ -76,7 +76,7 @@ Author: PageLines
 Author URI: http://www.pagelines.com
 Tags: developer
 
-Template: pagelines
+Template: dms
 
 */
 
