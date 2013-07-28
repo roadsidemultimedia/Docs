@@ -47,5 +47,21 @@ You will need to add your websites URL as well as the URL for your logo image, w
 
 ## Social Media Links ##
 
-<span class="icon-stack"><i class="icon-sign-blank icon-stack-base"></i><i class="icon-terminal icon-light"></i></span>
+To integrate social media networks, we are going to utilize Font Awesome and stack icons using HTML. Click the **Edit** icon on the **TextBox** section and add the following code to add Facebook, Twitter, LinkedIn and YouTube.
 
+BELOW CODE NOT COMPLETE
+
+~~~ .html
+<a href="#" style="color: #3B5998"><span class="icon-stack icon-2x"><i class="icon-stop icon-stack-base"></i><i class="icon-facebook icon-light"></i></span></a>
+<a href="#" style="color: #00aced"><span class="icon-stack icon-2x"><i class="icon-stop icon-stack-base"></i><i class="icon-twitter icon-light"></i></span></a>
+<a href="#" style="color: #0181B2"><span class="icon-stack icon-2x"><i class="icon-stop icon-stack-base"></i><i class="icon-linkedin icon-light"></i></span></a>
+<a href="#" style="color: #CD332D"><span class="icon-stack icon-2x"><i class="icon-stop icon-stack-base"></i><i class="icon-youtube icon-light"></i></span></a>
+~~~
+
+You can do this for any social media networks such as GitHub, Google+ and Pinterest. For a full list of social media icons, see our branding icons section in our [Font Awesome page](http://docs.pagelines.com/tutorials/font-awesome).
+
+COMPLETE INSTRUCTIONS
+
+## Add Navigation ##
+
+ADD INSTRUCTIONS FOR ADDING NAVBAR!
