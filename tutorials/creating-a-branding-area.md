@@ -37,7 +37,7 @@ For the logo image, we will be utilizing the MediaBox section. Goto **Add Sectio
 * In the **Text and Embed HTML** field, add the following HTML:
 
 ~~~ .html
-<a class="logo" href="http://www.my-website.com/"><img src="http://pagelines.v3/wp-content/uploads/2013/07/dms.png" alt="My Logo"></a>
+<a class="logo" href="http://www.my-website.com/"><img src="Path To My Image" alt="My Logo"></a>
 ~~~
 
 You will need to add your websites URL as well as the URL for your logo image, we have included a `logo` class, just incase you wish to add some additional styling.
