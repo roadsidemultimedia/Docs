@@ -46,3 +46,6 @@ You will need to add your websites URL as well as the URL for your logo image, w
 * Your logo image should now be present.
 
 ## Social Media Links ##
+
+<span class="icon-stack"><i class="icon-sign-blank icon-stack-base"></i><i class="icon-terminal icon-light"></i></span>
+
