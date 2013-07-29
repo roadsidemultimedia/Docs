@@ -54,7 +54,7 @@ Repeat this process for all your menu items. For a full list of icons see our [F
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-menu-icon-example2.jpg)
 
-There is a more complex method to adding icons to your menu items, which requires you to indentify each menu items ID then use the CSS Pseudo class `:before` or `:after` depending on where you want your icon positioned and use the icons Unicode. To find the icons unicode, please visit the [Font Awesome cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/). 
+There is a more complex method to adding icons to your menu items, which requires you to indentify each menu items ID then use the CSS Pseudo class `:before` or `:after` depending on where you want your icon positioned. You will also need to use the icons Unicode, a full list can be found on the [Font Awesome cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/). 
 
 For more information on CSS Pseudo classes, see this [article](http://css-tricks.com/pseudo-class-selectors/).
 
