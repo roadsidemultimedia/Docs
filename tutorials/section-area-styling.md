@@ -58,8 +58,52 @@ Click Publish and refresh your website, your **Full Width Section** should now h
 
 You can replace `my-red-area` with the other classes we added earlier such as`my-blue-area` or `my-green-area` to change the background to blue or green and even create your. The best part about this is, you can use the **Full Width Section** as many times as you like which can lead to some unique designs.
 
-The only limitation is your imagination, remember that this tutorials was only basic, you can add multiple classes to the **Standard Options &rarr; Styling Classes**. 
+The only limitation is your imagination, remember that this tutorials was only basic, you can go more advanced by using multiple classes to the **Standard Options &rarr; Styling Classes**, use gradients, add borders and even use LESS. The possibilities are endless.
 
+## Example ##
+
+In the example image below, we have added multiple **Full Width Sections Areas** and populated each section area with multiple sections. We have also added a unique class to each section area giving them all different colors.
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/fullwidthsection-fullpage.jpg)
+
+## Quick Cheatsheet ##
+
+Below is a list of custom CSS that provide different background colors which you can use as a quick start.
+
+~~~ .css
+/* red background, white text */
+.my-red-area {
+	background-color: #bd362f;
+	color: white;
+}
+/* blue background, white text */
+.my-blue-area {
+	background-color: #0055CC;
+	color: white;
+}
+/* green background, white text */
+.my-green-area {
+	background-color: #51A351;
+	color: white;
+}
+/* yellow background, white text */
+.my-yellow-area {
+	background-color: #FFC40D;
+	color: white;
+}
+/* orange background, white text */
+.my-orange-area {
+	background-color: #F89406;
+	color: white;
+}
+/* purple background, white text */
+.my-purple-area {
+	background-color: #7A43B6;
+	color: white;
+}
+~~~
+
+Simply copy the code above into your customization method and click save.
 
 
 
