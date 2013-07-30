@@ -16,7 +16,7 @@ Included in DMS is the **Full Width Section Area** section, this allows you to c
 
 ## Custom CSS ##
 
-The First you will want to do is is create some unique classes which contain custom CSS. For this example, we will be using nothing more than `background-color` and `color` properties. You're free to use the example code below on your website immediately as it will work or use it as a base to create your own colors schemes.
+The first you will want to do is is create some unique classes which contain custom CSS. For this example, we will be using nothing more than `background-color` and `color` properties. You're free to use the example code below on your website immediately as it will work or use it as a base to create your own colors schemes.
 
 ~~~ .css
 /* red background, white text */
@@ -36,33 +36,34 @@ The First you will want to do is is create some unique classes which contain cus
 }
 ~~~
 
-For this example, we will be adding the above CSS to the **DMS Toolbar &rarr; </> Custom Code &rarr; Custom LESS/CSS Editor**. However, you're free to add it to any of our customization methods such as the **style.less/style.css** files in both PageLines Customize Plugin and Base Theme.
+For this example, we will be adding the above CSS to the **DMS Toolbar → </> Custom Code → Custom LESS/CSS Editor**. However, you're free to add it to any of our customization methods such as the **style.less/style.css** files in both PageLines Customize Plugin and Base Theme.
 
 ## Configure ##
 
 Once the custom CSS (above) has been added, its time to configure the **Full Width Section Area** and populate it with some sections.
 
+
 The first thing we need to do is drag and drop the **Full Width Section Area** to our website and position it. For this example, we will be adding it below the **Header** area and populate it by adding the **Masthead** section. Once we configure the Masthead section we will end up with something like this:
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/fullwidthsection-masthead.jpg)
 
-Now that we have our Masthead section configured, its time to add one of the custom classes we added earlier to the **Full Width Section Area**. To do this, click the <strong>Edit <i class="icon-pencil"></i></strong> icon, to bring up the **Full Width Section Area** options and in the **Standard Options &rarr; Styling Classes** field, enter one of the class names.
+Now that we have our Masthead section configured, it's time to add one of the custom classes we added earlier to the **Full Width Section** Area. To do this, click the <i class="icon-pencil"></i></strong> icon, to bring up the **Full Width Section Area** options and in the **Standard Options → Styling Classes** field, enter one of the class names.
 
 For example, lets say we want to have a full width section area with a red background, we would enter `my-red-area`, as this is the class name. We **do not** add the full CSS for that class.
 
  ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/fullwidthsection-classname.jpg)
 
-Click Publish and refresh your website, your **Full Width Section** should now have a red background as it is using the `.my-red-area` CSS.
+Click Publish and refresh your website, your Full Width Section should now have a red background as it is using the `.my-red-area` class.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/fullwidthsection-masthead-red.jpg)
 
-You can replace `my-red-area` with the other classes we added earlier such as`my-blue-area` or `my-green-area` to change the background to blue or green and even create your. The best part about this is, you can use the **Full Width Section** as many times as you like which can lead to some unique designs.
+You can replace `my-red-area` with the other classes we added earlier such as `my-blue-area` or `my-green-area` to change the background to blue or green and even create your. The best part about this is, you can use the **Full Width Section** as many times as you like which can lead to some unique designs.
 
-The only limitation is your imagination, remember that this tutorials was only basic, you can go more advanced by using multiple classes to the **Standard Options &rarr; Styling Classes**, use gradients, add borders and even use LESS. The possibilities are endless.
+The principle limitation will be your imagination -- so unleash it, and remember that this tutorial was only basic. You can do more advanced things by using multiple classes to the **Standard Options → Styling Classes**, like using gradients, adding borders and even using LESS. The possibilities are endless.
 
 ## Example ##
 
-In the example image below, we have added multiple **Full Width Sections Areas** and populated each section area with multiple sections. We have also added a unique class to each section area giving them all different colors.
+In the example image below, we have added multiple **Full Width Sections Areas** and populated each section area with several sections. We have also added a unique class to each section area giving them all different colors.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/fullwidthsection-fullpage.jpg)
 
