@@ -47,21 +47,109 @@ You will need to add your websites URL as well as the URL for your logo image, w
 
 ## Social Media Links ##
 
-To integrate social media networks, we are going to utilize Font Awesome and stack icons using HTML. Click the **Edit** icon on the **TextBox** section and add the following code to add Facebook, Twitter, LinkedIn and YouTube.
-
-BELOW CODE NOT COMPLETE
+To integrate social media networks, we are going to utilize Font Awesome and stlye using LESS. Click the **Edit** icon on the **TextBox** section and add the following code to add Facebook, Twitter, LinkedIn and YouTube.
 
 ~~~ .html
-<a href="#" style="color: #3B5998"><span class="icon-stack icon-2x"><i class="icon-stop icon-stack-base"></i><i class="icon-facebook icon-light"></i></span></a>
-<a href="#" style="color: #00aced"><span class="icon-stack icon-2x"><i class="icon-stop icon-stack-base"></i><i class="icon-twitter icon-light"></i></span></a>
-<a href="#" style="color: #0181B2"><span class="icon-stack icon-2x"><i class="icon-stop icon-stack-base"></i><i class="icon-linkedin icon-light"></i></span></a>
-<a href="#" style="color: #CD332D"><span class="icon-stack icon-2x"><i class="icon-stop icon-stack-base"></i><i class="icon-youtube icon-light"></i></span></a>
+<div class="social-bar">
+	<a href="#"><i class="icon icon-facebook"></i></a>
+	<a href="#"><i class="icon icon-twitter"></i></a>
+	<a href="#"><i class="icon icon-linkedin"></i></a>
+	<a href="#"><i class="icon icon-google-plus"></i></a>
+	<a href="#"><i class="icon icon-pinterest"></i></a>
+</div>
 ~~~
 
-You can do this for any social media networks such as GitHub, Google+ and Pinterest. For a full list of social media icons, see our branding icons section in our [Font Awesome page](http://docs.pagelines.com/tutorials/font-awesome).
-
-COMPLETE INSTRUCTIONS
+You can do this for any social media networks such as GitHub, Dribbble and Pinterest. For a full list of social media icons, see our branding icons section on our [Font Awesome page](http://docs.pagelines.com/tutorials/font-awesome).
 
 ## Add Navigation ##
+
+Adding your Navigation to your new branding area, is as simple as dragging and dropping the NavBar section onto your template. For this example, we will be positioning the NavBar in the right hand side of the **2Columns** section and underneath the **TextBox** section.
+
+Once in position, click the <i class="icon-pencil"></i> icon, to bring up the **NavBar** options to configure it.
+
+## Styling the Social Media Icons ##
+
+In order to style the social media icons we added to the **TextBox**, we are going to be using LESS CSS and a few LESS variables. However, don't worry, we do all the hard work for you, all you need to do is add the code. As we are using LESS, the below code will need to be added to either **DMS Toolbar → </> Custom Code → Custom LESS/CSS Editor** or your **style.less** file in either **PageLines Customize Plugin** or **Base Theme**.
+
+### Color Variables ###
+
+These variables have each been given a specified color which is associated with that social media network. Add the following variables to the top of your customization method.
+
+~~~ .less
+/* Social media color variables */
+
+@dribbble:			#EA4c89;
+@facebook:		#3B5998;
+@googleplus		#E14107;
+@instagram:		#517FA4;
+@linkedin:			#0181B2;
+@pinterest:			#CB2027;
+@rss:				#E5842F;
+@twitter:			#00ACED;
+@youtube:			#CD332D;
+~~~
+
+Now it's time to add the LESS for the Social Bar HTML we added to the **TextBox**. Add the following code to either **DMS Toolbar → </> Custom Code → Custom LESS/CSS Editor** or your **style.less** file in either **PageLines Customize Plugin** or **Base Theme**.
+
+~~~ .less
+.social-bar {
+    .icon:hover {
+        .transition(background .4s linear);
+    }
+    a {
+        margin-right: 0px;
+        padding: 0px;
+    }
+    a:first-child {
+        padding-left: 0;
+    }
+    .icon {
+        color: #FFF;
+        .border-radius(0px); /* Here incase you wish to add a radius */
+        min-width: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 26px;
+    }
+    .icon-dribbble {
+        background-color: @dribbble;
+    &:hover { background-color: darken(@dribbble, 5%); }
+    }
+    .icon-facebook {
+        background-color: @facebook;
+    &:hover { background-color: darken(@facebook, 5%); }
+    }
+    .icon-google-plus {
+        background-color: @googleplus;
+    &:hover { background-color: darken(@googleplus, 5%); }
+    }
+     .icon-instagram {
+        background-color: @instagram;
+    &:hover { background-color: darken(@instagram, 5%); }
+    }
+    .icon-linkedin {
+        background-color: @linkedin;
+    &:hover { background-color: darken(@linkedin, 5%); }
+    }
+    .icon-pinterest {
+        background-color: @pinterest;
+    &:hover { background-color: darken(@pinterest, 5%); }
+    }
+     .icon-rss {
+        background-color: @rss;
+    &:hover { background-color: darken(@rss, 5%); }
+    }
+    .icon-twitter {
+        background-color: @twitter;
+    &:hover { background-color: darken(@twitter, 5%); }
+    }
+    .icon-youtube {
+        background-color: @youtube;
+    &:hover { background-color: darken(@youtube, 5%); }
+    }
+}
+~~~
+
+
 
 ADD INSTRUCTIONS FOR ADDING NAVBAR!
