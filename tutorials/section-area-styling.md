@@ -73,7 +73,7 @@ Below is a list of custom CSS that provide different background colors which you
 ~~~ .css
 /* red background, white text */
 .my-red-area {
-	background-color: #bd362f;
+	background-color: #BD362F;
 	color: white;
 }
 /* blue background, white text */
