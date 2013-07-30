@@ -170,21 +170,105 @@
 
 <h2>Social Media Links</h2>
 
-<p>To integrate social media networks, we are going to utilize Font Awesome and stack icons using HTML. Click the <strong>Edit</strong> icon on the <strong>TextBox</strong> section and add the following code to add Facebook, Twitter, LinkedIn and YouTube.</p>
+<p>To integrate social media networks, we are going to utilize Font Awesome and stlye using LESS. Click the <strong>Edit</strong> icon on the <strong>TextBox</strong> section and add the following code to add Facebook, Twitter, LinkedIn and YouTube.</p>
 
-<p>BELOW CODE NOT COMPLETE</p>
-
-<pre><code class="html">&lt;a href=&quot;#&quot; style=&quot;color: #3B5998&quot;&gt;&lt;span class=&quot;icon-stack icon-2x&quot;&gt;&lt;i class=&quot;icon-stop icon-stack-base&quot;&gt;&lt;/i&gt;&lt;i class=&quot;icon-facebook icon-light&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;a href=&quot;#&quot; style=&quot;color: #00aced&quot;&gt;&lt;span class=&quot;icon-stack icon-2x&quot;&gt;&lt;i class=&quot;icon-stop icon-stack-base&quot;&gt;&lt;/i&gt;&lt;i class=&quot;icon-twitter icon-light&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;a href=&quot;#&quot; style=&quot;color: #0181B2&quot;&gt;&lt;span class=&quot;icon-stack icon-2x&quot;&gt;&lt;i class=&quot;icon-stop icon-stack-base&quot;&gt;&lt;/i&gt;&lt;i class=&quot;icon-linkedin icon-light&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;a href=&quot;#&quot; style=&quot;color: #CD332D&quot;&gt;&lt;span class=&quot;icon-stack icon-2x&quot;&gt;&lt;i class=&quot;icon-stop icon-stack-base&quot;&gt;&lt;/i&gt;&lt;i class=&quot;icon-youtube icon-light&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;
+<pre><code class="html">&lt;div class=&quot;social-bar&quot;&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
 </code></pre>
 
-<p>You can do this for any social media networks such as GitHub, Google+ and Pinterest. For a full list of social media icons, see our branding icons section in our <a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome page</a>.</p>
-
-<p>COMPLETE INSTRUCTIONS</p>
+<p>You can do this for any social media networks such as GitHub, Dribbble and Pinterest. For a full list of social media icons, see our branding icons section on our <a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome page</a>.</p>
 
 <h2>Add Navigation</h2>
+
+<p>Adding your Navigation to your new branding area, is as simple as dragging and dropping the NavBar section onto your template. For this example, we will be positioning the NavBar in the right hand side of the <strong>2Columns</strong> section and underneath the <strong>TextBox</strong> section.</p>
+
+<p>Once in position, click the <i class="icon-pencil"></i> icon, to bring up the <strong>NavBar</strong> options to configure it.</p>
+
+<h2>Styling the Social Media Icons</h2>
+
+<p>In order to style the social media icons we added to the <strong>TextBox</strong>, we are going to be using LESS CSS and a few LESS variables. However, don&#39;t worry, we do all the hard work for you, all you need to do is add the code. As we are using LESS, the below code will need to be added to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
+
+<h3>Color Variables</h3>
+
+<p>These variables have each been given a specified color which is associated with that social media network. Add the following variables to the top of your customization method.</p>
+
+<pre><code class="less">/* Social media color variables */
+
+@dribbble:          #EA4c89;
+@facebook:      #3B5998;
+@googleplus     #E14107;
+@instagram:     #517FA4;
+@linkedin:          #0181B2;
+@pinterest:         #CB2027;
+@rss:               #E5842F;
+@twitter:           #00ACED;
+@youtube:           #CD332D;
+</code></pre>
+
+<p>Now it&#39;s time to add the LESS for the Social Bar HTML we added to the <strong>TextBox</strong>. Add the following code to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
+
+<pre><code class="less">.social-bar {
+    .icon:hover {
+        .transition(background .4s linear);
+    }
+    a {
+        margin-right: 0px;
+        padding: 0px;
+    }
+    a:first-child {
+        padding-left: 0;
+    }
+    .icon {
+        color: #FFF;
+        .border-radius(0px); /* Here incase you wish to add a radius */
+        min-width: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 26px;
+    }
+    .icon-dribbble {
+        background-color: @dribbble;
+    &amp;:hover { background-color: darken(@dribbble, 5%); }
+    }
+    .icon-facebook {
+        background-color: @facebook;
+    &amp;:hover { background-color: darken(@facebook, 5%); }
+    }
+    .icon-google-plus {
+        background-color: @googleplus;
+    &amp;:hover { background-color: darken(@googleplus, 5%); }
+    }
+     .icon-instagram {
+        background-color: @instagram;
+    &amp;:hover { background-color: darken(@instagram, 5%); }
+    }
+    .icon-linkedin {
+        background-color: @linkedin;
+    &amp;:hover { background-color: darken(@linkedin, 5%); }
+    }
+    .icon-pinterest {
+        background-color: @pinterest;
+    &amp;:hover { background-color: darken(@pinterest, 5%); }
+    }
+     .icon-rss {
+        background-color: @rss;
+    &amp;:hover { background-color: darken(@rss, 5%); }
+    }
+    .icon-twitter {
+        background-color: @twitter;
+    &amp;:hover { background-color: darken(@twitter, 5%); }
+    }
+    .icon-youtube {
+        background-color: @youtube;
+    &amp;:hover { background-color: darken(@youtube, 5%); }
+    }
+}
+</code></pre>
 
 <p>ADD INSTRUCTIONS FOR ADDING NAVBAR!</p>
             </div>
