@@ -51,18 +51,20 @@ To integrate social media networks, we are going to utilize Font Awesome and sty
 
 You can also take advantage of **ViewPoint Animation**, as we added the textbox to the right hand side of the **2 Column** layout section, we will want to use the **From Right** option.
 
+Also remember to repalce `#` with your social media network URLs.
+
 ~~~ .html
 <div class="social-bar pull-right">
     <ul class="zmt zmb">
-        <li><a href="#"><i class="icon icon-dribbble"></i></a></li>
-        <li><a href="#"><i class="icon icon-facebook"></i></a></li>
-        <li><a href="#"><i class="icon icon-google-plus"></i></a></li>
-        <li><a href="#"><i class="icon icon-instagram"></i></a></li>
-        <li><a href="#"><i class="icon icon-linkedin"></i></a></li>
-        <li><a href="#"><i class="icon icon-pinterest"></i></a></li>
-        <li><a href="#"><i class="icon icon-twitter"></i></a></li>
-        <li><a href="#"><i class="icon icon-youtube-play"></i></a></li>
-        <li><a href="#"><i class="icon icon-rss"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-dribbble"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-facebook"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-google-plus"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-instagram"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-pinterest"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-twitter"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-youtube-play"></i></a></li>
+        <li><a href="#" target="_blank"><i class="icon icon-rss"></i></a></li>
     </ul>
 </div>
 ~~~
@@ -73,9 +75,11 @@ For a full list of social media icons, see the branding section on our [Font Awe
 
 Adding your Navigation to your new branding area, is as simple as dragging and dropping the NavBar section onto your template. For this example, we will be positioning the NavBar in the right hand side of the **2Columns** section and underneath the **TextBox** section.
 
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-nav-position.jpg)
+Once everything is in position you should end up with something similar to this:
 
-Once in position, click the <i class="icon-pencil"></i> icon, to bring up the **NavBar** options to configure it.
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-position-sections.jpg)
+
+Once the NavBar is in position, click the <i class="icon-pencil"></i> icon, to bring up the **NavBar** options to configure it.
 
 ## Styling the Social Media Icons ##
 
