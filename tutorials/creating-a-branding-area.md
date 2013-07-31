@@ -54,15 +54,15 @@ You can also take advantage of **ViewPoint Animation**, as we added the textbox 
 ~~~ .html
 <div class="social-bar pull-right">
     <ul class="zmt zmb">
-            <li><a href="#"><i class="icon icon-dribbble"></i></a></li>
-            <li><a href="#"><i class="icon icon-facebook"></i></a></li>
-            <li><a href="#"><i class="icon icon-google-plus"></i></a></li>
-            <li><a href="#"><i class="icon icon-instagram"></i></a></li>
-            <li><a href="#"><i class="icon icon-linkedin"></i></a></li>
-            <li><a href="#"><i class="icon icon-pinterest"></i></a></li>
-            <li><a href="#"><i class="icon icon-twitter"></i></a></li>
-            <li><a href="#"><i class="icon icon-youtube-play"></i></a></li>
-            <li><a href="#"><i class="icon icon-rss"></i></a></li>
+        <li><a href="#"><i class="icon icon-dribbble"></i></a></li>
+        <li><a href="#"><i class="icon icon-facebook"></i></a></li>
+        <li><a href="#"><i class="icon icon-google-plus"></i></a></li>
+        <li><a href="#"><i class="icon icon-instagram"></i></a></li>
+        <li><a href="#"><i class="icon icon-linkedin"></i></a></li>
+        <li><a href="#"><i class="icon icon-pinterest"></i></a></li>
+        <li><a href="#"><i class="icon icon-twitter"></i></a></li>
+        <li><a href="#"><i class="icon icon-youtube-play"></i></a></li>
+        <li><a href="#"><i class="icon icon-rss"></i></a></li>
     </ul>
 </div>
 ~~~
