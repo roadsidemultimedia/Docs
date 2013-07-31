@@ -200,9 +200,9 @@
 <pre><code class="less">/* Social media color variables */
 
 @dribbble:          #EA4c89;
-@facebook:      #3B5998;
+@facebook:              #3B5998;
 @googleplus:        #E14107;
-@instagram:     #517FA4;
+@instagram:            #517FA4;
 @linkedin:          #0181B2;
 @pinterest:         #CB2027;
 @rss:               #E5842F;
@@ -213,9 +213,6 @@
 <p>Now it&#39;s time to add the LESS for the Social Bar HTML we added to the <strong>TextBox</strong>. Add the following code to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
 
 <pre><code class="less">.social-bar {
-    .icon:hover {
-        .transition(background .4s linear);
-    }
     a {
         margin-right: 0px;
         padding: 0px;
@@ -230,6 +227,7 @@
         line-height: 50px;
         text-align: center;
         font-size: 26px;
+    &amp;:hover { .transition(background .4s linear);     }
     }
     .icon-dribbble {
         background-color: @dribbble;
