@@ -79,9 +79,9 @@ These variables have each been given a specified color which is associated with 
 /* Social media color variables */
 
 @dribbble:			#EA4c89;
-@facebook:		#3B5998;
+@facebook:		        #3B5998;
 @googleplus:		#E14107;
-@instagram:		#517FA4;
+@instagram:		       #517FA4;
 @linkedin:			#0181B2;
 @pinterest:			#CB2027;
 @rss:				#E5842F;
@@ -93,9 +93,6 @@ Now it's time to add the LESS for the Social Bar HTML we added to the **TextBox*
 
 ~~~ .less
 .social-bar {
-    .icon:hover {
-        .transition(background .4s linear);
-    }
     a {
         margin-right: 0px;
         padding: 0px;
@@ -110,6 +107,7 @@ Now it's time to add the LESS for the Social Bar HTML we added to the **TextBox*
         line-height: 50px;
         text-align: center;
         font-size: 26px;
+    &:hover { .transition(background .4s linear);     }
     }
     .icon-dribbble {
         background-color: @dribbble;
