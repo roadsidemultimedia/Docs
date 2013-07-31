@@ -145,13 +145,13 @@
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-2column.jpg" alt=""></p>
 
-<p>Now we will change the width of the two columns, so that our naviation has more room, to this simply click on the <strong>decrease/increase</strong> options. For this tutorial, we will be setting the width of the left column to <code>4/12</code> and the right column to <code>8/12</code>.</p>
+<p>Now we will change the width of the two columns, so that our naviation has more room, to this simply click on the <strong>decrease/increase</strong> options. For this tutorial, we will be setting the width of the left column to <strong>5/12</strong> and the right column to <strong>7/12</strong>. However, you can have your columns any width.</p>
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-column-width.jpg" alt=""></p>
 
 <h2>Adding Logo</h2>
 
-<p>For the logo image, we will be utilizing the MediaBox section. Goto <strong>Add Sections</strong> via the Toolbar then drag and drop the <strong>MediaBox</strong> section into the left hand column of the <strong>2column</strong> section we added above.</p>
+<p>For the logo image, we will be utilizing the MediaBox section. Goto <strong>Add Sections</strong> via the Toolbar then drag and drop the <strong>MediaBox</strong> section into the left hand column of the <strong>2 Column</strong> section we added above.</p>
 
 <ul>
 <li>Once added, click on the <strong>Edit</strong> icon, this will bring up the <strong>MediaBox</strong> options.</li>
@@ -161,31 +161,41 @@
 <pre><code class="html">&lt;a class=&quot;logo&quot; href=&quot;http://www.my-website.com/&quot;&gt;&lt;img src=&quot;Path To My Image&quot; alt=&quot;My Logo&quot;&gt;&lt;/a&gt;
 </code></pre>
 
-<p>You will need to add your websites URL as well as the URL for your logo image, we have included a <code>logo</code> class, just incase you wish to add some additional styling.</p>
+<p>You will need to add your websites URL as well as the URL for your logo image, we have included a <code>logo</code> class, just in-case you wish to add some additional styling.</p>
 
 <ul>
-<li>You can go through the additional <strong>MediaBox</strong> options to add animations, once finished, click the Publish button and refresh.</li>
+<li>You can go through the additional <strong>MediaBox</strong> options to add animations (we used <strong>From Left</strong>), once finished, click the Publish button and refresh.</li>
 <li>Your logo image should now be present.</li>
 </ul>
 
 <h2>Social Media Links</h2>
 
-<p>To integrate social media networks, we are going to utilize Font Awesome and stlye using LESS. Click the <strong>Edit</strong> icon on the <strong>TextBox</strong> section and add the following code to add Facebook, Twitter, LinkedIn and YouTube.</p>
+<p>To integrate social media networks, we are going to utilize Font Awesome and style using LESS. Click the <strong>Edit</strong> icon on the <strong>TextBox</strong> section and add the following code to the <strong>Text Content</strong> box to add your social networks, you can edit the code to add/remove any services you do/don&#39;t use.</p>
 
-<pre><code class="html">&lt;div class=&quot;social-bar&quot;&gt;
-    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+<p>You can also take advantage of <strong>ViewPoint Animation</strong>, as we added the textbox to the right hand side of the <strong>2 Column</strong> layout section, we will want to use the <strong>From Right</strong> option.</p>
+
+<pre><code class="html">&lt;div class=&quot;social-bar pull-right&quot;&gt;
+    &lt;ul class=&quot;zmt zmb&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-dribbble&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-instagram&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-youtube-play&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;icon icon-rss&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
 &lt;/div&gt;
 </code></pre>
 
-<p>You can do this for any social media networks such as GitHub, Dribbble and Pinterest. For a full list of social media icons, see our branding icons section on our <a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome page</a>.</p>
+<p>For a full list of social media icons, see the branding section on our <a href="http://docs.pagelines.com/tutorials/font-awesome">Font Awesome page</a>.</p>
 
 <h2>Add Navigation</h2>
 
 <p>Adding your Navigation to your new branding area, is as simple as dragging and dropping the NavBar section onto your template. For this example, we will be positioning the NavBar in the right hand side of the <strong>2Columns</strong> section and underneath the <strong>TextBox</strong> section.</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-nav-position.jpg" alt=""></p>
 
 <p>Once in position, click the <i class="icon-pencil"></i> icon, to bring up the <strong>NavBar</strong> options to configure it.</p>
 
@@ -210,7 +220,7 @@
 @youtube:           #CD332D;
 </code></pre>
 
-<p>Now it&#39;s time to add the LESS for the Social Bar HTML we added to the <strong>TextBox</strong>. Add the following code to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
+<p>Now it&#39;s time to add the LESS which will style the Social Bars HTML we added earlier. Add the following code to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
 
 <pre><code class="less">.social-bar {
     a {
@@ -220,55 +230,71 @@
     a:first-child {
         padding-left: 0;
     }
+    li {
+        display: inline;
+    }
     .icon {
-        color: #FFF;
-        .border-radius(0px); /* Here incase you wish to add a radius */
+        .border-radius(0px); /* Here in-case you wish to add a radius */
+        margin-bottom: 5px;
         min-width: 50px;
-        line-height: 50px;
+        color: #FFF;
         text-align: center;
         font-size: 26px;
-    &amp;:hover { .transition(background .4s linear);     }
+        line-height: 50px;
+    &amp;:hover { .transition(background .4s linear); }
     }
     .icon-dribbble {
         background-color: @dribbble;
-    &amp;:hover { background-color: darken(@dribbble, 5%); }
+    &amp;:hover { background-color: lighten(@dribbble, 10%); }
     }
     .icon-facebook {
         background-color: @facebook;
-    &amp;:hover { background-color: darken(@facebook, 5%); }
+    &amp;:hover { background-color: lighten(@facebook, 10%); }
     }
     .icon-google-plus {
         background-color: @googleplus;
-    &amp;:hover { background-color: darken(@googleplus, 5%); }
+    &amp;:hover { background-color: lighten(@googleplus, 10%); }
     }
      .icon-instagram {
         background-color: @instagram;
-    &amp;:hover { background-color: darken(@instagram, 5%); }
+    &amp;:hover { background-color: lighten(@instagram, 10%); }
     }
     .icon-linkedin {
         background-color: @linkedin;
-    &amp;:hover { background-color: darken(@linkedin, 5%); }
+    &amp;:hover { background-color: lighten(@linkedin, 10%); }
     }
     .icon-pinterest {
         background-color: @pinterest;
-    &amp;:hover { background-color: darken(@pinterest, 5%); }
+    &amp;:hover { background-color: lighten(@pinterest, 10%); }
     }
      .icon-rss {
         background-color: @rss;
-    &amp;:hover { background-color: darken(@rss, 5%); }
+    &amp;:hover { background-color: lighten(@rss, 10%); }
     }
     .icon-twitter {
         background-color: @twitter;
-    &amp;:hover { background-color: darken(@twitter, 5%); }
+    &amp;:hover { background-color: lighten(@twitter, 10%); }
     }
     .icon-youtube {
         background-color: @youtube;
-    &amp;:hover { background-color: darken(@youtube, 5%); }
+    &amp;:hover { background-color: lighten(@youtube, 10%); }
     }
 }
 </code></pre>
 
-<p>ADD INSTRUCTIONS FOR ADDING NAVBAR!</p>
+<h2>Adding Responsive CSS</h2>
+
+<p>As you may have noticed we used the <code>pull-right</code> utility class, which floats your element to the right. However, when viewing on a mobile device, this may not be case. So adding the following code, will center your social bar on all devices that have a max screen resolution of <code>767px</code>.</p>
+
+<pre><code class="css">@media (max-width: 767px) {
+    .social-bar {
+        float: none;
+        text-align: center;
+    }
+}
+</code></pre>
+
+<p>This is still a draft...</p>
             </div>
 		</section>
 
