@@ -20,7 +20,6 @@ Once you have DMS installed, once of the first things you will want to do is bra
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-example.jpg)
 
-
 ## The Setup ##
 
 To setup our Branding area, the first thing we want to do is enable the Visual Editor. Once active, from the DMS Toolbar click on **Add Sections**, then drag and drop the **2 Column** layout section into your header section area. 
@@ -97,6 +96,7 @@ These variables have each been given a specified color which is associated with 
 /* Social media color variables */
 
 @dribbble:			#EA4C89;
+@envelope:          #F1F1F1;   
 @facebook:          #3B5998;
 @googleplus:		#E14107;
 @instagram:         #517FA4;
@@ -105,7 +105,6 @@ These variables have each been given a specified color which is associated with 
 @rss:				#E5842F;
 @twitter:			#00ACED;
 @youtube:			#CD332D;
-@envelope:          #F1F1F1;     
 ~~~
 
 Now it's time to add the LESS which will style the Social Bars HTML we added earlier. Add the following code to either **DMS Toolbar → </> Custom Code → Custom LESS/CSS Editor** or your **style.less** file in either **PageLines Customize Plugin** or **Base Theme**.
@@ -194,4 +193,6 @@ As you may have noticed we used the `pull-right` [utility class](http://docs.pag
 
 When all the above steps have been completed, the end result will look like this on your desktop PC/Mac.
 
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-example.jpg)
 
+Although a lot of instructions, this is quite basic and you can use 
