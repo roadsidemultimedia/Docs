@@ -96,7 +96,7 @@ These variables have each been given a specified color which is associated with 
 /* Social media color variables */
 
 @dribbble:			#EA4C89;
-@envelope:          #F1F1F1;   
+@envelope:          #08CF90;   
 @facebook:          #3B5998;
 @googleplus:		#E14107;
 @instagram:         #517FA4;
@@ -135,7 +135,7 @@ Now it's time to add the LESS which will style the Social Bars HTML we added ear
         background-color: @dribbble;
     &:hover { background-color: lighten(@dribbble, 10%); }
     }
-    icon-envelope-alt {
+    icon-envelope {
         background-color: @envelope;
     &:hover { background-color: lighten(@envelope, 10%); }
     }
