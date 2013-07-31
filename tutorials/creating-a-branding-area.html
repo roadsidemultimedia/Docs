@@ -139,6 +139,8 @@
 <li>Some basic LESS CSS</li>
 </ul>
 
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-example.jpg" alt=""></p>
+
 <h2>The Setup</h2>
 
 <p>To setup our Branding area, the first thing we want to do is enable the Visual Editor. Once active, from the DMS Toolbar click on <strong>Add Sections</strong>, then drag and drop the <strong>2 Column</strong> layout section into your header section area. </p>
@@ -187,6 +189,7 @@
         &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon icon-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon icon-youtube-play&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon icon-rss&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;mailto:hello@example.com&quot;&gt;&lt;i class=&quot;icon icon-envelope&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 </code></pre>
@@ -222,6 +225,7 @@
 @rss:               #E5842F;
 @twitter:           #00ACED;
 @youtube:           #CD332D;
+@envelope:          #F1F1F1;     
 </code></pre>
 
 <p>Now it&#39;s time to add the LESS which will style the Social Bars HTML we added earlier. Add the following code to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
@@ -250,6 +254,10 @@
     .icon-dribbble {
         background-color: @dribbble;
     &amp;:hover { background-color: lighten(@dribbble, 10%); }
+    }
+    icon-envelope-alt {
+        background-color: @envelope;
+    &amp;:hover { background-color: lighten(@envelope, 10%); }
     }
     .icon-facebook {
         background-color: @facebook;
@@ -286,9 +294,11 @@
 }
 </code></pre>
 
+<p>There are alternatives methods to creating your LESS, such as using Mixins. For more information on mixins see this <a href="http://lesscss.org/#-mixins">page</a>.</p>
+
 <h2>Adding Responsive CSS</h2>
 
-<p>As you may have noticed we used the <code>pull-right</code> utility class, which floats your element to the right. However, when viewing on a mobile device, this may not be case. So adding the following code, will center your social bar on all devices that have a max screen resolution of <code>767px</code>.</p>
+<p>As you may have noticed we used the <code>pull-right</code> <a href="http://docs.pagelines.com/tutorials/html-css-utilities">utility class</a>, which floats your element to the right. However, when viewing on a mobile device, you will probably want the <code>.social-bar</code> element to be centered. Adding the following code, will center your social bar on all devices that have a max screen resolution of <code>767px</code>.</p>
 
 <pre><code class="css">@media (max-width: 767px) {
     .social-bar {
@@ -298,7 +308,9 @@
 }
 </code></pre>
 
-<p>This is still a draft...</p>
+<h2>The Result</h2>
+
+<p>When all the above steps have been completed, the end result will look like this on your desktop PC/Mac.</p>
             </div>
 		</section>
 
