@@ -10,7 +10,7 @@
 
 # Creating a Branding Area #
 
-Once you have DMS installed, once of the first things you will want to do is branding your website. Usually, these areas consist of a logo image on one side and a navigation menu and social media links on the other. In this tutorials, we will show you how to create your branding header area using nothing more than:
+Once you have DMS installed, one of the first things you will want to do is brand your website. Usually, these areas consist of a logo image on one side and a navigation menu and social media links on the other. In this tutorials, we will show you how to create your branding header area using nothing more than:
 
 * 2 Column Section
 * MediaBox Section with some basic HTML
