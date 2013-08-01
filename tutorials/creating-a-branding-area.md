@@ -195,4 +195,4 @@ When all the above steps have been completed, the end result will look like this
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-example.jpg)
 
-Although a lot of instructions, this is quite basic and you can use 
+Although a lot of instructions, this is quite basic and is supposed to demonstrate what can be achieved with DMS and your imagination.
