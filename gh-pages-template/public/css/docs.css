@@ -331,3 +331,8 @@ pre strong {
      padding-right: 20px;
    }
  }
+
+/* Fix for example header not centering */
+ .docs-example .page-header {
+	text-align: center;
+}
