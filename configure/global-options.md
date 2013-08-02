@@ -179,6 +179,18 @@ The **Advanced** panel contains some additional options that can be useful to so
 
 Checking this box will enable a class of `prettyprint` to `<code>` or `<pre>` tags, or optionally use the `[pl_codebox]` shortcode. Wrap the codebox shortcode using `[pl_raw]` if Wordpress inserts line breaks.
 
+Google Prettify is a Javascript module and CSS file that allows syntax highlighting of source code snippets in an html page.
+
+##### Example #####
+
+~~~ .css
+.example {
+	background-color: #0088DD;
+	color: #FFFFFF;
+	padding: 40px;
+}
+~~~
+
 #### PageLines Affiliate/Partner Link ####
 
 If you are a [PageLines Partner](http://www.pagelines.com/partners/) you can enter your Partner Link here to change the PageLines logo on your site to be an affiliate link.
