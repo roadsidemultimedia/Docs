@@ -49,6 +49,8 @@ In modern web development even minor optimizations have significant influence on
 
 Fortunately, there is an amazing, free plugin called [WP-SmushIt](http://wordpress.org/plugins/wp-smushit/) which will do this process to all of your images automatically, as you are uploading them.
 
+Another alternative is [Kracken](http://kraken.io/), Kraken is a robust, ultra-fast image optimizer.
+
 ## LazyLoad ##
 
 LazyLoad is the process of delaying the loading of images in long web pages. Images outside of viewport (visible part of web page) wont be loaded before user scrolls to them.
