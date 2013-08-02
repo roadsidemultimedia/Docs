@@ -129,7 +129,7 @@
 
 <h1>Creating a Branding Area</h1>
 
-<p>Once you have DMS installed, one of the first things you will want to do is brand your website. Usually, these areas consist of a logo image on one side and a navigation menu and social media links on the other. In this tutorials, we will show you how to create your branding header area using nothing more than:</p>
+<p>Once you have DMS installed, one of the first things you will want to do is add branding to your website. Usually, this area consists of a logo image on one side and a navigation menu plus social media links on the other. In this tutorial, we will show you how to create your branding header area using nothing more than:</p>
 
 <ul>
 <li>2 Column Section</li>
@@ -143,11 +143,11 @@
 
 <h2>The Setup</h2>
 
-<p>To setup our Branding area, the first thing we want to do is enable the Visual Editor. Once active, from the DMS Toolbar click on <strong>Add Sections</strong>, then drag and drop the <strong>2 Column</strong> layout section into your header section area. </p>
+<p>To setup your Branding area, the first thing we will need to do is enable the Visual Editor. Once active, navigate from the DMS Toolbar and click on <strong>Add Sections</strong>, then drag and drop the <strong>2 Column</strong> layout section into the header area.</p>
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-2column.jpg" alt=""></p>
 
-<p>Now we will change the width of the two columns, so that our naviation has more room, to this simply click on the <strong>decrease/increase</strong> options. For this tutorial, we will be setting the width of the left column to <strong>5/12</strong> and the right column to <strong>7/12</strong>. However, you can have your columns any width.</p>
+<p>Now we will change the width of the two columns so that our naviation has more room, to this simply click on the <strong>decrease/increase</strong> options. For this tutorial, we will be setting the width of the left column to <strong>5/12</strong> and the right column to <strong>7/12</strong>. However, you can have your columns set at any width you choose.</p>
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-column-width.jpg" alt=""></p>
 
@@ -163,7 +163,7 @@
 <pre><code class="html">&lt;a class=&quot;logo&quot; href=&quot;http://www.my-website.com/&quot;&gt;&lt;img src=&quot;Path To My Image&quot; alt=&quot;My Logo&quot;&gt;&lt;/a&gt;
 </code></pre>
 
-<p>You will need to add your websites URL as well as the URL for your logo image, we have included a <code>logo</code> class, just in-case you wish to add some additional styling.</p>
+<p>You will need to add your websites URL as well as the URL for your logo image, we have included a <code>.logo</code> class, just in-case you wish to add some additional styling.</p>
 
 <ul>
 <li>You can go through the additional <strong>MediaBox</strong> options to add animations (we used <strong>From Left</strong>), once finished, click the Publish button and refresh.</li>
@@ -172,7 +172,7 @@
 
 <h2>Social Media Links</h2>
 
-<p>To integrate social media networks, we are going to utilize Font Awesome and style using LESS. Click the <strong>Edit</strong> icon on the <strong>TextBox</strong> section and add the following code to the <strong>Text Content</strong> box to add your social networks, you can edit the code to add/remove any services you do/don&#39;t use.</p>
+<p>To integrate social media networks, we are going to utilize Font Awesome and style using LESS. Click on the <strong>Edit</strong> icon within the <strong>TextBox</strong> section and add the following code to the <strong>Text Content</strong> box, this will add your social network icons. You can edit the code to add/remove any services you do/do not wish to use.</p>
 
 <p>You can also take advantage of <strong>ViewPoint Animation</strong>, as we added the textbox to the right hand side of the <strong>2 Column</strong> layout section, we will want to use the <strong>From Right</strong> option.</p>
 
@@ -198,17 +198,17 @@
 
 <h2>Add Navigation</h2>
 
-<p>Adding your Navigation to your new branding area, is as simple as dragging and dropping the NavBar section onto your template. For this example, we will be positioning the NavBar in the right hand side of the <strong>2Columns</strong> section and underneath the <strong>TextBox</strong> section.</p>
+<p>Adding your Navigation to your new branding area is as simple as dragging and dropping the NavBar section onto your template. For this example, we will be positioning the NavBar on the right hand side of the <strong>2Columns</strong> section and underneath the <strong>TextBox</strong> section.</p>
 
 <p>Once everything is in position you should end up with something similar to this:</p>
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-position-sections.jpg" alt=""></p>
 
-<p>Once the NavBar is in position, click the <i class="icon-pencil"></i> icon, to bring up the <strong>NavBar</strong> options to configure it.</p>
+<p>With the NavBar is in position, click the <i class="icon-pencil"></i> icon, to bring up the <strong>NavBar</strong> options to configure it.</p>
 
 <h2>Styling the Social Media Icons</h2>
 
-<p>In order to style the social media icons we added to the <strong>TextBox</strong>, we are going to be using LESS CSS and a few LESS variables. However, don&#39;t worry, we do all the hard work for you, all you need to do is add the code. As we are using LESS, the below code will need to be added to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
+<p>To style the social media icons we added to the <strong>TextBox</strong>, we are going to be using LESS CSS and a few LESS variables. However, don&#39;t worry, we do all the hard work for you, all you need to do is add the code. As we are using LESS, the below code will need to be added to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
 
 <h3>Color Variables</h3>
 
@@ -228,7 +228,7 @@
 @youtube:           #CD332D;
 </code></pre>
 
-<p>Now it&#39;s time to add the LESS which will style the Social Bars HTML we added earlier. Add the following code to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
+<p>Now it&#39;s time to add the LESS which will style the Social bar HTML we added earlier. Add the following code to either <strong>DMS Toolbar → &lt;/&gt; Custom Code → Custom LESS/CSS Editor</strong> or your <strong>style.less</strong> file in either <strong>PageLines Customize Plugin</strong> or <strong>Base Theme</strong>.</p>
 
 <pre><code class="less">.social-bar {
     a {
@@ -298,7 +298,7 @@
 
 <h2>Adding Responsive CSS</h2>
 
-<p>As you may have noticed we used the <code>pull-right</code> <a href="http://docs.pagelines.com/tutorials/html-css-utilities">utility class</a>, which floats your element to the right. However, when viewing on a mobile device, you will probably want the <code>.social-bar</code> element to be centered. Adding the following code, will center your social bar on all devices that have a max screen resolution of <code>767px</code>.</p>
+<p>As you may have noticed we used the <code>pull-right</code> <a href="http://docs.pagelines.com/tutorials/html-css-utilities">utility class</a>, this floats your element to the right. However, when viewing on a mobile device, you will probably want the <code>.social-bar</code> element to be centered. Adding the following code, will center your social bar on all devices that have a max screen resolution of <code>767px</code>.</p>
 
 <pre><code class="css">@media (max-width: 767px) {
     .social-bar {
