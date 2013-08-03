@@ -32,7 +32,7 @@ The PageLines Support Forum should be used for any technical questions related t
 
 ### Tracker ###
 
-The PageLines [Tracker](http://www.pagelines.com/forum/tracdown/) should be used for submitting any kind of bugs, including but not limited to usability issues, errors and other DMS malfunctions.
+The PageLines [Issue Tracker](https://github.com/pagelines/DMS/issues) should be used for submitting any kind of bugs, including but not limited to usability issues, errors and other DMS malfunctions.
 
 ### Translation Center ###
 
