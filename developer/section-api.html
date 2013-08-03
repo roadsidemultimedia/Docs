@@ -127,9 +127,9 @@
 
 <p>The first part of section development, is setting up your section folder. </p>
 
-<p>Sections are supported in a variety of areas; specifically, they are supported in your plugins folder (with a special wrapper) and in your child theme &#39;sections&#39; folder (child_root/sections/sectionFolder/). </p>
+<p>Sections are supported in a variety of areas; specifically, they are supported in your plugins folder (with a special wrapper) and in your child theme &#39;sections&#39; folder (child_theme_root/sections/sectionFolder/). </p>
 
-<p>The folder name you choose for your section will become your global &#39;section ID&#39;.  Inside this folder you&#39;ll have your master &#39;section.php&#39; file where you&#39;ll most or all of the code for the section.</p>
+<p>The folder name you choose for your section will become your global &#39;section ID&#39;.  Inside this folder you&#39;ll have your master &#39;section.php&#39; file where you&#39;ll write most or all of the code for the section.</p>
 
 <p>So to set up your basic section, you would have something like this (child_theme_root)/sections/sectionID/section.php</p>
 
@@ -191,7 +191,7 @@ class YourSectionClassName extends PageLinesSection {
 
 <p>By extending the core PageLines Section class you get access to a lot of tools, built right in to the section. </p>
 
-<p>Specifically, there are a bunch of variables set up for you to access that give you information about the section (that you can then use in code)</p>
+<p>Specifically, there are a bunch of variables set up for you to access that give you information about the section (that you can then use in code).</p>
 
 <p>A few examples of variables you&#39;ll have are below.</p>
 
