@@ -3,7 +3,7 @@
 		<ul class="breadcrumb">
   			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
   			<li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
-  			<li class="active">Adding Custom Menus</li>
+  			<li class="active">Section Area Styling</li>
 		</ul>
 	</div>
 </div>
@@ -106,5 +106,12 @@ Below is a list of custom CSS that provide different background colors which you
 
 Simply copy the code above into your customization method and click save.
 
-
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="pager">
+			<li class="pull-left"><a href="http://docs.pagelines.com/tutorials/adding-custom-fonts">&larr; Adding Custom Fonts</a></li>
+			<li class="pull-right"><a href="http://docs.pagelines.com/tutorials/creating-a-branding-area">Creating a Branding Area &rarr;</a></li>
+		</ul>
+	</div>
+</div>
 

@@ -197,3 +197,12 @@ When all the above steps have been completed, the end result will look like this
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/branding-example.jpg)
 
 Although a lot of instructions, this is quite basic and is supposed to demonstrate what can be achieved with DMS and your imagination.
+
+<div class="row-fluid">
+    <div class="span12">
+        <ul class="pager">
+            <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/section-area-styling">&larr; Section Area Styling</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/lockdown-visual-editor">Lockdown Visual Editor  &rarr;</a></li>
+        </ul>
+    </div>
+</div>
