@@ -62,9 +62,7 @@ Once uploaded, your file structure for the Base Theme will look like this:
 
 ## PoEdit ##
 
-We offer a community-driven [Translation center](http://www.pagelines.com/translate/projects) for PageLines and welcome you to sign-up and help translate. If your language is not listed, please [let us know](mailto:hello@pagelines.com) and we can add it for you.
-
-Alternatively, if you wish to add translations manually, you can do so by using [PoEdit](http://www.poedit.net/).
+If you wish to add translations manually, you can do so by using [PoEdit](http://www.poedit.net/).
 
 PageLines DMS includes one `.pot` file which can be imported into PoEdit to translate. To get started open PoEdit and go to **File &rarr; New catalog from POT file**.
 
