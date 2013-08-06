@@ -22,9 +22,7 @@ define ('WPLANG', 'da_DK');
 
 ## Update Safe ##
 
-PageLines DMS includes a `language` folder containing the `pagelines.pot`, which can be used to manually create your custom translations. If you add your custom translations to this language folder, they can be lost when updating.
-
-However, by using either the **Base Theme** or **PageLines Customize Plugin** and creating a `language` folder, your custom translations will be safe from updates. Create the `language` folder in the following location.
+By using either the **Base Theme** or **PageLines Customize Plugin** and creating a `language` folder, your custom translations will be safe from updates. Create the `language` folder in the following location.
 
 ### PageLines Customize Plugin ###
 
