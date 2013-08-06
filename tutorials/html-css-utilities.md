@@ -215,7 +215,7 @@ Using our integration of Bootstrap, you can use these visibility classes to show
   </tbody>
 </table>
 
-We recommend using these on a limited basis to avoide creating entirely different versions of the same website. Instead, use thme to complement each device. The visibility classes are not compatible with tables.
+We recommend using these on a limited basis to avoide creating entirely different versions of the same website. Instead, use them to complement each device. The visibility classes are not compatible with tables.
 
 #### Testing ####
 
