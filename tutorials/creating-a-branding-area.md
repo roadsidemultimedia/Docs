@@ -116,9 +116,6 @@ Now it's time to add the LESS which will style the Social bar HTML we added earl
         margin-right: 0px;
         padding: 0px;
     }
-    a:first-child {
-        padding-left: 0;
-    }
     li {
         display: inline;
     }

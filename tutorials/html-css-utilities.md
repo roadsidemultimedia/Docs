@@ -112,7 +112,7 @@ Adding these unique classes `.center` and `.tac` to your elements will align to 
       <h2 class="tac zmt zmb">This h2, is is aligned to the center</h2>
 </div>
 
-As you can see in the example above, applying the `.center` and `.tag` to the headers, aligns them centrally. The headers are also using the `zmt` & `zmb` to demonstrate that you can mix and match the CSS utilities in your code.
+As you can see in the example above, applying the `.center` and `.tac` to the headers, aligns them centrally. The headers are also using the `zmt` & `zmb` to demonstrate that you can mix and match the CSS utilities in your code.
 
 ### Cool Image classes ###
 
