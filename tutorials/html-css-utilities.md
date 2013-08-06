@@ -174,6 +174,80 @@ The example code above, is using the `.pl-imageframe` class, simply replace `cla
       </div>
 </div>
 
+### Floats ###
+
+Adding these unique classes `.pull-left` and `.pull-right` to your elements will allow you to float your element to the left or right hand side of your container.
+
+~~~ .html
+<h1 class="pull-left">This is a h1 Header, positioned on the left hand side.</h1>
+<h2 class="pull-right">This is a h2 Header, positioned on the right hand side.</h1>
+~~~
+
+<div class="docs-example">
+  <h1 class="pull-left">This is a h1 Header, positioned on the left hand side.</h1>
+  <h2 class="pull-right">This is a h2 Header, positioned on the right hand side.</h1>
+</div>
+
+### Visibility ####
+
+Using our integration of Bootstrap, you can use these visibility classes to show/hide elemtents of your site for specific devices.
+
+<table class="table table-bordered table-striped responsive-utilities">
+            <thead>
+              <tr>
+                <th>Class</th>
+                <th>Phones <small>767px and below</small></th>
+                <th>Tablets <small>979px to 768px</small></th>
+                <th>Desktops <small>Default</small></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><code>.visible-phone</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-tablet</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-desktop</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-phone</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-tablet</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+      <th><code>.hidden-desktop</code></th>
+      <td class="is-visible">Visible</td>
+      <td class="is-visible">Visible</td>
+      <td class="is-hidden">Hidden</td>
+    </tr>
+  </tbody>
+</table>
+
+We recommend using these on a limited basis to avoide creating entirely different versions of the same website. Instead, use thme to complement each device. The visibility classes are not compatible with tables.
+
+#### Testing ####
+
+Resize your browser or load on different devices to test these classes.
+
+
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
