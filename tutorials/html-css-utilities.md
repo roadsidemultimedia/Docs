@@ -148,29 +148,8 @@ The example code above, is using the `.pl-imageframe` class, simply replace `cla
 </table>
 
 <div class="row-fluid">
-      <div class="span3">
-            <h5>PL Image Frame</h5>
-            <div class="docs-example">
-                  <img class="pl-imageframe colorbox-1845" src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/pagelines.jpg?v=1371676907">
-            </div>
-      </div>
-      <div class="span3">
-            <h5>Image Rounded</h5>
-            <div class="docs-example">
-            <img class="img-rounded colorbox-1845" src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/pagelines.jpg?v=1371676907">
-            </div>
-      </div>
-      <div class="span3">
-            <h5>Image Circle</h5>
-            <div class="docs-example">
-            <img class="img-circle colorbox-1845" src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/pagelines.jpg?v=1371676907">
-            </div>
-      </div>
-      <div class="span3">
-            <h5>Image Polaroid</h5>
-            <div class="docs-example">
-            <img class="img-polaroid colorbox-1845" src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/pagelines.jpg?v=1371676907">
-            </div>
+      <div class="span12">
+          <img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pl-img-classes.jpg">
       </div>
 </div>
 
@@ -179,14 +158,9 @@ The example code above, is using the `.pl-imageframe` class, simply replace `cla
 Adding these unique classes `.pull-left` and `.pull-right` to your elements will allow you to float your element to the left or right hand side of your container.
 
 ~~~ .html
-<h1 class="pull-left">This is a h1 Header, positioned on the left hand side.</h1>
-<h2 class="pull-right">This is a h2 Header, positioned on the right hand side.</h1>
+<div class="pull-left">...</div>
+<div class="pull-right">...</div>
 ~~~
-
-<div class="docs-example">
-  <h1 class="pull-left">This is a h1 Header, positioned on the left hand side.</h1>
-  <h2 class="pull-right">This is a h2 Header, positioned on the right hand side.</h1>
-</div>
 
 ### Visibility ####
 
@@ -246,7 +220,6 @@ We recommend using these on a limited basis to avoide creating entirely differen
 #### Testing ####
 
 Resize your browser or load on different devices to test these classes.
-
 
 <div class="row-fluid">
 	<div class="span12">
