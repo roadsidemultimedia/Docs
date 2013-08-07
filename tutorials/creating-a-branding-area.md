@@ -72,6 +72,8 @@ Also remember to repalce `#` with your social media network URLs.
 </div>
 ~~~
 
+As you can see from the HTML above, we have used the `pull-right` [utility class](http://docs.pagelines.com/tutorials/html-css-utilities), to position our social bar. However, if you like, you can remove `pull-right` from the HTML and simply use the Alignment options in the **TextBox** sections configuration. The choice is entirely up to you.
+
 For a full list of social media icons, see the branding section on our [Font Awesome page](http://docs.pagelines.com/tutorials/font-awesome).
 
 ## Add Navigation ##
