@@ -115,21 +115,21 @@ Now it's time to add the LESS which will style the Social bar HTML we added earl
 ~~~ .less
 .social-bar {
     a {
-        margin-right: 0px;
-        padding: 0px;
+        margin-right: 0px; // Here in-case you wish to add margins
+        padding: 0px; // Here in-case you wish to add padding
     }
     li {
         display: inline;
     }
     .icon {
-        .border-radius(0px); /* Here in-case you wish to add a radius */
+        .border-radius(0px); // Here in-case you wish to add a radius
         margin-bottom: 5px;
         min-width: 50px;
         color: #FFF;
         text-align: center;
         font-size: 26px;
         line-height: 50px;
-    &:hover { .transition(background .4s linear); }
+    &:hover { .transition(background 400ms linear); }
     }
     .icon-dribbble {
         background-color: @dribbble;
