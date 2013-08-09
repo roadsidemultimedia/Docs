@@ -36,6 +36,7 @@ For example:
 	<h1>Hello World!</h1>
 	<p>Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!</p>
 </div>
+[/pl_codebox]
 ~~~
 
 ## Buttons ##
