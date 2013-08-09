@@ -24,6 +24,20 @@ To resolve this issue, we have created a utility shortcode that stops Wordpress 
 
 Please be aware that the `[pl_raw]` shortcode can only be used once per page.
 
+## PL CodeBox ##
+
+Want to add blocks of code to your posts, pages or sections? Then the PL CodeBox shortcode is for you. It utilities [Google Prettyprint](https://code.google.com/p/google-code-prettify/), which highlights your syntax. All you need to do is wrap your code with `[pl_codebox]...[/pl_codebox]`.
+
+For example:
+
+~~~ .html
+[pl_codebox]
+<div class="example">
+	<h1>Hello World!</h1>
+	<p>Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!</p>
+</div>
+~~~
+
 ## Buttons ##
 
 There are 7 different color schemes to choose from, as well 3 sizes; mini, default and large.
