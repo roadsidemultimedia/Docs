@@ -26,7 +26,9 @@ Please be aware that the `[pl_raw]` shortcode can only be used once per page.
 
 ## PL CodeBox ##
 
-Want to add blocks of code to your posts, pages or sections? Then the PL CodeBox shortcode is for you. It utilities [Google Prettyprint](https://code.google.com/p/google-code-prettify/), which highlights your syntax. All you need to do is wrap your code with `[pl_codebox]...[/pl_codebox]`.
+Want to add blocks of code to your posts, pages or sections? Then the PL CodeBox shortcode is for you. It utilities [Google Prettyprint](https://code.google.com/p/google-code-prettify/), which highlights your syntax.
+
+All you need to is firstly, activate the **Google Prettify Code** option which is located under **DMS Toolbar &rarr; Global Options &rarr; Advanced**. Once enabled, wrap your code with `[pl_codebox]...[/pl_codebox]`.
 
 For example:
 
