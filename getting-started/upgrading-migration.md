@@ -56,6 +56,8 @@ Like the instructions above, your site content such as pages and posts will rema
 * Paste your custom CSS, functions, etc, that you copied earlier back into your site.
 * There are three ways to do this, for more information see our [How to Customize](http://docs.pagelines.com/customize/how-to-customize) doc.
 
+**Note:** You must disable the **PageLines Section** plugin, as this may cause issues with DMS such as section styles not loading etc.
+
 ## Upgrading From DMS Lite
 
 After your purchase of PageLines DMS has been completed, log in to your website's WordPress admin dashboard.
