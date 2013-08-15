@@ -78,7 +78,7 @@ Adding these unique classes `.zmt` and `.zmb` to your elements will specify a ze
 
 <div class="docs-example">
       <h1 class="zmt zmb zb">This is a h1 Header, without top & bottom margin!</h1>
-      <h2 class="zmt zmb zb">This is a h2 Header, without top & bottom margin!</h1>
+      <h2 class="zmt zmb text-center zb">This is a h2 Header, without top & bottom margin!</h1>
 </div>
 
 As you can see in the example above, applying the `zmt` & `zmb` to both headers, has resulted with them both having zero applied to `margin-top` and `margin-bottom`.
