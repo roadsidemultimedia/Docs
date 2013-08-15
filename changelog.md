@@ -1,6 +1,6 @@
 # DMS Changelog #
 
-<div class="row">
+<div class="row-fluid">
   <div class="span12">
     <h3>Version 0.9.7</h3>
       <ul class="unstyled">
