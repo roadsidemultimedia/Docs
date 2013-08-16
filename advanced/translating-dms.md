@@ -64,7 +64,7 @@ If you wish to add translations manually, you can do so by using [PoEdit](http:/
 
 PageLines DMS includes one `.pot` file which can be imported into PoEdit to translate. To get started open PoEdit and go to **File &rarr; New catalog from POT file**.
 
-Once you have done this, choose the **pagelines.pot** which is located in `/wp-content/themes/pagelines/language/` and PoEdit will show the catalog properties window.
+Once you have done this, choose the **pagelines.pot** which is located in `/wp-content/themes/dms/language/` and PoEdit will show the catalog properties window.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/catalog-property-window.jpg)
 
