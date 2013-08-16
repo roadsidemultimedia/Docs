@@ -10,19 +10,16 @@
 
 <p>DMS is open source and can be downloaded freely from [PageLines.com](http://www.pagelines.com), simply sign up using the **Get DMS now. It's free!** button and follow the instructions.
 
+<p><a class="btn btn-default btn-primary" href="https://www.pagelines.com" target="_blank">Download DMS</a></p>
+
+
 <h3>Bleeding Edge</h3>
 
 <p>DMS can also be found on GitHub. However, this is the "bleeding edge" version. This branch is likely to be broken and buggy, but can be useful for testing new features and finding potential bugs.
 
 Having DMS on GitHub means you’ll have a collaborative codebase which gives you the ability to access latest changes, file issues, and contribute to the source.</p>
 
-<div class="row-fluid">
-	<div class="span12">
-		<h4>Download Compiled</h4>
-		<p>Fastest way to get started is by downloading the compiled version which comes in .zip format.</p>
-		<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS/archive/Dev.zip" target="_blank">Download DMS</a></p>
-	</div>
-</div>
+<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/DMS/archive/Dev.zip" target="_blank">Download Bleedy Edge</a></p>
 
 <h3>Professional Edition</h3>
 
