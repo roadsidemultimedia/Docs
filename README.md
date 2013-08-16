@@ -8,7 +8,7 @@
 
 <h3>Free Version</h3>
 
-<p>DMS is open source and can be downloaded freely from [PageLines.com](http://www.pagelines.com), simply sign up using the <strong>Get DMS now. It's free!</strong> button and follow the instructions.
+<p>DMS is open source and can be downloaded freely from <a href="http://www.pagelines.com/" target="_blank">PageLines.com</a>, simply sign up using the <strong>Get DMS now. It's free!</strong> button and follow the instructions.
 
 <p><a class="btn btn-default btn-primary" href="https://www.pagelines.com" target="_blank">Download DMS</a></p>
 
