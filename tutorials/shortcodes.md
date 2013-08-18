@@ -897,6 +897,12 @@ A lightweight, easy-to-use shortcode for fluid width video embeds, which support
 		<img src="http://netdna.pagelines.me/wp-content/blogs.dir/686/files/2012/10/youtube.jpg?v=1371676907" alt="" title="youtube" style="margin-bottom: 1.5em;">
 	</div>
 </div>
+<div class="row-fluid">
+	<div class="span12">
+		<img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/dailymotion.jpg" alt="" title="vimeo" style="margin-bottom: 1.5em;">
+	</div>
+</div>
+
 
 ~~~ .html
 [pl_video type="vimeo" id="50522981"]
