@@ -898,6 +898,12 @@ A lightweight, easy-to-use shortcode for fluid width video embeds, which support
 	</div>
 </div>
 
+~~~ .html
+[pl_video type="vimeo" id="50522981"]
+[pl_video type="youtube" id="50522981"]
+[pl_video type="dailymotion" id="50522981"]
+~~~
+
 <iframe src="http://player.vimeo.com/video/67237715?title=0&amp;byline=0" width="870" height="419" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## Maps ##
