@@ -2,12 +2,26 @@
 
 <div class="row-fluid">
   <div class="span12">
-    <h3>Version 0.9.7 <small>08/14/2013</small></h3>
+    <h3>Version 1.0.2</h3>
+      <ul class="unstyled">
+        <li><span class="label label-success">CORE - Fixed 3 Github issues</li>
+        <li><span class="label label-success">CORE - Various fixes for themecheck</li>
+      </ul>
+    <h3>Version 1.0.1</h3>
+      <ul class="unstyled">
+        <li><span class="label label-success">CORE - Remove debugging symbol</li>
+	    </ul>
+    <h3>Version 1.0</h3>
+      <ul class="unstyled">
+	      <li><span class="label label-success">CORE - Fixed 13 Github issues and included 8 pull requests</li>
+	      <li><span class="label label-success">CORE - New updates system included to 3rd party themes/plugins</li>
+      <ul> 
+    <h3>Version 0.9.7</h3>
       <ul class="unstyled">
         <li><span class="label label-success">CORE</span> - New accounts and karma system</li>
         <li><span class="label label-success">CORE</span> - Stability enhancements</li>
       </ul>
-    <h3>Version 0.9.6 <small>07/24/2013</small></h3>
+    <h3>Version 0.9.6</h3>
       <ul class="unstyled">
         <li><span class="label label-success">CORE</span> - Hello DMS!</li>
       </ul>
