@@ -58,4 +58,4 @@ Having DMS on GitHub means you’ll have a collaborative codebase which gives yo
 
 <p>The PageLines DMS documentation is hosted on GitHub, this means our documentation is open to the public. Anyone who has a GitHub account can contribute to improving our documentation, this includes correcting any errors or creating your own docs to assist other PageLines DMS users.</p>
 
-<p><a class="btn btn-default btn-primary" href="https://github.com/pagelines/Docs/" target="_blank"><i class="icon-github-alt"></i> Contribute</a></p>
+<p><a class="btn btn-link" href="https://github.com/pagelines/Docs/" target="_blank"><i class="icon-github-alt"></i> Contribute</a></p>
