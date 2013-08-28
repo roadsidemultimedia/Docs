@@ -10,12 +10,12 @@
     <h3>Version 1.0.1</h3>
       <ul class="unstyled">
         <li><span class="label label-success">CORE</span> - Remove debugging symbol</li>
-	    </ul>
+      </ul>
     <h3>Version 1.0</h3>
       <ul class="unstyled">
-	      <li><span class="label label-success">CORE</span> - Fixed 13 Github issues and included 8 pull requests</li>
-	      <li><span class="label label-success">CORE</span> - New updates system included to 3rd party themes/plugins</li>
-      <ul> 
+      	<li><span class="label label-success">CORE</span> - Fixed 13 Github issues and included 8 pull requests</li>
+	<li><span class="label label-success">CORE</span> - New updates system included to 3rd party themes/plugins</li>
+      </ul> 
     <h3>Version 0.9.7</h3>
       <ul class="unstyled">
         <li><span class="label label-success">CORE</span> - New accounts and karma system</li>
