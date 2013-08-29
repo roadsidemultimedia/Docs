@@ -18,7 +18,7 @@ To begin, let's make sure we are using the **Base Theme** customization method, 
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/base-theme-active.jpg)
 
-Once we have determined that the **Base Theme** is our customization method, we need to download a fresh copy of DMS from the [PageLines Launchpad](http://www.pagelines.com/launchpad/member.php) . Once downloaded, extract the `dms.zip` and navigate to **pagelines &rarr; sections**, here you will find multiple folders each representing the core sections included with PageLines DMS.
+Once we have determined that the **Base Theme** is our customization method, we need to download a fresh copy of DMS from your [PageLines Account](http://www.pagelines.com/my-account) . Once downloaded, extract the `dms.zip` and navigate to **pagelines &rarr; sections**, here you will find multiple folders each representing the core sections included with PageLines DMS.
 
 Locate the section in which you wish to override or customize, for this example we will be overriding the **iBox** section. Now open your FTP client, connect to your server and navigate to the following directory: `/wp-content/themes/dms-template-theme/sections/`.
 
