@@ -605,6 +605,8 @@ This is an error.
 	</p>
 </blockquote>
 
+<div class="clearfix"></div>
+
 ## Tabs ##
 
 <table class="table mid table-bordered table-striped table-condensed">
@@ -659,6 +661,24 @@ This is an error.
 </div>
 </div>
 </div>
+
+~~~ .html
+[pl_tabs][pl_tabtitlesection type="tabs"]
+[pl_tabtitle active="yes" number="1"]Title 1[/pl_tabtitle]
+[pl_tabtitle number="2"]Title 2[/pl_tabtitle]
+[/pl_tabtitlesection]
+ 
+[pl_tabcontentsection]
+[pl_tabcontent active="yes" number="1"]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+[/pl_tabcontent]
+[pl_tabcontent number="2"]
+<img class="pl-imageframe" alt="" />
+[/pl_tabcontent]
+[/pl_tabcontentsection]
+ 
+[/pl_tabs]
+~~~
 
 ## Accordion ##
 
