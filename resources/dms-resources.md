@@ -9,12 +9,12 @@ There are a number of different resources available for you to take advantage of
 * Learn PageLines - [http://learnpagelines.com](http://learnpagelines.com)
 
 * PageLines Academy - [http://usingpagelines.com](http://usingpagelines.com)
-* PageLines DevCamp - [http://pagelinesacademy.com/](http://pagelinesacademy.com/)
+* PageLines DevCamp - [http://pagelinesdevcamp.com/](http://pagelinedevcamp.com/)
 
 ## 3rd Party Stores ##
 
 * Nick Haskins & CO - [http://nickhaskins.co](http://nickhaskins.co)
 * PageLines Academy - [http://pagelinesacademy.com/shop/](http://pagelinesacademy.com/shop/)
 * Enrique Chavez - [http://enriquechavez.co/](http://enriquechavez.co/)
-* Enrique Chavez - [http://enriquechavez.co/](http://enriquechavez.co/)
+* Aleksander Hansson - [http://shop.ahansson.com](http://shop.ahansson.com)
 * Slippery Source - [http://slipperysource.com/](http://slipperysource.com/)
