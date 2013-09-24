@@ -1,6 +1,7 @@
 # PageLines DMS Resources #
 
-There are a number of different resources available for you to take advantage of. These third party resources are not affiliated with PageLines.
+There are a number of different resources available for you to take advantage of. These third party resources are not
+affiliated with PageLines.
 
 ## Resources Sites ##
 
