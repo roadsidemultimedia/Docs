@@ -1,6 +1,6 @@
 # Building Drag + Drop Sections #
 
-PageLines Section system allows developers to use their imagination to create their own unique sections for extra functionality as well as offering these sections to other PageLines users via the [PageLines Store](http://www.pagelines.com/store).
+PageLines Section system allows developers to use their imagination to create their own unique sections for extra functionality as well as offering these sections to other PageLines users via the [PageLines Store](http://www.pagelines.com/shop).
 
 Using this 'API', you can define what kind of content the sections load on the page, and use the option engine to add options directed at that particular sections.
 
