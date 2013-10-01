@@ -10,13 +10,13 @@
 
 # Using the Base Child theme #
 
-The PageLines Base Theme, is a un-styled child theme -- available free from the [PageLines Store](/getting-started/pagelines-store)  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
+The PageLines Base Theme, is a un-styled child theme -- available for free [here](https://github.com/bearded-avenger/nicks-base-theme/archive/master.zip)  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
 
 For more information regarding child themes, we recommend reading these linked Wordpress codex articles -- [child themes](http://codex.wordpress.org/Child_Themes),  and [theme development](http://codex.wordpress.org/Theme_Development).
 
 ## Structure ##
 
-The PageLines Base Theme (child) folder when [installed](/configure/installing-store-products), will be located here **wp-content → themes → dms-template-theme**, containing the subfolder and files, as seen below.
+The PageLines Base Theme (child) folder when installed, will be located here **wp-content → themes → dms-template-theme**, containing the subfolder and files, as seen below.
 
 <pre>
 <i class="icon-folder-open"></i> dms-template-theme/
