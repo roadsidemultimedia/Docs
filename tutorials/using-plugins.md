@@ -60,12 +60,6 @@ PageLines DMS Plugins are extensions based on the WordPress Plugin architecture.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/launchpage.png)
 
-## Lazy Loader ##
-
-<p>Use the Lazy Loader plugin to defer image loading for all images outside of the visable portion of your screen. Lazy loader can be used to improve your page load time, especially on long pages which use multiple images.</p>
-
-![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/lazyloader.png)
-
 ## Poppy ##
 
 <p>Use the Poppy plugin to add a quick modal based contact form to your page. Poppy is triggered using a shortcode which means it can be positioned in various locations within your page. The option to trigger your contact form can be a button, text, envelope icon or bootstrap label. Poppy also includes the option for a custom field to be added to your form.</p>
