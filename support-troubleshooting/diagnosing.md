@@ -32,9 +32,10 @@ If you're experiencing issues with DMS functionality this may be due to JavaScri
 For example, the DMS Visual Editor may be broken, or your sections don't drag and drop. Diagnosing JavaScript 
 errors/conflicts can usually be found in your browsers built-in web developer tools. 
 
-1. In Google Chrome go to the page where you are experiencing the error and navigate to **View &rarr; Developer &rarr; JavaScript Console**.
-
-2. The error console will open. If you don't see any errors try reloading the page. The error may be generated when the page loads.
+<ol>
+<li>In Google Chrome go to the page where you are experiencing the error and navigate to <strong>View &rarr; Developer &rarr; JavaScript Console</strong>.</li>
+<li>The error console will open. If you don't see any errors try reloading the page. The error may be generated when the page loads.</li>
+</ol>
 
 The console will provide you with the error type, the location of the error and the line number
 
