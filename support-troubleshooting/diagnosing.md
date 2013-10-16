@@ -18,7 +18,7 @@ Some plugins may not be compatible with DMS due to conflicts in code. In order t
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/wp-dash-plugins.jpg)
 
-1. Deactivate ALL plugins
+1. Deactivate **ALL** plugins
 2. Re-visit your website and check to see if the issue persists
 
 If the issue does not persist, one (or more) of your plugins is causing a conflict with PageLines DMS. To determine which plugin(s) is causing the conflict, follow these steps:
@@ -28,8 +28,20 @@ If the issue does not persist, one (or more) of your plugins is causing a confli
 
 ## Javascript Error(s) ##
 
+If you're experiencing issues with DMS functionality this may be due to JavaScript errors or conflicts. 
+For example, the DMS Visual Editor may be broken, or your sections don't drag and drop.
 
+Diagnosing JavaScript errors/conflicts can usually be found in your browsers built-in web developer tools. 
 
+1. In Google Chrome go to the page where you are experiencing the error and navigate to **View &rarr; Developer &rarr; JavaScript Console**.
+
+2. The error console will open. If you don't see any errors try reloading the page. The error may be generated when the page loads.
+
+The console will provide you with the error type, the location of the error and the line number
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/js-error.jpg)
+
+## PHP Errors ##
 
 ## Next Step ##
 
