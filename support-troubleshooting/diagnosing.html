@@ -166,10 +166,23 @@ errors/conflicts can usually be found in your browsers built-in web developer to
 
 <p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/js-error.jpg" alt=""></p>
 
-<p><strong>Note:</strong> If you prefer to use another browser, you can find instructions on how to identify JavaScript errors in 
-other browsers from the <a href="http://codex.wordpress.org/Using_Your_Browser_to_Diagnose_JavaScript_Errors">Wordpress Codex</a></p>
+<p><strong>Note:</strong> If you prefer to use another browser, you can find instructions on how to identify JavaScript errors from the <a href="http://codex.wordpress.org/Using_Your_Browser_to_Diagnose_JavaScript_Errors">Wordpress Codex</a></p>
 
 <h2>PHP Errors</h2>
+
+<p>If you encounter a white screen of death (WSOD) or receive a PHP error message preventing your from accessing your site,
+this may be due to a PHP error. Debugging PHP errors is made simple as WordPress comes with specific debug systems designed 
+to simplify the process.</p>
+
+<ol>
+<li>Open the <strong>wp-config.php</strong> file.</li>
+<li>Located the following line of code <code>define(&#39;WP_DEBUG&#39;, false);</code></li>
+<li>Replace <code>false</code>with <code>true</code> like so <code>define(&#39;WP_DEBUG&#39;, true);</code></li>
+</ol>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/php-error.jpg" alt=""></p>
+
+<p>Enabling WP_DEBUG will cause all PHP errors, notices and warnings to be displayed, like the image above.</p>
 
 <h2>Next Step</h2>
 
