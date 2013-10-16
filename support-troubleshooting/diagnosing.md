@@ -29,9 +29,8 @@ If the issue does not persist, one (or more) of your plugins is causing a confli
 ## Javascript Error(s) ##
 
 If you're experiencing issues with DMS functionality this may be due to JavaScript errors or conflicts. 
-For example, the DMS Visual Editor may be broken, or your sections don't drag and drop.
-
-Diagnosing JavaScript errors/conflicts can usually be found in your browsers built-in web developer tools. 
+For example, the DMS Visual Editor may be broken, or your sections don't drag and drop. Diagnosing JavaScript 
+errors/conflicts can usually be found in your browsers built-in web developer tools. 
 
 1. In Google Chrome go to the page where you are experiencing the error and navigate to **View &rarr; Developer &rarr; JavaScript Console**.
 
@@ -40,6 +39,9 @@ Diagnosing JavaScript errors/conflicts can usually be found in your browsers bui
 The console will provide you with the error type, the location of the error and the line number
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/js-error.jpg)
+
+**Note:** If you prefer to use another browser, you can find instructions on how to identify JavaScript errors in 
+other browsers from the [Wordpress Codex](http://codex.wordpress.org/Using_Your_Browser_to_Diagnose_JavaScript_Errors)
 
 ## PHP Errors ##
 
