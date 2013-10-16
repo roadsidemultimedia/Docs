@@ -51,7 +51,7 @@ to simplify the process.
 
 1. Open the **wp-config.php** file.
 2. Located the following line of code `define('WP_DEBUG', false);`
-3. Replace `false`with `true` like so `define('WP_DEBUG', true);`
+3. Replace `false` with `true` like so `define('WP_DEBUG', true);`
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/php-error.jpg)
 
