@@ -40,10 +40,21 @@ The console will provide you with the error type, the location of the error and 
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/js-error.jpg)
 
-**Note:** If you prefer to use another browser, you can find instructions on how to identify JavaScript errors in 
-other browsers from the [Wordpress Codex](http://codex.wordpress.org/Using_Your_Browser_to_Diagnose_JavaScript_Errors)
+**Note:** If you prefer to use another browser, you can find instructions on how to identify JavaScript errors from the [Wordpress Codex](http://codex.wordpress.org/Using_Your_Browser_to_Diagnose_JavaScript_Errors)
 
 ## PHP Errors ##
+
+If you encounter a white screen of death (WSOD) or receive a PHP error message preventing your from accessing your site,
+this may be due to a PHP error. Debugging PHP errors is made simple as WordPress comes with specific debug systems designed 
+to simplify the process.
+
+1. Open the **wp-config.php** file.
+2. Located the following line of code `define('WP_DEBUG', false);`
+3. Replace `false`with `true` like so `define('WP_DEBUG', true);`
+
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/php-error.jpg)
+
+Enabling WP_DEBUG will cause all PHP errors, notices and warnings to be displayed, like the image above.
 
 ## Next Step ##
 
