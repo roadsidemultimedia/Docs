@@ -16,7 +16,7 @@ Here are some instructions to assist in diagnosing your issue(s) which you shoul
 
 Some plugins may not be compatible with DMS due to conflicts in code. In order to diagnose if a plugin is causing an error, navigate to your **Wordpress Administrator Dashboard &Rarr; Plugins**.
 
-IMAGE OF PLUGINS MAIN SCREEN HERE!
+![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/wp-dash-plugins.jpg)
 
 1. Deactivate ALL plugins
 2. Re-visit your website and check to see if the issue persists
@@ -25,6 +25,11 @@ If the issue does not persist, one (or more) of your plugins is causing a confli
 
 1. Activate each plugin one by one
 2. Check to see if the issue returns after each plugin is activated
+
+## Javascript Error(s) ##
+
+
+
 
 ## Next Step ##
 
