@@ -194,7 +194,7 @@ Template: dms
 
 Once you have replaced the default information with your own, save the `style.css` file. You have now successfully changed the name of Base Theme and made it into your own child theme!
 
-You may also want to want to rename the **dms-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client's Rename utility.
+You may also want to rename the **dms-template-theme** folder to match your child theme name. To do this, simply rename the folder inside your FTP client's Rename utility.
 
 <div class="row-fluid">
   <div class="span12">
