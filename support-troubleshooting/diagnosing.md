@@ -14,7 +14,7 @@ Here are some instructions to assist in diagnosing your issue(s) which you shoul
 
 ## Plugin Compatibility ##
 
-Some plugins may not be compatible with DMS due to conflicts in code. In order to diagnose if a plugin is causing an error, navigate to your **Wordpress Administrator Dashboard &Rarr; Plugins**.
+Some plugins may not be compatible with DMS due to conflicts in code. In order to diagnose if a plugin is causing an error, navigate to your **Wordpress Administrator Dashboard &rarr; Plugins**.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/wp-dash-plugins.jpg)
 
