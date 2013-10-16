@@ -133,72 +133,23 @@
 
 <p>Here are some instructions to assist in diagnosing your issue(s) which you should evaluate and attempt before creating a topic on our support forums.</p>
 
-<h2>Browsers</h2>
+<h2>Plugin Compatibility</h2>
 
-<p>PageLines DMS utilizes the latest web technology and therefore, is only compatible with browsers that support HTML5 and CSS3. If you or your clients are using a legacy browser such as Internet Explorer 7, we highly recommend you update to the latest version, as we do not support legacy browsers. We understand that&#39;s not always possible, though there&#39;s little we&#39;re able to do to fix outdated systems.</p>
+<p>Some plugins may not be compatible with DMS due to conflicts in code. In order to diagnose if a plugin is causing an error, navigate to your <strong>Wordpress Administrator Dashboard &Rarr; Plugins</strong>.</p>
 
-<p>For more information about the latest version of browsers, see <a href="http://browsehappy.com/">BrowseHappy</a>.</p>
-
-<h2>Up-To-Date</h2>
-
-<p>To improve security and compatibility issues, always keep Wordpress, DMS, store products and plugins current with the latest versions and releases. We cannot provide support to those who have out-of-date products.</p>
-
-<h2>Plugins</h2>
-
-<p>All of the PageLines products are built according to WordPress API standards and do work with the majority of plugins out there. However, not all plugins follow the Wordpress API standards or are properly maintained by their author, which can lead to errors.</p>
-
-<p>If you encounter an error on your website and you&#39;re using the latest version of your preferred browser, please follow the steps below.</p>
+<p>IMAGE OF PLUGINS MAIN SCREEN HERE!</p>
 
 <ol>
-<li>Disable all active non-Pagelines plugins and see if your issue persists.</li>
-<li>If the issue has been resolved, it is related to one of your installed plugins.</li>
-<li>Re-activate your plugins one at a time, and check to see if the issue has returned. If the issue hasn&#39;t returned, move on to the next plugin, repeat this process until you locate the culprit.</li>
-<li>Once the plugin causing the issue has been identified, you have two options, disable the plugin for the time being, then contact the author and wait for assistance or, remove the plugin from your website and find an alternative. Our support staff may be able to offer or recommend alternatives.</li>
+<li>Deactivate ALL plugins</li>
+<li>Re-visit your website and check to see if the issue persists</li>
 </ol>
 
-<p>Please be aware, if you have a cache plugin installed such as WP Super Cache or W3 Total Cache, please flush the cache before disabling the plugin.</p>
+<p>If the issue does not persist, one (or more) of your plugins is causing a conflict with PageLines DMS. To determine which plugin(s) is causing the conflict, follow these steps:</p>
 
-<p>If disabling all active plugins didn&#39;t resolve your issue, then please move onto the next step, as your issue may be server related.</p>
-
-<h2>Server Configuration</h2>
-
-<p>We try to ensure that PageLines DMS will work with any modern and secured server environment.</p>
-
-<ul>
-<li><a href="http://php.net/">PHP</a> version 5.2.4 or greater (5.3 recommended)</li>
-<li><a href="http://www.mysql.com/">MySQL</a> version 5.0 or greater</li>
-</ul>
-
-<p>That said, we can’t test every possible environment, this is why PageLines DMS includes a debugging tool which can be useful when investigating issues you may have.</p>
-
-<h3>Debug Mode</h3>
-
-<p>Should you experience problems with your website, you might need to enable the DMS debug mode. This will provide the support team with additional information about your site and can help in troubleshooting. This information includes your server setup, PHP and MySql version, Operating System and currently installed plugins.</p>
-
-<p>To enable the Pagelines Debug mode, click on the global icon in the DMS control panel and select the advanced tab from the menu. In the debug panel, select the checkbox and then republish your page so the changes take effect. To view your debug information, navigate to the admin shortcuts tab and click the view debug information button.</p>
-
-<p>If you&#39;re unsure about the details provided, don&#39;t worry, provide this information to our support team and they will be able to determine if there your issue is server related.</p>
-
-<p>Note: the view debug information button will only appear if debug mode is enabled. </p>
-
-<h3>PHP Info</h3>
-
-<p>Because every system is setup differently, phpinfo() is commonly used to check configuration settings, and for available predefined variables on a given system. It is also a valuable debugging tool as it contains all EGPCS (Environment, GET, POST, Cookie, Server) data.</p>
-
-<ul>
-<li>To create a phpinfo file, create a new file in your code editor, add the following lines, click save and name the file `phpinfo.php`:</li>
-</ul>
-
-<pre><code class="php">&lt;?php phpinfo(); ?&gt;
-</code></pre>
-
-<ul>
-<li>Upload the `phpinfo.php` file to your server. You should upload your file to the exact directory you want to test. Typically, this will be the root directory, where you have Wordpress installed `/home/username/domains/example.com/html/`.</li>
-
-<li>Visit the page in your browser. If you uploaded it to your root directory, you should now visit `http://www.example.com/phpinfo.php`, replacing `example.com` with your own domain name.</li>
-
-<li>You will now be able to view all of the information about PHP for your server for that particular directory.</li>
-</ul>
+<ol>
+<li>Activate each plugin one by one</li>
+<li>Check to see if the issue returns after each plugin is activated</li>
+</ol>
 
 <h2>Next Step</h2>
 
