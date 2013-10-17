@@ -321,24 +321,22 @@ class YourSectionClassName extends PageLinesSection {
 class YourSectionClassName extends PageLinesSection {
 
     function section_opts(){
-
-        function section_opts(){
-            $opts = array(
-                array(
-                    &#39;key&#39;           =&gt; &#39;the_option_key&#39;,
-                    &#39;type&#39;          =&gt; &#39;select&#39;,
-                    &#39;title&#39;         =&gt; &#39;Select Something&#39;,
-                    &#39;label&#39;         =&gt; &#39;Select Somethign&#39;,
-                    &#39;opts&#39;=&gt; array(
-                        &#39;optvalue1&#39;     =&gt; array( &#39;name&#39; =&gt; &#39;Some Option Stuff&#39; ),
-                        &#39;optvalue2&#39;     =&gt; array( &#39;name&#39; =&gt; &#39;Some Option Stuff&#39; )
-                    )
+        $opts = array(
+            array(
+                &#39;key&#39;           =&gt; &#39;the_option_key&#39;,
+                &#39;type&#39;          =&gt; &#39;select&#39;,
+                &#39;title&#39;         =&gt; &#39;Select Something&#39;,
+                &#39;label&#39;         =&gt; &#39;Select Somethign&#39;,
+                &#39;opts&#39;=&gt; array(
+                    &#39;optvalue1&#39;     =&gt; array( &#39;name&#39; =&gt; &#39;Some Option Stuff&#39; ),
+                    &#39;optvalue2&#39;     =&gt; array( &#39;name&#39; =&gt; &#39;Some Option Stuff&#39; )
                 )
+            )
 
-            );
-            return $opts;
-        }
+        );
+        return $opts;
     }
+
 }
 
 
