@@ -73,8 +73,21 @@ The console will provide you with the error type, the location of the error and 
 ##  Common Issue #3 - PHP Errors ##
 
 If you encounter a white screen of death (WSOD) or receive a PHP error message preventing your from accessing your site,
-this may be due to a PHP error. Debugging PHP errors is made simple as WordPress comes with specific debug systems designed 
-to simplify the process.
+this may be due to a PHP error. This can be caused by a plugin conflict, server error or database issue. 
+
+### Typical Symptoms ###
+
+<ol>
+<li>Incomplete rendering of page.</li>
+<li>DMS loading screen does not fade away on full load of the site.</li>
+<li>Unresponsive editor or page.</li>
+</ol>
+
+### Diagnosing and Fixing ###
+
+You can usually assume a PHP error if you see incomplete page output (tip: view source), or an actual PHP warning/error printed to your screen.
+
+Debugging PHP errors is made simple as WordPress comes with specific debug systems designed to simplify the process.
 
 1. Open the **wp-config.php** file.
 2. Located the following line of code `define('WP_DEBUG', false);`
