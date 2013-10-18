@@ -41,7 +41,7 @@ If the issue does not persist, one (or more) of your plugins is causing a confli
 1. Activate each plugin one by one
 2. Check to see if the issue returns after each plugin is activated
 
-## Javascript Error(s) ##
+## Common Issue #2 - Javascript Error(s) ##
 
 DMS relies heavily on Javascript (JS) for its drag and drop functionality and handling. Because of this, JS errors can cause a lot of problems with DMS. 
 
@@ -70,7 +70,7 @@ The console will provide you with the error type, the location of the error and 
 
 **Note:** If you prefer to use another browser, you can find instructions on how to identify JavaScript errors from the [Wordpress Codex](http://codex.wordpress.org/Using_Your_Browser_to_Diagnose_JavaScript_Errors)
 
-## PHP Errors ##
+##  Common Issue #3 - PHP Errors ##
 
 If you encounter a white screen of death (WSOD) or receive a PHP error message preventing your from accessing your site,
 this may be due to a PHP error. Debugging PHP errors is made simple as WordPress comes with specific debug systems designed 
@@ -84,15 +84,4 @@ to simplify the process.
 
 Enabling WP_DEBUG will cause all PHP errors, notices and warnings to be displayed, like the image above.
 
-## Next Step ##
 
-By following these guidelines you may indentify the cause of your issue yourself. If this isn't the case, don't panic. Providing this information when creating your forum topic, will greatly help our support staff identify the cause of your error(s).
-
-<div class="row-fluid">
-	<div class="span12">
-		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/support-troubleshooting/getting-support">&larr; Getting Support</a></li>
-  			<li class="pull-right"><a href="http://docs.pagelines.com/support-troubleshooting/memory-allocation-error">Memory Allocation Error &rarr;</a></li>
-		</ul>
-	</div>
-</div>
