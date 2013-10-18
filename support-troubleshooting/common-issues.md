@@ -3,18 +3,33 @@
 		<ul class="breadcrumb">
   			<li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
   			<li><a href="http://docs.pagelines.com/support-troubleshooting">Support & Troubleshooting</a> <span class="divider">/</span></li>
-  			<li class="active">Diagnosing</li>
+  			<li class="active">Common Issues</li>
 		</ul>
 	</div>
 </div>
 
-# Diagnosing #
+# Common Issues and Solutions #
 
-Here are some instructions to assist in diagnosing your issue(s) which you should evaluate and attempt before creating a topic on our support forums.
+Along with the power of PageLines and WordPress, comes a few common issues that we see relatively often. These issues come with flexibility and usually have a pretty straight forward solution. We'll go through the most common issues here. 
 
-## Plugin Compatibility ##
+## Common Issue #1 - Plugin Incompatibility ##
 
-Some plugins may not be compatible with DMS due to conflicts in code. In order to diagnose if a plugin is causing an error, navigate to your **Wordpress Administrator Dashboard &rarr; Plugins**.
+The most common issues we see are typically related to plugins. 
+
+Some plugins may have issues, like javascript errors, that prevent proper operation of DMS. These plugins may be poorly coded, not up to WordPress standards, or there may be a conflict specific to your combination of extensions (e.g. if two plugins use the same function name or similar).
+
+### Typical Symptoms ###
+
+<ol>
+<li>DMS editor is unresponsive or does not save. (Javascript Issue)</li>
+<li>DMS loading screen does not fade away on full load of the site. (Javascript Issue)</li>
+<li>Drag and drop or other key functions are buggy or unfunctional. (Javascript Issue)</li>
+<li>CSS or Graphics appear strange/ugly/not-as-intended. (CSS Issue)</li>
+</ol>
+
+### Diagnosing and Fixing ###
+
+In order to diagnose if a plugin is causing an error, navigate to your **Wordpress Administrator Dashboard &rarr; Plugins**.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/wp-dash-plugins.jpg)
 
@@ -28,9 +43,21 @@ If the issue does not persist, one (or more) of your plugins is causing a confli
 
 ## Javascript Error(s) ##
 
-If you're experiencing issues with DMS functionality this may be due to JavaScript errors or conflicts. 
-For example, the DMS Visual Editor may be broken, or your sections don't drag and drop. Diagnosing JavaScript 
-errors/conflicts can usually be found in your browsers built-in web developer tools. 
+DMS relies heavily on Javascript (JS) for its drag and drop functionality and handling. Because of this, JS errors can cause a lot of problems with DMS. 
+
+If you're experiencing issues with DMS functionality this may be due to JavaScript errors or conflicts. These can be created by a plugin, or potentially by custom code/scripts that you've added. 
+
+Luckily, diagnosing JavaScript errors/conflicts can quickly be found with your browsers built-in web developer tools. 
+
+### Typical Symptoms ###
+
+<ol>
+<li>DMS editor is unresponsive or does not save. (Javascript Issue)</li>
+<li>DMS loading screen does not fade away on full load of the site. (Javascript Issue)</li>
+<li>Drag and drop or other key functions are buggy or unfunctional. (Javascript Issue)</li>
+</ol>
+
+### Diagnosing and Fixing ###
 
 <ol>
 <li>In Google Chrome go to the page where you are experiencing the error and navigate to <strong>View &rarr; Developer &rarr; JavaScript Console</strong>.</li>
