@@ -123,50 +123,103 @@
     <div class="span12">
         <ul class="breadcrumb">
             <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
-            <li><a href="http://docs.pagelines.com/configure">Configure</a> <span class="divider">/</span></li>
-            <li class="active">PageLines Store</li>
+            <li><a href="http://docs.pagelines.com/support-troubleshooting">Support & Troubleshooting</a> <span class="divider">/</span></li>
+            <li class="active">Common Issues</li>
         </ul>
     </div>
 </div>
 
-<h1>PageLines Store</h1>
+<h1>Common Issues and Solutions</h1>
 
-<p>From time-to-time you may want to add a plugin, a section or even a child theme. The PageLines Store provides unique products, all built, designed and tested to work within PageLines DMS. This is your one-stop shop for great amenities to improve your site.</p>
+<p>Along with the power of PageLines and WordPress, comes a few common issues that we see relatively often. These issues come with flexibility and usually have a pretty straight forward solution. We&#39;ll go through the most common issues here. </p>
 
-<p>The Store is an incredible asset, full of important resources to improve the quality of your website. We&#39;re sure you will enjoy it and keep an eye on it for new products, which are added often.  It&#39;s also a place where you can find and upgrade products, and activate plugins found via the Store.</p>
+<h2>Common Issue #1 - Plugin Incompatibility</h2>
 
-<h2>Accessing the store</h2>
+<p>The most common issues we see are typically related to plugins. </p>
 
-<p>To access the Store, you may purchase direct from our <a href="http://www.pagelines.com/shop">website</a> or, for easier installation, simply access the Store tab from the PageLines Toolbar to find the products you need.</p>
+<p>Some plugins may have issues, like javascript errors, that prevent proper operation of DMS. These plugins may be poorly coded, not up to WordPress standards, or there may be a conflict specific to your combination of extensions (e.g. if two plugins use the same function name or similar).</p>
 
-<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/store.jpg" alt=""></p>
+<h3>Typical Symptoms</h3>
 
-<p>You can purchase them directly, or if you&#39;re a Plus subscriber, get your Plus Extensions here, too.</p>
+<ol>
+<li>DMS editor is unresponsive or does not save. (Javascript Issue)</li>
+<li>DMS loading screen does not fade away on full load of the site. (Javascript Issue)</li>
+<li>Drag and drop or other key functions are buggy or unfunctional. (Javascript Issue)</li>
+<li>CSS or Graphics appear strange/ugly/not-as-intended. (CSS Issue)</li>
+</ol>
 
-<h2>Installing Store Products</h2>
+<h3>Diagnosing and Fixing</h3>
 
-<p>Once you have completed your purchase, login to your <a href="http://www.pagelines.com/my-account/">PageLines Account</a>.</p>
+<p>In order to diagnose if a plugin is causing an error, navigate to your <strong>Wordpress Administrator Dashboard &rarr; Plugins</strong>.</p>
 
-<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/account-page.jpg" alt=""></p>
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/wp-dash-plugins.jpg" alt=""></p>
 
-<p>From here, all your recent purchases and downloads will be avilable, select the product you wish to install and click the products link to download the product. All products are downloaded in <code>.zip</code> format, once downloaded navigate to your Wordpress Admin Dashboard.</p>
+<ol>
+<li>Deactivate <strong>ALL</strong> plugins</li>
+<li>Re-visit your website and check to see if the issue persists</li>
+</ol>
 
-<h3>Installing Sections</h3>
+<p>If the issue does not persist, one (or more) of your plugins is causing a conflict with PageLines DMS. To determine which plugin(s) is causing the conflict, follow these steps:</p>
 
-<p>Sections in DMS are now plugins, therefore all sections downloaded can be installed using the Wordpress Plugin installing.</p>
+<ol>
+<li>Activate each plugin one by one</li>
+<li>Check to see if the issue returns after each plugin is activated</li>
+</ol>
 
-<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/install-plugins-sections.jpg" alt=""></p>
+<h2>Javascript Error(s)</h2>
 
-<h3>Installing Themes</h3>
+<p>DMS relies heavily on Javascript (JS) for its drag and drop functionality and handling. Because of this, JS errors can cause a lot of problems with DMS. </p>
 
-<p>Themes purchased through the PageLines Store are installed like any other Wordpress.</p>
+<p>If you&#39;re experiencing issues with DMS functionality this may be due to JavaScript errors or conflicts. These can be created by a plugin, or potentially by custom code/scripts that you&#39;ve added. </p>
 
-<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/install-themes.jpg" alt=""></p>
+<p>Luckily, diagnosing JavaScript errors/conflicts can quickly be found with your browsers built-in web developer tools. </p>
+
+<h3>Typical Symptoms</h3>
+
+<ol>
+<li>DMS editor is unresponsive or does not save. (Javascript Issue)</li>
+<li>DMS loading screen does not fade away on full load of the site. (Javascript Issue)</li>
+<li>Drag and drop or other key functions are buggy or unfunctional. (Javascript Issue)</li>
+</ol>
+
+<h3>Diagnosing and Fixing</h3>
+
+<ol>
+<li>In Google Chrome go to the page where you are experiencing the error and navigate to <strong>View &rarr; Developer &rarr; JavaScript Console</strong>.</li>
+<li>The error console will open. If you don't see any errors try reloading the page. The error may be generated when the page loads.</li>
+</ol>
+
+<p>The console will provide you with the error type, the location of the error and the line number</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/js-error.jpg" alt=""></p>
+
+<p><strong>Note:</strong> If you prefer to use another browser, you can find instructions on how to identify JavaScript errors from the <a href="http://codex.wordpress.org/Using_Your_Browser_to_Diagnose_JavaScript_Errors">Wordpress Codex</a></p>
+
+<h2>PHP Errors</h2>
+
+<p>If you encounter a white screen of death (WSOD) or receive a PHP error message preventing your from accessing your site,
+this may be due to a PHP error. Debugging PHP errors is made simple as WordPress comes with specific debug systems designed 
+to simplify the process.</p>
+
+<ol>
+<li>Open the <strong>wp-config.php</strong> file.</li>
+<li>Located the following line of code <code>define(&#39;WP_DEBUG&#39;, false);</code></li>
+<li>Replace <code>false</code> with <code>true</code> like so <code>define(&#39;WP_DEBUG&#39;, true);</code></li>
+</ol>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/php-error.jpg" alt=""></p>
+
+<p>Enabling WP_DEBUG will cause all PHP errors, notices and warnings to be displayed, like the image above.</p>
+
+<h2>Next Step</h2>
+
+<p>By following these guidelines you may indentify the cause of your issue yourself. If this isn&#39;t the case, don&#39;t panic. Providing this information when creating your forum topic, will greatly help our support staff identify the cause of your error(s).</p>
 
 <div class="row-fluid">
     <div class="span12">
         <ul class="pager">
-            <li class="pull-left"><a href="http://docs.pagelines.com/configure/global-options">&larr; Global Options</a></li>
+            <li class="pull-left"><a href="http://docs.pagelines.com/support-troubleshooting/getting-support">&larr; Getting Support</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/support-troubleshooting/memory-allocation-error">Memory Allocation Error &rarr;</a></li>
         </ul>
     </div>
 </div>
@@ -181,7 +234,7 @@
             <p class="pull-right"><a href="#">Back to top</a></p>
             <p>
 				<i class="icon-github icon-2x"></i>
-				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/configure/pagelines-store.md" target="_blank">Edit this page</a>.</p>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/support-troubleshooting/common-issues.md" target="_blank">Edit this page</a>.</p>
         </div>
     </footer>
 
