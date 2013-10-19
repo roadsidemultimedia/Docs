@@ -72,7 +72,7 @@ The console will provide you with the error type, the location of the error and 
 
 ##  Common Issue #3 - PHP Errors ##
 
-If you encounter a white screen of death (WSOD) or receive a PHP error message preventing your from accessing your site,
+If you encounter a white screen of death (WSOD) or receive a PHP error message preventing you from accessing your site,
 this may be due to a PHP error. This can be caused by a plugin conflict, server error or database issue. 
 
 ### Typical Symptoms ###
