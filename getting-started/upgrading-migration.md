@@ -78,7 +78,7 @@ Please check out the release thread before upgrading`
 <div class="row-fluid">
 	<div class="span12">
 		<ul class="pager">
-			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/installation">&larr; Installation</a></li>
+			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/activation">&larr; Activation</a></li>
   			<li class="pull-right"><a href="http://docs.pagelines.com/getting-started/dashboard-account">Dashboard & Your Account &rarr;</i></a></li>
 		</ul>
 	</div>
