@@ -60,7 +60,7 @@ To find your license key, follow the simple insructions below:
 	<div class="span12">
 		<ul class="pager">
   			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/installation">&larr; Installation</i></a></li>
-  			<li class="pull-left"><a href="http://docs.pagelines.com/getting-started/upgrading-migration">Upgrade & Migration &rarr;</i></a></li>
+  			<li class="pull-right"><a href="http://docs.pagelines.com/getting-started/upgrading-migration">Upgrade & Migration &rarr;</i></a></li>
 		</ul>
 	</div>
 </div>
