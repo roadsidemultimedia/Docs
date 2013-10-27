@@ -46,7 +46,7 @@ Once uploaded, your file structure for the PageLines Customize Plugin will look 
 Once uploaded, your file structure for the Base Theme will look like this:
 
 <pre>
-<i class="icon-folder-open"></i> pagelines-template-theme/
+<i class="icon-folder-open"></i> dms-template-theme/
 	<i class="icon-folder-open"></i> <strong>language/</strong>
 	<i class="icon-folder-open"></i> sections/
 	<i class="icon-file"></i> functions.php
