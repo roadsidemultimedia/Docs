@@ -1,4 +1,4 @@
-<h1>Welcome</h>
+<h1>Welcome</h3>
 
 <p class="lead">Welcome to PageLines DMS documentation, the open source platform that allows beginners and experts to build amazing websites, as fast and easy as possible. If you're new here, continue reading our documentation to get started.</p>
 
