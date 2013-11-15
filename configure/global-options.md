@@ -12,18 +12,6 @@
 
 PageLines DMS provides users with a number of global settings, allowing them to change their site's layout, add social integration, control colors, styles and more.
 
-## Admin Shortcuts ##
-
-The **Admin Shortcuts** panel provides a quick and efficient method of managing common Wordpress settings through the DMS front-end.
-
-The Wordpress settings included are **Set Site Homepage**, **Manage Menus**, **Manage Widgets**, **User Profiles**, **Site Settings**, **Plugins Admin** and **Permalinks**.
-
-![Admin Shortcuts](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/admin-shortcuts.jpg "Admin Shortcuts")
-
-**Note:** When PageLines debug option is enabled, a debug info shortcut will also be added.
-
-![Admin Shortcuts with Debug](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/admin-shortcuts-debug.jpg "Admin Shortcuts with Debug")
-
 ## Site Images ##
 
 The **Site Images** panel allows you to upload custom images to be used on your site, such as favicon, login page and mobile touch image. You can either choose to upload an image from your computer or enter the full URL location of your custom image.
