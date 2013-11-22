@@ -554,6 +554,18 @@ Below are currently all available icons.
       </div>
 </div>
 
+## CSS ##
+
+Add the following CSS into your custom CSS, this will allow your icon lists to display the icons with no additional styling.
+
+~~~ .css
+.the-icons {
+      margin-left: 0;
+      list-style: none;
+}
+~~~
+
+
 ## Examples ##
 
 Place Font Awesome icons just about anywhere with the `<i>` tag.
