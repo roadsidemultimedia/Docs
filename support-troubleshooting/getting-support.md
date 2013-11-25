@@ -34,10 +34,6 @@ The PageLines Support Forum should be used for any technical questions related t
 
 The PageLines [Issue Tracker](https://github.com/pagelines/DMS/issues) should be used for submitting any kind of bugs, including but not limited to usability issues, errors and other DMS malfunctions.
 
-### Translation Center ###
-
-The PageLines [Translation Center](http://pagelines.com/translate/projects/) allows PageLines users and developers to collaborate on translations.
-
 ### PageLines Pastie ###
 
 [PageLines Paste Bin](http://paste.pagelines.com/) - The service allows PageLines users to paste any type of text, such as code or configuration information. When posting large snippets of code in a forum post, we recommend using this service for your code.
