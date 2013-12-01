@@ -33,6 +33,10 @@ Hooks in PageLines DMS essentially allow you to manipulate or insert code withou
 
 To put it more elegantly, you can change things that are hard-coded with filters, and you can add things using actions. For more information on what hook actions and filters are, see WordPress documentation [Plugin API](http://codex.wordpress.org/Plugin_API). There is also an excellent article by WP Candy on hooks [here](http://wpcandy.com/teaches/how-to-use-wordpress-hooks/).
 
+## Hook List ##
+
+You can find all available DMS hooks [here](http://www.pagelines.com/api/dms-updates/hooks.php)
+
 ## Using Hooks ##
 
 All hooks are added to the functions.php file, which is located in either the Base Theme or the PageLines Customize Plugin, depending on the Customization Method you have chosen
