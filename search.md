@@ -9,7 +9,7 @@
 $(document).ready(function() {
      $('#tipue_search_input').tipuesearch({
           'mode': 'live',
-          'liveDescription': '.header',
+          'liveDescription': '.container',
           'liveContent': '.container'
      });
 });
