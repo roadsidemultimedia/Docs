@@ -8,7 +8,7 @@
 <script>
 $(document).ready(function() {
      $('#tipue_search_input').tipuesearch({
-          'mode': 'live'
+          'mode': 'live',
           'liveDescription': '.header',
           'liveContent': '.container'
      });
