@@ -20,4 +20,5 @@ var tipuesearch_stem = {"words": [
      {"word": "javascript", stem: "js"}
 ]};
 
+var tipuesearch_pages = ["http://docs.pagelines.com", "http://docs.pagelines.com/getting-started/system-requirements", "http://docs.pagelines.com/getting-started/installation", "http://docs.pagelines.com/getting-started/activation"];
 
