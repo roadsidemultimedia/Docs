@@ -18,8 +18,6 @@ The Store is an incredible asset, full of important resources to improve the qua
 
 To access the Store, you may purchase direct from our [website](http://www.pagelines.com/shop) to find the products you need.
 
-You can purchase them directly, or if you're a Plus subscriber, get your Plus Extensions here, too.
-
 ## Installing Store Products ##
 
 Once you have completed your purchase, login to your [PageLines Account](http://www.pagelines.com/my-account/).
