@@ -63,7 +63,7 @@ The **Typography** panel provides the ability to change font size, weight as wel
 
 #### Select Font ####
 
-The Select font dropdown menu allows you to choose from many popular web fonts. The whole Google web fonts library can be included by installing our [Google Web fonts plugin](http://www.pagelines.com/store/plugins/pagelines-googlefonts/), available from the **Store** tab in the DMS toolbar.
+The Select font dropdown menu allows you to choose from many popular web fonts. 
 
 #### Base Font Size ####
 
