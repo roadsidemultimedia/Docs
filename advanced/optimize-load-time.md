@@ -22,7 +22,7 @@ This is why choosing a good web host provider, is one of the most important deci
 
 * [FlyWheel](http://getflywheel.com/)
 * [WP Engine](http://wpengine.com/)
-* [ZippyKid!](https://www.zippykid.com/)
+* [Pressable](https://pressable.com/)
 * [Page.ly](https://page.ly/)
 
 ## Caching ##
