@@ -31,7 +31,7 @@ perform two tasks, install the DMS Pro Tools plugin, as well as enter your licen
 
 <h3>Locating your License Key</h3>
 
-To find your license key, follow the simple insructions below:
+To find your license key, follow the simple instructions below:
 
 <ul>
   <li>Login to your <a href="https://www.pagelines.com/my-account/" target="">PageLines Account</a></li>
