@@ -136,9 +136,11 @@ This creates a supplemental, simple one-line menu without drop-down capacity, us
 
 ## Textbox ##
 
-A textbox allows you to place text in designated places.  Textboxes can usually accommodate HTML, PHP or shortcodes in addition to text.
+A textbox allows you to place text and basic HTML in designated places.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/textbox.jpg)
+
+**Note:** Javascript and PHP are **not** supported.
 
 ## Watermark ##
 
