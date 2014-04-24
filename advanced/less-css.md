@@ -198,23 +198,23 @@ These are the variables which are part of PageLines DMS core.
 			<tbody>
 				<tr>
 					<td class="span3 center"><code>@{plChildRoot}</code></td>
-					<td>Used to specify root Child theme URL</td>
+					<td>Used to specify root Child theme URL. Example: <code>http://example.com/wp-content/themes/dms-child-theme</code></td>
 				</tr>
 				<tr>
 					<td class="center"><code>@{plRoot}</code></td>
-					<td>Used to set Parent theme dir</td>
+					<td>Used to set Parent theme URL. Example: <code>http://example.com/wp-content/themes/dms/dms</code></td>
 				</tr>
 				<tr>
 					<td class="center"><code>@{plSectionsRoot}</code></td>
-					<td>Used to specify /sections dir</td>
+					<td>Used to specify /sections URL. Example: <code>http://example.com/wp-content/themes/dms/dms/sections</code></td>
 				</tr>
 				<tr>
 					<td class="center"><code>@{plExtendRoot}</code></td>
-					<td>Used to specify section root in pagelines-sections plugin</td>
+					<td>Used to specify section root in pagelines-sections plugin. Example: <code>http://example.com/wp-content/plugins/pagelines-sections</code></td>
 				</tr>
 				<tr>
 					<td class="center"><code>@{plPluginsRoot}</code></td>
-					<td>Used to specify base plugin path directory</td>
+					<td>Used to specify base plugin path directory. Example: <code>http://example.com/wp-content/plugins</code></td>
 				</tr>
 			</tbody>
 		</table>
