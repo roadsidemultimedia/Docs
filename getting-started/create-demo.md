@@ -30,4 +30,15 @@ At the end of this mini tutorial you should have a site looking almost exactly t
 	<li><a href="http://themes.pagelines.com/configs/pl-config_2014-04-24_17-43-20.json">DMS config file</a> The DMS config file contains all the section and template data.</li>
 </ul>	
 </p>
+<h4>Step 1: Import the WordPress Data</h4>
+<p>
+	<ol>
+		<li>In the WordPress menu, click on Tools and Import. You will be presented with a series of importer tools, at the bottom you will see WordPress, thats the one you installed, click that.</li>
+		<li>You should see the WordPress Import page with a 'Choose File' dialog, click the button and navigate to the demo-dms.xml file you saved previously.</li>
+		</li>Now click 'Upload File and Import'</li>
+		<li>The importer will now ask you if you want to assign users or create your own. Its safe to just let it do what it wants here, dont worry the user 'Ray' will be created with a random password</li>
+		</li>Check the box that says 'Download and import file attachments' and click 'Submit'</li>
+	</ol>
+At this point WordPress will download all the media attachments from the DMS demo and import them into your site, takes a few seconds or a couple of minutes depending on the bandwidth available.
+</p>
 
