@@ -20,5 +20,7 @@ At the end of this mini tutorial you should have a site looking almost exactly t
 			<li><a target="_blank" href="http://wordpress.org/plugins/woocommerce/">WordPress Importer</a> (needed) This imports all the posts/pages and media needed to recreate the demo.</li>
 			<li><a target="_blank" href="http://wordpress.org/plugins/wordpress-importer/">Woocommerce</a> (optional) The excellent ecommerce solution for WordPress, not strictly needed, but if you plan on selling products on your site you can check out what it will look like with the demo data</li>
 		</ul>
+		To install them go to the admin area of your new WordPress site and in the left hand menu under plugins click 'Add New' then in the search box enter the name of the plugin then install it, after its installed click 'Activate', this it.. simple.
 	</p>
 </div>
+
