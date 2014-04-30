@@ -43,9 +43,9 @@ At this point WordPress will download all the media attachments from the DMS dem
 <h4>Step 2: Set Reading Options</h4>
 <p>By default WordPress will display your latest posts on the front page of the site, the demo uses a static page and a separate blog page, so lets set that up now.
 	<ol>
-		<li>Under WordPress Admin, click on Settings and Reading. Here you will be able to setp how the front page of your site is handled.</li>
-		<li>Select 'A static Page' in the radio controls.</li>
-		<li>In the Front Page dropdown select 'PageLines DMS Demo - Drag and Drop WP Framework', its towards the bottom of the list.</li>
-		<li>In the Posts Page dropdown select 'Blog'</li>
+		<li>Under WordPress Admin, click on Settings and Reading. Here you will be able to setup how the front page of your site is handled.</li>
+		<li>Select <strong>'A static Page'</strong> in the radio controls.</li>
+		<li>In the Front Page dropdown select <strong>'PageLines DMS Demo - Drag and Drop WP Framework'</strong>, its towards the bottom of the list.</li>
+		<li>In the Posts Page dropdown select <strong>'Blog'</strong></li>
 	</ol>
 </p>
