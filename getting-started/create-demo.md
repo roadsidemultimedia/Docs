@@ -8,7 +8,7 @@
 	</div>
 </div>
 
-# The PageLines Demo #
+# Recreating The Demo #
 
 </p>We are going to import some data to recreate the demo for DMS. You can see the current demo by clicking <a target="_blank"  href="http://themes.pagelines.com/dms/?dobar=1">here</a>.<br />
 At the end of this mini tutorial you should have a site looking almost exactly the same making it easier to see how all the cool stuff in DMS works!</p>
