@@ -53,7 +53,7 @@ At this point WordPress will download all the media attachments from the DMS dem
 <p>The last step is always the easiest!
 	<ol>
 		<li>If you haven't already done it go ahead and activate DMS and make your way to the frontend of your site</li>
-		<li>In the DMS editor at the bottom of your page, click on <strong>'Site Settings'/strong> then <strong>'Import + Export'</strong></li>
+		<li>In the DMS editor at the bottom of your page, click on <strong>'Site Settings'</strong> then <strong>'Import + Export'</strong></li>
 		<li>On the right you will see a green button <strong>'SELECT CONFIG FILE(.JSON)'</strong> click it and navigate to the pl-config file you downloaded earlier</li>
 		<li>There will be a slight pause, a refresh and then you should be greeted with the DMS demo in all its glory!</li>
 	</ol>
