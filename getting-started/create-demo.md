@@ -23,12 +23,12 @@ At the end of this mini tutorial you should have a site looking almost exactly t
 </div>
 
 <h3>Lets get started!</h3>
-<p>Now we have the plugins in place its time to get the data imported into your install of WordPress. You will need to download the two config files.
+<p>Now we have the plugins in place its time to get the data imported into your install of WordPress. You will need to download the demo data. The following zips will contain the WordPress XML file and the PageLines JSON files.</p>
+<h4>The Demo Content</h4>
 <ul>
-	<li><a class="label" href="http://themes.pagelines.com/configs/demo-dms.xml">WordPress XML</a> This is the file used by the WordPress importer.</li>
-	<li><a class="label" href="http://themes.pagelines.com/configs/pl-config_2014-04-24_17-43-20.json">DMS config file</a> The DMS config file contains all the section and template data.</li>
-</ul>	
-</p>
+	<li><a title="Download DMS Demo Content" href="http://themes.pagelines.com/configs/demo-dms.zip">DMS</a></li>
+</ul>
+
 <h4>Step 1: Import the WordPress Data</h4>
 <p>
 	<ol>
