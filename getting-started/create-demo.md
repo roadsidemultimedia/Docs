@@ -14,7 +14,7 @@
 At the end of this mini tutorial you should have a site looking almost exactly the same making it easier to see how all the cool stuff in DMS works!</p>
 <div class="bs-callout bs-callout-info">
 	<h4>Plugins needed</h4>
-	<p>To fully recreate the demo content you will need to <a target="_blank" href="https://codex.wordpress.org/Managing_Plugins"><strong>install</strong></a> a couple of plugins.
+	<p>To fully recreate the demo content you will need to <a target="_blank" href="https://codex.wordpress.org/Managing_Plugins"><strong>install</strong></a> and activate a couple of plugins.
 		<ul>
 			<li><a target="_blank" href="http://wordpress.org/plugins/woocommerce/">WordPress Importer</a> (needed) This imports all the posts/pages and media needed to recreate the demo.</li>
 			<li><a target="_blank" href="http://wordpress.org/plugins/wordpress-importer/">Woocommerce</a> (optional) The excellent ecommerce solution for WordPress, not strictly needed, but if you plan on selling products on your site you can check out what it will look like with the demo data</li>
