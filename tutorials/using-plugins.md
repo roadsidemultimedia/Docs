@@ -50,7 +50,7 @@ PageLines DMS Plugins are extensions based on the WordPress Plugin architecture.
 
 ## Hooker ##
 
-<p>Hooker is a powerful, user friendly plugin which will allow you to insert custom HTML, JS, CSS and PHP into specific locations on your site. Hooker can be used to insert code into certain pages,templates or sections and includes all of the Pagelines and Wordpress action hooks.</p>
+<p>Hooker is a powerful, user friendly plugin which will allow you to insert custom HTML, JS, CSS and PHP into specific locations on your site. Hooker can be used to insert code into certain pages,templates or sections and includes all of the Pagelines and WordPress action hooks.</p>
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/hooker.png)
 
