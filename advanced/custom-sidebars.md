@@ -19,7 +19,7 @@ The plugin will facilitate your creation of customized sidebars that will work w
 
 ## Creating Custom Sidebars ##
 
-Once the plugin has been installed, navigate to **Wordpress Administrator Dashboard &rarr; Sidebar Manager &rarr; Add Sidebar** and choose a name and description for your new sidebar. Save your changes and the sidebar will appear **Appearance &rarr; Widgets**.
+Once the plugin has been installed, navigate to **WordPress Administrator Dashboard &rarr; Sidebar Manager &rarr; Add Sidebar** and choose a name and description for your new sidebar. Save your changes and the sidebar will appear **Appearance &rarr; Widgets**.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/customsidebar.jpg)
 
