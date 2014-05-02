@@ -24,17 +24,17 @@ Once you have completed your purchase, login to your [PageLines Account](http://
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/account-page.jpg)
 
-From here, all your recent purchases and downloads will be avilable, select the product you wish to install and click the products link to download the product. All products are downloaded in `.zip` format, once downloaded navigate to your Wordpress Admin Dashboard.
+From here, all your recent purchases and downloads will be avilable, select the product you wish to install and click the products link to download the product. All products are downloaded in `.zip` format, once downloaded navigate to your WordPress Admin Dashboard.
 
 ### Installing Sections ###
 
-Sections in DMS are now plugins, therefore all sections downloaded can be installed using the Wordpress Plugin installing.
+Sections in DMS are now plugins, therefore all sections downloaded can be installed using the WordPress Plugin installing.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/install-plugins-sections.jpg)
 
 ### Installing Themes ###
 
-Themes purchased through the PageLines Store are installed like any other Wordpress.
+Themes purchased through the PageLines Store are installed like any other WordPress.
 
 ![](https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/install-themes.jpg)
 
