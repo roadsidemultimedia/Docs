@@ -4,7 +4,7 @@ A child theme is a theme that inherits the functionality of PageLines DMS and al
 
 You may wish to develop PageLines DMS child Themes for personal use, for a client project or to submit to the PageLines store for other PageLines users. Developers who have signed up for the [PageLines Junto](http://developer.pagelines.com/apply/) community can also publish their child themes to the PageLines Store.
 
-For more information we recommend reading the following Wordpress codex articles [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development).
+For more information we recommend reading the following WordPress codex articles [child themes](http://codex.wordpress.org/Child_Themes) and [theme development](http://codex.wordpress.org/Theme_Development).
 
 ## Theming ##
 
@@ -90,7 +90,7 @@ Template: pagelines
 */
 ~~~
 
-* Edit any of these items, except for **Template: pagelines**, which tells Wordpress that this is a child theme of PageLines DMS.
+* Edit any of these items, except for **Template: pagelines**, which tells WordPress that this is a child theme of PageLines DMS.
 
 
 ## Theming API ##
@@ -113,11 +113,11 @@ We have a wide collection of variables ready for you to use, as well as a librar
 
 <p><span class="label label-info" style="margin-right:5px">Tip:</span>Disable the LESS caching system while working locally. Simpy add <code>define('PL_LESS_DEV',true);</code> to your **wp-config** file, and this will turn off the caching system. <strong><span class="str">DO NOT</span></strong> use this on a production site, or you'll face a nuclear melt-down. You have been warned!</p>
 
-<p><span class="label label-success" style="margin-right:5px">Note:</span>Using PageLines LESS variables will seal a dynamic relationship between the users Color Controls in Wordpress admin. LESS variables can be used within the Custom CSS/LESS box in Wordpress admin, and within any style.less file. Example: <code>color:@pl-text;</code></p>
+<p><span class="label label-success" style="margin-right:5px">Note:</span>Using PageLines LESS variables will seal a dynamic relationship between the users Color Controls in WordPress admin. LESS variables can be used within the Custom CSS/LESS box in WordPress admin, and within any style.less file. Example: <code>color:@pl-text;</code></p>
 
 ### Hooks ###
 
-There may come a time during your development process where you require functionality that isn't possible "out of the box" with PageLines DMS, this is where hooks can be especially useful. Modifiying both Wordpress and PageLines DMS core files is a big no-no, so whenever you want to change existing functionality or create new functionality, you will have to turn to hooks.
+There may come a time during your development process where you require functionality that isn't possible "out of the box" with PageLines DMS, this is where hooks can be especially useful. Modifiying both WordPress and PageLines DMS core files is a big no-no, so whenever you want to change existing functionality or create new functionality, you will have to turn to hooks.
 
 PageLines DMS has hooks at stategic points through the framework, such as before the header and at the start of the footer, for more information see our [Hooks Reference](/hooks-reference) and [Hook Examples](/hook-examples) documentation.
 
