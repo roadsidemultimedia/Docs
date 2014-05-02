@@ -12,7 +12,7 @@
 
 The PageLines Base Theme, is a un-styled child theme -- available for free [here](https://github.com/bearded-avenger/nicks-base-theme/archive/master.zip)  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
 
-For more information regarding child themes, we recommend reading these linked Wordpress codex articles -- [child themes](http://codex.wordpress.org/Child_Themes),  and [theme development](http://codex.wordpress.org/Theme_Development).
+For more information regarding child themes, we recommend reading these linked WordPress codex articles -- [child themes](http://codex.wordpress.org/Child_Themes),  and [theme development](http://codex.wordpress.org/Theme_Development).
 
 ## Structure ##
 
@@ -84,7 +84,7 @@ Template: dms
 Themes follow the basic WordPress themes header scheme with the following additions:
 
   Template: pagelines
-  Tells wordpress this is a childtheme and where the parent files are stored.
+  Tells WordPress this is a childtheme and where the parent files are stored.
 
   Demo: http://a.link.com
   Use this to point to a demo for this product.
@@ -154,7 +154,7 @@ For more information about hooks, see our [Hooks](/advanced/hooks) documentation
 
 By default, the PageLines child is named Base Theme with all the files stored in the **dms-template-theme** directory. However, at some point you may wish to change the name of the Base child theme.
 
-Before proceeding with the following instructions, make sure the Base Theme is not the currently active theme (it can cause errors) by going to **Wordpress Admin Dashboard → Appearance → Themes** and clicking the **Activate link** for PageLines DMS.
+Before proceeding with the following instructions, make sure the Base Theme is not the currently active theme (it can cause errors) by going to **WordPress Admin Dashboard → Appearance → Themes** and clicking the **Activate link** for PageLines DMS.
 
 Once the Base Theme has been deactived, open your FTP client, connect to your server and navigate to the following directory **wp-content → themes → dms-template-theme**.
 
@@ -175,7 +175,7 @@ Template: dms
 */
 ~~~
 
-Edit any of these items, except for **Template: dms**, which tells Wordpress that this is a child theme of PageLines DMS.
+Edit any of these items, except for **Template: dms**, which tells WordPress that this is a child theme of PageLines DMS.
 
 ~~~ .php
 /*
