@@ -92,10 +92,10 @@ on the version of PHP installed on your server. Below, is a list of the allocate
 
 <h3>WordPress Requirements</h3>
 
-<p>We strongly advise that you always use the latest stable version of Wordpress for security reasons.</p>
+<p>We strongly advise that you always use the latest stable version of WordPress for security reasons.</p>
 
 <ul>
-<li>The self hosted version of WordPress available from <a href="http://www.wordpress.org/" target="_blank">Wordpress.org</a></li>
+<li>The self hosted version of WordPress available from <a href="http://www.wordpress.org/" target="_blank">WordPress.org</a></li>
 <li>WordPress version 3.0 or greater</li>
 </ul>
 
