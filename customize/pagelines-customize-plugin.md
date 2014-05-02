@@ -38,7 +38,7 @@ However, you're unable to override sections with the Customize Plugin. If you do
 ## Installation ##
 
 * Download the **PageLines Customize** plugin from [here](http://www.pagelines.com/api/store_free/plugin-pagelines-customize.zip)
-* Now install the plugin like any other Wordpress plugin, from your **Wordpress Administrator Dashboard &rarr; Plugins &rarr; Add New &rarr; Upload**.
+* Now install the plugin like any other WordPress plugin, from your **WordPress Administrator Dashboard &rarr; Plugins &rarr; Add New &rarr; Upload**.
 * Once the installation process has been completed, activate the plugin.
 
 ## File Structure ##
