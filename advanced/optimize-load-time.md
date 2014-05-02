@@ -29,7 +29,7 @@ This is why choosing a good web host provider, is one of the most important deci
 
 A cache plugin generates a HTML copy of your web pages and stores them on your server as static files. When a visitor arrives at a particular page, the server uses the cached page rather than re-querying your database and dynamically generating it. Therefore, speeding up page response times and reducing the server resources required for generating and serving a web page.
 
-There are many cache plugins available via the Wordpress plugin repository. However, we recommend the following:
+There are many cache plugins available via the WordPress plugin repository. However, we recommend the following:
 
 * [WP Super Cache](http://wordpress.org/plugins/wp-super-cache/)
 * [W3 Total Cache](http://wordpress.org/plugins/w3-total-cache/)
