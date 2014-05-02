@@ -24,7 +24,7 @@ The favicon image is a good way to brand your site and increase it’s prominenc
 
 #### Login Page Image ####
 
-This image will be used on your Wordpress login page and is great for client websites. Use an image that is approximately **80px in height**.
+This image will be used on your WordPress login page and is great for client websites. Use an image that is approximately **80px in height**.
 
 #### Mobile Touch Image ####
 
@@ -128,7 +128,7 @@ Check this option to enable the fixed navigation bar on your website.
 
 #### Fixed NavBar Menu ####
 
-The NavBar uses the [WordPress menus system](http://codex.wordpress.org/WordPress_Menu_User_Guide), either select one which has already been created from the **Select Menu** dropdown or use the **Configure Menus** button, this will load up the Wordpress menu editor.
+The NavBar uses the [WordPress menus system](http://codex.wordpress.org/WordPress_Menu_User_Guide), either select one which has already been created from the **Select Menu** dropdown or use the **Configure Menus** button, this will load up the WordPress menu editor.
 
 #### NavBar Image ####
 
@@ -167,7 +167,7 @@ The **Advanced** panel contains some additional options that can be useful to so
 
 #### Google Prettify Code ####
 
-Checking this box will enable a class of `prettyprint` to `<code>` or `<pre>` tags, or optionally use the `[pl_codebox]` shortcode. Wrap the codebox shortcode using `[pl_raw]` if Wordpress inserts line breaks.
+Checking this box will enable a class of `prettyprint` to `<code>` or `<pre>` tags, or optionally use the `[pl_codebox]` shortcode. Wrap the codebox shortcode using `[pl_raw]` if WordPress inserts line breaks.
 
 Google Prettify is a Javascript module and CSS file that allows syntax highlighting of source code snippets in an html page.
 
