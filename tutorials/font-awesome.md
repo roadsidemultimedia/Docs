@@ -574,7 +574,7 @@ Place Font Awesome icons just about anywhere with the `<i>` tag.
 
 ~~~ .html
 <div style="font-size: 24px;">
-      <i class="icon-coffee"></i> icon-coffee
+      <i class="icon icon-coffee"></i> icon-coffee
 </div>
 ~~~
 
@@ -585,10 +585,10 @@ Place Font Awesome icons just about anywhere with the `<i>` tag.
 ### Larger Icons ###
 
 ~~~ .html
-<p><i class="icon-camera-retro icon-large"></i> icon-camera-retro</p>
-<p><i class="icon-camera-retro icon-2x"></i> icon-camera-retro</p>
-<p><i class="icon-camera-retro icon-3x"></i> icon-camera-retro</p>
-<p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
+<p><i class="icon icon-camera-retro icon-large"></i> icon-camera-retro</p>
+<p><i class="icon icon-camera-retro icon-2x"></i> icon-camera-retro</p>
+<p><i class="icon icon-camera-retro icon-3x"></i> icon-camera-retro</p>
+<p><i class="icon icon-camera-retro icon-4x"></i> icon-camera-retro</p>
 ~~~
 
 <div class="docs-example">
@@ -614,12 +614,12 @@ Place Font Awesome icons just about anywhere with the `<i>` tag.
 
 ~~~ .html
 <ul class="icons-ul">
-  <li><i class="icon-li icon-ok"></i>Bulleted lists (like this one)</li>
-  <li><i class="icon-li icon-ok"></i>Buttons</li>
-  <li><i class="icon-li icon-ok"></i>Button groups</li>
-  <li><i class="icon-li icon-ok"></i>Navigation</li>
-  <li><i class="icon-li icon-ok"></i>Prepended form inputs</li>
-  <li><i class="icon-li icon-ok"></i>&hellip;and many more with custom CSS</li>
+  <li><i class="icon icon-li icon-ok"></i>Bulleted lists (like this one)</li>
+  <li><i class="icon icon-li icon-ok"></i>Buttons</li>
+  <li><i class="icon icon-li icon-ok"></i>Button groups</li>
+  <li><i class="icon icon-li icon-ok"></i>Navigation</li>
+  <li><i class="icon icon-li icon-ok"></i>Prepended form inputs</li>
+  <li><i class="icon icon-li icon-ok"></i>&hellip;and many more with custom CSS</li>
 </ul>
 ~~~
 
