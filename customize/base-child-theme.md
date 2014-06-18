@@ -10,7 +10,7 @@
 
 # Using the Base Child theme #
 
-The PageLines Base Theme, is a un-styled child theme -- available for free [here](https://github.com/bearded-avenger/nicks-base-theme/archive/master.zip)  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
+The PageLines Base Theme, is a un-styled child theme -- available for free [here](http://dannyholt.github.io/skeleton/)  -- which will never receive an update, or add any styling of its own; designed as a platform for you to create your own child themes, as well customizing PageLines DMS.
 
 For more information regarding child themes, we recommend reading these linked WordPress codex articles -- [child themes](http://codex.wordpress.org/Child_Themes),  and [theme development](http://codex.wordpress.org/Theme_Development).
 
