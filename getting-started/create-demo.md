@@ -27,7 +27,7 @@ At the end of this mini tutorial you should have a site looking almost exactly t
 <h4>The Demo Content</h4>
 <ul>
 	<li><a title="Download DMS Demo Content" href="http://themes.pagelines.com/configs/demo-dms.zip">PageLines DMS</a></li>
-	<li><a title="Download PinsPro Demo Content" href="http://themes.pagelines.com/configs/pinspro-dms.zip">PinsPro</a></li>
+	<li><a title="Download PinsPro Demo Content" href="http://themes.pagelines.com/configs/demo-pinspro.zip">PinsPro</a></li>
 </ul>
 <p>Don't forget to unzip the demo data before proceeding</p> 
 <h4>Step 1: Import the WordPress Data</h4>
