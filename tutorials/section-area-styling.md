@@ -12,7 +12,7 @@
 
 Included in DMS is the **Full Width Section Area** section, this allows you to create a full width section area that can house one or more sections. This is extremely useful if you wish to create Single Page Websites. We have used a similar technique on [PageLines.com](http://www.pagelines.com).
 
-![](http://cdn.pagelines.com/wp-content/themes/dms/sections/pl_area/splash.png)
+![](http://cdn.pagelines.com/wp-content/themes/dms/dms/sections/pl_area/splash.png)
 
 ## Custom CSS ##
 
