@@ -23,13 +23,10 @@ At the end of this mini tutorial you should have a site looking almost exactly t
 </div>
 
 <h3>Lets get started!</h3>
-<p>Now we have the plugins in place its time to get the data imported into your install of WordPress. You will need to download the demo data. The following zips will contain the WordPress XML file and the PageLines JSON files.</p>
-<h4>The Demo Content</h4>
-<ul>
-	<li><a title="Download DMS Demo Content" href="http://themes.pagelines.com/configs/demo-dms.zip">PageLines DMS</a></li>
-	<li><a title="Download PinsPro Demo Content" href="http://themes.pagelines.com/configs/demo-pinspro.zip">PinsPro</a></li>
-	<li><a title="Download IblogPro Demo Content" href="http://themes.pagelines.com/configs/demo-iblogpro.zip">IblogPro</a></li>
-</ul>
+<p>Now we have the plugins in place its time to get the data imported into your install of WordPress. You will need to download the demo data. We have created a public repository on GitHub that conains the WordPress XML file and the PageLines JSON file for every theme.</p>
+
+<h5><a title="PageLines Theme Demo Content" href="https://github.com/pagelines/pl-demo-content">Download The Demo Content</a></h5>
+
 <p>Don't forget to unzip the demo data before proceeding</p> 
 <h4>Step 1: Import the WordPress Data</h4>
 <p>
