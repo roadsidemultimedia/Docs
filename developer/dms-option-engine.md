@@ -24,6 +24,8 @@ class SomeSection extends PageLinesSection {
 				'title' 		=> 'Select Format',
 				'key'			=> 'icallout_format',
 				'label' 		=> 'Callout Format',
+				'place'                 => 'placeholder text in field',
+				'help'                  => 'Text that displays below the field',
 				'opts'=> array(
 					'top'			=> array( 'name' => 'Text on top of button' ),
 					'inline'	 	=> array( 'name' => 'Text/Button Inline' )
@@ -56,6 +58,7 @@ $opts[] = array(
 			'title' 		=> __('Super Cool Option', 'pagelines'), 	// (localized, & same as 'label' if omitted)
 			'label' 		=> __('Select Cool Option', 'pagelines'), // (localized)
 			'help' 			=> __('Help text goes here. How nice of you!', 'pagelines'), // (localized)
+			'place' 			=> __('Placeholder text', 'pagelines'), // (localized)
 			'ref'			=> __( 'This creates a help field with a toggle.', 'pagelines' )
 		);
 	
