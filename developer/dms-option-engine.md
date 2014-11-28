@@ -169,7 +169,16 @@ For text, checkboxes, and textarea options just use the 'text', 'check' or 'text
 ```php
 $opts[] = array(
 			'key'			=> 'some_key',
-			'type' 			=> 'text',  // or "textarea" or "check"
+			'type' 			=> 'text',  // or "textarea" or "check" or "text_small"
+		);
+	
+```
+
+### Textarea  ###
+```php
+$opts[] = array(
+			'key'			=> 'some_key',
+			'type' 			=> 'textarea',
 		);
 	
 ```
